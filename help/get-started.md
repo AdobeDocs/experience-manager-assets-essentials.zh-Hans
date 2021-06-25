@@ -2,10 +2,10 @@
 title: 开始使用 [!DNL Assets Essentials]
 description: 如何访问 [!DNL Assets Essentials]的、的登录体验、支持的用例和已知问题。
 role: Business Practitioner, Leader
-source-git-commit: 825297959b19361260121949c99ede37dced9a9c
+source-git-commit: 4a7fe369485db5cae843694c68f84133c9118337
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 2%
+source-wordcount: '451'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 此外，更有帮助的参考信息是[了解用户界面](/help/navigate-view.md)、[用例列表](#use-cases)、<!-- TBD: [supported file types](/help/supported-file-formats.md), -->和[已知问题](/help/release-notes.md#known-issues)。
 
-## 接收对[!DNL Assets Essentials] {#get-access}的访问权限
+## 接收对[!DNL Assets Essentials]的访问权限 {#get-access}
 
 Adobe会设置解决方案，并将您组织中的指定人员添加为管理员。 管理员可以使用[[!DNL Admin Console]](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/welcome.ug.html)访问组织中的各种用户。 有关与您的访问权限相关的请求，请与贵组织的管理员联系。
 
@@ -49,7 +49,7 @@ When logging in, after providing the credentials, you can be prompted to select 
 ![Select an account to login](assets/do-not-localize/login-experience.gif)
 -->
 
-## [!DNL Assets Essentials] 用例  {#use-cases}
+## [!DNL Assets Essentials] 用例 {#use-cases}
 
 下面显示了您可以使用[!DNL Assets Essentials]完成的各种数字资产管理(DAM)任务。
 
@@ -69,13 +69,16 @@ When logging in, after providing the credentials, you can be prompted to select 
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
 -->
 
-## ![反馈](assets/do-not-localize/feedback-icon.png) 图标提供产品反馈  {#provide-feedback}
+## ![反馈](assets/do-not-localize/feedback-icon.png) 图标提供产品反馈 {#provide-feedback}
 
 Adobe欢迎有关该解决方案的反馈。 要在不切换工作应用程序的情况下提供反馈，请使用用户界面中的[!UICONTROL Feedback]选项。 它还允许附加文件，如问题的屏幕截图或视频记录。
 
 ![界面中的反馈选项](assets/feedback-panel.png)
 
-要为文档提供反馈，请单击编辑此页面![编辑页面](assets/do-not-localize/edit-page.png)或记录问题![从右边距创建GitHub问题](assets/do-not-localize/github-issue.png)。 进行内容更新并提交GitHub拉取请求，或在GitHub中创建问题或票证。
+要为文档提供反馈，请单击右侧边栏中的[!UICONTROL Edit this page] ![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![创建GitHub问题](assets/do-not-localize/github-issue.png)。 您可以执行以下操作之一：
+
+* 进行内容更新并提交GitHub拉取请求。
+* 在GitHub中创建问题或票证。 创建问题时保留自动填充的文章名称。
 
 >[!MORELIKETHIS]
 >
