@@ -2,14 +2,14 @@
 title: ' [!DNL Assets Essentials] 简介'
 description: Assets Essentials概述和解决方案简介
 role: Business Practitioner,Leader
-source-git-commit: 88a28d1a8ebdd9d316b768b1398e559462b71e85
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Assets Essentials] 概述  {#assets-essentials}
+# [!DNL Adobe Experience Manager Assets Essentials] 概述 {#assets-essentials}
 
 <!-- TBD: Update this banner to remove Beta label. 
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
@@ -25,7 +25,7 @@ Adobe提供了功能强大的数字资产管理(DAM)解决方案，让您能够�
 
 对于管理，它需要更简单的配置和管理，即具有很高的价值。 管理员可以立即访问该解决方案，并且可以使用[!DNL Adobe Admin Console]中熟悉的功能和用户权限。
 
-使用Assets Essentials管理数字资产的过程与以下3个步骤一样简单。 请参阅[开始使用 [!DNL Assets Essentials]](/help/get-started.md)。
+使用[!DNL Assets Essentials]管理数字资产的过程与以下3个步骤一样简单。 请参阅[开始使用 [!DNL Assets Essentials]](/help/get-started.md)。
 
 * **步骤1**:上传和查看资产。
 * **步骤2**:搜索并下载所需的资产。
