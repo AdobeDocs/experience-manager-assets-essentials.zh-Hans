@@ -8,10 +8,10 @@ user-guide-description: 了解如何使用Adobe Experience Manager Assets Essent
 feature-set: Experience Manager Assets,Experience Manager
 feature: 资产管理
 role: Business Practitioner, Leader
-source-git-commit: b3fea5209fb29409b3aae5970fa30505f8b5c22c
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 4%
+source-wordcount: '53'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 4%
 
 + [解决方案概述](introduction.md)
 + [发行说明](release-notes.md)
++ [部署和添加用户](deploy-administer.md)
 + [开始使用 [!DNL Assets Essentials]](get-started.md)
 + [查看资产](navigate-view.md)
 + [上传和添加资产](add-delete.md)
