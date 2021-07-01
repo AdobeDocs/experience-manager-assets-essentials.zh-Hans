@@ -2,15 +2,15 @@
 title: 将资产上传到存储库
 description: 将资产上传到 [!DNL Assets Essentials]、查看上传状态并解决上传问题。
 role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
 
 
-# 上传资产{#add-assets}
+# 上传资产 {#add-assets}
 
 要添加新资产以使用，请从本地文件系统上传一些资产。<!-- TBD: Many of the [common file formats are supported](/help/supported-file-formats.md). -->
 
@@ -32,7 +32,11 @@ ht-degree: 0%
 
 *图：在上传选定的资产之前，您可以在队列中添加或删除资产。*
 
-## 查看上传进度和状态{#upload-progress}
+>[!CAUTION]
+>
+>使用文件名中没有空格的资产。 对评论的回复不适用于此类资产。
+
+## 查看上传进度和状态 {#upload-progress}
 
 将许多资产或嵌套文件夹上传到[!DNL Assets Essentials]时，由于各种原因（如资产重复和网络问题），某些资产可能无法上传。
 
@@ -44,17 +48,17 @@ ht-degree: 0%
 
 *图：根据资产的上传状态或上传进度筛选您尝试上传的资产。*
 
-上传资产后，Assets Essentials会立即处理资产以生成缩略图并处理元数据。 对于许多资产，处理需要一些时间。 如果看不到缩略图，并且在占位符缩略图上看到处理消息，请在几分钟后再次检查文件夹。
+上传资产后，[!DNL Assets Essentials]会立即处理资产以生成缩略图并处理元数据。 对于许多资产，处理需要一些时间。 如果看不到缩略图，并且在占位符缩略图上看到处理消息，请在几分钟后再次检查文件夹。
 
 ![上传时处理](assets/upload-processing.png)
 
 ## 资产演绎版 {#renditions}
 
-Assets Essentials会近乎实时地处理上传的资产，并且对于许多受支持的文件类型，它会生成演绎版。 为图像创建的演绎版，会调整上传图像的大小版本。 您不仅可以下载资产，还可以下载演绎版，以使用相应的版本。 在[预览资产](/help/navigate-view.md#preview-assets)时，您可以查看资产的所有演绎版。
+[!DNL Assets Essentials] 会近乎实时地处理上传的资产，并且对于许多受支持的文件类型，会生成演绎版。为图像创建的演绎版，会调整上传图像的大小版本。 您不仅可以下载资产，还可以下载演绎版，以使用相应的版本。 在[预览资产](/help/navigate-view.md#preview-assets)时，您可以查看资产的所有演绎版。
 
 ![演绎版](assets/renditions-view-download.png)
 
-## 管理失败的上载{#resolve-upload-fails}
+## 管理失败的上载 {#resolve-upload-fails}
 
 如果受支持资产的上传因某些原因而失败，请单击[!UICONTROL Upload Progress]窗格中的&#x200B;**[!UICONTROL Retry]**。
 
@@ -76,7 +80,7 @@ Assets Essentials会近乎实时地处理上传的资产，并且对于许多受
 >
 >您可以直接从[!DNL Creative Cloud]桌面应用程序内将资产上传到DAM存储库。 查看[[!DNL Assets Essentials] 如何与 [!DNL Adobe Asset Link]](/help/integration.md)集成。
 
-## 删除资产或文件夹{#delete-assets}
+## 删除资产或文件夹 {#delete-assets}
 
 用户可以删除不再需要的单个资产或文件夹。 要删除资产或文件夹，请执行以下操作之一：
 
