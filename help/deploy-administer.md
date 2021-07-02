@@ -2,17 +2,17 @@
 title: 部署和管理用户
 description: ' [!DNL Assets Essentials]中的部署和用户管理等管理用例。'
 role: Administrator
-source-git-commit: 6e482854e7cec3d8bc2fed786a2c6a685b3f8eed
+source-git-commit: a9dfa9cc9e971faf24e5275c843fb1d0247d18c9
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 2%
+source-wordcount: '855'
+ht-degree: 1%
 
 ---
 
 
 # 部署[!DNL Assets Essentials]并添加用户 {#administer}
 
-[!DNL Adobe Experience Manager Assets Essentials] 由Adobe为其客户配置。在配置中，将[!DNL Assets Essentials]添加到客户组织(Adobe组织)。 此外，客户还可以访问作为部署工具的[!DNL Experience Manager Cloud Manager]和作为用户管理工具的[!DNL Admin Console]。
+[!DNL Adobe Experience Manager Assets Essentials] 由Adobe为其客户配置。在配置中，将[!DNL Assets Essentials]添加到[!DNL Adobe Admin Console]中的客户组织。 客户还可以访问[!DNL Experience Manager Cloud Manager]作为部署工具和[!DNL Admin Console]以管理[!DNL Assets Essentials]解决方案的用户权限。
 
 管理员执行以下任务：
 
@@ -22,9 +22,7 @@ ht-degree: 2%
 
 ## 部署[!DNL Assets Essentials] {#deploy-essentials}
 
-配置后，将[!DNL Assets Essentials]授权添加到您的Adobe组织，并由组织的管理员对其进行部署。 组织的管理员使用[!DNL Cloud Manager]用户界面进行一次性部署。 初始部署后，Adobe会进行服务维护和更新。 要部署，请执行以下步骤：
-
-1. 确保管理员从Adobe收到电子邮件。 电子邮件包含欢迎消息和要开始使用的链接。
+配置后，将[!DNL Assets Essentials]授权添加到[!DNL Admin Console]中的您的组织。 组织管理员必须先部署该解决方案，然后才能将其提供给用户。 管理员使用[!DNL Cloud Manager]用户界面进行一次性部署。 初始部署后，Adobe会进行服务维护和更新。 配置解决方案后，管理员会收到来自Adobe的电子邮件。 电子邮件包含欢迎消息和要开始使用的链接。 要部署，请执行以下步骤：
 
 1. 从电子邮件中的链接，访问并登录到[Admin Console](https://adminconsole.adobe.com)。 如果您拥有对多个组织帐户的管理员访问权限，请选择相应的组织或使用顶部栏中的切换器切换到该帐户。 [!DNL Assets Essentials]的产品卡显示在[!DNL Admin Console]中。
 
@@ -32,7 +30,7 @@ ht-degree: 2%
 
    *图： [!DNL Assets Essentials] 卡 [!DNL Admin Console]。*
 
-1. 将您自己作为管理员添加到[!DNL Cloud Manager]中的`AEM Assets Essentials - Cloud Manager`产品。 您可以添加组织的其他成员，也可以添加多个管理员，而不是您自己。
+1. 将您自己作为管理员添加到[!DNL Admin Console]中的`AEM Assets Essentials - Cloud Manager`产品配置文件。 您可以添加组织的其他成员，也可以添加多个管理员，而不是您自己。
 
 1. 单击![将图标](assets/do-not-localize/add-icon.svg)添加到[!UICONTROL Select product profiles]，然后选择[!UICONTROL Deployment Manager - Assets Essentials]作为&#x200B;**[!UICONTROL product profile]**。 此步骤中添加的用户会从Adobe收到一封具有[!DNL Cloud Manager]访问权限的电子邮件，该用户可以执行部署。
 
@@ -40,7 +38,7 @@ ht-degree: 2%
 
    *图：在中添加管理员并选择产品配置文 [!DNL Admin Console]件。*
 
-1. 要访问[!DNL Cloud Manager]，请单击电子邮件中具有[!DNL Cloud Manager]访问权限的链接。 或者，在浏览器中访问`https://experience.adobe.com/#/cloud-manager/`。
+1. 要访问[!DNL Cloud Manager]，请单击电子邮件中具有[!DNL Cloud Manager]访问权限的链接。 或者，也可以在浏览器中访问[https://experience.adobe.com/#/cloud-manager/](https://experience.adobe.com/#/cloud-manager/)。
 
 1. 在Cloud Manager用户界面中，单击右上角的&#x200B;**[!UICONTROL Add Program]**。
 
@@ -54,7 +52,7 @@ ht-degree: 2%
 
    *图：在中添加一个 [!DNL Cloud Manager] 环境以开始使 [!DNL Assets Essentials]用。*
 
-1. 成功创建环境后，您可以访问[!DNL Admin Console]并将组织的用户添加到[!DNL Assets Essentials]解决方案。 单击![选项图标](assets/do-not-localize/options-ellipses-icon.png)并选择&#x200B;**[!UICONTROL Manage Access]**&#x200B;选项。
+1. 几分钟后，成功创建环境后，您可以访问[!DNL Admin Console]并将贵组织的用户添加到[!DNL Assets Essentials]解决方案。 单击![选项图标](assets/do-not-localize/options-ellipses-icon.png)并选择&#x200B;**[!UICONTROL Manage Access]**&#x200B;选项。
 
    ![中的就绪环境  [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
 
