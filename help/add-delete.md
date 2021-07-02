@@ -2,9 +2,9 @@
 title: 将资产上传到存储库
 description: 将资产上传到 [!DNL Assets Essentials]、查看上传状态并解决上传问题。
 role: Business Practitioner
-source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
+source-git-commit: 6e482854e7cec3d8bc2fed786a2c6a685b3f8eed
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -48,15 +48,19 @@ ht-degree: 0%
 
 *图：根据资产的上传状态或上传进度筛选您尝试上传的资产。*
 
-上传资产后，[!DNL Assets Essentials]会立即处理资产以生成缩略图并处理元数据。 对于许多资产，处理需要一些时间。 如果看不到缩略图，并且在占位符缩略图上看到处理消息，请在几分钟后再次检查文件夹。
+上传资产后，[!DNL Assets Essentials]会立即处理资产以生成缩略图并处理元数据。 对于许多资产，处理需要一些时间。 如果看不到缩略图，并且在占位符缩略图上看到处理消息，请在几分钟后再次检查文件夹。 在处理期间， [!DNL Assets Essentials]会生成演绎版、添加智能标记以及为资产详细信息编制索引以进行搜索。
 
-![上传时处理](assets/upload-processing.png)
+![资产是上传后进行的流程，而拼贴则显示正在处理](assets/upload-processing.png)
+
+*图：上传的资产会在拼贴上显示处理过程，并且这些资产会得到处理。*
 
 ## 资产演绎版 {#renditions}
 
 [!DNL Assets Essentials] 会近乎实时地处理上传的资产，并且对于许多受支持的文件类型，会生成演绎版。为图像创建的演绎版，会调整上传图像的大小版本。 您不仅可以下载资产，还可以下载演绎版，以使用相应的版本。 在[预览资产](/help/navigate-view.md#preview-assets)时，您可以查看资产的所有演绎版。
 
 ![演绎版](assets/renditions-view-download.png)
+
+*图：查看和下载演绎版。*
 
 ## 管理失败的上载 {#resolve-upload-fails}
 
@@ -87,5 +91,7 @@ ht-degree: 0%
 * 使用资产或文件夹缩略图中提供的选项。
 
    ![用于管理资产的资产缩略图的选项](assets/options-on-thumbnail.png)
+
+   *图：文件和文件夹的操作可在资产或文件夹拼贴中执行。*
 
 * 选择资产或文件夹，然后单击工具栏中的&#x200B;**[!UICONTROL Delete]** ![删除图标](assets/do-not-localize/delete-icon.png)。
