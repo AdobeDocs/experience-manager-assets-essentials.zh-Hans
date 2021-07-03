@@ -1,9 +1,9 @@
 ---
 title: 发行说明
 description: ' [!DNL Assets Essentials]的发行说明和已知问题'
-role: Business Practitioner,Leader,Administrator,Architect,Developer
+role: User,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 2%
