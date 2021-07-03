@@ -1,8 +1,8 @@
 ---
 title: 与其他Adobe解决方案集成
 description: '[!DNL Assets Essentials] 与其他Adobe解决方案集成，并从本机应用程序内提供嵌入式体验。'
-role: Business Practitioner
-source-git-commit: a8393bb70ac20a9b9100c34d012627e15355c384
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 3%
