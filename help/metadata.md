@@ -1,9 +1,9 @@
 ---
 title: 管理元数据
 description: 在 [!DNL Assets Essentials]中管理资产的元数据
-role: Business Practitioner,Leader,Administrator,Architect,Developer
+role: User,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 出于这些原因，Assets为您提供了为数字资产创建、管理和交换元数据的正确方法。
 
-## 查看元数据{#view-metadata}
+## 查看元数据 {#view-metadata}
 
 要查看资产的元数据，请浏览到资产或搜索资产，选择资产，然后单击工具栏中的&#x200B;**[!UICONTROL Details]**。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 [!UICONTROL Basic]选项卡中提供了标题、描述和上传日期等基本元数据。 [!UICONTROL Advanced]选项卡包含更高级的元数据，如相机型号、镜头详细信息和地理标记。 [!UICONTROL Tags]选项卡包含根据图像内容自动应用的标记。
 
-## 更新元数据{#update-metadata}
+## 更新元数据 {#update-metadata}
 
 您可以手动更新一些元数据字段。 这些字段包括[!UICONTROL Title]、[!UICONTROL Description]、[!UICONTROL Author]和[!UICONTROL Keywords]。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 智能标记还包含置信度得分（以百分比表示）。 它表示与应用的标记关联的置信度。 您可以审核自动应用的智能标记。
 
-## 添加或更新标记{#manually-tag}
+## 添加或更新标记 {#manually-tag}
 
 除了使用[!DNL Adobe Sensei]智能服务自动添加的智能标记之外，您还可以向资产添加更多标记。 打开资产进行预览，单击[!UICONTROL Tags]，然后在[!UICONTROL Keywords]字段中键入所需的关键字。 要添加标记，请按返回。 [!DNL Assets Essentials] 对关键词进行近乎实时的索引，您的团队很快就可以使用新关键词搜索更新的资产。
 
