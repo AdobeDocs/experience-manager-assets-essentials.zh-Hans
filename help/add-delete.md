@@ -1,8 +1,8 @@
 ---
 title: 将资产上传到存储库
 description: 将资产上传到 [!DNL Assets Essentials]、查看上传状态并解决上传问题。
-role: Business Practitioner
-source-git-commit: 6e482854e7cec3d8bc2fed786a2c6a685b3f8eed
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
