@@ -1,8 +1,8 @@
 ---
 title: 在 [!DNL Assets Essentials]中搜索和发现资产
 description: 在 [!DNL Assets Essentials]中搜索和发现资产。
-role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 1%
@@ -10,7 +10,7 @@ ht-degree: 1%
 ---
 
 
-# 在[!DNL Assets Essentials] {#search-assets}中搜索资产
+# 在[!DNL Assets Essentials]中搜索资产 {#search-assets}
 
 [!DNL Assets Essentials] 提供有效的搜索功能，默认情况下只能使用。搜索是全文搜索，因为它是全文搜索。 强大的搜索功能可让您快速发现适当的资产并帮助您提高内容速度。 [!DNL Assets Essentials] 提供全文搜索，甚至通过元数据（如智能标记、标题、创建日期和版权）进行搜索。
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
    * 直接搜索最近查看的资产，以开始使用该资产。 单击搜索框，然后从建议中选择最近查看的资产。
 
-## 筛选搜索结果{#refine-search-results}
+## 筛选搜索结果 {#refine-search-results}
 
 您可以根据以下参数筛选搜索结果。
 
