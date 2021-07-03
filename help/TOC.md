@@ -7,10 +7,10 @@ breadcrumb-title: Assets Essentials指南
 user-guide-description: 了解如何使用Adobe Experience Manager Assets Essentials。
 feature-set: Experience Manager Assets,Experience Manager
 feature: 资产管理
-role: Business Practitioner, Leader
-source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
+role: User, Leader
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '59'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 3%
 + [发行说明](release-notes.md)
 + [部署和添加用户](deploy-administer.md)
 + [开始使用 [!DNL Assets Essentials]](get-started.md)
++ [支持的文件类型和用例](supported-file-formats.md)
 + [查看资产](navigate-view.md)
 + [上传和添加资产](add-delete.md)
 + [搜索和发现资产](search.md)
