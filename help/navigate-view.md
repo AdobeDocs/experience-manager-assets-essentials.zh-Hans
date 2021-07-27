@@ -2,9 +2,9 @@
 title: '[!DNL Assets Essentials] 用户界面'
 description: 了解 [!DNL Assets Essentials]中的用户界面和导航。
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,15 @@ ht-degree: 0%
 
 ## 浏览和查看资产和文件夹 {#browse-repository}
 
-您可以从主用户界面或从左侧栏浏览到所需的文件或文件夹。 浏览时，您可以使用界面查看资产缩略图，以可视方式浏览存储库或查看资产详细信息，以快速找到所需的资产。 左侧边栏中可用的选项包括：
+您可以从主用户界面或左侧栏浏览文件夹。 浏览时，您可以使用界面查看资产缩略图，以可视方式浏览存储库或查看资产详细信息，以快速找到所需的资产。 左侧边栏中可用的选项包括：
 
-* **资产**:树视图中您有权访问的所有文件夹和资产的列表。
-* **最近查看的**:您最近预览的资产列表。[!DNL Assets Essentials] 仅显示您预览的资产。浏览存储库文件或文件夹时，它不会在此处显示您滚过的资产。
-* **库**:访问( [!DNL Adobe Creative Cloud Team] CCT)库视图。仅当用户有权访问CCT库时，此视图才可见。
+* **资产**:树视图中您有权访问的所有文件夹的列表。
+* **最近查看的**:您最近预览的资产列表。[!DNL Assets Essentials] 仅显示您预览的资产。浏览存储库文件或文件夹时，不会显示您滚过的资产。
+* **垃圾桶**:
+
+<!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
+* **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
+-->
 
 <!-- TBD: My Work Space shows task inbox and it is not visible on AEM Cloud Demos as of now. It is the source of truth server hence not documenting My Work Space option for now.
 -->
