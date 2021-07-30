@@ -3,10 +3,10 @@ title: 发行说明
 description: ' [!DNL Assets Essentials]的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
+source-git-commit: fd95cf87ae8e5449471cd580405b228c32ede264
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '275'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,19 @@ ht-degree: 2%
 
 要详细了解解决方案，请参阅[ [!DNL Assets Essentials]](introduction.md)简介。 要开始使用这些功能，请参阅[开始](/help/get-started.md)。
 
+## 当前版本 {#release-notes-current}
+
+Assets Essentials的当前版本是2021年7月29日发布的2021.7.0版，其中进行了以下更新：
+
+* 您可以创建和管理自定义元数据表单，以用于在[!UICONTROL Metadata Forms]选项下[!DNL Settings]的资产详细信息屏幕中向用户显示元数据属性。
+* 各种错误修复和产品改进，包括在上载包含许多子文件夹的嵌套文件夹时性能更佳。
+
 ## 已知问题 {#known-issues}
 
-目前，[!DNL Assets Essentials]没有已知问题。
+[!DNL Assets Essentials]产品的已知问题清单不断修订和更新：
+
+* 要上传一个或多个资产，当您将项目拖到存储库中包含子文件夹的文件夹中时，上传内容会自动进入其中一个子文件夹。 解决方法是单击[!DNL Upload assets]选项并拖到对话框中。<!-- CQ-4327753 -->
+* 上传文件夹后，新文件夹有时可能会在左边栏中显示错误，而不是在树视图中显示。 解决方法是刷新浏览器。<!-- CQ-4323534 -->
 
 <!--
 * Use assets that do not have whitespace in the file names. The replies to comments do not work for such assets.
