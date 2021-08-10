@@ -3,9 +3,9 @@ title: 管理数字资产
 description: 在 [!DNL Assets Essentials]中移动、删除、复制、重命名、更新资产，以及对其进行版本更新。
 role: User,Leader
 contentOwner: AG
-source-git-commit: 9bff6e8570ca05f60844cfd84ef3e695e07ae27b
+source-git-commit: 3f8ba14c702fb3ee0df61aa503c9064c33f94794
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 * ![详细](assets/do-not-localize/edit-in-icon.png) 信息图标单击以预览资产并查看详细元数据。预览时，您可以查看版本和编辑图像。
 * ![下载](assets/do-not-localize/download-icon.png) 图标将选定的资产下载到本地文件系统。
 * ![删除](assets/do-not-localize/delete-icon.png) 图标删除选定的资产或文件夹。
-* 签出资产。<!-- ![checkout icon](assets/do-not-localize/checkout-icon.png) -->
+* ![结帐](assets/do-not-localize/checkout-icon.png) 图标结帐选定的资产。
 * ![复制](assets/do-not-localize/copy-icon.png) 图标复制所选文件或文件夹。
 * ![移动](assets/do-not-localize/move-icon.png) 图标将选定的资产或文件夹移动到存储库层次结构中的其他位置。
 * ![“重命](assets/do-not-localize/rename-icon.png) 名”图标重命名选定的资产或文件夹。使用唯一名称，否则重命名会失败并出现警告。 您可以使用新名称重试。
-* 为其他用户分配任务以协作处理资产。<!-- ![assign task icon](assets/do-not-localize/assign-task-icon.png) -->
+* ![“分配任](assets/do-not-localize/review-delegate-icon.png) 务”图标为其他用户分配任务以协作处理资产。
 
 您可以在资产缩略图上查看相同的选项。
 
