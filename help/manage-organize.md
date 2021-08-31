@@ -3,7 +3,7 @@ title: 管理数字资产
 description: 在 [!DNL Assets Essentials]中移动、删除、复制、重命名、更新资产，以及对其进行版本更新。
 role: User,Leader
 contentOwner: AG
-source-git-commit: 3f8ba14c702fb3ee0df61aa503c9064c33f94794
+source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 下载和分发资产 {#download}
 
-您可以选择一个或多个资产或文件夹，或者选择两者的组合，然后将所选内容下载到本地文件系统。 您可以编辑资产并再次上传或在[!DNL Assets Essentials]之外分发资产。 您还可以[下载资产的演绎版](/help/add-delete.md#renditions)。
+您可以选择一个或多个资产或文件夹，或者选择两者的组合，然后将所选内容下载到本地文件系统。 您可以编辑资产并再次上传或在[!DNL Assets Essentials]之外分发资产。 此外，您还可以[下载资产的演绎版](/help/add-delete.md#renditions)。
 
 ## 资产版本控制 {#versions-of-assets}
 

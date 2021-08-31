@@ -2,10 +2,10 @@
 title: 与其他Adobe解决方案集成
 description: '[!DNL Assets Essentials] 与其他Adobe解决方案集成，并从本机应用程序内提供嵌入式体验。'
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 3%
+source-wordcount: '274'
+ht-degree: 2%
 
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 3%
 
 * **[!DNL Adobe Journey Optimizer]**:使用设计消息 [!DNL Journey Optimizer]时，您可以直 [!DNL Assets Essentials] 接从界面访问存 [!DNL Journey Optimizer] 储库。用户可使用[!DNL Assets Essentials]的嵌入式用户界面访问资产。 请参阅[使用 [!DNL Assets Essentials] 帮助文章](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html)或[视频教程以创建电子邮件内容](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)。
 
+* **[[!DNL Adobe Workfront]](https://www.workfront.com/)**: [!DNL Adobe Workfront] 是一个工作管理应用程序，可帮助您在一个位置管理工作的整个生命周期。[!DNL Adobe Workfront]和Experience ManagerAssets Essentials之间的本机集成使组织能够通过连接内容和工作来提高内容速度和上市时间。 在管理其工作的上下文中，用户有权访问同一解决方案中所需的文档和图像。 [!DNL Assets Essentials] 可作为附加组件提供，供客 [!DNL Workfront] 户单独购买。请参阅[配置和使用 [!DNL Workfront] and [!DNL Essentials] 集成](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm)。
+
 <!-- TBD: Hiding this link till GA. Do not even include the beta mention as discussed with Greg. Beta is done with customers selected by the Accounts team. It is not an open Beta program. At GA, document this.
 
-* **[[!DNL Adobe Workfront]](https://www.workfront.com/)**: This integration will be made available in the future.
+* **[[!DNL Creative Cloud Libraries]**: This integration will be made available in the future.
 
 * **[[!DNL Adobe Studio]]**: This integration will be made available in the future.
 -->

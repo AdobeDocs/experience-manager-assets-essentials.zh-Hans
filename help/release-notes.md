@@ -3,9 +3,9 @@ title: 发行说明
 description: ' [!DNL Assets Essentials]的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: cbeb6f6f59da164115af52dfdbb97023b84bc1d1
+source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -13,23 +13,9 @@ ht-degree: 1%
 
 # [!DNL Assets Essentials]的发行说明 {#release-notes}
 
-当前版本是2021年6月21日发布的[!DNL Assets Essentials]的首次公开版本。 [!DNL Assets Essentials] 提供了轻量级的资产管理功能，其第一个版本支持以下主要功能和CRUD（创建、读取、更新和删除）操作：
-
-* 上传和添加资产，包括嵌套文件夹。 预览资产和版本。
-* 全文搜索、细致入微的搜索过滤器，以及为快速发现资产而进行的保存搜索。
-* 基本的资产管理操作，如更新、删除、下载和管理元数据。
-* 与[[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html)集成。
-
-目前，[!DNL Assets Essentials]可供[[!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer.html)客户使用。
+[!DNL Assets Essentials]的当前版本于2021年8月30日发布。 它提供与[!DNL Adobe Workfront]的集成，让[!DNL Workfront]用户在管理其工作的上下文中管理其数字资产。 请参阅[与其他Adobe解决方案的集成](/help/integration.md)。
 
 要详细了解解决方案，请参阅[ [!DNL Assets Essentials]](introduction.md)简介。 要开始使用这些功能，请参阅[开始](/help/get-started.md)。
-
-## 当前版本 {#release-notes-current}
-
-Assets Essentials的当前版本是2021年7月29日发布的2021.7.0版，其中进行了以下更新：
-
-* 您可以创建和管理自定义元数据表单，以用于在[!UICONTROL Metadata Forms]选项下[!DNL Settings]的资产详细信息屏幕中向用户显示元数据属性。 请参阅[元数据表单](metadata.md#metadata-forms)。
-* 各种错误修复和产品改进，包括在上载包含许多子文件夹的嵌套文件夹时性能更佳。
 
 ## 已知问题 {#known-issues}
 
@@ -43,3 +29,21 @@ Assets Essentials的当前版本是2021年7月29日发布的2021.7.0版，其中
 -->
 
 如果您遇到任何问题甚至是增强功能请求，[会向团队提供反馈](#provide-feedback)。
+
+## 过去版本 {#past-release}
+
+### 2021.7.0版 {#july2021}
+
+[!DNL Assets Essentials] 2021.7.0于2021年7月29日发布，其更新如下：
+
+* 您可以创建和管理自定义元数据表单，以用于在[!UICONTROL Metadata Forms]选项下[!DNL Settings]的资产详细信息屏幕中向用户显示元数据属性。 请参阅[元数据表单](metadata.md#metadata-forms)。
+* 各种错误修复和产品改进，包括在上载包含许多子文件夹的嵌套文件夹时性能更佳。
+
+### 2021.6.0版 {#june2021}
+
+2021年6月21日发布的[!DNL Assets Essentials]第一版提供了轻量级的资产管理功能。 它支持以下主要功能和CRUD（创建、读取、更新和删除）操作：
+
+* 上传和添加资产，包括嵌套文件夹。 预览资产和版本。
+* 全文搜索、细致入微的搜索过滤器，以及为快速发现资产而进行的保存搜索。
+* 基本的资产管理操作，如更新、删除、下载和管理元数据。
+* [!DNL Assets Essentials] 可 [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html)用
