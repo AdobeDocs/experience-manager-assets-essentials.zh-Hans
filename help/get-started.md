@@ -2,10 +2,11 @@
 title: 开始使用 [!DNL Assets Essentials]
 description: 如何访问 [!DNL Assets Essentials]的、的登录体验、支持的用例和已知问题。
 role: User, Leader
-source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
+exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
+source-git-commit: f2c6ea9d31cc6eccf46216b52de254ca88ba1079
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 2%
 
 ## 接收对[!DNL Assets Essentials]的访问权限 {#get-access}
 
-Adobe会设置解决方案，并将您组织中的指定人员添加为管理员。 管理员可以使用[[!DNL Admin Console]](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/welcome.ug.html)访问组织中的各种用户。 有关与您的访问权限相关的请求，请与贵组织的管理员联系。
+Adobe会设置解决方案，并将您组织中的指定人员添加为管理员。 管理员可以使用[[!DNL Admin Console]](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)访问组织中的各种用户。 有关与您的访问权限相关的请求，请与贵组织的管理员联系。
 
 ## 配置 [!DNL Assets Essentials] {#configuration}
 

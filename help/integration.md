@@ -2,13 +2,13 @@
 title: 与其他Adobe解决方案集成
 description: '[!DNL Assets Essentials] 与其他Adobe解决方案集成，并从本机应用程序内提供嵌入式体验。'
 role: User
-source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
+exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
+source-git-commit: f2c6ea9d31cc6eccf46216b52de254ca88ba1079
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 2%
+source-wordcount: '284'
+ht-degree: 3%
 
 ---
-
 
 # 与其他Adobe解决方案集成 {#integrations}
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 嵌入式[!DNL Assets Essentials]体验可以与以下解决方案集成：
 
-* **[!DNL Creative Cloud for Enterprise]**: [Adobe资产链接应用程序内](https://www.adobe.com/cn/creativecloud/business/enterprise/adobe-asset-link.html) 面板允许创意专业人士从受 [!DNL Assets Essentials] 支持的桌面应用程序内连 [!DNL Adobe Creative Cloud] 接到存储库。该面板可用于[!DNL Adobe Photoshop]、[!DNL Adobe Illustrator]、[!DNL Adobe InDesign]和[!DNL Adobe XD]。 它可简化对资产的访问，这些资产反过来会提高内容速度。 请参阅[使用 [!DNL Adobe Asset Link]](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-assets-using-adobe-asset-link.ug.html)管理资产。
+* **[!DNL Creative Cloud for Enterprise]**: [Adobe资产链接应用程序内](https://www.adobe.com/cn/creativecloud/business/enterprise/adobe-asset-link.html) 面板允许创意专业人士从受 [!DNL Assets Essentials] 支持的桌面应用程序内连 [!DNL Adobe Creative Cloud] 接到存储库。该面板可用于[!DNL Adobe Photoshop]、[!DNL Adobe Illustrator]、[!DNL Adobe InDesign]和[!DNL Adobe XD]。 它可简化对资产的访问，这些资产反过来会提高内容速度。 请参阅[使用 [!DNL Adobe Asset Link]](https://helpx.adobe.com/cn/enterprise/using/manage-assets-using-adobe-asset-link.html)管理资产。
 
 * **[!DNL Adobe Journey Optimizer]**: [[!DNL Adobe Journey Optimizer]](https://business.adobe.com/products/journey-optimizer/adobe-journey-optimizer.html) 简化了客户历程管理，为全渠道营销活动提供智能决策和洞察。使用[!DNL Journey Optimizer]设计消息时，您可以直接从[!DNL Journey Optimizer]界面中访问[!DNL Assets Essentials]存储库。 用户可使用[!DNL Assets Essentials]的嵌入式用户界面访问资产。 请参阅[使用 [!DNL Assets Essentials] 帮助文章](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html)或[视频教程以创建电子邮件内容](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)。
 
