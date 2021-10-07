@@ -1,8 +1,8 @@
 ---
-source-git-commit: 0dd6f278a75668c3ceafa2ad8d9d232bcecd56ba
+source-git-commit: 15070ea99308741242b43206ed69cf1dbddca890
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 50%
+ht-degree: 47%
 
 ---
 # [!DNL Adobe Experience Manager]文档内容贡献准则
@@ -37,9 +37,9 @@ ht-degree: 50%
 
 如果您有必要改进[!DNL Experience Manager]文档的任何想法，欢迎您贡献内容。 但是，评论、问题和拉取请求仅适用于&#x200B;*贡献内容*。它们不用于回答有关如何使用[!DNL Experience Manager]、实施[!DNL Experience Manager]项目或解决技术问题的问题。
 
-如果您对[!DNL Experience Manager]的使用或技术错误有任何疑问，应通过常规支持流程通过[[!DNL Experience Cloud] 支持门户](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support)报告，或在[Experience Manager社区](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)中讨论。
+如果您对[!DNL Experience Manager]的使用或技术错误有任何疑问，应通过常规支持流程通过[[!DNL Experience Manager] 支持门户](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support)报告，或在[Experience Manager社区](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)中讨论。
 
-***[!DNL Experience Manager]文档贡献内容不是 Adobe 客户关怀的替代品***，任何试图获取支持相关问题答案的此类贡献内容都将遭到拒绝。
+***[!DNL Experience Manager]文档贡献内容不是Adobe客户支持的替*** 代品，任何寻求支持相关问题答案的此类贡献内容都将被拒绝。
 
 ### 贡献内容必须明确引用受影响的文档页面。
 
