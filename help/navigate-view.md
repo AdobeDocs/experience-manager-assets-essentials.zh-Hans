@@ -3,7 +3,7 @@ title: '[!DNL Assets Essentials] 用户界面'
 description: 了解的用户界面和 [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 94467e029615514942f429069c0eb7248f44bab5
+source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ![[!DNL Assets Essentials] 用户界面](assets/essentials-interface1.png)
 
-*图：首次登录屏幕以及在何处查找显着功能。*
+*图：登录后的第一个屏幕以及突出功能的位置。*
     *答：用于浏览存储库的左侧栏，并提供对其他几个选项的访问权限。*
     *B:显示或折叠左侧栏以增加资产查看区域。*
     *C:筛选搜索结果。*
