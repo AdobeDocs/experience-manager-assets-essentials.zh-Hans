@@ -1,49 +1,54 @@
 ---
 title: 发行说明
-description: ' [!DNL Assets Essentials]的发行说明和已知问题'
+description: 的发行说明和已知问题 [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
+exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
+source-git-commit: 0c849c92562f9102819aaea627f5945030b27a1e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
 
+# 的发行说明 [!DNL Assets Essentials] {#release-notes}
 
-# [!DNL Assets Essentials]的发行说明 {#release-notes}
+的当前版本 [!DNL Assets Essentials] 将于2021年12月16日发布。 在此版本中：
 
-[!DNL Assets Essentials]的当前版本于2021年8月30日发布。 它提供与[!DNL Adobe Workfront]的集成，让[!DNL Workfront]用户在管理其工作的上下文中管理其数字资产。 有关更多信息，请参阅[与其他Adobe解决方案的集成](/help/integration.md)。
+* Adobe在完成配置过程后自动部署Assets Essentials。 管理员无需执行其他步骤即可使用部署Assets Essentials [!DNL Cloud Manager] 用户界面。 此自动部署将适用于2022年1月6日之后配置的环境。
+* 在AdobeExchange上提供了使用Assets Essentials的新版Creative Cloud插件 —  [适用于Adobe XD的Adobe资产链接版本2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) 和 [适用于Photoshop的Adobe资产链接/InDesign/Illustrator v 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
+* 各种错误修复和产品增强功能，包括以前的已知问题（文件夹现在在上传后正确显示在左侧导航树中）<!-- CQ-4337638 -->，拖放上载允许用户在拖放以进行上载时选择当前文件夹或任何子文件夹<!-- CQ-4327753 -->)。
 
-要详细了解解决方案，请参阅[ [!DNL Assets Essentials]](introduction.md)简介。 要开始使用这些功能，请参阅[开始](/help/get-started.md)。
+要详细了解解决方案，请参阅 [简介 [!DNL Assets Essentials]](introduction.md). 要开始使用这些功能，请参阅 [入门](/help/get-started.md).
 
 ## 已知问题 {#known-issues}
 
-[!DNL Assets Essentials]产品的已知问题清单不断修订和更新：
+的已知问题列表 [!DNL Assets Essentials] 产品不断修订和更新：
 
-* 要上传一个或多个资产，当您将项目拖到存储库中包含子文件夹的文件夹中时，上传内容会自动进入其中一个子文件夹。 解决方法是单击[!DNL Upload assets]选项并拖到对话框中。<!-- CQ-4327753 -->
-* 上传文件夹后，新文件夹有时可能会在左边栏中显示错误，而不是在树视图中显示。 解决方法是刷新浏览器。<!-- CQ-4323534 -->
+* 单个资产无法上传到顶级文件夹（资产），只能上传到系统中的任何子文件夹。 <!-- CQ-4337638 -->
 
-<!--
-* Use assets that do not have whitespace in the file names. The replies to comments do not work for such assets.
--->
-
-如果您遇到任何问题甚至是增强功能请求，[会向团队提供反馈](#provide-feedback)。
+如果您遇到任何问题，甚至遇到增强请求， [提供反馈](#provide-feedback) 敬团队。
 
 ## 过去版本 {#past-release}
+
+### 2021.8.0版 {#august2021}
+
+[!DNL Assets Essentials] 2021.8.0于2021年8月30日发布，其更新如下：
+
+* 集成 [!DNL Adobe Workfront] 这样 [!DNL Workfront] 用户在管理其工作的上下文中管理其数字资产。 有关更多信息，请参阅 [与其他Adobe解决方案集成](/help/integration.md).
 
 ### 2021.7.0版 {#july2021}
 
 [!DNL Assets Essentials] 2021.7.0于2021年7月29日发布，其更新如下：
 
-* 您可以创建和管理自定义元数据表单，以用于在[!UICONTROL Metadata Forms]选项下[!DNL Settings]的资产详细信息屏幕中向用户显示元数据属性。 请参阅[元数据表单](metadata.md#metadata-forms)。
+* 您可以创建和管理自定义元数据表单，以在 [!UICONTROL Metadata Forms] 选项 [!DNL Settings]. 请参阅 [元数据表单](metadata.md#metadata-forms).
 * 各种错误修复和产品改进，包括在上载包含许多子文件夹的嵌套文件夹时性能更佳。
 
 ### 2021.6.0版 {#june2021}
 
-2021年6月21日发布的[!DNL Assets Essentials]第一版提供了轻量级的资产管理功能。 它支持以下主要功能和CRUD（创建、读取、更新和删除）操作：
+的 [!DNL Assets Essentials]，于2021年6月21日推出，提供了轻量级的资产管理功能。 它支持以下主要功能和CRUD（创建、读取、更新和删除）操作：
 
 * 上传和添加资产，包括嵌套文件夹。 预览资产和版本。
 * 全文搜索、细致入微的搜索过滤器，以及为快速发现资产而进行的保存搜索。
 * 基本的资产管理操作，如更新、删除、下载和管理元数据。
-* [!DNL Assets Essentials] 用户可以在 [!DNL Adobe Journey Optimizer] 创建消息时管理资产。有关更多信息，请参阅[与其他Adobe解决方案的集成](/help/integration.md)。
+* [!DNL Assets Essentials] 可用于 [!DNL Adobe Journey Optimizer] 用户在创建消息时管理资产。 有关更多信息，请参阅 [与其他Adobe解决方案集成](/help/integration.md).
