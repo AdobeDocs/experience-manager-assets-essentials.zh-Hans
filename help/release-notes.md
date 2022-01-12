@@ -4,10 +4,10 @@ description: 的发行说明和已知问题 [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 0c849c92562f9102819aaea627f5945030b27a1e
+source-git-commit: 01814dace83fec64851d7ccf97a0f4bb22519ee3
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 的已知问题列表 [!DNL Assets Essentials] 产品不断修订和更新：
 
-* 单个资产无法上传到顶级文件夹（资产），只能上传到系统中的任何子文件夹。 <!-- CQ-4337638 -->
+* 无
 
 如果您遇到任何问题，甚至遇到增强请求， [提供反馈](#provide-feedback) 敬团队。
 
