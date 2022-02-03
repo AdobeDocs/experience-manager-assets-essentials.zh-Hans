@@ -4,22 +4,26 @@ description: 的发行说明和已知问题 [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 01814dace83fec64851d7ccf97a0f4bb22519ee3
+source-git-commit: 73d5e66cfb2315f730329b5db9e6e648c1fe017d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '420'
+ht-degree: 1%
 
 ---
 
 # 的发行说明 [!DNL Assets Essentials] {#release-notes}
 
-的当前版本 [!DNL Assets Essentials] 将于2021年12月16日发布。 在此版本中：
+的当前版本 [!DNL Assets Essentials] 将于2022年1月27日发布。 在此版本中：
 
-* Adobe在完成配置过程后自动部署Assets Essentials。 管理员无需执行其他步骤即可使用部署Assets Essentials [!DNL Cloud Manager] 用户界面。 此自动部署将适用于2022年1月6日之后配置的环境。
-* 在AdobeExchange上提供了使用Assets Essentials的新版Creative Cloud插件 —  [适用于Adobe XD的Adobe资产链接版本2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) 和 [适用于Photoshop的Adobe资产链接/InDesign/Illustrator v 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
-* 各种错误修复和产品增强功能，包括以前的已知问题（文件夹现在在上传后正确显示在左侧导航树中）<!-- CQ-4337638 -->，拖放上载允许用户在拖放以进行上载时选择当前文件夹或任何子文件夹<!-- CQ-4327753 -->)。
+* [!DNL Assets Essentials] 现在，您可以生成链接，并与无权访问的其他人共享资产 [!DNL Assets Essentials] 应用程序。 您可以定义： <!-- CQ-4329575 -->
 
-要详细了解解决方案，请参阅 [简介 [!DNL Assets Essentials]](introduction.md). 要开始使用这些功能，请参阅 [入门](/help/get-started.md).
+   * 链接的过期日期
+
+   * 如果允许收件人在访问链接后下载资产。
+
+   根据这些设置，链接的收件人可以选择预览或下载资产。
+
+* 改进了 [!UICONTROL Create Folder] 操作。 <!-- CQ-4338818 -->
 
 ## 已知问题 {#known-issues}
 
@@ -30,6 +34,14 @@ ht-degree: 0%
 如果您遇到任何问题，甚至遇到增强请求， [提供反馈](#provide-feedback) 敬团队。
 
 ## 过去版本 {#past-release}
+
+### 2021.11.0版本 {#november-2021}
+
+[!DNL Assets Essentials] 将于2021年12月16日发布，并进行以下更新：
+
+* Adobe在完成配置过程后自动部署Assets Essentials。 管理员无需执行其他步骤即可使用部署Assets Essentials [!DNL Cloud Manager] 用户界面。 此自动部署将适用于2022年1月6日之后配置的环境。
+* 在AdobeExchange上提供了使用Assets Essentials的新版Creative Cloud插件 —  [适用于Adobe XD的Adobe资产链接版本2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) 和 [适用于Photoshop的Adobe资产链接/InDesign/Illustrator v 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
+* 各种错误修复和产品增强功能，包括以前的已知问题（文件夹现在在上传后正确显示在左侧导航树中）<!-- CQ-4337638 -->，拖放上载允许用户在拖放以进行上载时选择当前文件夹或任何子文件夹<!-- CQ-4327753 -->)。
 
 ### 2021.8.0版 {#august2021}
 
