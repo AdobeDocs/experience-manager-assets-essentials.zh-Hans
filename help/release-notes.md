@@ -4,7 +4,7 @@ description: 的发行说明和已知问题 [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 73d5e66cfb2315f730329b5db9e6e648c1fe017d
+source-git-commit: a72c3399fabd37c561f3c51e51029810d038ae40
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 的发行说明 [!DNL Assets Essentials] {#release-notes}
 
-的当前版本 [!DNL Assets Essentials] 将于2022年1月27日发布。 在此版本中：
+的当前版本 [!DNL Assets Essentials] 将于2022年2月3日发布。 在此版本中：
 
 * [!DNL Assets Essentials] 现在，您可以生成链接，并与无权访问的其他人共享资产 [!DNL Assets Essentials] 应用程序。 您可以定义： <!-- CQ-4329575 -->
 
