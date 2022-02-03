@@ -2,16 +2,16 @@
 cloud: Experience Cloud
 product: adobe experience manager
 audience: end-user
-user-guide-title: Experience ManagerAssets Essentials指南
-breadcrumb-title: Assets Essentials指南
-user-guide-description: Assets Essentials是一款轻量级的资产管理解决方案，可从其他Experience Cloud应用程序中使用。
+user-guide-title: Experience Manager Assets Essentials 指南
+breadcrumb-title: Assets Essentials 指南
+user-guide-description: Assets Essentials 是一种轻量级资产管理解决方案，可从其他 Experience Cloud 应用程序中使用。
 feature-set: Experience Manager Assets,Experience Manager
-feature: 资产管理
+feature: Asset Management
 role: User,Leader
-source-git-commit: de379a71d5e5cbd62b42ce3618c67d3d7a6fd941
+source-git-commit: 2288978e148f26b7020e5792cba00b91ba180e55
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 3%
+source-wordcount: '68'
+ht-degree: 44%
 
 ---
 
@@ -29,4 +29,5 @@ ht-degree: 3%
 + [资产管理任务](manage-organize.md)
 + [编辑图像](edit-images.md)
 + [管理资产元数据](metadata.md)
++ [共享资产链接](share-links-for-assets.md)
 + [与其他解决方案集成](integration.md)
