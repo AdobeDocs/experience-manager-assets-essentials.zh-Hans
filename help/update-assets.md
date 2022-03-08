@@ -11,9 +11,9 @@ ht-degree: 0%
 ---
 
 
-# 更新[!DNL Assets Essentials]中的资产 {#update-assets}
+# 更新中的资产 [!DNL Assets Essentials] {#update-assets}
 
-您可以通过上传新版本或在[!DNL Assets Essentials]中编辑图像来更新现有资产。
+您可以通过上传新版本或在 [!DNL Assets Essentials].
 
 <!-- TBD: Discard this article if not too much unique content for it.
 Merge the update asset part in manage assets or upload assets.
@@ -24,6 +24,6 @@ Link to versioning once an asset is updated.
 >[!MORELIKETHIS]
 >
 >* [编辑图像](edit-images.md)
-* [查看资产版本](navigate-view.md#view-versions)
-* [删除资产](manage-organize.md#delete-assets)
+>* [查看资产版本](navigate-view.md#view-versions)
+>* [删除资产](manage-organize.md#delete-assets)
 

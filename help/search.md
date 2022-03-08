@@ -1,18 +1,18 @@
 ---
-title: 在 [!DNL Assets Essentials]中搜索和发现资产
-description: 在 [!DNL Assets Essentials]中搜索和发现资产。
+title: 在 [!DNL Assets Essentials]
+description: 在 [!DNL Assets Essentials].
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+exl-id: be9597a3-056c-436c-a09e-15a03567c85a
+source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
+# 在中搜索资产 [!DNL Assets Essentials] {#search-assets}
 
-# 在[!DNL Assets Essentials]中搜索资产 {#search-assets}
-
-[!DNL Assets Essentials] 提供有效的搜索功能，默认情况下只能使用。搜索是全文搜索，因为它是全文搜索。 强大的搜索功能可让您快速发现适当的资产并帮助您提高内容速度。 [!DNL Assets Essentials] 提供全文搜索，甚至通过元数据（如智能标记、标题、创建日期和版权）进行搜索。
+[!DNL Assets Essentials] 提供有效的搜索功能，默认情况下只能使用。 搜索是全文搜索，因为它是全文搜索。 强大的搜索功能可让您快速发现适当的资产并帮助您提高内容速度。 [!DNL Assets Essentials] 提供全文搜索，甚至通过元数据（如智能标记、标题、创建日期和版权）进行搜索。
 
 要搜索资产，请
 
@@ -32,21 +32,21 @@ ht-degree: 1%
 
 *图：根据各种参数筛选搜索的资产。*
 
-* 文件类型：按支持的文件类型（即`Images`、`Documents`和`Videos`）筛选搜索结果。
-* MIME类型：筛选一种或多种支持的文件格式。<!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
+* 文件类型：按支持的文件类型(即 `Images`, `Documents`和 `Videos`.
+* MIME类型：筛选一种或多种支持的文件格式。 <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * 图像大小：提供用于筛选图像的最小和最大尺寸中的一个或多个。 大小以像素为单位提供，而不是图像的文件大小。
-* 创建日期：元数据中提供的资产创建日期。 使用的标准日期格式为`yyyy-mm-dd`。
-* 修改日期：资产的上次修改日期。 使用的标准日期格式为`yyyy-mm-dd`。
+* 创建日期：元数据中提供的资产创建日期。 使用的标准日期格式为 `yyyy-mm-dd`.
+* 修改日期：资产的上次修改日期。 使用的标准日期格式为 `yyyy-mm-dd`.
 
-您可以按`Name`、`Relevancy`、`Size`、`Modified`和`Created`的增减顺序对搜索的资产进行排序。
+您可以按以下顺序对搜索的资产进行排序： `Name`, `Relevancy`, `Size`, `Modified`和 `Created`.
 
 ## 保存的搜索 {#saved-search}
 
-在[!DNL Assets Essentials]中，搜索功能非常简单。 在搜索框内，您不仅可以键入关键字并按返回查看结果，而且只需一次单击即可快速再次搜索最近搜索的关键词。
+搜索功能在 [!DNL Assets Essentials]. 在搜索框内，您不仅可以键入关键字并按返回查看结果，而且只需一次单击即可快速再次搜索最近搜索的关键词。
 
-您还可以根据有关元数据和资产类型的特定条件筛选搜索结果。 对于常用的过滤器，为了改善搜索体验，[!DNL Assets Essentials]允许您保存搜索参数。 然后，您可以选择保存的搜索以进行搜索，并只需单击一次即可应用过滤器。
+您还可以根据有关元数据和资产类型的特定条件筛选搜索结果。 对于常用的过滤器，要改进搜索体验， [!DNL Assets Essentials] 用于保存搜索参数。 然后，您可以选择保存的搜索以进行搜索，并只需单击一次即可应用过滤器。
 
-要创建保存的搜索，请搜索某些资产，应用一个或多个过滤器，然后单击[!UICONTROL Filters]面板中的[!UICONTROL Save Search]。
+要创建保存的搜索，请搜索某些资产，应用一个或多个过滤器，然后单击 [!UICONTROL 保存搜索] 在 [!UICONTROL 过滤器] 的上界。
 
 ![从“过滤器”面板保存搜索](assets/saved-search.png)
 

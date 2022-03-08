@@ -2,31 +2,31 @@
 title: 将资产上传到存储库
 description: 将资产上传到 [!DNL Assets Essentials]、查看上传状态并解决上传问题。
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+exl-id: a85a4455-4456-48af-aee9-f05300677605
+source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
 
-
 # 上传资产 {#add-assets}
 
-要添加新资产以使用，请从本地文件系统上传一些资产。<!-- TBD: Many of the [common file formats are supported](/help/supported-file-formats.md). -->
+要添加新资产以使用，请从本地文件系统上传一些资产。 <!-- TBD: Many of the [common file formats are supported](/help/supported-file-formats.md). -->
 
 您可以使用以下方法上传一个或多个资产或包含资产的文件夹：
 
 * 在用户界面上拖动资产或文件夹，然后按照屏幕上的说明操作。
-* 单击工具栏中的&#x200B;**[!UICONTROL Add Assets]**&#x200B;选项，然后向上传对话框中添加一些文件。
+* 单击 **[!UICONTROL 添加资产]** 选项，并将一些文件添加到“上传”对话框。
 
 <!-- TBD: Update this GIF
 ![Asset and nested folder upload demo](assets/do-not-localize/upload-assets.gif) -->
 
-创建文件夹后，您可以使用以下任一方法上传资产。 要创建空文件夹，请单击工具栏中的&#x200B;**[!UICONTROL Create Folder]**。 虽然[!DNL Assets Essentials]提供了功能强大的全文搜索功能，但您也可以使用文件夹更好地组织资产。
+创建文件夹后，您可以使用以下任一方法上传资产。 要创建空文件夹，请单击 **[!UICONTROL 创建文件夹]** 中。 While [!DNL Assets Essentials] 提供了功能强大的全文搜索功能，您还可以使用文件夹更好地组织资产。
 
-选择文件后，将显示一个确认对话框，用于添加更多文件或删除已选择的文件。 要向所选内容添加更多文件，请单击&#x200B;**[!UICONTROL Browse]**，然后选择&#x200B;**[!UICONTROL Browse files]**&#x200B;或&#x200B;**[!UICONTROL Browse folders]**。 从同一文件夹或从其他文件夹添加更多文件或文件夹。
+选择文件后，将显示一个确认对话框，用于添加更多文件或删除已选择的文件。 要向所选内容添加更多文件，请单击 **[!UICONTROL 浏览]** 和选择 **[!UICONTROL 浏览文件]** 或 **[!UICONTROL 浏览文件夹]**. 从同一文件夹或从其他文件夹添加更多文件或文件夹。
 
-所有文件排入队列后，单击&#x200B;**[!UICONTROL Upload]**。
+所有文件排入队列后，单击 **[!UICONTROL 上传]**.
 
 ![上传文件和文件夹](assets/upload-browse-files-folders.png)
 
@@ -38,17 +38,17 @@ ht-degree: 0%
 
 ## 查看上传进度和状态 {#upload-progress}
 
-将许多资产或嵌套文件夹上传到[!DNL Assets Essentials]时，由于各种原因（如资产重复和网络问题），某些资产可能无法上传。
+将许多资产或嵌套文件夹上传到 [!DNL Assets Essentials]，某些资产可能因重复资产和网络问题等各种原因而无法上传。
 
-要跟踪上传进度，请单击工具栏上的&#x200B;**[!UICONTROL Upload Progress]**&#x200B;选项。 面板会显示所有资产的上传进度。
+要跟踪上传进度，请单击 **[!UICONTROL 上传进度]** 的双曲余切值。 面板会显示所有资产的上传进度。
 
-要根据上传进度或状态查看资产的子集，请使用&#x200B;**[!UICONTROL Upload Progress]**&#x200B;侧栏中的过滤器。 各种筛选器可显示所有资产、已完成上传、进行中上传、要上传的已排队资产、暂停上传、重复资产以及上传失败的资产。
+要根据上传进度或状态查看资产的子集，请在 **[!UICONTROL 上传进度]** 侧栏。 各种筛选器可显示所有资产、已完成上传、进行中上传、要上传的已排队资产、暂停上传、重复资产以及上传失败的资产。
 
 ![根据上传状态过滤上传进度](assets/filter-upload-progress.png)
 
 *图：根据资产的上传状态或上传进度筛选您尝试上传的资产。*
 
-上传资产后，[!DNL Assets Essentials]会立即处理资产以生成缩略图并处理元数据。 对于许多资产，处理需要一些时间。 如果看不到缩略图，并且在占位符缩略图上看到处理消息，请在几分钟后再次检查文件夹。 在处理期间， [!DNL Assets Essentials]会生成演绎版、添加智能标记以及为资产详细信息编制索引以进行搜索。
+资产上传后， [!DNL Assets Essentials] 会处理资产以生成缩略图并处理元数据。 对于许多资产，处理需要一些时间。 如果看不到缩略图，并且在占位符缩略图上看到处理消息，请在几分钟后再次检查文件夹。 在处理期间， [!DNL Assets Essentials] 生成演绎版、添加智能标记并为资产详细信息编制索引以进行搜索。
 
 ![资产是上传后进行的流程，而拼贴则显示正在处理](assets/upload-processing.png)
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 资产演绎版 {#renditions}
 
-[!DNL Assets Essentials] 会近乎实时地处理上传的资产，并且对于许多受支持的文件类型，会生成演绎版。为图像创建的演绎版，会调整上传图像的大小版本。 您不仅可以下载资产，还可以下载演绎版，以使用相应的版本。 在[预览资产](/help/navigate-view.md#preview-assets)时，您可以查看资产的所有演绎版。
+[!DNL Assets Essentials] 会近乎实时地处理上传的资产，并且对于许多受支持的文件类型，会生成演绎版。 为图像创建的演绎版，会调整上传图像的大小版本。 您不仅可以下载资产，还可以下载演绎版，以使用相应的版本。 您可以在 [预览资产](/help/navigate-view.md#preview-assets).
 
 ![演绎版](assets/renditions-view-download.png)
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## 管理失败的上载 {#resolve-upload-fails}
 
-如果受支持资产的上传因某些原因而失败，请单击[!UICONTROL Upload Progress]窗格中的&#x200B;**[!UICONTROL Retry]**。
+如果受支持资产上传因某些原因失败，请单击 **[!UICONTROL 重试]** 从 [!UICONTROL 上传进度] 中。
 
 ![重试上传失败](assets/upload-retry.png)
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->您可以直接从[!DNL Creative Cloud]桌面应用程序内将资产上传到DAM存储库。 查看[[!DNL Assets Essentials] 如何与 [!DNL Adobe Asset Link]](/help/integration.md)集成。
+>您可以直接从 [!DNL Creative Cloud] 桌面应用程序。 了解操作方法 [[!DNL Assets Essentials] 集成 [!DNL Adobe Asset Link]](/help/integration.md).
 
 ## 删除资产或文件夹 {#delete-assets}
 
@@ -94,4 +94,4 @@ ht-degree: 0%
 
    *图：文件和文件夹的操作可在资产或文件夹拼贴中执行。*
 
-* 选择资产或文件夹，然后单击工具栏中的&#x200B;**[!UICONTROL Delete]** ![删除图标](assets/do-not-localize/delete-icon.png)。
+* 选择一个资产或文件夹，然后单击 **[!UICONTROL 删除]** ![删除图标](assets/do-not-localize/delete-icon.png) 中。

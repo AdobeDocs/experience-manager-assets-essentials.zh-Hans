@@ -5,7 +5,7 @@ role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 0a0f520b0c023120995b3af327661212604fac0d
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,10 @@ ht-degree: 0%
 
 在 [!DNL Assets Essentials]，您可以以四种不同类型的布局查看资产、文件夹和搜索结果。
 
-* ![列表视图图标](assets/do-not-localize/list-view.png) [!UICONTROL List View]
-* ![网格视图图标](assets/do-not-localize/grid-view.png) [!UICONTROL Grid View]
-* ![图库视图图标](assets/do-not-localize/gallery-view.png) [!UICONTROL Gallery View]
-* ![瀑布视图图标](assets/do-not-localize/waterfall-view.png) [!UICONTROL Waterfall View]
+* ![列表视图图标](assets/do-not-localize/list-view.png) [!UICONTROL 列表视图]
+* ![网格视图图标](assets/do-not-localize/grid-view.png) [!UICONTROL 网格视图]
+* ![图库视图图标](assets/do-not-localize/gallery-view.png) [!UICONTROL 图库视图]
+* ![瀑布视图图标](assets/do-not-localize/waterfall-view.png) [!UICONTROL 瀑布视图]
 
 要查找资产，您可以按以下顺序对资产进行升序或降序排序： `Name`, `Relevancy`, `Size`, `Modified`和 `Created`.
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 在使用、共享或下载资产之前，您可以更仔细地查看资产。 通过预览功能，您不仅可以查看图像，还可以查看其他一些受支持的资产类型。
 
-要预览资产，请选择资产并单击 [!UICONTROL Details] ![详细信息图标](assets/do-not-localize/edit-in-icon.png) 中。 您不仅可以查看资产，还可以查看其详细元数据并执行其他操作。
+要预览资产，请选择资产并单击 [!UICONTROL 详细信息] ![详细信息图标](assets/do-not-localize/edit-in-icon.png) 中。 您不仅可以查看资产，还可以查看其详细元数据并执行其他操作。
 
 ![预览资产](assets/preview-asset.png)
 
