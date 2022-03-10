@@ -1,18 +1,18 @@
 ---
-title: 部署和管理用户
+title: 管理用户
 description: 管理用例，如 [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: cbf75aaf05a0f3d798edf4d508325b28d9ca0dcb
+source-git-commit: fb4ca5b3ab85f77cc1013c2d4743530f5d48e96d
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
 
-# 部署 [!DNL Assets Essentials] 添加用户 {#administer}
+# 管理 [!DNL Assets Essentials] 添加用户 {#administer}
 
-[!DNL Adobe Experience Manager Assets Essentials] 由Adobe为其客户配置。 作为配置的一部分， [!DNL Assets Essentials] 会添加到 [!DNL Adobe Admin Console]. 客户还可以访问 [!DNL Experience Manager Cloud Manager] 作为部署工具，并 [!DNL Admin Console] 管理用户权限 [!DNL Assets Essentials] 解决方案。
+[!DNL Adobe Experience Manager Assets Essentials] 由Adobe为其客户配置。 作为配置的一部分， [!DNL Assets Essentials] 会添加到 [!DNL Adobe Admin Console]. 管理员将使用 [!DNL Admin Console] 管理用户权限 [!DNL Assets Essentials] 解决方案，并分配应用程序管理员，以在 [!DNL Assets Essentials].
 
 ## 自动部署Assets Essentials {#automatic-deployment-assets-essentials}
 
@@ -24,6 +24,7 @@ ht-degree: 1%
 
 成功部署Assets Essentials解决方案后，管理员需要执行以下任务：
 
+* [设置用户组、文件夹结构和分配权限](manage-permissions.md) 来获取解决方案。 关注 [最佳实践](permission-management-best-practices.md) 以确保设置简单有效的权限。
 * [管理用户访问权限](#add-users-to-essentials) 组织成员 [!DNL Assets Essentials].
 * （可选） [查看服务状态和日志](#view-logs).
 
@@ -36,16 +37,18 @@ ht-degree: 1%
 
 管理员可管理哪些用户有权访问 [!DNL Assets Essentials]. 管理员使用 [!DNL Adobe Admin Console] 添加或删除用户访问权限。 [!DNL Assets Essentials] 具有以下两种类型的用户访问权限。
 
+* **[!DNL Assets Essentials]管理员** 具有对应用程序的管理访问权限。 除了所有最终用户功能之外，此组中的应用程序管理员还可以管理整个应用程序存储库中任何文件夹和组/用户的权限。
 * **[!DNL Assets Essentials]用户** 拥有完整用户界面的访问权限。 这些用户可以上传、组织、标记和查找数字资产。
 * **[!DNL Assets Essentials]消费者用户**:有权访问 [!DNL Adobe Journey Optimizer] 电子邮件模板编辑器。 有关更多信息，请参阅 [使用 [!DNL Assets Essentials] in [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html).
 
-在 [!DNL Admin Console]，这两种访问类型由两种 [!UICONTROL 产品配置文件]. 要向两个用户档案中的任意一个添加和删除组织成员，请执行以下步骤：
+在 [!DNL Admin Console]，这三种访问类型由三种表示 [!UICONTROL 产品配置文件]. 要向两个用户档案中的任意一个添加和删除组织成员，请执行以下步骤：
 
-1. 访问 [!DNL Admin Console] 对于贵组织，单击 **[!UICONTROL 产品]** 在顶部栏中，单击 **[!UICONTROL AEM Assets Essentials]**，然后单击 [!DNL Assets Essentials] 环境。 [!DNL Assets Essentials] 具有两个产品配置文件，它们表示常规用户和消费者用户的访问权限。
+1. 访问 [!DNL Admin Console] 对于贵组织，单击 **[!UICONTROL 产品]** 在顶部栏中，单击 **[!UICONTROL AEM Assets Essentials]**，然后单击 [!DNL Assets Essentials] 环境。 [!DNL Assets Essentials] 具有三个产品配置文件，它们表示管理员、常规用户和消费者用户的访问权限。
 
-   ![两种用户的两个配置文件](assets/adminconsole-user-types.png)
+   ![三种用户的三个用户档案](assets/admin-console-admin-profile.png)
+   <!-- Need to update screenshot to include 3 profiles -->
 
-   *图：可使用两个配置文件来添加这两种类型的用户。*
+   *图：有三个用户档案可用于添加三种类型的用户。*
 
 1. 要将用户添加到群组，请单击该群组，选择 **[!UICONTROL 添加用户]**，提供用户详细信息，然后单击 **[!UICONTROL 保存]**. 添加用户时，用户会收到开始使用的电子邮件邀请。 您可以在 [!DNL Admin Console].
 
