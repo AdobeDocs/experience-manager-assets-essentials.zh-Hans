@@ -4,7 +4,7 @@ description: 的发行说明和已知问题 [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 211233202b667f9d25713491c8ae59e002139777
+source-git-commit: 4cced7aba92fd0f041842e5ef78d02f0a4f7ffe0
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 的发行说明 [!DNL Assets Essentials] {#release-notes}
 
-的当前版本 [!DNL Assets Essentials] 于2022年3月03日发布。 此版本提供：
+的当前版本 [!DNL Assets Essentials] 于2022年3月09日发布。 此版本提供：
 
 * [!DNL Assets Essentials] 现在，您可以 [生成链接并与外部利益相关方共享资产](share-links-for-assets.md)，他们无权访问 [!DNL Assets Essentials] 应用程序。 您可以为链接定义过期日期，然后使用您首选的通信方法（如电子邮件或消息传送服务）与他人共享该链接。 链接的收件人可以预览并下载资产。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * 基于客户反馈的增强功能和错误修复。
 
-此外， [!DNL Adobe Asset Link] Creative Cloud扩展(Photoshop、Illustrator和InDesign)发布了 [新版本3.2.0](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)，提高了面板启动时间和下载速度的性能。
+此外， [!DNL Adobe Asset Link] Creative Cloud扩展(Photoshop、Illustrator和InDesign)发布了 [新版本3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)，提高了面板启动时间和下载速度的性能。
 
 
 ## 已知问题 {#known-issues}
