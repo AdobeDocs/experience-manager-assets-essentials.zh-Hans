@@ -2,7 +2,7 @@
 title: 如何在AEM Assets Essentials中管理文件夹的权限？
 description: Assets Essentials允许管理员管理存储库中可用文件夹的访问权限级别。 创建用户组并为这些组分配权限以管理访问级别。 作为管理员，您还可以将权限管理权限委派给文件夹级别的用户组。
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 424517e7961bcc39cd3048ebc750fe1b4b06f659
+source-git-commit: 57aa6f4641deb8cc687a462a380404e8fc3b6844
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Assets Essentials允许管理员管理存储库中可用文件夹的访问权限
 
 创建一个文件夹结构，该结构非常适合组织的业务目标。 如果要将现有文件夹结构上传到Assets Essentials存储库，则应查看该结构。 有关更多信息，请参阅 [有效权限管理的最佳实践](permission-management-best-practices.md).
 
-## 管理文件夹的权限 {#manage-permissions-folders}
+## 管理文件夹的权限 {#manage-permissions-on-folders}
 
 您可以将以下权限分配给用户组或用户。 Adobe不建议向用户分配权限。
 
