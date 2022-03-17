@@ -2,7 +2,7 @@
 title: 如何在AEM Assets Essentials中管理文件夹的权限？
 description: Assets Essentials允许管理员管理存储库中可用文件夹的访问权限级别。 创建用户组并为这些组分配权限以管理访问级别。 作为管理员，您还可以将权限管理权限委派给文件夹级别的用户组。
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 68bfd7cb55b38e12ee0f5b8f12449c7137e02e90
+source-git-commit: 98879f59bd1bb5725f51f91bfa638f2de6759e9a
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Assets Essentials允许管理员管理存储库中可用文件夹的访问权限
 
 以下数据流图说明了配置和管理Assets Essentials存储库中可用文件夹的权限时需要执行的一系列任务：
 
-![选择资产时的工具栏选项](assets/permissions-management.png)
+![选择资产时的工具栏选项](assets/permissions-management-updated.png)
 
 ## 在管理文件夹的权限之前 {#before-managing-permissions}
 
@@ -93,7 +93,7 @@ Assets Essentials允许管理员管理存储库中可用文件夹的访问权限
 
 如果您需要为 `Marketing` 文件夹，并且仅查看您组织的营销部门的权限， `Can View` 超级组的权限 `All Authenticated Users` 和 `Can Edit` 其子组的权限 `Marketing`.
 
-![分配权限](assets/permissions-management-groups.png)
+![分配权限](assets/permissions-management-groups-updated.png)
 
 **权限继承**
 
@@ -183,7 +183,7 @@ Assets Essentials使用权限继承，这允许您继承子文件夹中父文件
 * 法律团队
 
 下图说明了文件夹层次结构以及分配给每个用户群组的权限：
-![分配权限](assets/use-case-permissions-mamagement.png)
+![分配权限](assets/use-case-permissions-management.png)
 
 以下是文件夹层次结构中所有用户组的访问级别：
 
