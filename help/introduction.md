@@ -1,12 +1,12 @@
 ---
 title: ' [!DNL Assets Essentials] 简介'
-description: Assets Essentials概述和解决方案简介
+description: Assets Essentials 概述和解决方案简介
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
 source-git-commit: ecc36da0de9e4e7075085251aacdaf92640311a6
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -16,21 +16,21 @@ ht-degree: 0%
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
 -->
 
-Adobe提供了功能强大的数字资产管理(DAM)解决方案，让您能够充分利用数字资产。 作为Adobe Experience Manager产品系列的一部分，Adobe正在提供一种新的SaaS解决方案来存储、管理和发现数字资产，该解决方案也与其他Adobe解决方案本地集成。
+Adobe 提供了可靠的数字资源管理 (DAM) 解决方案，让您能够充分利用数字资源。作为 Adobe Experience Manager 产品线的一部分，Adobe 提供了一种新的 SaaS 解决方案，用于存储、管理和发现数字资源，还可与其他 Adobe 解决方案原生集成。
 
-[!DNL Experience Manager Assets Essentials] 是新的轻量版 [!DNL Adobe Experience Manager Assets]. [!DNL Assets Essentials] 通过简化且一致的用户界面提供统一的资产管理和协作。 这种易用性让更多创意和营销团队能够存储、发现和分发数字资产。 目前， [!DNL Assets Essentials] 可用于 [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html) 作为后一种解决方案的一部分的客户。
+[!DNL Experience Manager Assets Essentials] 是 [!DNL Adobe Experience Manager Assets] 的轻量级新版本。[!DNL Assets Essentials] 使用简单且一致的用户界面，提供统一的资源管理和协作功能。其易用性使得更多创意与营销团队可以轻松地存储、发现和分发数字资源。目前，[!DNL Assets Essentials] 面向 [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html) 解决方案客户，作为其一部分提供。
 
-[!DNL Assets Essentials] 重点关注简单的界面以及数字资产的高效搜索和发现，以确保跨团队的资产利用率、治理和品牌一致性。 最终用户体验可以通过独立的Web用户界面以及其他Adobe解决方案中的嵌入式体验来实现。
+[!DNL Assets Essentials] 侧重于通过简单的界面，提供高效的数字资源搜索和发现功能，以确保在不同团队之间充分利用、管理资源和确保品牌一致性。最终用户体验可以通过单独的 Web 用户界面提供，也可以在其他 Adobe 解决方案中提供嵌入式体验。
 
-对于管理员而言，它提供了更简单的配置和管理，从而加快价值实现速度。 管理员可以立即访问解决方案，并且可以在中使用熟悉的功能和用户权限 [!DNL Adobe Admin Console]. 请参阅 [部署和管理](/help/deploy-administer.md).
+对于管理员，它提供了更简单的配置和管理功能，从而加快实现价值的速度。在 [!DNL Adobe Admin Console] 中，管理员可以直接访问解决方案，并可以使用熟悉的功能和用户界面。请参阅[部署和管理](/help/deploy-administer.md)。
 
-对于用户，使用 [!DNL Assets Essentials] 与以下3个步骤一样简单。 请参阅 [开始使用 [!DNL Assets Essentials]](/help/get-started.md).
+对于用户，使用 [!DNL Assets Essentials] 管理您的数字资源只需以下简单的 3 步。选择[开始使用 [!DNL Assets Essentials]](/help/get-started.md)。
 
-* **步骤1**:上传和查看资产。
-* **步骤2**:搜索和下载资产。
-* **步骤3**:管理和组织资产。
+* **步骤 1**：上传和查看资源。
+* **步骤 2**：搜索和下载资源。
+* **步骤 3**：管理和组织资源。
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Assets Essentials] 启动公告博客帖子](https://blog.adobe.com/en/publish/2021/04/27/introducing-adobe-experience-manager-assets-essentials-to-simplify-collaboration-across-teams.html)
+>* [[!DNL Assets Essentials] 发布公告博客帖子](https://blog.adobe.com/en/publish/2021/04/27/introducing-adobe-experience-manager-assets-essentials-to-simplify-collaboration-across-teams.html)
 

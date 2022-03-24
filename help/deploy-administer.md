@@ -1,134 +1,134 @@
 ---
 title: 管理用户
-description: 管理用例，如 [!DNL Assets Essentials].
+description: 管理用例，例如部署和  [!DNL Assets Essentials] 中的用户管理。
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: fb4ca5b3ab85f77cc1013c2d4743530f5d48e96d
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 1%
+ht-degree: 88%
 
 ---
 
 # 管理 [!DNL Assets Essentials] 添加用户 {#administer}
 
-[!DNL Adobe Experience Manager Assets Essentials] 由Adobe为其客户配置。 作为配置的一部分， [!DNL Assets Essentials] 会添加到 [!DNL Adobe Admin Console]. 管理员将使用 [!DNL Admin Console] 管理用户权限 [!DNL Assets Essentials] 解决方案，并分配应用程序管理员，以在 [!DNL Assets Essentials].
+[!DNL Adobe Experience Manager Assets Essentials] 由 Adobe 为其客户配置。作为配置过程的一部分，[!DNL Assets Essentials] 添加到客户组织的 [!DNL Adobe Admin Console] 中。管理员将使用 [!DNL Admin Console] 管理用户权限 [!DNL Assets Essentials] 解决方案，并分配应用程序管理员，以在 [!DNL Assets Essentials].
 
-## 自动部署Assets Essentials {#automatic-deployment-assets-essentials}
+## Assets Essentials 的自动部署 {#automatic-deployment-assets-essentials}
 
-配置Assets Essentials解决方案后，管理员会收到来自Adobe的电子邮件。 电子邮件包含欢迎消息和要开始使用的链接。 此外，Adobe还会启动自动部署Assets Essentials的流程。 部署过程需要一小时才能完成。
+配置 Assets Essentials 解决方案之后，管理员会收到来自 Adobe 的电子邮件。该电子邮件包含欢迎消息以及开始使用链接。此外，Adobe 启动流程来自动部署 Assets Essentials。部署流程需要一个小时来完成。
 
-从电子邮件中的链接，访问和登录 [Admin Console](https://adminconsole.adobe.com). 如果您拥有对多个组织帐户的管理员访问权限，请选择相应的组织或使用顶部栏中的切换器切换到该帐户。 完成自动部署过程后，将 [!DNL AEM Assets Essentials] 在 [!DNL Admin Console].
+通过电子邮件中的链接，访问并登录 [Admin Console](https://adminconsole.adobe.com)。如果您有多个组织账户的管理员访问权限，则选择相应的组织，或者使用顶部工具栏中的切换器切换组织。自动部署流程完成后，[!DNL AEM Assets Essentials] 的产品卡在 [!DNL Admin Console] 中可见。
 
-![Assets Essentials部署](assets/assets-essentials-deployment.png)
+![Assets Essentials 部署](assets/assets-essentials-deployment.png)
 
-成功部署Assets Essentials解决方案后，管理员需要执行以下任务：
+成功部署 Assets Essentials 解决方案之后，管理员需要执行以下任务：
 
 * [设置用户组、文件夹结构和分配权限](manage-permissions.md) 来获取解决方案。 关注 [最佳实践](permission-management-best-practices.md) 以确保设置简单有效的权限。
-* [管理用户访问权限](#add-users-to-essentials) 组织成员 [!DNL Assets Essentials].
-* （可选） [查看服务状态和日志](#view-logs).
+* [管理组织成员用户](#add-users-to-essentials)对 [!DNL Assets Essentials] 的访问权限。
+* （可选）[查看服务状态和日志](#view-logs)。
 
 >[!NOTE]
 >
->如果Assets Essentials在2022年1月06日之前配置，请执行 [Cloud Manager中的部署步骤](#deploy-essentials) 管理组织成员的用户访问权限之前。
+>如果 Assets Essentials 在 2022 年 1 月 6 日之前配置，请首先执行 [Cloud Manager 中的部署步骤](#deploy-essentials)，然后再管理组织成员的用户访问权限。
 
 
 ## 用户管理 {#add-users-to-essentials}
 
-管理员可管理哪些用户有权访问 [!DNL Assets Essentials]. 管理员使用 [!DNL Adobe Admin Console] 添加或删除用户访问权限。 [!DNL Assets Essentials] 具有以下两种类型的用户访问权限。
+管理员管理哪些用户可以访问 [!DNL Assets Essentials]。管理员使用 [!DNL Adobe Admin Console] 添加或删除用户访问权限。[!DNL Assets Essentials] 提供了以下两种类型的用户访问权限。
 
 * **[!DNL Assets Essentials]管理员** 具有对应用程序的管理访问权限。 除了所有最终用户功能之外，此组中的应用程序管理员还可以管理整个应用程序存储库中任何文件夹和组/用户的权限。
-* **[!DNL Assets Essentials]用户** 拥有完整用户界面的访问权限。 这些用户可以上传、组织、标记和查找数字资产。
-* **[!DNL Assets Essentials]消费者用户**:有权访问 [!DNL Adobe Journey Optimizer] 电子邮件模板编辑器。 有关更多信息，请参阅 [使用 [!DNL Assets Essentials] in [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html).
+* **[!DNL Assets Essentials]用户**&#x200B;具有完整用户界面的访问权限。这些用户可以上传、组织、标记和查找数字资源。
+* **[!DNL Assets Essentials]使用者用户**：可以访问 [!DNL Adobe Journey Optimizer] 电子邮件模板编辑器中的嵌入式资源选择体验。有关更多信息，请参阅[在 [!DNL Journey Optimizer] 中使用 [!DNL Assets Essentials] ](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html)。
 
-在 [!DNL Admin Console]，这三种访问类型由三种表示 [!UICONTROL 产品配置文件]. 要向两个用户档案中的任意一个添加和删除组织成员，请执行以下步骤：
+在 [!DNL Admin Console]，这三种访问类型由三种表示 [!UICONTROL 产品配置文件]. 要在任意这两个配置文件中添加或删除组织的成员，请按照以下步骤操作：
 
-1. 访问 [!DNL Admin Console] 对于贵组织，单击 **[!UICONTROL 产品]** 在顶部栏中，单击 **[!UICONTROL AEM Assets Essentials]**，然后单击 [!DNL Assets Essentials] 环境。 [!DNL Assets Essentials] 具有三个产品配置文件，它们表示管理员、常规用户和消费者用户的访问权限。
+1. 访问组织的 [!DNL Admin Console]，单击顶部工具栏中的&#x200B;**[!UICONTROL 产品]**，单击 **[!UICONTROL AEM Assets Essentials]**，然后单击 [!DNL Assets Essentials] 环境。[!DNL Assets Essentials] 具有三个产品配置文件，它们表示管理员、常规用户和消费者用户的访问权限。
 
    ![三种用户的三个用户档案](assets/admin-console-admin-profile.png)
    <!-- Need to update screenshot to include 3 profiles -->
 
    *图：有三个用户档案可用于添加三种类型的用户。*
 
-1. 要将用户添加到群组，请单击该群组，选择 **[!UICONTROL 添加用户]**，提供用户详细信息，然后单击 **[!UICONTROL 保存]**. 添加用户时，用户会收到开始使用的电子邮件邀请。 您可以在 [!DNL Admin Console].
+1. 要将用户添加到组，请单击该组，选择&#x200B;**[!UICONTROL 添加用户]**，提供用户详细信息，然后单击&#x200B;**[!UICONTROL 保存]**。添加用户时，用户将收到电子邮件邀请以开始使用。您可以在 [!DNL Admin Console] 的产品配置文件设置中关闭电子邮件邀请。
 
-   ![将用户添加到 [!DNL Assets Essentials]](assets/adminconsole-add-user.png)
+   ![添加用户到 [!DNL Assets Essentials]](assets/adminconsole-add-user.png)
 
-   *图：将用户添加到 [!DNL Assets Essentials] 从 [!DNL Admin Console].*
+   *图：将用户从 [!DNL Admin Console] 添加到 [!DNL Assets Essentials]。*
 
-1. 要从群组中删除用户，请单击该群组，选择现有用户，然后选择 **[!UICONTROL 删除用户]**.
+1. 要从组中删除某个用户，请单击改组，选择现有用户，然后选择&#x200B;**[!UICONTROL 删除用户]**。
 
 >[!TIP]
 >
->在 [!DNL Admin Console]，则可以使用CSV文件批量管理用户。 要了解更多信息，请参阅 [[!DNL Admin Console] 文档](https://helpx.adobe.com/enterprise/using/accounts.html).
+>在 [!DNL Admin Console] 中，您可以使用 CSV 文件批量管理用户。如需了解更多信息，请参阅[[!DNL Admin Console] 文档](https://helpx.adobe.com/enterprise/using/accounts.html)。
 
 ## 查看服务状态和访问日志 {#view-logs}
 
-配置后，管理员将部署 [!DNL Assets Essentials] 一次。 初始部署后，Adobe会进行服务维护和更新。 管理员可以使用 [!DNL Cloud Manager] 用户界面来检查服务状态并下载最近的访问日志。
+配置之后，管理员仅部署一次 [!DNL Assets Essentials]。初始部署之后，Adobe 执行服务维护和更新。管理员可以使用 [!DNL Cloud Manager] 用户界面检查服务状态和下载最近的访问日志。
 
-1. 用户报告问题时，请检查 [!DNL Assets Essentials] 在 **[!UICONTROL 计划概述]** 界面。 在解决方案的正常工作过程中，状态为 `Running`. 如果 [!DNL Cloud Manager] 显示任何其他状态，请在 [!DNL Admin Console] 支持部分。
+1. 用户报告问题时，在&#x200B;**[!UICONTROL 程序概述]**&#x200B;界面中检查 [!DNL Assets Essentials] 的服务状态。在解决方案的正常工作期间，状态为 `Running`。如果 [!DNL Cloud Manager] 显示任何其他状态，请在 [!DNL Admin Console] 支持部分中创建支持工单。
 
-   ![状态 [!DNL Assets Essentials] in [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
+   ![[!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png) 中 [!DNL Assets Essentials] 的状态
 
-   *图：的正常状态 [!DNL Assets Essentials] in [!DNL Cloud Manager] is `Running`.*
+   *图：[!DNL Assets Essentials] 在 [!DNL Cloud Manager] 中的正常状态为 `Running`。*
 
-1. 要下载最近的访问日志，请单击 ![选项图标](assets/do-not-localize/options-ellipses-icon.png)，选择 **[!UICONTROL 下载日志]**，并按照屏幕上的说明进行操作。 您可以使用日志审核HTTPS访问请求。
+1. 要下载最近的访问日志，请单击![选项图标](assets/do-not-localize/options-ellipses-icon.png)，选择&#x200B;**[!UICONTROL 下载日志]**，然后按照屏幕上的说明操作。您可以使用日志编辑 HTTPS 访问请求。
 
-   ![ 用于下载访问日志的选项](assets/cloudmanager-download-logs.png)
+   ![ 下载访问日志的选项](assets/cloudmanager-download-logs.png)
 
-   *图：用于下载访问日志的选项。*
+   *图：下载访问日志的选项。*
 
 ## 部署 [!DNL Assets Essentials] {#deploy-essentials}
 
 >[!NOTE]
 >
->仅当在2022年1月06日之前配置了Assets Essentials时，才执行这些步骤。
+>只有当 Assets Essentials 配置于 2022 年 1 月 6 日之前时才执行这些步骤。
 
-配置后， [!DNL Assets Essentials] 授权将添加到您组织的 [!DNL Admin Console]. 组织管理员必须先部署该解决方案，然后才能将其提供给用户。 管理员使用 [!DNL Cloud Manager] 用户界面。 初始部署后，Adobe会进行服务维护和更新。 配置解决方案后，管理员会收到来自Adobe的电子邮件。 电子邮件包含欢迎消息和要开始使用的链接。 要部署，请执行以下步骤：
+配置之后，[!DNL Assets Essentials] 权利添加到您组织的 [!DNL Admin Console] 中。组织管理员必须先部署该解决方案，然后该解决方案才可供用户使用。管理员使用 [!DNL Cloud Manager] 用户界面执行一次性部署。初始部署之后，Adobe 执行服务维护和更新。配置解决方案之后，管理员会收到来自 Adobe 的电子邮件。该电子邮件包含欢迎消息以及开始使用链接。要开始部署，请按照以下步骤操作：
 
-1. 从电子邮件中的链接，访问和登录 [Admin Console](https://adminconsole.adobe.com). 如果您拥有对多个组织帐户的管理员访问权限，请选择相应的组织或使用顶部栏中的切换器切换到该帐户。 产品卡 [!DNL Assets Essentials] 在 [!DNL Admin Console].
+1. 通过电子邮件中的链接，访问并登录 [Admin Console](https://adminconsole.adobe.com)。如果您有多个组织账户的管理员访问权限，则选择相应的组织，或者使用顶部工具栏中的切换器切换组织。[!DNL Assets Essentials] 的产品卡在 [!DNL Admin Console] 中可见。
 
-   ![[!DNL Assets Essentials] 卡入 [!DNL Admin Console]](assets/essentials-in-admin-console.png)
+   [!DNL Admin Console]](assets/essentials-in-admin-console.png) 中的 ![[!DNL Assets Essentials] 卡
 
-   *图： [!DNL Assets Essentials] 卡入 [!DNL Admin Console].*
+   *图：[!DNL Admin Console] 中的 [!DNL Assets Essentials] 卡。*
 
    >[!NOTE]
    >
-   >如果您可以查看 **[!UICONTROL AEM Assets Essentials]** 在产品部分中添加卡片，而不是 **[!UICONTROL AEM Assets Essentials - Cloud Manager]** 卡，Assets Essentials的部署已完成。 您可以跳过其余步骤。
+   >如果您在产品部分中可以看到 **[!UICONTROL AEM Assets Essentials]** 卡而非 **[!UICONTROL AEM Assets Essentials - Cloud Manager]** 卡，则 Assets Essentials 的部署已完成。您可以跳过剩余的步骤。
 
-1. 将您自己作为管理员添加到 `AEM Assets Essentials - Cloud Manager` 中的产品配置文件 [!DNL Admin Console]. 您可以添加组织的其他成员，也可以添加多个管理员，而不是您自己。
+1. 将您自己作为管理员添加到 [!DNL Admin Console] 中的 `AEM Assets Essentials - Cloud Manager` 产品配置文件。您可以添加组织中的其他成员而不是您自己作为管理员，也可以添加多个管理员。
 
-1. 单击 ![添加图标](assets/do-not-localize/add-icon.svg) to [!UICONTROL 选择产品配置文件]，然后选择 [!UICONTROL 部署管理器 — Assets Essentials] 作为 **[!UICONTROL 产品配置文件]**. 此步骤中添加的用户会收到来自Adobe的电子邮件，该电子邮件具有 [!DNL Cloud Manager] 和可以进行部署。
+1. 单击![添加图标](assets/do-not-localize/add-icon.svg)可[!UICONTROL 选择产品配置文件]，然后选择 [!UICONTROL Deployment Manager - Assets Essentials] 作为&#x200B;**[!UICONTROL 产品配置文件]**。在此步骤中添加的用户会收到 Adobe 的电子邮件，并且具有对 [!DNL Cloud Manager] 的访问权限，可以执行部署。
 
-   ![添加管理员并在 [!DNL Admin Console]](assets/adminconsole-user1.png)
+   ![添加管理员并在 [!DNL Admin Console]](assets/adminconsole-user1.png) 中选择产品配置文件
 
-   *图：添加管理员并在 [!DNL Admin Console].*
+   *图：添加管理员并在 [!DNL Admin Console] 中选择产品配置文件。*
 
-1. 访问 [!DNL Cloud Manager]，单击电子邮件中具有 [!DNL Cloud Manager]. 或者，访问 [https://experience.adobe.com/#/cloud-manager/](https://experience.adobe.com/#/cloud-manager/) 中。
+1. 要访问 [!DNL Cloud Manager]，请单击电子邮件中用于访问 [!DNL Cloud Manager] 的链接。或者，在浏览器中访问 [https://experience.adobe.com/#/cloud-manager/](https://experience.adobe.com/#/cloud-manager/)。
 
-1. 在Cloud Manager用户界面中，单击 **[!UICONTROL 添加程序]** 中。
+1. 在 Cloud Manager 用户界面中，单击右上角的&#x200B;**[!UICONTROL 添加程序]**。
 
-1. 提供您选择的名称，并（可选）上传图像(它表示 [!DNL Cloud Manager])，然后单击 **[!UICONTROL 创建]**. [!DNL Cloud Manager] 设置程序需要几分钟。
+1. 提供您选择的名称并（可选）上传图像（用于在 [!DNL Cloud Manager] 中表示该程序），然后单击&#x200B;**[!UICONTROL 创建]**。[!DNL Cloud Manager] 需要几分钟时间来设置程序。
 
-1. 程序准备就绪后，将指针悬停在图块上并单击 ![添加环境图标](assets/do-not-localize/add-environment-icon.png).
+1. 程序就绪后，将光标悬停在图块上，然后单击![添加环境图标](assets/do-not-localize/add-environment-icon.png)。
 
-1. 添加 [!DNL Assets Essentials] 为贵组织提供服务，单击 **[!UICONTROL 添加环境]**，选择名称和部署区域，然后单击 **[!UICONTROL 保存]**. 以后无法更改部署区域。 尝试匹配的部署区域 [!DNL Assets Essentials] 与您打算使用的其他解决方案的部署区域 [!DNL Assets Essentials]. 匹配是确保以最快的速度对数字资产进行网络访问，并确保尽可能最短的延迟。
+1. 要将 [!DNL Assets Essentials] 添加到您的组织，请单击&#x200B;**[!UICONTROL 添加环境]**，选择名称和部署区域，然后单击&#x200B;**[!UICONTROL 保存]**。您无法在以后更改部署区域。请尝试将 [!DNL Assets Essentials] 的部署区域与您计划与 [!DNL Assets Essentials] 配合使用的其他解决方案的部署区域相匹配。该匹配用于确保对数字资源尽可能最快的网络访问以及尽可能最低的延迟。
 
-   ![在 [!DNL Cloud Manager]](assets/cloudmanager-add-environment-for-essentials.png)
+   ![在 [!DNL Cloud Manager]](assets/cloudmanager-add-environment-for-essentials.png) 中添加环境
 
-   *图：在 [!DNL Cloud Manager] 开始使用 [!DNL Assets Essentials].*
+   *图：在 [!DNL Cloud Manager] 中添加环境以开始使用 [!DNL Assets Essentials]。*
 
-1. 几分钟后，成功创建环境后，您便可以访问 [!DNL Admin Console] 并将贵组织的用户添加到 [!DNL Assets Essentials] 解决方案。 单击 ![选项图标](assets/do-not-localize/options-ellipses-icon.png) ，然后选择 **[!UICONTROL 管理访问权限]** 选项。
+1. 几分钟后，当环境成功创建时，您可以访问 [!DNL Admin Console] 并将组织的用户添加到 [!DNL Assets Essentials] 解决方案。单击![选项图标](assets/do-not-localize/options-ellipses-icon.png)并选择&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;选项。
 
-   ![中的就绪环境 [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
+   ![[!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png) 中就绪的环境
 
-   *图：中的环境 [!DNL Cloud Manager] 已准备好使用。*
+   *图：[!DNL Cloud Manager] 中已经可以使用的环境。*
 
 >[!MORELIKETHIS]
 >
 >* [[!DNL Admin Console] 帮助](https://helpx.adobe.com/enterprise/using/admin-console.html)
->* [[!DNL Cloud Manager] 帮助](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=zh-Hans)
->* [Adobe Journey Optimizer文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+>* [[!DNL Cloud Manager] 帮助](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html)
+>* [Adobe Journey Optimizer 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 >* [发行说明](release-notes.md)
 >* [开始使用 [!DNL Assets Essentials]](get-started.md)
 

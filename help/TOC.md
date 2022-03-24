@@ -11,7 +11,7 @@ role: User,Leader
 source-git-commit: be84c4c7a5e2f3220cde54f1d01007e9dacf183a
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 42%
+ht-degree: 85%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 42%
    + [权限管理最佳实践](permission-management-best-practices.md)
 + [开始使用 [!DNL Assets Essentials]](get-started.md)
 + [支持的文件类型和用例](supported-file-formats.md)
-+ [查看资产](navigate-view.md)
-+ [上传和添加资产](add-delete.md)
-+ [搜索和发现资产](search.md)
-+ [资产管理任务](manage-organize.md)
++ [查看资源](navigate-view.md)
++ [上传和添加资源](add-delete.md)
++ [搜索和发现资源](search.md)
++ [资源管理任务](manage-organize.md)
 + [编辑图像](edit-images.md)
-+ [管理资产元数据](metadata.md)
++ [管理资源元数据](metadata.md)
 + [共享资源](share-links-for-assets.md)
 + [与其他解决方案集成](integration.md)

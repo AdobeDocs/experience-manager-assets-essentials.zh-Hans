@@ -1,97 +1,97 @@
 ---
-title: 将资产上传到存储库
-description: 将资产上传到 [!DNL Assets Essentials]、查看上传状态并解决上传问题。
+title: 上传资源到存储库
+description: 上传资源到 [!DNL Assets Essentials]，查看上传状态，以及解决上传问题。
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
 source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
 workflow-type: tm+mt
 source-wordcount: '747'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 上传资产 {#add-assets}
+# 上传资源 {#add-assets}
 
-要添加新资产以使用，请从本地文件系统上传一些资产。 <!-- TBD: Many of the [common file formats are supported](/help/supported-file-formats.md). -->
+要添加新资源进行处理，请从本地文件系统上传几个资源。<!-- TBD: Many of the [common file formats are supported](/help/supported-file-formats.md). -->
 
-您可以使用以下方法上传一个或多个资产或包含资产的文件夹：
+您可以使用以下方法上传一个或多个资源或包含资源的文件夹：
 
-* 在用户界面上拖动资产或文件夹，然后按照屏幕上的说明操作。
-* 单击 **[!UICONTROL 添加资产]** 选项，并将一些文件添加到“上传”对话框。
+* 将资源或文件夹拖动到用户界面上，然后按照屏幕上的说明操作。
+* 在工具栏中单击&#x200B;**[!UICONTROL 添加资源]**&#x200B;选项并将一些文件添加到上传对话框。
 
 <!-- TBD: Update this GIF
 ![Asset and nested folder upload demo](assets/do-not-localize/upload-assets.gif) -->
 
-创建文件夹后，您可以使用以下任一方法上传资产。 要创建空文件夹，请单击 **[!UICONTROL 创建文件夹]** 中。 While [!DNL Assets Essentials] 提供了功能强大的全文搜索功能，您还可以使用文件夹更好地组织资产。
+您可以使用任意这些方法在创建文件夹之后上传资源。要创建空文件夹，请在工具栏中单击&#x200B;**[!UICONTROL 创建文件夹]**。虽然 [!DNL Assets Essentials] 提供了强大的全文搜索功能，您仍可以使用文件夹来更好地组织资源。
 
-选择文件后，将显示一个确认对话框，用于添加更多文件或删除已选择的文件。 要向所选内容添加更多文件，请单击 **[!UICONTROL 浏览]** 和选择 **[!UICONTROL 浏览文件]** 或 **[!UICONTROL 浏览文件夹]**. 从同一文件夹或从其他文件夹添加更多文件或文件夹。
+选择文件之后，您将看到确认对话框用于添加更多文件，或者删除已经选定的文件。要将更多文件添加到选择中，请单击&#x200B;**[!UICONTROL 浏览]**&#x200B;并选择&#x200B;**[!UICONTROL 浏览文件]**&#x200B;或&#x200B;**[!UICONTROL 浏览文件夹]**。从相同或不同文件夹添加多个文件或文件夹。
 
-所有文件排入队列后，单击 **[!UICONTROL 上传]**.
+所有文件都列入队列后，单击&#x200B;**[!UICONTROL 上传]**。
 
 ![上传文件和文件夹](assets/upload-browse-files-folders.png)
 
-*图：在上传选定的资产之前，您可以在队列中添加或删除资产。*
+*图：上传选定的资源后，您可以在队列中添加或删除资源。*
 
 >[!CAUTION]
 >
->使用文件名中没有空格的资产。 对评论的回复不适用于此类资产。
+>使用文件名中不含空格的资源。对于这样的资源，无法正常回复评论。
 
 ## 查看上传进度和状态 {#upload-progress}
 
-将许多资产或嵌套文件夹上传到 [!DNL Assets Essentials]，某些资产可能因重复资产和网络问题等各种原因而无法上传。
+上传多个资源或嵌套文件夹到 [!DNL Assets Essentials] 时，由于重复的资源或者网络问题等多种原因，一些资源可能会无法上传。
 
-要跟踪上传进度，请单击 **[!UICONTROL 上传进度]** 的双曲余切值。 面板会显示所有资产的上传进度。
+要跟踪上传进度，请单击工具栏中的&#x200B;**[!UICONTROL 上传进度]**&#x200B;选项。此时一个面板上显示所有资源的上传进度。
 
-要根据上传进度或状态查看资产的子集，请在 **[!UICONTROL 上传进度]** 侧栏。 各种筛选器可显示所有资产、已完成上传、进行中上传、要上传的已排队资产、暂停上传、重复资产以及上传失败的资产。
+要根据上传的进度或状态查看资源的子集，请使用&#x200B;**[!UICONTROL 上传进度]**&#x200B;侧边栏中的筛选条件。不同的筛选条件可显示所有资源、已完成的上传、进行中的上传、排队等待上传的资源、已暂停的上传、重复的资源以及无法上传的资源。
 
-![根据上传状态过滤上传进度](assets/filter-upload-progress.png)
+![根据上传的状态筛选上传进度](assets/filter-upload-progress.png)
 
-*图：根据资产的上传状态或上传进度筛选您尝试上传的资产。*
+*图：根据资源的上传状态或上传进度，筛选您尝试上传的资源。*
 
-资产上传后， [!DNL Assets Essentials] 会处理资产以生成缩略图并处理元数据。 对于许多资产，处理需要一些时间。 如果看不到缩略图，并且在占位符缩略图上看到处理消息，请在几分钟后再次检查文件夹。 在处理期间， [!DNL Assets Essentials] 生成演绎版、添加智能标记并为资产详细信息编制索引以进行搜索。
+资源上传之后，[!DNL Assets Essentials] 立即处理资源以生成缩略图并处理元数据。对于较多的资源，处理需要一点时间。如果您未看到缩略图，但在占位符缩略图上看到正在处理消息，请在几分钟之后重新查看文件夹。处理期间，与其他内容一起，[!DNL Assets Essentials] 生成演绎版、添加智能标记，并对资源详细信息编制索引以供搜索。
 
-![资产是上传后进行的流程，而拼贴则显示正在处理](assets/upload-processing.png)
+![资源在上传时处理，图块显示正在处理](assets/upload-processing.png)
 
-*图：上传的资产会在拼贴上显示处理过程，并且这些资产会得到处理。*
+*图：上传的资源在处理期间，在图块上显示正在处理。*
 
-## 资产演绎版 {#renditions}
+## 资源演绎版 {#renditions}
 
-[!DNL Assets Essentials] 会近乎实时地处理上传的资产，并且对于许多受支持的文件类型，会生成演绎版。 为图像创建的演绎版，会调整上传图像的大小版本。 您不仅可以下载资产，还可以下载演绎版，以使用相应的版本。 您可以在 [预览资产](/help/navigate-view.md#preview-assets).
+[!DNL Assets Essentials] 近乎实时地处理上传的资源，并且对于许多支持的文件类型会生成演绎版。演绎版为图像创建，是上传图像的调整大小的版本。您不仅可以下载资源，还可以下载演绎版以使用合适的版本。在[预览某个资源](/help/navigate-view.md#preview-assets)时，您可以查看资源的所有演绎版。
 
 ![演绎版](assets/renditions-view-download.png)
 
-*图：查看和下载演绎版。*
+*图：查看和下载演绎版*
 
-## 管理失败的上载 {#resolve-upload-fails}
+## 管理失败的上传 {#resolve-upload-fails}
 
-如果受支持资产上传因某些原因失败，请单击 **[!UICONTROL 重试]** 从 [!UICONTROL 上传进度] 中。
+如果上传支持的资源由于某个原因失败，请在[!UICONTROL 上传进度]窗格中单击&#x200B;**[!UICONTROL 重试]**。
 
-![重试上传失败](assets/upload-retry.png)
+![重试失败的上传](assets/upload-retry.png)
 
-*图：如果受支持的文件由于某些原因上传失败，请重试。*
+*图：支持的文件由于某个原因上传失败时进行重试。*
 
-如果您尝试上传重复的资产，则在明确确认上传之前，不会上传这些资产。 首先，重复的资产会标记为上传失败。 要解决此问题，您只需创建一个版本、删除和替换现有资产，或通过重命名资产来创建重复的副本即可。 您可以一次解决一个资产失败的问题，也可以批量处理所有失败的重复项。
+如果您尝试上传重复的资源，则在您明确确认上传之前，这些资源不会上传。最初，重复的资源标记为失败的上传。要解决这个问题，您只需创建版本，也可以删除并替换现有资源或者通过重命名资源来创建重复副本。您可以逐个资源解决此类故障，也可以一次性批量解决所有失败的重复资源。
 
-![一次管理重复的资产](assets/uploads-manage-duplicates.png)
+![逐个管理重复的资源](assets/uploads-manage-duplicates.png)
 
-*图：对于默认情况下无法上传的重复资产，请解决一次只上传一个资产的问题。*
+*图：对于默认情况下上传失败的重复资源，一次解决一个资源的问题。*
 
-![批量管理所有失败的上载](assets/upload-progress-manage-failed-uploads.png)
+![批量管理所有失败的上传](assets/upload-progress-manage-failed-uploads.png)
 
-*图：对于默认情况下无法上传的重复资产，请同时解决所有资产的问题。*
+*图：对于默认情况下上传失败的重复资源，一次性解决所有资源的问题。*
 
 >[!TIP]
 >
->您可以直接从 [!DNL Creative Cloud] 桌面应用程序。 了解操作方法 [[!DNL Assets Essentials] 集成 [!DNL Adobe Asset Link]](/help/integration.md).
+>您可以在 [!DNL Creative Cloud] 桌面应用程序中直接将资源上传到 DAM 存储库。请参阅 [[!DNL Assets Essentials] 如何与 [!DNL Adobe Asset Link]](/help/integration.md)集成。
 
-## 删除资产或文件夹 {#delete-assets}
+## 删除资源或文件夹 {#delete-assets}
 
-用户可以删除不再需要的单个资产或文件夹。 要删除资产或文件夹，请执行以下操作之一：
+用户可以删除不再需要的单独资源或文件夹。要删除某个资源或文件夹，请执行下列操作之一：
 
-* 使用资产或文件夹缩略图中提供的选项。
+* 使用在资源或文件夹的缩略图上提供的选项。
 
-   ![用于管理资产的资产缩略图的选项](assets/options-on-thumbnail.png)
+   ![资源缩略图上显示的用于管理资源的选项](assets/options-on-thumbnail.png)
 
-   *图：文件和文件夹的操作可在资产或文件夹拼贴中执行。*
+   *图：资源或文件夹图块上对文件和文件夹可用的操作。*
 
-* 选择一个资产或文件夹，然后单击 **[!UICONTROL 删除]** ![删除图标](assets/do-not-localize/delete-icon.png) 中。
+* 选择资源或文件夹，然后在工具栏中单击&#x200B;**[!UICONTROL 删除]** ![删除图标](assets/do-not-localize/delete-icon.png)。
