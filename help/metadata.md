@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,39 +27,39 @@ ht-degree: 66%
 
 ## 查看元数据 {#view-metadata}
 
-要查看资产的元数据，请浏览到资产或搜索资产，选择资产，然后单击 **[!UICONTROL 详细信息]** 中。
+要查看某个资源的元数据，请浏览到该资源或搜索该资源，然后在工具栏中单击&#x200B;**[!UICONTROL 详情]**。
 
 ![查看资源的元数据](assets/metadata-view1.png)
 
-*图：要查看资产及其元数据，请单击&#x200B;**[!UICONTROL 详细信息]**，或双击资产。*
+*图：要查看资源及其元数据，请在工具栏中单击&#x200B;**[!UICONTROL 详情]**或者双击该资源。*
 
-标题、描述和上传日期等基本元数据在 [!UICONTROL 基本] 选项卡。 的 [!UICONTROL 高级] 选项卡包含更高级的元数据，例如相机型号、镜头详细信息和几何标记。 的 [!UICONTROL 标记] 选项卡包含根据图像内容自动应用的标记。
+标题、描述和上传日期等基本元数据在[!UICONTROL 基本]选项卡中提供。[!UICONTROL 高级]选项卡包含更多高级元数据，例如相机型号、镜头详细信息和地理位置标签。[!UICONTROL 标记]选项卡包含根据图像的内容自动应用的标记。
 
 ## 更新元数据 {#update-metadata}
 
-您可以手动更新一些元数据字段。这些字段包括 [!UICONTROL 标题], [!UICONTROL 描述], [!UICONTROL 作者]和 [!UICONTROL 关键词].
+您可以手动更新一些元数据字段。这些字段包括[!UICONTROL 标题]、[!UICONTROL 描述]、[!UICONTROL 作者]和[!UICONTROL 关键字]。
 
 ## 标记 {#tags}
 
-[!DNL Assets Essentials] 使用 [Adobe Sensei](https://www.adobe.com/sensei.html) 提供的人工智能，自动将相关标记应用到您上传的所有资源。正如其名，这些标记被称为“智能标记”，可以帮助您快速找到相关资源，从而提升内容速度。智能标记是未包含在图像中的元数据示例。
+[!DNL Assets Essentials] 使用 [Adobe Sensei](https://www.adobe.com/cn/sensei.html) 提供的人工智能，自动将相关标记应用到您上传的所有资源。正如其名，这些标记被称为“智能标记”，可以帮助您快速找到相关资源，从而提升内容速度。智能标记是未包含在图像中的元数据示例。
 
-智能标记根据图像的内容生成，近乎实时地应用。上传资产时，会显示用户界面 [!UICONTROL 处理] 显示在资产缩略图上。 处理完成后，您可以[查看元数据](#view-metadata)和智能标记。
+智能标记根据图像的内容生成，近乎实时地应用。上传资源时，用户界面会在资源缩略图上显示[!UICONTROL 处理中]并保持片刻。处理完成后，您可以[查看元数据](#view-metadata)和智能标记。
 
 ![查看资源的智能标记](assets/metadata-view-tags.png)
 
-*图：要查看资产的智能标记，请单击&#x200B;**[!UICONTROL 详细信息]**，或双击资产。*
+*图：要查看资源的智能标记，请在工具栏中单击&#x200B;**[!UICONTROL 详情]**或者双击该资源。*
 
 智能标记还包含以百分比显示的置信度分数。它指示与所应用标记对应的置信度。您可以审核自动应用的智能标记。
 
 ## 添加或更新标记 {#manually-tag}
 
-在使用 [!DNL Adobe Sensei] 智能服务添加的智能标记之外，您还可以为资源添加多个标记。打开资产进行预览，单击 [!UICONTROL 标记]，并在 [!UICONTROL 关键词] 字段。 要添加标记，请按 Return。[!DNL Assets Essentials] 近乎实时地对关键词编制索引，您的团队很快就可以使用新关键词来搜索更新的资源。
+在使用 [!DNL Adobe Sensei] 智能服务添加的智能标记之外，您还可以为资源添加多个标记。打开资源以预览，单击[!UICONTROL 标记]，然后在[!UICONTROL 关键词]字段中键入所需的关键词。要添加标记，请按 Return。[!DNL Assets Essentials] 近乎实时地对关键词编制索引，您的团队很快就可以使用新关键词来搜索更新的资源。
 
-您还可以从 [!UICONTROL 智能标记] 部分 [!DNL Assets Essentials] 上传的所有资产。
+您也可以在[!UICONTROL 智能标记]部分中，删除由 [!DNL Assets Essentials] 自动添加到所有上传资源的标记。
 
 ## 元数据表单 {#metadata-forms}
 
-默认情况下，Assets Essentials 提供了多个标准元数据字段。组织可能会有额外的元数据需求，需要更多元数据字段来添加特定于业务的元数据。元数据表单允许企业向资产添加自定义元数据字段 [!UICONTROL 详细信息] 页面。 特定于业务的元数据可以改进其资源的管理和发现。
+默认情况下，Assets Essentials 提供了多个标准元数据字段。组织可能会有额外的元数据需求，需要更多元数据字段来添加特定于业务的元数据。企业可以利用元数据表单，将自定义元数据字段添加到资源的[!UICONTROL 详情]页面。特定于业务的元数据可以改进其资源的管理和发现。
 
 您可以为不同的资源类型（不同的 MIME 类型）配置元数据表单。使用与文件的 MIME 类型相同的表单名称。Essentials 自动将上传的资源与表单的名称匹配。例如，如果存在名为 `PDF` 或 `pdf` 的元数据表单，则上传的 PDF 文档将包含该表单中定义的元数据字段。您可以从头开始创建表单，也可以重新利用现有表单。
 
@@ -69,28 +69,28 @@ ht-degree: 66%
 
 要创建元数据表单，请按照以下步骤操作：
 
-1. 在左边栏中，单击 **[!UICONTROL 设置]** > **[!UICONTROL 元数据Forms]**.
+1. 在左侧边栏中，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 元数据表单]**。
 
    ![左侧边栏中的元数据表单选项](assets/metadata-forms-sidebar.png)
 
-1. 单击 **[!UICONTROL 创建]**，位于用户界面的右上角。
-1. 提供表单的名称，然后单击 **[!UICONTROL 创建]**.
-1. 为 **[!UICONTROL 设置]** 中。
-1. 从 **[!UICONTROL 组件]** 在左边栏中，将所需组件拖动到表单的选项卡上。 按照所需顺序拖动组件。
+1. 在用户界面的右上角区域单击&#x200B;**[!UICONTROL 创建]**。
+1. 提供表单的名称，然后单击&#x200B;**[!UICONTROL 创建]**。
+1. 在右边栏的&#x200B;**[!UICONTROL 设置]**&#x200B;中提供选项卡的名称。
+1. 从左边栏中提供的&#x200B;**[!UICONTROL 组件]**，将所需的组件拖动到表单中的选项卡上。按照所需顺序拖动组件。
 
    ![左侧边栏中的元数据表单选项](assets/metadata-form-new.png)
 
    *图：元数据表单创建界面，带有添加组件的选项和预览表单的选项。*
 
-1. 对于每个组件，在的 **[!UICONTROL 设置]** 在右边栏中，提供包含支持属性的映射。
-1. （可选）对于组件，选择 **[!UICONTROL 必需]** 将元数据字段设为必填字段，然后选择 **[!UICONTROL 只读]** 使该字段在资产中不可编辑 [!UICONTROL 详细信息] 页面。
-1. （可选）单击 **[!UICONTROL 预览]** 以预览您正在创建的表单。
+1. 对于各个组件，在右边栏的&#x200B;**[!UICONTROL 设置]**&#x200B;中提供名称，提供与所支持属性的映射。
+1. （可选）对于组件，选择&#x200B;**[!UICONTROL 必需]**&#x200B;使该元数据字段为必填项，并选择&#x200B;**[!UICONTROL 只读]**&#x200B;使该字段在资产[!UICONTROL 详细]页面中不可编辑。
+1. （可选）单击&#x200B;**[!UICONTROL 预览]**&#x200B;以预览您创建的表单。
 1. （可选）添加多个选项卡并在每个选项卡中添加所需的组件。
-1. 单击 **[!UICONTROL 保存]** 表单完成时。
+1. 表单完成后，单击&#x200B;**[!UICONTROL 保存]**。
 
 创建表单后，当用户上传具有匹配 MIME 类型的资源时，将会自动应用表单。
 
-要重复使用现有表单以创建新表单，请选择元数据表单，单击 **[!UICONTROL 复制]** 在工具栏中，提供名称，然后单击 **[!UICONTROL 确认]**. 您可以编辑元数据表单来进行更改。更改表单后，它会用于在更改之后上传的资源。它不会更改现有资源。
+要重用现有的表单创建新表单，请选择一个元数据表单，在工具栏中单击&#x200B;**[!UICONTROL 复制]**，提供名称，然后单击&#x200B;**[!UICONTROL 确认]**。您可以编辑元数据表单来进行更改。更改表单后，它会用于在更改之后上传的资源。它不会更改现有资源。
 
 <!-- TBD: Cannot create a form using the second option. Documenting only the first option for now.
 To reuse an existing form to create a new form, do one of these:
