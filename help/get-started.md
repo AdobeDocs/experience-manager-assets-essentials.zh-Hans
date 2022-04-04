@@ -4,9 +4,9 @@ description: 如何访问  [!DNL Assets Essentials]，其登录体验，支持�
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
 source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '476'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 89%
 
 ## 获取对 [!DNL Assets Essentials] 的访问权限 {#get-access}
 
-Adobe 配置解决方案并将您的组织中的指定人员添加作为管理员。管理员可以使用 [[!DNL Admin Console]](https://helpx.adobe.com/enterprise/using/admin-console.html) 向组织中的不同用户提供访问权限。对于与您的访问权限相关的请求，请联系组织的管理员。
+Adobe 配置解决方案并将您的组织中的指定人员添加作为管理员。管理员可以使用 [[!DNL Admin Console]](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 向组织中的不同用户提供访问权限。对于与您的访问权限相关的请求，请联系组织的管理员。
 
 在登录时，提供凭据之后，[!DNL Assets Essentials] 提示您选择帐户。在此例中，选择 `Company or School Account` 以继续。
 
@@ -36,7 +36,7 @@ Adobe 配置解决方案并将您的组织中的指定人员添加作为管理�
 
 如果您属于不同的组织，则还可以更改组织和跨不同组织访问您的帐户。
 
-更改 [!UICONTROL Experience Cloud首选项]，单击 [!UICONTROL 首选项].
+要更改您的 [!UICONTROL Experience Cloud 偏好设置]，请单击[!UICONTROL 偏好设置]。
 
 ![切换设色和浅色主题的偏好设置](assets/theme-change.png)
 
@@ -65,11 +65,11 @@ Adobe 配置解决方案并将您的组织中的指定人员添加作为管理�
 
 ## ![反馈图标](assets/do-not-localize/feedback-icon.png) 提供产品反馈 {#provide-feedback}
 
-Adobe 欢迎您提供有关解决方案的反馈。要在不切换工作应用程序的情况下提供反馈，请使用 [!UICONTROL 反馈] 选项。 使用该选项还可以附加文件，例如有关问题的屏幕快照或录像。
+Adobe 欢迎您提供有关解决方案的反馈。要提供反馈而无需切换正在使用的应用程序，请使用用户界面中的[!UICONTROL 反馈]选项。使用该选项还可以附加文件，例如有关问题的屏幕快照或录像。
 
 ![界面中的反馈选项](assets/feedback-panel.png)
 
-要提供文档反馈，请单击 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 从右侧栏。 您可以执行以下操作之一：
+要提供文档的反馈，请在右侧边栏中单击[!UICONTROL 编辑页面]![来编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![来创建 GitHub 问题](assets/do-not-localize/github-issue.png)。您可以执行以下操作之一：
 
 * 进行内容更新并提交 GitHub 拉取请求。
 * 在 GitHub 中创建问题或工单。创建问题时，请保留自动填充的文章名称。
