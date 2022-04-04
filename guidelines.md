@@ -1,51 +1,51 @@
 ---
 source-git-commit: 15070ea99308741242b43206ed69cf1dbddca890
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
-# [!DNL Adobe Experience Manager]文档内容贡献准则
+# 向 [!DNL Adobe Experience Manager] 文档投稿指南
 
 ## 文档理念
 
-我们知道[!DNL Adobe Experience Manager]用户在竞争非常激烈的环境中工作，他们努力创造数字体验，让他们与竞争对手分开。 因此，至关重要的是，当Adobe在[!DNL Experience Manager]中提供高级新工具时，这些工具应辅以准确且清晰的文档，以便让客户立即利用其[!DNL Experience Manager]投资并最大化ROI。
+我们知道[!DNL Adobe Experience Manager]用户在竞争激烈的环境中工作，努力创造数字体验，让他们从竞争对手中脱颖而出。因此，当 Adobe 在 [!DNL Experience Manager] 中提供先进的新工具时，这些工具必须辅以准确和清晰的文档，以让客户立即利用他们的[!DNL Experience Manager]投资并最大限度地提高 ROI，这一点至关重要。
 
-[!DNL Experience Manager]文档的目标是尽快将文档交付给[!DNL Experience Manager]用户。 因此，我们优先考虑提供准确的可用文档，并努力不断更新和改进文档。
+[!DNL Experience Manager]文档的目标是尽快将文档交到[!DNL Experience Manager]用户手中。因此，我们优先考虑提供准确的可用文档，并努力不断更新和改进文档。
 
 ## 贡献文档内容
 
-为了不断改进[!DNL Experience Manager]文档，欢迎[!DNL Experience Manager]用户的整个社区参与文档撰写。 无论是通过拉取请求还是创建问题，对文档的改进建议可以是内容更正、澄清、阐述等等。
+为了不断改进[!DNL Experience Manager]文档，欢迎整个[!DNL Experience Manager]用户社区向文档投稿。无论是通过拉取请求还是创建问题，对文档的改进建议可以是内容更正、澄清、阐述等等。
 
 ## 文档标准
 
-虽然我们欢迎您贡献文档内容，但对[!DNL Experience Manager]文档的任何贡献内容（无论是以拉取请求还是问题的形式提供）均应符合我们的贡献内容和文档标准。
+虽然我们欢迎向我们的文档投稿，但对[!DNL Experience Manager]文档的任何投稿，无论是以拉取请求或问题的形式，都应符合我们的投稿和文档标准。
 
-我们会拒绝不符合这些标准的贡献内容。
+我们会拒绝不符合这些标准的投稿。
 
 ### 我们记录标准用例
 
-[!DNL Experience Manager] 文档涵盖标准用例。超出产品标准安装和使用范围的用例未包含在[!DNL Experience Manager]文档中。
+[!DNL Experience Manager] 文档涵盖标准用例。超出产品标准安装和使用范围的用例不属于[!DNL Experience Manager]文档的一部分。
 
-### 我们通常不会记录错误或其解决方法
+### 我们通常不记录错误或其解决方法
 
 [!DNL Experience Manager] 文档涵盖标准用例。因此，通常不会记录错误、错误产生的影响以及相应的解决方法。
 
-此规则的例外情况适用于发行说明，在发行说明中，已知问题可以与已获[!DNL Experience Manager]产品管理部门批准的可能解决方案一起列出。
+此规则的例外情况适用于可以列出已知问题以及[!DNL Experience Manager]产品管理部门批准的可能解决方案的发行说明。
 
-### 文档贡献内容不用于回答技术问题
+### 文档投稿不是为了回答技术问题
 
-如果您有必要改进[!DNL Experience Manager]文档的任何想法，欢迎您贡献内容。 但是，评论、问题和拉取请求仅适用于&#x200B;*贡献内容*。它们不用于回答有关如何使用[!DNL Experience Manager]、实施[!DNL Experience Manager]项目或解决技术问题的问题。
+欢迎您对改进[!DNL Experience Manager]文档的任何想法作为投稿。但是，批注、问题和拉取请求仅适用于&#x200B;*投稿*。它们不是用来回答您关于如何使用[!DNL Experience Manager]、实施您的[!DNL Experience Manager]项目或解决技术问题。
 
-如果您对[!DNL Experience Manager]的使用或技术错误有任何疑问，应通过常规支持流程通过[[!DNL Experience Manager] 支持门户](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support)报告，或在[Experience Manager社区](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)中讨论。
+如果您对 [!DNL Experience Manager] 的使用有任何疑问或遇到任何技术问题，可按照常规支持流程通过 [[!DNL Experience Manager]  支持门户](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support)报告，或在 [Experience Manager 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)中讨论。
 
-***[!DNL Experience Manager]文档贡献内容不是Adobe客户支持的替*** 代品，任何寻求支持相关问题答案的此类贡献内容都将被拒绝。
+***[!DNL Experience Manager]文档投稿无法替代 Adobe 客户支持，***&#x200B;任何试图获取支持相关问题答案的此类投稿都将被拒绝。
 
-### 贡献内容必须明确引用受影响的文档页面。
+### 贡献内容必须明确引用受影响的文档页面
 
 如果创建问题以建议对文档进行改进，则必须包含指向受影响页面的链接。如果使用文档页面上的&#x200B;**编辑此页面**&#x200B;链接创建问题，则会创建问题并自动包含指向该页面的链接。
 
-这不适用于拉取请求，因为从本质上讲，拉取请求会引用受影响的页面。
+这不适用于拉取请求，因为拉取请求本质上会引用受影响的页面。
 
 ## 文档准则
 
@@ -61,11 +61,11 @@ ht-degree: 47%
 * 尽可能保持语句简单。
 * 使用简洁明了的语言。
 
-请记住，[!DNL Experience Manager]文档的读者遍布全球，他们的英语母语或英语流利。 应避免口语，尽量使用清晰简单的语言。
+请记住，[!DNL Experience Manager]文档的读者遍布世界各地，不能期望以英语为母语或流利。应避免口语，尽量使用清晰简单的语言。
 
 #### 遵循《Microsoft 写作风格指南》
 
-[《Microsoft 写作风格指南》](https://docs.microsoft.com/zh-cn/style-guide/welcome/)[!DNL Experience Manager]是免费提供的文档风格指南，重点针对的是软件文档， 文档应尽量遵循该指南。
+[Microsoft 写作风格指南](https://docs.microsoft.com/zh-cn/style-guide/welcome/)[!DNL Experience Manager]是免费提供的文档风格指南，重点针对的是软件文档， 文档应尽量遵循该指南。
 
 ### 格式
 
@@ -81,12 +81,12 @@ ht-degree: 47%
 
 不应在屏幕截图中使用标记或其他批注（例如，红色框、箭头或文本）。这样一来，在文档的本地化版本中便可以更轻松地重复使用或复制屏幕截图。
 
-### 特定于版本的引用
+### 特定版本的参考
 
 尽量避免在整个文档内容中直接引用特定版本。这样可使未来版本的文档可以更加灵活和可扩展。
 
-### Day、[!DNL Experience Manager]、CQ、CRX的使用
+### Day、[!DNL Experience Manager]、CQ、CRX 的使用
 
-有关文章中首次使用的信息，请使用其全名&#x200B;**Adobe Experience Manager**&#x200B;引用产品，然后将其称为&#x200B;**Experience Manager**。
+在文章中第一次使用产品时，请通过其全名 **Adobe Experience Manager** 引用该产品，然后可将其引用为 **Experience Manager**。
 
-请勿使用Day、Day Software、CQ和CRX术语，除非类名或引用[!DNL Experience Manager]的历史记录等无法避免的术语。
+不要使用 Day、Day Software、CQ 和 CRX 术语，除非在不可避免的情况下，例如在类名中或提及 [!DNL Experience Manager] 的历史。
