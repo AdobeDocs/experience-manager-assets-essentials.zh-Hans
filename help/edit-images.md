@@ -4,9 +4,9 @@ description: 使用由 [!DNL Adobe Photoshop Express] 提供支持的选项编�
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 65%
 
 [!DNL Assets Essentials] 提供了简单易用的编辑选项，由 [!DNL Adobe Photoshop Express] 支持。可用的编辑操作包括污点修复、裁切和拉直、调整图像大小和调整图像。
 
-在编辑图像之后，您可以将新图像另存为新版本。版本控制可帮助您以后在需要时还原为原始资源。要编辑图像， [打开预览](/help/navigate-view.md#preview-assets) 单击 **[!UICONTROL 编辑图像]** ![编辑图标](assets/do-not-localize/edit-icon.png) 从右边的边栏。
+在编辑图像之后，您可以将新图像另存为新版本。版本控制可帮助您以后在需要时还原为原始资源。要编辑图像，请[打开其预览](/help/navigate-view.md#preview-assets)并单击右侧栏上的&#x200B;**[!UICONTROL 编辑图像]**![编辑图标](assets/do-not-localize/edit-icon.png)。
 
 ![用于编辑图像的选项](assets/edit-image2.png)
 
 *图：用于编辑图像的选项由 [!DNL Adobe Photoshop Express] 提供支持。*
 
-## 污点修复图像 {#spot-heal-images}
+## 对图像进行污点修复 {#spot-heal-images}
 
 如果某个图像上有小污点或者小物体，您可以使用 Adobe Photoshop 提供的污点修复功能编辑和移除污点。
 
@@ -35,7 +35,7 @@ For more information about how Spot Healing works in Photoshop, see [retouching 
 
 使用裁切和拉直选项，您可以执行基本的裁切、旋转图像、在水平或垂直方向上翻转图像，以及将其裁切为适合流行社交媒体网站的尺寸。
 
-要保存所做的编辑，请单击 **[!UICONTROL 裁剪图像]**. 在编辑之后，您可以将新图像另存为版本。
+要保存您的编辑，请单击&#x200B;**[!UICONTROL 裁切图像]**。在编辑之后，您可以将新图像另存为版本。
 
 ![裁切和拉直图像的选项](assets/edit-crop-straighten.png)
 
@@ -45,19 +45,19 @@ For more information about how Spot Healing works in Photoshop, see [retouching 
 
 将图像大小调整为热门用例中的特定大小。[!DNL Assets Essentials] 提供针对特定照片大小预先计算的新分辨率，让您可以快速地调整图像大小以适合常见的照片尺寸。您可以按厘米或英寸查看常见照片大小来了解具体的尺寸。默认情况下，调整大小方法保留纵横比。要手动覆盖纵横比，请单击 ![](assets/do-not-localize/lock-closed-icon.png)。
 
-Enter the dimensions and click **[!UICONTROL Resize Image]** to resize the image. Before you save the changes as a version, you can either undo all the changes done before saving by clicking [!UICONTROL Undo] or you can change the specific step in the editing process by clicking [!UICONTROL Revert].
+输入尺寸，单击&#x200B;**[!UICONTROL 调整图像大小]**&#x200B;来调整图像大小。在将更改另存为版本之前，您可以在保存之前通过单击[!UICONTROL 还原]以撤销进行的所有更改，或者单击[!UICONTROL 恢复]来更改编辑过程中的特定步骤。
 
 ![调整图像大小时的选项](assets/resize-image.png)
 
 ## 调整图像 {#adjust-image}
 
-使用 [!DNL Assets Essentials] 只需几次单击即可调整颜色、色调、对比度等等。单击 **[!UICONTROL 调整图像]** 中。 右侧边栏中提供了以下选项：
+使用 [!DNL Assets Essentials] 只需几次单击即可调整颜色、色调、对比度等等。在编辑窗口中单击&#x200B;**[!UICONTROL 调整图像]**。右侧边栏中提供了以下选项：
 
-* **受欢迎**: [!UICONTROL 高对比度和细节], [!UICONTROL 降低对比度], [!UICONTROL 老照片], [!UICONTROL B&amp;W Soft]和 [!UICONTROL B&amp;W棕褐色调].
-* **Color**: [!UICONTROL Natural], [!UICONTROL Bright], [!UICONTROL High Contrast], [!UICONTROL High Contrast &amp; Detail], [!UICONTROL Vivid], and [!UICONTROL Matte].
-* **创意**: [!UICONTROL 降低对比度], [!UICONTROL 冷光], [!UICONTROL 绿松石和红色], [!UICONTROL 软雾], [!UICONTROL Vintage Instant], [!UICONTROL 暖对比度], [!UICONTROL 平整和绿色], [!UICONTROL 红色提升度遮罩], [!UICONTROL 温暖的阴影]和 [!UICONTROL 老照片].
-* **B&amp;W**: [!UICONTROL B&amp;W Landscape], [!UICONTROL B&amp;W High Contrast], [!UICONTROL B&amp;W Punch], [!UICONTROL B&amp;W Low Contrast], [!UICONTROL B&amp;W Flat], [!UICONTROL B&amp;W Soft], [!UICONTROL B&amp;W Infrared], [!UICONTROL B&amp;W Selenium Tone], [!UICONTROL B&amp;W Sepia Tone], and [!UICONTROL B&amp;W Split Tone].
-* **渐晕**: [!UICONTROL 无], [!UICONTROL 光], [!UICONTROL 中]和 [!UICONTROL 重].
+* **流行**：[!UICONTROL 高对比度和细节]、[!UICONTROL 去饱和对比度]、[!UICONTROL 老照片]、[!UICONTROL 黑白柔和]和[!UICONTROL 黑白棕褐色调]。 
+* **颜色**：[!UICONTROL 自然]、[!UICONTROL 明亮]、[!UICONTROL 高对比度]、[!UICONTROL 高对比度和细节]、[!UICONTROL 鲜艳]和[!UICONTROL 哑光]。
+* **创意**：[!UICONTROL 去饱和对比度]、[!UICONTROL 冷光]、[!UICONTROL 绿松石色和红色]、[!UICONTROL 柔和薄雾]、[!UICONTROL 复古瞬间]、[!UICONTROL 暖调对比度]、[!UICONTROL 平坦和绿色]、[!UICONTROL 红色提升哑光]、[!UICONTROL 暖调阴影]和[!UICONTROL 老照片]。
+* **黑白**：[!UICONTROL 黑白风景]、[!UICONTROL 黑白高对比度]、[!UICONTROL 黑白打孔]、[!UICONTROL 黑白低对比度]、[!UICONTROL 黑白平坦]、[!UICONTROL 黑白柔和]、[!UICONTROL 黑白红外线]、[!UICONTROL 黑白硒色调]、[!UICONTROL 黑白棕褐色]和[!UICONTROL 黑白分离色调]。
+* **渐晕**：[!UICONTROL 无]、[!UICONTROL 轻]、[!UICONTROL 中]和[!UICONTROL 重]。
 
 ![通过编辑调整图像](assets/adjust-image.png)
 
