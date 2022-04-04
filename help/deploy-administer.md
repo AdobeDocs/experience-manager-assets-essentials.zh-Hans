@@ -1,18 +1,18 @@
 ---
 title: 管理用户
-description: 管理用例，例如部署和  [!DNL Assets Essentials] 中的用户管理。
+description: 管理用例，例如  [!DNL Assets Essentials] 中的部署和用户管理。
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: fb4ca5b3ab85f77cc1013c2d4743530f5d48e96d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# 管理 [!DNL Assets Essentials] 添加用户 {#administer}
+# 管理 [!DNL Assets Essentials] 和添加用户 {#administer}
 
-[!DNL Adobe Experience Manager Assets Essentials] 由 Adobe 为其客户配置。作为配置过程的一部分，[!DNL Assets Essentials] 添加到客户组织的 [!DNL Adobe Admin Console] 中。管理员将使用 [!DNL Admin Console] 管理用户权限 [!DNL Assets Essentials] 解决方案，并分配应用程序管理员，以在 [!DNL Assets Essentials].
+[!DNL Adobe Experience Manager Assets Essentials] 由 Adobe 为其客户配置。作为配置过程的一部分，[!DNL Assets Essentials] 添加到客户组织的 [!DNL Adobe Admin Console] 中。管理员将使用 [!DNL Admin Console] 管理用户对 [!DNL Assets Essentials] 解决方案的权利，并分配应用程序管理员在 [!DNL Assets Essentials] 中设置权限和元数据表单。
 
 ## Assets Essentials 的自动部署 {#automatic-deployment-assets-essentials}
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 成功部署 Assets Essentials 解决方案之后，管理员需要执行以下任务：
 
-* [设置用户组、文件夹结构和分配权限](manage-permissions.md) 来获取解决方案。 关注 [最佳实践](permission-management-best-practices.md) 以确保设置简单有效的权限。
+* [设置用户组、文件夹结构并为解决方案分配权限](manage-permissions.md)。遵循[最佳实践](permission-management-best-practices.md)以确保简单有效的权限设置。
 * [管理组织成员用户](#add-users-to-essentials)对 [!DNL Assets Essentials] 的访问权限。
 * （可选）[查看服务状态和日志](#view-logs)。
 
@@ -37,18 +37,18 @@ ht-degree: 88%
 
 管理员管理哪些用户可以访问 [!DNL Assets Essentials]。管理员使用 [!DNL Adobe Admin Console] 添加或删除用户访问权限。[!DNL Assets Essentials] 提供了以下两种类型的用户访问权限。
 
-* **[!DNL Assets Essentials]管理员** 具有对应用程序的管理访问权限。 除了所有最终用户功能之外，此组中的应用程序管理员还可以管理整个应用程序存储库中任何文件夹和组/用户的权限。
+* **[!DNL Assets Essentials]管理员**&#x200B;对应用程序具有管理访问权限。除了所有最终用户功能外，该组中的应用程序管理员还可以管理整个应用程序存储库中任何文件夹和组/用户的权限。
 * **[!DNL Assets Essentials]用户**&#x200B;具有完整用户界面的访问权限。这些用户可以上传、组织、标记和查找数字资源。
-* **[!DNL Assets Essentials]使用者用户**：可以访问 [!DNL Adobe Journey Optimizer] 电子邮件模板编辑器中的嵌入式资源选择体验。有关更多信息，请参阅[在 [!DNL Journey Optimizer] 中使用 [!DNL Assets Essentials] ](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html)。
+* **[!DNL Assets Essentials]使用者用户**：可以访问 [!DNL Adobe Journey Optimizer] 电子邮件模板编辑器中的嵌入式资源选择体验。有关更多信息，请参阅[在 [!DNL Journey Optimizer] 中使用 [!DNL Assets Essentials] ](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=zh-Hans)。
 
-在 [!DNL Admin Console]，这三种访问类型由三种表示 [!UICONTROL 产品配置文件]. 要在任意这两个配置文件中添加或删除组织的成员，请按照以下步骤操作：
+在 [!DNL Admin Console] 中，这三种访问类型使用三个[!UICONTROL 产品配置文件]来表示。要在任意这两个配置文件中添加或删除组织的成员，请按照以下步骤操作：
 
-1. 访问组织的 [!DNL Admin Console]，单击顶部工具栏中的&#x200B;**[!UICONTROL 产品]**，单击 **[!UICONTROL AEM Assets Essentials]**，然后单击 [!DNL Assets Essentials] 环境。[!DNL Assets Essentials] 具有三个产品配置文件，它们表示管理员、常规用户和消费者用户的访问权限。
+1. 访问组织的 [!DNL Admin Console]，单击顶部工具栏中的&#x200B;**[!UICONTROL 产品]**，单击 **[!UICONTROL AEM Assets Essentials]**，然后单击 [!DNL Assets Essentials] 环境。[!DNL Assets Essentials] 有三个产品配置文件，分别代表管理员、常规和消费者用户的访问权限。
 
-   ![三种用户的三个用户档案](assets/admin-console-admin-profile.png)
+   ![三种类型用户的三个配置文件](assets/admin-console-admin-profile.png)
    <!-- Need to update screenshot to include 3 profiles -->
 
-   *图：有三个用户档案可用于添加三种类型的用户。*
+   *图：三个配置文件可用于添加三种类型的用户。*
 
 1. 要将用户添加到组，请单击该组，选择&#x200B;**[!UICONTROL 添加用户]**，提供用户详细信息，然后单击&#x200B;**[!UICONTROL 保存]**。添加用户时，用户将收到电子邮件邀请以开始使用。您可以在 [!DNL Admin Console] 的产品配置文件设置中关闭电子邮件邀请。
 
@@ -60,7 +60,7 @@ ht-degree: 88%
 
 >[!TIP]
 >
->在 [!DNL Admin Console] 中，您可以使用 CSV 文件批量管理用户。如需了解更多信息，请参阅[[!DNL Admin Console] 文档](https://helpx.adobe.com/enterprise/using/accounts.html)。
+>在 [!DNL Admin Console] 中，您可以使用 CSV 文件批量管理用户。如需了解更多信息，请参阅[[!DNL Admin Console] 文档](https://helpx.adobe.com/cn/enterprise/using/accounts.html)。
 
 ## 查看服务状态和访问日志 {#view-logs}
 
@@ -126,9 +126,9 @@ ht-degree: 88%
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Admin Console] 帮助](https://helpx.adobe.com/enterprise/using/admin-console.html)
->* [[!DNL Cloud Manager] 帮助](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html)
->* [Adobe Journey Optimizer 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+>* [[!DNL Admin Console] 帮助](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)
+>* [[!DNL Cloud Manager] 帮助](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=zh-Hans)
+>* [Adobe Journey Optimizer 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hans)
 >* [发行说明](release-notes.md)
 >* [开始使用 [!DNL Assets Essentials]](get-started.md)
 
