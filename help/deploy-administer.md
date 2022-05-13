@@ -3,16 +3,18 @@ title: 管理用户
 description: 管理用例，例如  [!DNL Assets Essentials] 中的部署和用户管理。
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: fb4ca5b3ab85f77cc1013c2d4743530f5d48e96d
-workflow-type: ht
-source-wordcount: '1129'
-ht-degree: 100%
+source-git-commit: 552dcf43677ac2a95864666faab9938534f70d40
+workflow-type: tm+mt
+source-wordcount: '1139'
+ht-degree: 99%
 
 ---
 
 # 管理 [!DNL Assets Essentials] 和添加用户 {#administer}
 
 [!DNL Adobe Experience Manager Assets Essentials] 由 Adobe 为其客户配置。作为配置过程的一部分，[!DNL Assets Essentials] 添加到客户组织的 [!DNL Adobe Admin Console] 中。管理员将使用 [!DNL Admin Console] 管理用户对 [!DNL Assets Essentials] 解决方案的权利，并分配应用程序管理员在 [!DNL Assets Essentials] 中设置权限和元数据表单。
+
+要获取用于管理Assets Essentials的基于历程的体验，请单击此 [链接](adminster-aem-assets-essentials.md).
 
 ## Assets Essentials 的自动部署 {#automatic-deployment-assets-essentials}
 

@@ -8,10 +8,10 @@ user-guide-description: Assets Essentials 是一种轻量级资产管理解决�
 feature-set: Experience Manager Assets,Experience Manager
 feature: Asset Management
 role: User,Leader
-source-git-commit: 8baffa9c1d98733f481b6a97bcdb78cf6ce38ae4
+source-git-commit: e0e16fd3c2f491e5f828bb45efe9193f6f137f5a
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 100%
+source-wordcount: '120'
+ht-degree: 65%
 
 ---
 
@@ -20,10 +20,16 @@ ht-degree: 100%
 
 + [解决方案概述](introduction.md)
 + [发行说明](release-notes.md)
-+ [部署和添加用户](deploy-administer.md)
-+ 管理文件夹访问权限：{#folder-access}
-   + [管理文件夹权限](manage-permissions.md)
-   + [权限管理的最佳实践](permission-management-best-practices.md)
++ Assets Essentials管理员入门 {#get-started-admins}
+   + [部署和添加用户](deploy-administer.md)
+   + 管理文件夹访问权限：{#folder-access}
+      + [管理文件夹权限](manage-permissions.md)
+      + [权限管理的最佳实践](permission-management-best-practices.md)
+   + 使用工作管理解决方案的Assets Essentials for Pro的管理员历程{#admin-journey}
+      + [管理员历程概述](assets-essentials-cc-pro-work-management-admin-journey.md)
+      + [管理Experience Manager Assets Essentials](adminster-aem-assets-essentials.md)
+      + [将Assets Essentials与Creative Cloud应用程序集成](integrate-assets-essentials-creative-cloud.md)
+      + [将Assets Essentials与Adobe Workfront集成](integrate-assets-essentials-workfront.md)
 + [开始使用 [!DNL Assets Essentials]](get-started.md)
 + [支持的文件类型和用例](supported-file-formats.md)
 + [查看资源](navigate-view.md)
