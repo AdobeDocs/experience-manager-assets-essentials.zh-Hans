@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 7c4bc88e2110ff1dd7442af303bdd2c586ba5a6f
+source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 70%
+source-wordcount: '761'
+ht-degree: 73%
 
 ---
 
@@ -36,8 +36,6 @@ ht-degree: 70%
 [!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
 
 * 您无法使用 `No Status` 资产状态。
-
-* 您无法浏览或搜索具有 `Expired` 状态。 您只能使用深层链接或URL访问资产。
 
 * Assets Essentials不支持创建私有收藏集。
 
