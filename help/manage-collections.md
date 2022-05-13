@@ -1,9 +1,9 @@
 ---
 title: 管理收藏集
 description: 收藏集是Experience Manager Assets Essentials中的一组资产。 使用收藏集可在用户之间共享资产。
-source-git-commit: 3496f7dea36c47b1fb41d39282ad6028def74499
+source-git-commit: 6e86dc11e953423c156c3c06cb20c1700afdd59b
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '473'
 ht-degree: 17%
 
 ---
@@ -28,13 +28,9 @@ You can share collections with various users that are assigned different levels 
 
 * [将资产删除到收藏集](#remove-assets-from-collection)
 
-* [管理对收藏集的访问权限](#manage-collection-access)
-
-* [搜索收藏集](#search-collections)
-
 * [查看和编辑集合元数据](#view-edit-collection-metadata)
 
-* [下载收藏集](#download-collection)
+* [下载收藏集元素](#download-collection-elements)
 
 * [删除集合](#delete-collection)
 
