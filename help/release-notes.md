@@ -2,18 +2,52 @@
 title: 发行说明
 description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
-contentOwner: AG
+contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 4cced7aba92fd0f041842e5ef78d02f0a4f7ffe0
-workflow-type: ht
-source-wordcount: '549'
-ht-degree: 100%
+source-git-commit: 7c4bc88e2110ff1dd7442af303bdd2c586ba5a6f
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 70%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-[!DNL Assets Essentials] 的当前版本于 2022 年 3 月 9 日发布。此版本提供了：
+的当前版本 [!DNL Assets Essentials] 将于2022年5月12日发布。 此版本提供了：
+
+* [!DNL Assets Essentials] 现在支持 [创建收藏集](manage-collections.md). 收藏集是Experience Manager Assets Essentials中的一组资产。 使用收藏集可在用户之间共享资产。与文件夹不同，收藏集可以包含来自不同位置的资产。
+
+* Assets Essentials现在还允许您 [添加自定义过滤器](search.md#custom-filters) 到用户界面。 然后，除了标准过滤器之外，您还可以应用这些自定义过滤器来优化搜索结果。
+
+* Assets Essentials现在允许您 [设置状态](manage-organize.md#set-asset-status) 关于存储库中可用的资产。 设置资产状态，以更好地管理和管理数字资产的下游使用情况。
+
+* 基于客户反馈的增强和错误修复。
+
+## Chrome中的隐身模式 {#incognito-mode}
+
+在此版本中，我们正在优化UI交付的性能，Assets Essentials中的特定功能（对资产和图像编辑的注释）取决于浏览器本地存储和启用的第三方Cookie。 默认情况下，Chrome Web浏览器中的隐身模式会阻止第三方Cookie — 用户有许多选项可以继续访问所有功能：
+
+* 当用户需要分隔浏览器会话时，请使用Chrome配置文件，而不是隐身模式
+
+* 关闭 `Block third-party cookies` 在Chrome的“隐身”模式屏幕上
+
+## 已知问题 {#known-issues}
+
+[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
+
+* 您无法使用 `No Status` 资产状态。
+
+* 您无法浏览或搜索具有 `Expired` 状态。 您只能使用深层链接或URL访问资产。
+
+* Assets Essentials不支持创建私有收藏集。
+
+如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
+
+## 过去的版本 {#past-release}
+
+### 2022.2.0 {#march-2022}
+
+[!DNL Assets Essentials] 于2022年3月09日发布，其更新如下：
 
 * [!DNL Assets Essentials]现在使您能够[生成链接并与无权访问[!DNL Assets Essentials]应用程序的外部利益相关者](share-links-for-assets.md)共享资产。您可以定义链接的到期日期，然后使用您喜欢的通信方式（如电子邮件或消息服务）与他人共享。链接的接收者可以预览并下载资产。
 
@@ -25,16 +59,6 @@ ht-degree: 100%
 
 此外，[!DNL Adobe Asset Link]Creative Cloud 扩展（Photoshop、Illustrator 和 InDesign）发布了[新版本 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)，在面板启动时间和下载速度方面进行了性能改进。
 
-
-## 已知问题 {#known-issues}
-
-[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
-
-* 无
-
-如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
-
-## 过去的版本 {#past-release}
 
 ### 2022.1.0 发布 {#january-2022}
 

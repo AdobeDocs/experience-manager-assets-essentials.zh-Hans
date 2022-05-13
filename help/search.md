@@ -3,10 +3,10 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: 0420b0836affe453cced6789ea4a7c56660e9f0a
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 57%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 100%
 
 *图：根据各种参数筛选搜索出的资源。*
 
+* 资产状态：使用 `Approved` 或 `Rejected` 资产状态。
+
 * 文件类型：按照支持的文件类型筛选搜索结果，即 `Images`、`Documents` 和 `Videos`。
 * MIME 类型：筛选一种或多种支持的文件格式。<!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * 图像大小：提供一个或多个最小尺寸和最大尺寸来筛选图像。大小按照以像素为单位的尺寸提供，而不是图像的文件大小。
@@ -39,6 +41,66 @@ ht-degree: 100%
 * 修改日期：资源的最后修改日期。使用的标准日期格式为 `yyyy-mm-dd`。
 
 您可以按照 `Name`、`Relevancy`、`Size`、`Modified` 和 `Created` 的升序或降序对搜索出的资源排序。
+
+## 管理自定义过滤器 {#custom-filters}
+
+**所需权限：**  `Can Edit`, `Owner`，或管理员。
+
+Assets Essentials还允许您向用户界面添加自定义过滤器。 然后，除了 [标准过滤器](#refine-search-results) 以优化搜索结果。
+
+Assets Essentials提供了以下自定义过滤器：
+
+<table>
+    <tbody>
+     <tr>
+      <th><strong>自定义过滤器名称</strong></th>
+      <th><strong>描述</strong></th>
+     </tr>
+     <tr>
+      <td>标题</td>
+      <td>使用资产标题筛选资产。 您在区分大小写的搜索条件中指定的标题必须与要在结果中显示的资产标题完全匹配。</td>
+     </tr>
+     <tr>
+      <td>名称</td>
+      <td>使用资产文件名过滤资产。 您在区分大小写的搜索条件中指定的名称必须与要在结果中显示的资产的确切文件名匹配。</td>
+     </tr>
+     <tr>
+      <td>资产大小</td>
+      <td>在搜索条件中，通过定义要在结果中显示的资产的大小范围（以字节为单位）来筛选资产。</td>
+     </tr>
+     <tr>
+      <td>预测的标记</td>
+      <td>使用资产智能标记筛选资产。 您在区分大小写的搜索条件中指定的智能标记名称必须与要在结果中显示的资产智能标记名称完全匹配。 您无法在搜索条件中指定多个智能标记。</td>
+     </tr>    
+    </tbody>
+   </table>
+
+### 添加自定义过滤器 {#add-custom-filters}
+
+要添加自定义过滤器，请执行以下操作：
+
+1. 单击 **[!UICONTROL 过滤器]**.
+
+1. 在 **[!UICONTROL 自定义过滤器]** ，单击 **[!UICONTROL 编辑]** 或 **[!UICONTROL 添加过滤器]**.
+
+   ![添加自定义过滤器](assets/add-custom-filters.png)
+
+1. 在 **[!UICONTROL 自定义过滤器管理]** 对话框中，选择要添加到现有过滤器列表的过滤器。 选择 **[!UICONTROL 自定义过滤器]** 来选择所有过滤器。
+
+1. 单击 **[!UICONTROL 确认]** 将过滤器添加到用户界面。
+
+### 删除自定义过滤器 {#remove-custom-filters}
+
+要删除自定义过滤器，请执行以下操作：
+
+1. 单击 **[!UICONTROL 过滤器]**.
+
+1. 在 **[!UICONTROL 自定义过滤器]** ，单击 **[!UICONTROL 编辑]**.
+
+1. 在 **[!UICONTROL 自定义过滤器管理]** ，请从现有过滤器列表中取消选择需要删除的过滤器。
+
+1. 单击 **[!UICONTROL 确认]** 从用户界面中删除过滤器。
+
 
 ## 保存的搜索 {#saved-search}
 
