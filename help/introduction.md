@@ -1,12 +1,12 @@
 ---
 title: ' [!DNL Assets Essentials] 简介'
-description: Assets Essentials 概述和解决方案简介
+description: 使用AEM Assets Essentials管理资产，这是一款在Experience Cloud应用程序中工作的轻量级工具。
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
-source-git-commit: c95717e9898ade023d785b9d0191f4bc20f10a39
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+source-git-commit: 2c2d490da79cb2f5d2069049baf3944aaa0050a5
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 93%
 
 ---
 
