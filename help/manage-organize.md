@@ -5,9 +5,9 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: e8bae7cb2b424fe6956247398398e86f559db67f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '838'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -84,13 +84,13 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 
 *图：查看资源的版本，还原到以前的版本，或者上传另一个新版本。*
 
-## 管理资产状态 {#manage-asset-status}
+## 管理资源状态 {#manage-asset-status}
 
-**所需权限：**  `Can Edit`, `Owner`，或资产的管理员权限。
+**所需的权限：资源的**`Can Edit`、`Owner` 或管理员权限。
 
-Assets Essentials允许您对存储库中可用的资产设置状态。 设置资产状态，以更好地管理和管理数字资产的下游使用情况。
+Assets Essentials 允许您为存储库中可用的资源设置状态。设置资源状态以更好地治理和管理下游对数字资源的使用。
 
-您可以对资产设置以下状态：
+您可以为资源设置以下状态：
 
 * 已批准
 
@@ -98,13 +98,13 @@ Assets Essentials允许您对存储库中可用的资产设置状态。 设置�
 
 * 无状态
 
-### 设置资产状态 {#set-asset-status}
+### 设置资源状态 {#set-asset-status}
 
-要设置资产状态，请执行以下操作：
+要设置资源状态，请执行以下操作：
 
-1. 选择资产，然后单击 **[!UICONTROL 详细信息]** 中。
+1. 选择资源并单击工具栏中的&#x200B;**[!UICONTROL 详细信息]**。
 
-1. 在 **[!UICONTROL 基本]** ，从 **[!UICONTROL 状态]** 下拉列表。 可能的值包括“已批准”、“已拒绝”和“无状态”（默认）。
+1. 在&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡中，从&#x200B;**[!UICONTROL 状态]**&#x200B;下拉列表中选择资源状态。可能的值包括“已批准”、“已拒绝”和“无状态”（默认值）。
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
@@ -122,19 +122,19 @@ The `Expired` asset card indicator overrides the `Approved` or `Rejected` indica
 
 -->
 
-您还可以根据资产状态筛选资产，有关更多信息，请参阅 [在Assets Essentials中搜索资产](search.md).
+您也可以基于资源状态来筛选资源，有关更多信息，请参阅[在 Assets Essentials 中搜索资源](search.md)。
 
-## 自定义元数据表单以包含资产状态字段 {#customize-asset-status-metadata-form}
+## 自定义元数据表单以包含资源状态字段 {#customize-asset-status-metadata-form}
 
-**所需权限：** 管理员
+**所需的权限：**&#x200B;管理员
 
 默认情况下，Assets Essentials 提供了多个标准元数据字段。组织可能会有额外的元数据需求，需要更多元数据字段来添加特定于业务的元数据。企业可以利用元数据表单，将自定义元数据字段添加到资源的[!UICONTROL 详情]页面。特定于业务的元数据可以改进其资源的管理和发现。
 
-有关如何向元数据表单添加其他元数据字段的更多信息，请参阅 [元数据Forms](metadata.md##metadata-forms).
+有关如何将其他元数据字段添加到元数据表单的更多信息，请参阅[元数据表单](metadata.md##metadata-forms)。
 
-**将资产状态元数据字段添加到表单**
+**将资源状态元数据字段添加到表单**
 
-要将资产状态元数据字段添加到表单，请将 **[!UICONTROL 资产状态]** 组件。 将自动预填充映射属性。 保存表单以确认更改。
+要将资源状态元数据字段添加到表单，请将&#x200B;**[!UICONTROL 资源状态]**&#x200B;组件从左边栏拖至表单中。将自动预填充映射属性。保存表单以确认更改。
 
 <!--
 
