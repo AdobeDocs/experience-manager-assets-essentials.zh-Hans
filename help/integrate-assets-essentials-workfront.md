@@ -2,9 +2,9 @@
 title: 将Assets Essentials与Adobe Workfront集成
 description: 将Assets Essentials与Adobe Workfront应用程序集成，以便您能够访问Workfront应用程序中的Assets Essentials存储库。
 exl-id: 47c2963d-57f0-463e-8d5b-5e5af9928f77
-source-git-commit: 507d5de0fad337f5c84dab28bc396dbfa7c5afe1
+source-git-commit: 1bb5f1aa1bb03b38964f13f40dc2d2d675a0480f
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '634'
 ht-degree: 16%
 
 ---
@@ -61,6 +61,8 @@ ht-degree: 16%
 
 * **[!DNL Assets Essentials]用户** 具有访问完整的Assets Essentials用户界面的权限。 这些用户可以在Assets Essentials应用程序中上传、组织、标记和查找数字资产。 此外，用户还可以在 [!DNL Adobe Workfront] 应用程序。
 * **[!DNL Assets Essentials]消费者用户**:有权访问 [!DNL Adobe Workfront] 应用程序。
+
+此外， **[!DNL Assets Essentials]管理员** 提供对应用程序的管理访问权限的产品配置文件。
 
 有关如何将用户分配给Assets Essentials产品配置文件的更多信息，请参阅 [将用户分配给Assets Essentials产品配置文件](adminster-aem-assets-essentials.md#add-users-to-product-profiles).
 
