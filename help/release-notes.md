@@ -7,37 +7,37 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-的当前版本 [!DNL Assets Essentials] 将于2022年5月12日发布。 此版本提供了：
+[!DNL Assets Essentials] 的当前版本于 2022 年 5 月 12 日发布。此版本提供了：
 
-* [!DNL Assets Essentials] 现在支持 [创建收藏集](manage-collections.md). 收藏集是Experience Manager Assets Essentials中的一组资产。 使用收藏集可在用户之间共享资产。与文件夹不同，收藏集可以包含来自不同位置的资产。
+* [!DNL Assets Essentials] 现在支持[创建收藏集](manage-collections.md)。收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。与文件夹不同，一个收藏集可以包含来自不同位置的资源。
 
-* Assets Essentials现在还允许您 [添加自定义过滤器](search.md#custom-filters) 到用户界面。 然后，除了标准过滤器之外，您还可以应用这些自定义过滤器来优化搜索结果。
+* Assets Essentials 现在还支持向用户界面[添加自定义筛选条件](search.md#custom-filters)。除了标准筛选条件之外，您还可以应用这些自定义筛选条件来优化您的搜索结果。
 
-* Assets Essentials现在允许您 [设置状态](manage-organize.md#set-asset-status) 关于存储库中可用的资产。 设置资产状态，以更好地管理和管理数字资产的下游使用情况。
+* Assets Essentials 现在允许您为存储库中可用的资源[设置状态](manage-organize.md#set-asset-status)。设置资源状态以更好地治理和管理下游对数字资源的使用。
 
 * 基于客户反馈的增强和错误修复。
 
-## Chrome中的隐身模式 {#incognito-mode}
+## Chrome 中的无痕模式 {#incognito-mode}
 
-在此版本中，我们正在优化UI交付的性能，Assets Essentials中的特定功能（对资产和图像编辑的注释）取决于浏览器本地存储和启用的第三方Cookie。 默认情况下，Chrome Web浏览器中的隐身模式会阻止第三方Cookie — 用户有许多选项可以继续访问所有功能：
+在此版本中，我们优化了 UI 交付的性能和 Assets Essentials 中的特定功能（评论资源和图像编辑），具体取决于浏览器本地存储和启用的第三方 Cookie。默认情况下，Chrome Web 浏览器中的无痕模式会阻止第三方 Cookie - 为用户提供了多个选项，以便继续访问所有功能：
 
-* 当用户需要分隔浏览器会话时，请使用Chrome配置文件，而不是隐身模式
+* 当用户需要分离浏览器会话时，可使用 Chrome 配置文件而不是无痕模式
 
-* 关闭 `Block third-party cookies` 在Chrome的“隐身”模式屏幕上
+* 在 Chrome 中的无痕模式屏幕上禁用 `Block third-party cookies`
 
 ## 已知问题 {#known-issues}
 
 [!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
 
-* 您无法使用 `No Status` 资产状态。
+* 无法使用 `No Status` 资源状态筛选资源。
 
-* Assets Essentials不支持创建私有收藏集。
+* Assets Essentials 不支持创建专用收藏集。
 
 如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
 
@@ -45,9 +45,9 @@ ht-degree: 73%
 
 ### 2022.2.0 {#march-2022}
 
-[!DNL Assets Essentials] 于2022年3月09日发布，其更新如下：
+[!DNL Assets Essentials] 发布于 2022 年 3 月 9 日，提供以下更新：
 
-* [!DNL Assets Essentials]现在使您能够[生成链接并与无权访问[!DNL Assets Essentials]应用程序的外部利益相关者](share-links-for-assets.md)共享资产。您可以定义链接的到期日期，然后使用您喜欢的通信方式（如电子邮件或消息服务）与他人共享。链接的接收者可以预览并下载资产。
+* [!DNL Assets Essentials]现在使您能够[生成链接并与无权访问[!DNL Assets Essentials]应用程序的外部利益相关者](share-links-for-assets.md)共享资源。您可以定义链接的到期日期，然后使用您喜欢的通信方式（如电子邮件或消息服务）与他人共享。链接的接收者可以预览并下载资源。
 
 * 除了现有的常规和消费者用户产品配置文件外，[!DNL Assets Essentials] 现在还包括 Admin Console 上的[管理员产品配置文件](deploy-administer.md#add-users-to-essentials)。管理员现在可以将其他用户分配给管理员产品配置文件。
 
