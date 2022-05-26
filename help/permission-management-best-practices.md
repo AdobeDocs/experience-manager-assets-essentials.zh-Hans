@@ -2,10 +2,10 @@
 title: 如何有效管理文件夹权限？
 description: 有效权限管理的最佳实践
 exl-id: 06b06f0b-3806-44ce-abc4-c1449a93dd29
-source-git-commit: 98dafd932fb31dea06225f256f0e6bfe205e4d7b
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 89%
 
 ---
 
@@ -63,3 +63,11 @@ ht-degree: 100%
 * 谨慎使用“拒绝访问”权限，并更愿意将积极的权限（可以编辑 | 可以查看 | 所有者）应用到文件夹结构。
 
 有关如何实现高效且简单的文件夹结构的示例，请参阅[管理文件夹权限](manage-permissions.md##manage-permissions-folders)。
+
+## 后续步骤 {#next-steps}
+
+* 使用 [!UICONTROL 反馈] 选项在Assets Essentials用户界面中可用
+
+* 使用提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 在右侧侧栏上提供
+
+* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)

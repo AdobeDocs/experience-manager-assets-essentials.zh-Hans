@@ -2,10 +2,10 @@
 title: 如何管理 AEM Assets Essentials 中文件夹的权限？
 description: Assets Essentials 允许管理员管理存储库中可用文件夹的访问级别。创建用户组并向这些组分配权限以管理访问级别。作为管理员，您还可以将权限管理权委派给文件夹级别的用户组。
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: c5cb27f3f660935487bb214088b4300475ef5fce
-workflow-type: ht
-source-wordcount: '1580'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '1643'
+ht-degree: 96%
 
 ---
 
@@ -202,3 +202,13 @@ Assets Essentials 使用权限继承，这使您可以在子文件夹中继承�
 * /projects/project-x：所有用户都可以查看文件夹及其子文件夹。“项目经理团队”用户组具有编辑权限，可以管理文件夹及其子文件夹的权限（“所有者”权限）。“X 项目团队”用户组具有编辑权限。
 
 * /legal：根据 `All Authenticated Users` 组的 `Deny Access` 权限，没有任何用户可以访问该文件夹。“法律团队”用户组具有编辑权限。
+
+## 后续步骤 {#next-steps}
+
+* [观看视频以在Assets Essentials中管理权限](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
+
+* 使用 [!UICONTROL 反馈] 选项在Assets Essentials用户界面中可用
+
+* 使用提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 在右侧侧栏上提供
+
+* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)

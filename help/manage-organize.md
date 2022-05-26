@@ -4,10 +4,10 @@ description: 在  [!DNL Assets Essentials] 中移动、删除、复制、重命�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: e8bae7cb2b424fe6956247398398e86f559db67f
-workflow-type: ht
-source-wordcount: '838'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '901'
+ht-degree: 93%
 
 ---
 
@@ -143,5 +143,17 @@ The `Expired` asset card indicator overrides the `Approved` or `Rejected` indica
 To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
 
 -->
+
+## 后续步骤 {#next-steps}
+
+* [观看视频以在Assets Essentials中管理资产](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html)
+
+* 使用 [!UICONTROL 反馈] 选项在Assets Essentials用户界面中可用
+
+* 使用提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 在右侧侧栏上提供
+
+* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)
+
+
 
 

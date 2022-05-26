@@ -3,10 +3,10 @@ title: 上传资源到存储库
 description: 上传资源到 [!DNL Assets Essentials]，查看上传状态，以及解决上传问题。
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: ht
-source-wordcount: '747'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 92%
 
 ---
 
@@ -95,3 +95,13 @@ ht-degree: 100%
    *图：资源或文件夹图块上对文件和文件夹可用的操作。*
 
 * 选择资源或文件夹，然后在工具栏中单击&#x200B;**[!UICONTROL 删除]** ![删除图标](assets/do-not-localize/delete-icon.png)。
+
+## 后续步骤 {#next-steps}
+
+* [观看视频以在Assets Essentials中上传资产](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html)
+
+* 使用 [!UICONTROL 反馈] 选项在Assets Essentials用户界面中可用
+
+* 使用提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 在右侧侧栏上提供
+
+* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)

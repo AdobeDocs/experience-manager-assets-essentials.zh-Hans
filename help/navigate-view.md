@@ -3,10 +3,10 @@ title: “[!DNL Assets Essentials] 用户界面”
 description: 了解  [!DNL Assets Essentials] 中的用户界面并在其中导航。
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 0a0f520b0c023120995b3af327661212604fac0d
-workflow-type: ht
-source-wordcount: '539'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 92%
 
 ---
 
@@ -102,6 +102,14 @@ ht-degree: 100%
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
 -->
+
+## 后续步骤 {#next-steps}
+
+* 使用 [!UICONTROL 反馈] 选项在Assets Essentials用户界面中可用
+
+* 使用提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 在右侧侧栏上提供
+
+* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >

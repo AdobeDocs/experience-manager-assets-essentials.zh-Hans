@@ -3,10 +3,10 @@ title: 管理用户
 description: 管理用例，例如  [!DNL Assets Essentials] 中的部署和用户管理。
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 552dcf43677ac2a95864666faab9938534f70d40
+source-git-commit: 59f6165fd7576736ff75369c2805c15ce3ae9af0
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 99%
+source-wordcount: '1201'
+ht-degree: 95%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 99%
 
 [!DNL Adobe Experience Manager Assets Essentials] 由 Adobe 为其客户配置。作为配置过程的一部分，[!DNL Assets Essentials] 添加到客户组织的 [!DNL Adobe Admin Console] 中。管理员将使用 [!DNL Admin Console] 管理用户对 [!DNL Assets Essentials] 解决方案的权利，并分配应用程序管理员在 [!DNL Assets Essentials] 中设置权限和元数据表单。
 
-要获取用于管理Assets Essentials的基于历程的体验，请单击此 [链接](adminster-aem-assets-essentials.md).
+有关管理 Assets Essentials 的历程体验，请单击此[链接](adminster-aem-assets-essentials.md)。
 
 ## Assets Essentials 的自动部署 {#automatic-deployment-assets-essentials}
 
@@ -125,6 +125,18 @@ ht-degree: 99%
    ![[!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png) 中就绪的环境
 
    *图：[!DNL Cloud Manager] 中已经可以使用的环境。*
+
+## 后续步骤 {#next-steps}
+
+* [观看视频以部署Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en)
+
+* 使用 [!UICONTROL 反馈] 选项在Assets Essentials用户界面中可用
+
+* 使用提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 在右侧侧栏上提供
+
+* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)
+
+
 
 >[!MORELIKETHIS]
 >

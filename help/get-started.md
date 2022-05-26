@@ -3,10 +3,10 @@ title: 开始使用 [!DNL Assets Essentials]
 description: 如何访问  [!DNL Assets Essentials]，其登录体验，支持的用例以及已知问题
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
-workflow-type: ht
-source-wordcount: '476'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 86%
 
 ---
 
@@ -55,6 +55,17 @@ Adobe 配置解决方案并将您的组织中的指定人员添加作为管理�
 | 元数据操作 | <ul> <li>[查看详细的元数据](/help/metadata.md) </li> <li> [更新元数据](/help/metadata.md#update-metadata)</li> <li> [创建新元数据表单](/help/metadata.md#metadata-forms) </li> </ul> |
 | 与其他解决方案集成 | <ul> <li>[在  [!DNL Adobe Journey Optimizer]](/help/integration.md) 中使用资源选择器</li> <li> [!DNL Creative Cloud]](/help/integration.md) 的 [[!DNL Adobe Asset Link] </li> <li>[与 [!DNL Adobe Workfront]](/help/integration.md) 集成</li> </ul> |
 
+## 后续步骤 {#next-steps}
+
+* [观看视频以开始使用Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html)
+
+* 使用 [!UICONTROL 反馈] 选项在Assets Essentials用户界面中可用
+
+* 使用提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 在右侧侧栏上提供
+
+* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)
+
+
 <!--TBD: Merge the below rows in the table when the use cases are documented/available.
 
 | How do I delete assets? | <ul> <li>[Delete assets](/help/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
@@ -63,16 +74,20 @@ Adobe 配置解决方案并将您的组织中的指定人员添加作为管理�
 
 -->
 
-## ![反馈图标](assets/do-not-localize/feedback-icon.png) 提供产品反馈 {#provide-feedback}
+<!-- 
 
-Adobe 欢迎您提供有关解决方案的反馈。要提供反馈而无需切换正在使用的应用程序，请使用用户界面中的[!UICONTROL 反馈]选项。使用该选项还可以附加文件，例如有关问题的屏幕快照或录像。
+## ![feedback icon](assets/do-not-localize/feedback-icon.png) Provide product feedback {#provide-feedback}
 
-![界面中的反馈选项](assets/feedback-panel.png)
+Adobe welcomes feedback about the solution. To provide feedback without even switching your working application, use the [!UICONTROL Feedback] option in the user interface. It also lets you attach files such as screenshots or video recording of an issue.
 
-要提供文档的反馈，请在右侧边栏中单击[!UICONTROL 编辑页面]![来编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![来创建 GitHub 问题](assets/do-not-localize/github-issue.png)。您可以执行以下操作之一：
+  ![feedback option in the interface](assets/feedback-panel.png)
 
-* 进行内容更新并提交 GitHub 拉取请求。
-* 在 GitHub 中创建问题或工单。创建问题时，请保留自动填充的文章名称。
+To provide feedback for documentation, click [!UICONTROL Edit this page] ![edit the page](assets/do-not-localize/edit-page.png) or [!UICONTROL Log an issue] ![create a GitHub issue](assets/do-not-localize/github-issue.png) from the right sidebar. You can do one of the following: 
+
+* Make the content updates and submit a GitHub pull request.
+* Create an issue or ticket in GitHub. Retain the automatically populated article name when creating an issue.
+
+-->
 
 >[!MORELIKETHIS]
 >

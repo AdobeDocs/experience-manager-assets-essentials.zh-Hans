@@ -2,10 +2,10 @@
 title: 如何共享资产链接？
 description: 生成链接并与无权访问该 [!DNL Assets Essentials] 应用程序的其他人共享资产。
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 98dafd932fb31dea06225f256f0e6bfe205e4d7b
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 85%
 
 ---
 
@@ -42,3 +42,13 @@ ht-degree: 100%
 要一次下载所有资产，请切换&#x200B;**[!UICONTROL 到列表视图]**，单击&#x200B;**[!UICONTROL 全选]**，然后单击&#x200B;**[!UICONTROL 下载]**。
 
 ![预览共享资产](assets/preview-shared-assets.png)
+
+## 后续步骤 {#next-steps}
+
+* [观看视频以在Assets Essentials中共享资产链接](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html)
+
+* 使用 [!UICONTROL 反馈] 选项在Assets Essentials用户界面中可用
+
+* 使用提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 在右侧侧栏上提供
+
+* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)
