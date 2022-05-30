@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 87%
 
 | 资源类型 | [浏览](/help/navigate-view.md) | 复制 | [上传](/help/add-delete.md) | 创建 | [删除](/help/add-delete.md#delete-assets) | 详细信息 | 图像缩放 | [最近查看的项目](/help/navigate-view.md) |
 |-------------------|----------|----------|----------|----------|----------|-------------------|------------|-----------------|
-| 栅格图像 | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| RAW 文件 | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| 文件夹 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - | - |
-| MP4 视频 | ✓ | ✓ | ✓ | - | ✓ | ✓ ? | - | ✓ |
-| PDF | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
-| PSD、AI 和 INDD | ✓ | ✓ | ✓ | - | ✓ | ✓ ? | - | ✓ |
-| 其他二进制文件 | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+| 栅格图像 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| RAW 文件 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| 文件夹 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | − | − |
+| MP4 视频 | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
+| PDF | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
+| PSD、AI 和 INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
+| 其他二进制文件 | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
 
 <!-- Hiding CC Libraries (considered beta) as per PM feedback.
 | CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
@@ -57,13 +57,13 @@ ht-degree: 87%
 | 资源类型 | [下载](/help/manage-organize.md#download) | 拖放 | [图像编辑器](/help/edit-images.md) | [搜索](/help/search.md) | [智能标记](/help/metadata.md#tags) | [重命名](/help/manage-organize.md) | [版本](/help/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
 | 栅格图像 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| RAW 文件 | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 文件夹 | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
-| 视频 | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| CC Libraries | - | - | - | - | - | ✓ | ✓ |
-| PDF | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| PSD、AI 和 INDD | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| 其他二进制文件 | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
+| RAW 文件 | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 文件夹 | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
+| 视频 | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| CC Libraries | − | − | − | − | − | ✓ | ✓ |
+| PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| PSD、AI 和 INDD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| 其他二进制文件 | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 
 
 ## 审阅资源和协作 {#support-to-review-collaborate}
@@ -72,12 +72,12 @@ ht-degree: 87%
 |---------------|----------|----------|-------------------------|
 | 栅格图像 | ✓ | ✓ | ✓ |
 | RAW 文件 | ✓ | ✓ | ✓ |
-| 文件夹 | - | - | - |
-| 视频 | - | ✓ | ✓ |
-| CC库 | - | - | - |
-| PDF | - | ✓ | ✓ |
-| PSD、AI 和 INDD | - | ✓ | ✓ |
-| 其他二进制文件 | - | ✓ | ✓ |
+| 文件夹 | − | − | − |
+| 视频 | − | ✓ | ✓ |
+| CC Libraries | − | − | − |
+| PDF | − | ✓ | ✓ |
+| PSD、AI 和 INDD | − | ✓ | ✓ |
+| 其他二进制文件 | − | ✓ | ✓ |
 
 ## 其他资源管理任务 {#support-to-manage-assets}
 
@@ -85,12 +85,12 @@ ht-degree: 87%
 |---------------|-------------------|------------|----------|----------|----------|
 | 栅格图像 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | RAW 文件 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 文件夹 | ✓ | - | ✓ | ✓ | ✓ |
-| 视频 | ✓ | - | ✓ | ✓ | ✓ |
-| CC库 | ✓ | - | - | - | - |
-| PDF | ✓ | - | ✓ | ✓ | ✓ |
-| PSD、AI 和 INDD | ✓ | - | ✓ | ✓ | ✓ |
-| 其他二进制文件 | ✓ | - | ✓ | ✓ | ✓ |
+| 文件夹 | ✓ | − | ✓ | ✓ | ✓ |
+| 视频 | ✓ | − | ✓ | ✓ | ✓ |
+| CC Libraries | ✓ | − | − | − | − |
+| PDF | ✓ | − | ✓ | ✓ | ✓ |
+| PSD、AI 和 INDD | ✓ | − | ✓ | ✓ | ✓ |
+| 其他二进制文件 | ✓ | − | ✓ | ✓ | ✓ |
 
 [!DNL Adobe Asset Link] 的用户可以从支持的 [!DNL Adobe Creative Cloud] 桌面应用程序上传文件，并将其签入（上传新版本）[!DNL Assets Essentials] 存储库中。
 
@@ -113,8 +113,8 @@ ht-degree: 87%
 
 ## 后续步骤 {#next-steps}
 
-* 使用 [!UICONTROL 反馈] 选项在Assets Essentials用户界面中可用
+* 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 
-* 使用提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 在右侧侧栏上提供
+* 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
