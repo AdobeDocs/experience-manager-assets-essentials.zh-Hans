@@ -4,9 +4,9 @@ description: 管理用例，例如  [!DNL Assets Essentials] 中的部署和用�
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: 59f6165fd7576736ff75369c2805c15ce3ae9af0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -128,13 +128,13 @@ ht-degree: 95%
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频以部署Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en)
+* [观看视频，了解如何部署 Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en)
 
-* 使用 [!UICONTROL 反馈] 选项在Assets Essentials用户界面中可用
+* 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 
-* 使用提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 在右侧侧栏上提供
+* 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
 
 
 
