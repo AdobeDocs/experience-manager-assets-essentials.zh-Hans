@@ -4,9 +4,9 @@ description: 使用由 [!DNL Adobe Photoshop Express] 提供支持的选项编�
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '544'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -69,11 +69,11 @@ TBD: Insert a video of the available social media options.
 
 ## 后续步骤 {#next-steps}
 
-* 使用 [!UICONTROL 反馈] 选项在Assets Essentials用户界面中可用
+* 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 
-* 使用提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 在右侧侧栏上提供
+* 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
