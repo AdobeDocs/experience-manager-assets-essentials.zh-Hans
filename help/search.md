@@ -4,9 +4,9 @@ description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -125,10 +125,10 @@ When userA is searching and userB add an asset that matches search results, will
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频以在Assets Essentials中搜索资产](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
+* [观看视频，了解如何在 Assets Essentials 中搜索资源](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
 
-* 使用 [!UICONTROL 反馈] 选项在Assets Essentials用户界面中可用
+* 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 
-* 使用提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 在右侧侧栏上提供
+* 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
