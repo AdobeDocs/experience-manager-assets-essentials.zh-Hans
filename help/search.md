@@ -3,10 +3,10 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
+source-git-commit: 378aa0ee62ad814bdf598dfcf21f8b2775c83b84
+workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 *图：根据各种参数筛选搜索出的资源。*
 
-* 资源状态：使用 `Approved` 或 `Rejected` 资源状态筛选搜索结果。
+* 资产状态：使用 `Approved`, `Rejected`或 `No Status` 资产状态。
 
 * 文件类型：按照支持的文件类型筛选搜索结果，即 `Images`、`Documents` 和 `Videos`。
 * MIME 类型：筛选一种或多种支持的文件格式。<!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
