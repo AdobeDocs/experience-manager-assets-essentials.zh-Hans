@@ -3,10 +3,10 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 378aa0ee62ad814bdf598dfcf21f8b2775c83b84
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 86%
 
 ---
 
@@ -58,11 +58,11 @@ Assets Essentials 提供了以下自定义筛选条件：
      </tr>
      <tr>
       <td>标题</td>
-      <td>使用资源标题筛选资源。您在区分大小写的搜索条件中指定的标题必须与要在结果中显示的资源的确切标题匹配。</td>
+      <td>使用资源标题筛选资源。您可以使用通配符运算符(*)使Assets Essentials能够在部分匹配搜索条件的结果中显示资产。 例如，如果您定义 <b>ma*</b> 作为搜索标准，Assets Essentials会在结果中显示具有标题的资产，例如市场、营销、曼彻斯特等。</td>
      </tr>
      <tr>
       <td>名称</td>
-      <td>使用资源文件名筛选资源。您在区分大小写的搜索条件中指定的名称必须与要在结果中显示的资源的确切文件名匹配。</td>
+      <td>使用资源文件名筛选资源。您可以使用通配符运算符(*)使Assets Essentials能够在部分匹配搜索条件的结果中显示资产。</td>
      </tr>
      <tr>
       <td>资源大小</td>
@@ -70,7 +70,7 @@ Assets Essentials 提供了以下自定义筛选条件：
      </tr>
      <tr>
       <td>预测的标记</td>
-      <td>使用资源智能标记筛选资源。您在区分大小写的搜索条件中指定的智能标记名称必须与要在结果中显示的资源的确切智能标记名称匹配。无法在搜索条件中指定多个智能标记。</td>
+      <td>使用资源智能标记筛选资源。您可以使用通配符运算符(*)使Assets Essentials能够在部分匹配搜索条件的结果中显示资产。 您可以在搜索条件中指定多个以逗号分隔的智能标记。</td>
      </tr>    
     </tbody>
    </table>

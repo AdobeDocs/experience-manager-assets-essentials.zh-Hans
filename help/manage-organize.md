@@ -4,10 +4,10 @@ description: 在  [!DNL Assets Essentials] 中移动、删除、复制、重命�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '901'
-ht-degree: 100%
+source-git-commit: 05c9903d1225cd7875cc42ffe9ed7bd98aa1b757
+workflow-type: tm+mt
+source-wordcount: '992'
+ht-degree: 92%
 
 ---
 
@@ -108,19 +108,16 @@ Assets Essentials 允许您为存储库中可用的资源设置状态。设置�
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
-<!--
 
-### Set asset expiration date {#set-asset-expiration-date}
+### 设置资产过期日期 {#set-asset-expiration-date}
 
-To set asset expiration date:
+要设置资产过期日期，请执行以下操作：
 
-1. Select the asset, and click **[!UICONTROL Details]** in the toolbar.
+1. 选择资源并单击工具栏中的&#x200B;**[!UICONTROL 详细信息]**。
 
-1. In the **[!UICONTROL Basic]** tab, set the expiration date for the asset using the  **[!UICONTROL Expiration date]** field.
+1. 在 **[!UICONTROL 基本]** 选项卡，使用  **[!UICONTROL 过期日期]** 字段。
 
-The `Expired` asset card indicator overrides the `Approved` or `Rejected` indicator set for an asset.
-
--->
+的 `Expired` 资产卡指示器覆盖 `Approved` 或 `Rejected` 为资产设置的指示器。
 
 您也可以基于资源状态来筛选资源，有关更多信息，请参阅[在 Assets Essentials 中搜索资源](search.md)。
 
@@ -136,13 +133,9 @@ The `Expired` asset card indicator overrides the `Approved` or `Rejected` indica
 
 要将资源状态元数据字段添加到表单，请将&#x200B;**[!UICONTROL 资源状态]**&#x200B;组件从左边栏拖至表单中。将自动预填充映射属性。保存表单以确认更改。
 
-<!--
+**向表单中添加到期日期元数据字段**
 
-**Add Expiration Date metadata field to the form**
-
-To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
-
--->
+要向表单中添加到期日期元数据字段，请将 **[!UICONTROL 日期]** 组件。 指定 **过期日期** 作为标签和 `pur:expirationDate` 作为映射属性。 保存表单以确认更改。
 
 ## 后续步骤 {#next-steps}
 
