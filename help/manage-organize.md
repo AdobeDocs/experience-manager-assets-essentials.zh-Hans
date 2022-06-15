@@ -5,9 +5,9 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: 05c9903d1225cd7875cc42ffe9ed7bd98aa1b757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -109,15 +109,15 @@ Assets Essentials 允许您为存储库中可用的资源设置状态。设置�
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
 
-### 设置资产过期日期 {#set-asset-expiration-date}
+### 设置资源过期日期 {#set-asset-expiration-date}
 
-要设置资产过期日期，请执行以下操作：
+要设置资源过期日期，请执行以下操作：
 
 1. 选择资源并单击工具栏中的&#x200B;**[!UICONTROL 详细信息]**。
 
-1. 在 **[!UICONTROL 基本]** 选项卡，使用  **[!UICONTROL 过期日期]** 字段。
+1. 在&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡中，使用&#x200B;**[!UICONTROL 过期日期]**&#x200B;字段设置资源的过期日期。
 
-的 `Expired` 资产卡指示器覆盖 `Approved` 或 `Rejected` 为资产设置的指示器。
+`Expired`资源卡指示器会替代为资源设置的`Approved`或`Rejected`指示器。
 
 您也可以基于资源状态来筛选资源，有关更多信息，请参阅[在 Assets Essentials 中搜索资源](search.md)。
 
@@ -133,9 +133,9 @@ Assets Essentials 允许您为存储库中可用的资源设置状态。设置�
 
 要将资源状态元数据字段添加到表单，请将&#x200B;**[!UICONTROL 资源状态]**&#x200B;组件从左边栏拖至表单中。将自动预填充映射属性。保存表单以确认更改。
 
-**向表单中添加到期日期元数据字段**
+**将过期日期元数据字段添加到表单**
 
-要向表单中添加到期日期元数据字段，请将 **[!UICONTROL 日期]** 组件。 指定 **过期日期** 作为标签和 `pur:expirationDate` 作为映射属性。 保存表单以确认更改。
+要将过期日期元数据字段添加到表单，请将&#x200B;**[!UICONTROL 日期]**&#x200B;组件从左边栏拖至表单中。将&#x200B;**过期日期**&#x200B;指定为标签，并将`pur:expirationDate`指定为映射属性。保存表单以确认更改。
 
 ## 后续步骤 {#next-steps}
 
