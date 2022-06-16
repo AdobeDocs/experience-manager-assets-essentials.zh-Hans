@@ -2,10 +2,10 @@
 title: 管理收藏集
 description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: 88dd604492ffd5be305fe2f54edae1f158247e26
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 91%
 
 ---
 
@@ -20,6 +20,8 @@ You can share collections with various users that are assigned different levels 
 -->
 
 您可以与一个用户共享多个收藏集。每个收藏集都包含对资源的引用。收藏集中会保持资源的引用完整性。
+
+![收藏集](assets/collections.png)
 
 您可以执行以下任务来管理和使用收藏集：
 
@@ -44,6 +46,16 @@ You can share collections with various users that are assigned different levels 
 1. 指定收藏集的标题和可选描述。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建收藏集。
+
+![创建收藏集](assets/create-collection.png)
+
+<!--
+
+1. Select if you need to a create a Private collection or a Public collection.
+
+   A Public collection is available for viewing and editing to all users. However, if you are a non-administrator user, a Private collection is available for viewing and editing only to users with the appropriate [permissions](#manage-collection-access). 
+
+-->
 
 ## 将资源添加到收藏集 {#add-assets-to-collection}
 
@@ -71,11 +83,15 @@ You can share collections with various users that are assigned different levels 
 
 <!--
 
-## Manage access to a collection {#manage-collection-access}
+## Manage access to a Private collection {#manage-collection-access}
 
 The permission management for collections function in the same manner as folders in [!DNL Assets Essentials]. Administrators can manage the access levels for collections available in the repository. As an administrator, you can create user groups and assign permissions to those groups to manage access levels. You can also delegate the permission management privileges to user groups at the collection-level.
 
 For more information, see [Manage permissions for folders and collections](manage-permissions.md).
+
+-->
+
+<!--
 
 ## Search a collection {#search-collections}
 
@@ -97,25 +113,27 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 1. 使用&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡查看收藏集元数据。
 1. 根据需要修改元数据字段。您可以修改[!UICONTROL 标题]、[!UICONTROL 描述]和[!UICONTROL 作者]字段。
 
+![集合元数据](assets/collection-metadata.png)
+
 ## 共享收藏集的链接 {#share-collection-links}
 
 [!DNL Assets Essentials] 使您能够生成链接并与无权访问 [!DNL Assets Essentials] 应用程序的外部利益相关者共享收藏集及其资源。您可以定义链接的到期日期，然后使用您喜欢的通信方式（如电子邮件或消息服务）与他人共享。链接的接收者可以预览并下载资源。
 
+![资产的共享链接](assets/share-link-collections.png)
+
 有关如何与外部利益相关者共享收藏集链接的更多信息，请参阅[共享资源链接](share-links-for-assets.md)。
 
-## 下载收藏集元素 {#download-collection-elements}
+## 下载收藏集 {#download-collection}
 
-要下载收藏集元素，请执行以下操作：
+要下载收藏集，请执行以下操作：
 
 1. 单击左边栏中的&#x200B;**[!UICONTROL 收藏集]**。
 
-1. 单击收藏集并选择要下载的元素。
+1. 选择您需要下载的收藏集，然后单击 **[!UICONTROL 下载]**.
 
-1. 单击&#x200B;**[!UICONTROL 下载]**。
+1. 在 [!UICONTROL 下载资产] 对话框，单击 **[!UICONTROL 确定]**.
 
-1. 在[!UICONTROL 下载资源]对话框中，单击&#x200B;**[!UICONTROL 确定]**。
-
-选定的收藏集元素将以 .ZIP 文件的形式下载到您的本地计算机上。
+该集合将以.ZIP文件的形式下载到您的本地计算机。
 
 ## 删除收藏集 {#delete-collection}
 

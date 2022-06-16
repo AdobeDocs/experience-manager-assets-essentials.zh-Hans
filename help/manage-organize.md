@@ -4,10 +4,10 @@ description: 在  [!DNL Assets Essentials] 中移动、删除、复制、重命�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 05c9903d1225cd7875cc42ffe9ed7bd98aa1b757
-workflow-type: ht
-source-wordcount: '992'
-ht-degree: 100%
+source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
+workflow-type: tm+mt
+source-wordcount: '1036'
+ht-degree: 95%
 
 ---
 
@@ -110,6 +110,8 @@ Assets Essentials 允许您为存储库中可用的资源设置状态。设置�
 
 
 ### 设置资源过期日期 {#set-asset-expiration-date}
+
+Assets Essentials还允许您为存储库中可用的资产设置过期日期。 然后，您可以 [筛选搜索结果](search.md#refine-search-results) 基于 `Expired` 资产状态。 此外，您还可以为资产指定到期日期范围，以进一步筛选搜索结果。
 
 要设置资源过期日期，请执行以下操作：
 

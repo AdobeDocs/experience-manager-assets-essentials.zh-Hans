@@ -3,10 +3,10 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
-workflow-type: ht
-source-wordcount: '774'
-ht-degree: 100%
+source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 91%
 
 ---
 
@@ -37,8 +37,12 @@ ht-degree: 100%
 * 文件类型：按照支持的文件类型筛选搜索结果，即 `Images`、`Documents` 和 `Videos`。
 * MIME 类型：筛选一种或多种支持的文件格式。<!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * 图像大小：提供一个或多个最小尺寸和最大尺寸来筛选图像。大小按照以像素为单位的尺寸提供，而不是图像的文件大小。
-* 创建日期：元数据中提供的资源的创建日期。使用的标准日期格式为 `yyyy-mm-dd`。
+* 创建日期：元数据中提供的资产创建日期。 使用的标准日期格式为 `yyyy-mm-dd`。
 * 修改日期：资源的最后修改日期。使用的标准日期格式为 `yyyy-mm-dd`。
+
+* 过期日期：根据 `Expired` 资产状态。 此外，您还可以为资产指定到期日期范围，以进一步筛选搜索结果。
+
+* 自定义过滤器： [添加自定义过滤器](#custom-filters) 到Assets Essentials用户界面。 除了标准过滤器之外，还应用自定义过滤器以优化搜索结果。
 
 您可以按照 `Name`、`Relevancy`、`Size`、`Modified` 和 `Created` 的升序或降序对搜索出的资源排序。
 
@@ -58,11 +62,11 @@ Assets Essentials 提供了以下自定义筛选条件：
      </tr>
      <tr>
       <td>标题</td>
-      <td>使用资源标题筛选资源。您可以使用通配符 (*) 令 Assets Essentials 在结果中显示与搜索条件模糊匹配的资源。例如，如果您将搜索条件定义为 <b>ma*</b>，Assets Essentials 会在结果中显示标题为 market、marketing、man、manchester 等的资源。</td>
+      <td>使用资源标题筛选资源。您在区分大小写的搜索条件中指定的标题必须与要在结果中显示的资源的确切标题匹配。</td>
      </tr>
      <tr>
       <td>名称</td>
-      <td>使用资源文件名筛选资源。您可以使用通配符 (*) 令 Assets Essentials 在结果中显示与搜索条件模糊匹配的资源。</td>
+      <td>使用资源文件名筛选资源。您在区分大小写的搜索条件中指定的名称必须与要在结果中显示的资源的确切文件名匹配。</td>
      </tr>
      <tr>
       <td>资源大小</td>
@@ -70,10 +74,19 @@ Assets Essentials 提供了以下自定义筛选条件：
      </tr>
      <tr>
       <td>预测的标记</td>
-      <td>使用资源智能标记筛选资源。您可以使用通配符 (*) 令 Assets Essentials 在结果中显示与搜索条件模糊匹配的资源。您可以在搜索条件中指定多个由逗号分隔的智能标记。</td>
+      <td>使用资源智能标记筛选资源。您在区分大小写的搜索条件中指定的智能标记名称必须与要在结果中显示的资源的确切智能标记名称匹配。无法在搜索条件中指定多个智能标记。</td>
      </tr>    
     </tbody>
    </table>
+
+<!--
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria. For example, if you define <b>ma*</b> as the search criteria, Assets Essentials displays assets with title, such as, market, marketing, man, manchester, and so on in the results.
+
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria.
+
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria. You can specify multiple smart tags separated by a comma in the search criteria.
+
+   -->
 
 ### 添加自定义筛选条件 {#add-custom-filters}
 
