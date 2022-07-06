@@ -3,9 +3,9 @@ title: 管理收藏集
 description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 466f64018a37f553c0ad0cfaa2dc98b1e84b9be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ You can share collections with various users that are assigned different levels 
 
 * [将资源添加到收藏集](#add-assets-to-collection)
 
-* [从收藏集中移除资源](#remove-assets-from-collection)
+* [从收藏集中删除资源](#remove-assets-from-collection)
 
 * [查看和编辑收藏集元数据](#view-edit-collection-metadata)
 
@@ -113,13 +113,13 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 1. 使用&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡查看收藏集元数据。
 1. 根据需要修改元数据字段。您可以修改[!UICONTROL 标题]、[!UICONTROL 描述]和[!UICONTROL 作者]字段。
 
-![集合元数据](assets/collection-metadata.png)
+![收藏集元数据](assets/collection-metadata.png)
 
 ## 共享收藏集的链接 {#share-collection-links}
 
 [!DNL Assets Essentials] 使您能够生成链接并与无权访问 [!DNL Assets Essentials] 应用程序的外部利益相关者共享收藏集及其资源。您可以定义链接的到期日期，然后使用您喜欢的通信方式（如电子邮件或消息服务）与他人共享。链接的接收者可以预览并下载资源。
 
-![资产的共享链接](assets/share-link-collections.png)
+![共享资源链接](assets/share-link-collections.png)
 
 有关如何与外部利益相关者共享收藏集链接的更多信息，请参阅[共享资源链接](share-links-for-assets.md)。
 
@@ -127,13 +127,13 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 要下载收藏集，请执行以下操作：
 
-1. 单击左边栏中的&#x200B;**[!UICONTROL 收藏集]**。
+1. 在左边栏中单击&#x200B;**[!UICONTROL 收藏集]**。
 
-1. 选择您需要下载的收藏集，然后单击 **[!UICONTROL 下载]**.
+1. 选择需要下载的收藏集，然后单击&#x200B;**[!UICONTROL 下载]**。
 
-1. 在 [!UICONTROL 下载资产] 对话框，单击 **[!UICONTROL 确定]**.
+1. 在[!UICONTROL 正在下载资源]对话框中，单击&#x200B;**[!UICONTROL 确定]**。
 
-该集合将以.ZIP文件的形式下载到您的本地计算机。
+收藏集将以 .ZIP 文件的形式下载到您的本地计算机上。
 
 ## 删除收藏集 {#delete-collection}
 
