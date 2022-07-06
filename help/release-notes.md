@@ -5,27 +5,27 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-的当前版本 [!DNL Assets Essentials] 将于2022年6月16日发布。
+[!DNL Assets Essentials] 的当前版本于 2022 年 6 月 16 日发布。
 
-此版本提供了：
+此版本提供：
 
-**资产状态增强功能**
+**资源状态增强**
 
-* Assets Essentials现在允许您 [为资产设置过期日期](manage-organize.md#set-asset-status). 此外，您还可以 [筛选资产](search.md#refine-search-results) 基于 `Expired` 资产状态和过期日期范围。
+* 现在通过 Assets Essentials 可[设置资源的到期日期](manage-organize.md#set-asset-status)。此外，还可根据 `Expired` 资源状态和到期日期范围[筛选资源](search.md#refine-search-results)。
 
-* 现在，您可以查看垃圾桶中所有可用资产的资产状态指示器。 因此，您可以根据资产的状态做出恢复资产的决策。
+* 现在可查看废纸篓中所有可用资源的资源状态指示器。因此，可根据资源的状态决定是否还原该资源。
 
-**搜索过滤器增强功能**
+**搜索筛选器增强**
 
-* Assets Essentials现在允许您 [筛选资产](search.md#refine-search-results) 使用 `No Status` 资产状态。
+* 现在通过 Assets Essentials 可使用 `No Status` 资源状态[筛选资源](search.md#refine-search-results)。
 
 <!--
 
@@ -33,7 +33,7 @@ ht-degree: 86%
 
 -->
 
-**收藏集增强功能**
+**收藏集增强**
 
 <!--
 
@@ -41,13 +41,13 @@ ht-degree: 86%
 
 -->
 
-* Assets Essentials现在支持 [下载集合](manage-collections.md).
+* Assets Essentials 现在支持[下载收藏集](manage-collections.md)。
 
-* 您现在可以编辑集合的描述元数据字段。
+* 现在可编辑收藏集的“描述”元数据字段。
 
-**文档增强功能**
+**文档增强**
 
-* 的新版本 [Assets Essentials概述文档](introduction.md) 现已可用。
+* 现已提供 [Assets Essentials 概览文档](introduction.md)的新版本。
 
 **基于客户反馈的改进**
 
