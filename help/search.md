@@ -4,9 +4,9 @@ description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,14 +37,14 @@ ht-degree: 91%
 * 文件类型：按照支持的文件类型筛选搜索结果，即 `Images`、`Documents` 和 `Videos`。
 * MIME 类型：筛选一种或多种支持的文件格式。<!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * 图像大小：提供一个或多个最小尺寸和最大尺寸来筛选图像。大小按照以像素为单位的尺寸提供，而不是图像的文件大小。
-* 创建日期：元数据中提供的资产创建日期。 使用的标准日期格式为 `yyyy-mm-dd`。
+* 创建日期：在元数据中提供的创建资源的日期。使用的标准日期格式为 `yyyy-mm-dd`。
 * 修改日期：资源的最后修改日期。使用的标准日期格式为 `yyyy-mm-dd`。
 
-* 过期日期：根据 `Expired` 资产状态。 此外，您还可以为资产指定到期日期范围，以进一步筛选搜索结果。
+* 到期日期：根据 `Expired` 资源状态筛选搜索结果。此外，还可指定资源的到期日期范围以进一步筛选搜索结果。
 
-* 自定义过滤器： [添加自定义过滤器](#custom-filters) 到Assets Essentials用户界面。 除了标准过滤器之外，还应用自定义过滤器以优化搜索结果。
+* 自定义筛选器：[将自定义筛选器添加](#custom-filters)到 Assets Essentials 用户界面。与标准筛选器一起应用自定义筛选器以细化搜索结果。
 
-您可以按照 `Name`、`Relevancy`、`Size`、`Modified` 和 `Created` 的升序或降序对搜索出的资源排序。
+可按 `Name`、`Relevancy`、`Size`、`Modified` 和 `Created` 的升序或降序为搜索到的资源排序。
 
 ## 管理自定义筛选条件 {#custom-filters}
 
