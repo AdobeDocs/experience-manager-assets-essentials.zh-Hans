@@ -2,10 +2,10 @@
 title: 管理收藏集
 description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+source-git-commit: 096906eded35dc0a8c231534204bfc672c2430b7
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -47,7 +47,7 @@ You can share collections with various users that are assigned different levels 
 
 1. 选择您是需要创建专用收藏集还是公共收藏集。 公共收藏集可供所有用户查看和编辑。 但是，创建者和具有管理员权限的用户可以使用专用收藏集。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建收藏集。
+1. 单击 **[!UICONTROL 创建]** 创建收藏集。
 
 ![创建收藏集](assets/create-collection.png)
 
