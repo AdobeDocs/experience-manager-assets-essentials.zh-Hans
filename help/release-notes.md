@@ -4,14 +4,58 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+workflow-type: tm+mt
+source-wordcount: '1117'
+ht-degree: 80%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
+
+的当前版本 [!DNL Assets Essentials] 将于2022年7月14日发布。
+
+此版本提供：
+
+**智能收藏集**
+
+将搜索结果另存为智能收藏集，以动态更新收藏集内容。 如果向Assets Essentials存储库添加的资产符合在 [创建智能收藏集](manage-collections.md#create-smart-collection)，则智能收藏集的内容会自动更新。
+
+**通知**
+
+Assets Essentials通知允许您 [监控对存储库中可用的资产或文件夹执行的操作](manage-notifications.md). 您需要选择并订阅向您发送通知的内容。 您还可以配置向您发送通知的类别。
+
+**报告**
+
+资产报表允许管理员评估Adobe Experience Manager Assets Essentials中的用户活动。 “报表和实时统计”功能板提供有关用户如何与部署中可用资产交互的有用信息。 [使用报表中的信息](manage-reports.md) ，以获取关键成功量度来衡量企业内和客户对资产的采用情况。
+
+查看资产下载报表和实时统计功能板模块，以查看正在下载的资产和下载频率。
+
+**基于客户反馈的改进**
+
+基于客户反馈的增强和错误修复。
+
+
+## 已知问题 {#known-issues}
+
+[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* Assets Essentials不支持编辑智能收藏集。
+
+* 专用收藏集可供创建者和具有管理员权限的用户使用。 作为管理员，您无法将访问集合的权限委派给其他用户。
+
+如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
+
+## 过去的版本 {#past-release}
+
+### 2022.5.0 {#may-2022}
 
 [!DNL Assets Essentials] 的当前版本于 2022 年 6 月 16 日发布。
 
@@ -52,17 +96,6 @@ ht-degree: 100%
 **基于客户反馈的改进**
 
 * 基于客户反馈的增强和错误修复。
-
-
-## 已知问题 {#known-issues}
-
-[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
-
-* Assets Essentials 不支持创建专用收藏集。
-
-如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
-
-## 过去的版本 {#past-release}
 
 ### 2022.4.0 {#april-2022}
 

@@ -2,10 +2,10 @@
 title: 管理收藏集
 description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 466f64018a37f553c0ad0cfaa2dc98b1e84b9be1
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 76%
 
 ---
 
@@ -45,15 +45,15 @@ You can share collections with various users that are assigned different levels 
 
 1. 指定收藏集的标题和可选描述。
 
+1. 选择您是需要创建专用收藏集还是公共收藏集。 公共收藏集可供所有用户查看和编辑。 但是，创建者和具有管理员权限的用户可以使用专用收藏集。
+
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建收藏集。
 
 ![创建收藏集](assets/create-collection.png)
 
 <!--
-
-1. Select if you need to a create a Private collection or a Public collection.
-
-   A Public collection is available for viewing and editing to all users. However, if you are a non-administrator user, a Private collection is available for viewing and editing only to users with the appropriate [permissions](#manage-collection-access). 
+   
+   for viewing and editing only to users with the appropriate [permissions](#manage-collection-access).
 
 -->
 
@@ -70,6 +70,25 @@ You can share collections with various users that are assigned different levels 
 1. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;以将资源添加到所选收藏集。
 
 要将资源添加到收藏集，您也可以单击左边栏中的&#x200B;**[!UICONTROL 收藏集]**，再依次单击要将资源添加到的收藏集和&#x200B;**[!UICONTROL 添加到收藏集]**，选择资源并单击&#x200B;**[!UICONTROL 选择]**。
+
+## 创建智能收藏集 {#create-smart-collection}
+
+将搜索结果另存为智能收藏集，以动态更新收藏集内容。 如果向Assets Essentials存储库添加的资产符合创建智能收藏集时定义的搜索条件，则智能收藏集的内容会自动更新。
+
+要创建智能收藏集，请执行以下操作：
+
+1. 单击 **[!UICONTROL 过滤器]** 和 [定义搜索条件](search.md##refine-search-results).
+
+1. 单击 **[!UICONTROL 另存为]** 然后选择 **[!UICONTROL 智能收藏集]**.
+
+1. 在 [!UICONTROL 创建智能收藏集] 框中，为智能收藏集指定标题和描述。
+
+1. 选择 **[!UICONTROL 公共收藏集]** 如果您需要所有用户才能访问该收藏集。 选择 **[!UICONTROL 专用收藏集]** 如果您需要有限的用户组才能访问该集合。
+
+1. 单击 **[!UICONTROL 创建]** 创建智能收藏集。
+
+![创建智能收藏集](assets/create-smart-collection.png)
+
 
 ## 从收藏集中移除资源 {#remove-assets-from-collection}
 
