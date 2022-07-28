@@ -7,9 +7,9 @@ git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.zh-H
 mini-toc-levels: 1
 index: true
 source-git-commit: bd544f8afe112d5a95d5a3266f8d74bff4ef04c8
-workflow-type: ht
-source-wordcount: '95'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
