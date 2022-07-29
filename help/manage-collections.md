@@ -3,9 +3,9 @@ title: 管理收藏集
 description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 096906eded35dc0a8c231534204bfc672c2430b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ You can share collections with various users that are assigned different levels 
 
 * [将资源添加到收藏集](#add-assets-to-collection)
 
-* [从收藏集中删除资源](#remove-assets-from-collection)
+* [从收藏集删除资源](#remove-assets-from-collection)
 
 * [查看和编辑收藏集元数据](#view-edit-collection-metadata)
 
@@ -45,9 +45,9 @@ You can share collections with various users that are assigned different levels 
 
 1. 指定收藏集的标题和可选描述。
 
-1. 选择您是需要创建专用收藏集还是公共收藏集。 公共收藏集可供所有用户查看和编辑。 但是，创建者和具有管理员权限的用户可以使用专用收藏集。
+1. 选择需要创建专用收藏集还是公共收藏集。公共收藏集可供所有用户查看和编辑。但是，专用收藏集仅供创建者和具有管理员权限的用户使用。
 
-1. 单击 **[!UICONTROL 创建]** 创建收藏集。
+1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以创建收藏集。
 
 ![创建收藏集](assets/create-collection.png)
 
@@ -73,19 +73,19 @@ You can share collections with various users that are assigned different levels 
 
 ## 创建智能收藏集 {#create-smart-collection}
 
-将搜索结果另存为智能收藏集，以动态更新收藏集内容。 如果向Assets Essentials存储库添加的资产符合创建智能收藏集时定义的搜索条件，则智能收藏集的内容会自动更新。
+将搜索结果保存为智能收藏集以动态更新收藏集内容。如果有添加到 Assets Essentials 存储库的资源符合在创建智能收藏集时定义的搜索条件，则智能收藏集的内容将自动更新。
 
 要创建智能收藏集，请执行以下操作：
 
-1. 单击 **[!UICONTROL 过滤器]** 和 [定义搜索条件](search.md##refine-search-results).
+1. 单击&#x200B;**[!UICONTROL 筛选条件]**&#x200B;和[定义搜索条件](search.md##refine-search-results)。
 
-1. 单击 **[!UICONTROL 另存为]** 然后选择 **[!UICONTROL 智能收藏集]**.
+1. 单击&#x200B;**[!UICONTROL 另存为]**，然后选择&#x200B;**[!UICONTROL 智能收藏集]**。
 
-1. 在 [!UICONTROL 创建智能收藏集] 框中，为智能收藏集指定标题和描述。
+1. 在[!UICONTROL 创建智能收藏集]对话框上，指定智能收藏集的标题和描述。
 
-1. 选择 **[!UICONTROL 公共收藏集]** 如果您需要所有用户才能访问该收藏集。 选择 **[!UICONTROL 专用收藏集]** 如果您需要有限的用户组才能访问该集合。
+1. 如果需要所有用户均可访问该收藏集，请选择&#x200B;**[!UICONTROL 公共收藏集]**。如果需要一组数量有限的用户访问该收藏集，请选择&#x200B;**[!UICONTROL 专用收藏集]**。
 
-1. 单击 **[!UICONTROL 创建]** 创建智能收藏集。
+1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以创建该智能收藏集。
 
 ![创建智能收藏集](assets/create-smart-collection.png)
 
