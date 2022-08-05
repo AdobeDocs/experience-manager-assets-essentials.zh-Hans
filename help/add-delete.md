@@ -3,10 +3,10 @@ title: 上传资源到存储库
 description: 上传资源到 [!DNL Assets Essentials]，查看上传状态，以及解决上传问题。
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+source-git-commit: 80cb4ba5bc56658a4ae8d162f4ae5f2ae3d822a0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 100%
 
 *图：上传选定的资源后，您可以在队列中添加或删除资源。*
 
->[!CAUTION]
+>[!TIP]
 >
->使用文件名中不含空格的资源。对于这样的资源，无法正常回复评论。
+>如果将文件夹结构上传到Assets Essentials，则无需创建具有该文件夹结构的.ZIP文件，则可以直接上传文件夹结构。 上传到Assets Essentials的.ZIP文件会存储为一个ZIP资产，并且在上传后不会自动提取。
 
 ## 查看上传进度和状态 {#upload-progress}
 
