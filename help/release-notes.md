@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 2b1b6d3503f8c96ac250d4b0ff7dd5b7c2b81d64
+source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -57,7 +57,7 @@ Assets Essentials now also enables you to view real-time storage account data fo
 
 如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
 
-## 过去的版本 {#past-release}
+## 过去的版本 {#past-releases}
 
 ### 2022.6.0 {#june-2022}
 
@@ -185,7 +185,7 @@ Assets Essentials now also enables you to view real-time storage account data fo
 
 ### 2021.6.0 发布 {#june2021}
 
-[!DNL Assets Essentials] 的首个版本在 2021 年 6 月 21 日发布，提供了轻量级的资源管理功能。它支持以下主要功能和 CRUD（创建、读取、更新和删除）操作：
+[!DNL Assets Essentials] 的首个版本在 2021 年 6 月 21 日发布，提供了轻量级的资源管理功能。它支持以下主要功能和CRUD（创建、读取、更新和删除）操作：
 
 * 上传并添加资源，包括嵌套文件夹。预览资源和版本。
 * 全文搜索、精细搜索筛选条件以及保存的搜索，用于快速发现资源。
