@@ -4,32 +4,38 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
-workflow-type: ht
-source-wordcount: '1117'
-ht-degree: 100%
+source-git-commit: b44ded8b1678e9b7c1c5eda3f350072e51b52f32
+workflow-type: tm+mt
+source-wordcount: '1269'
+ht-degree: 87%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-[!DNL Assets Essentials] 的当前版本于 2022 年 7 月 14 日发布。
+Assets Essentials的当前版本于2022年8月16日发布。
 
 此版本提供：
 
-**智能收藏集**
+**集合通知**
 
-将搜索结果保存为智能收藏集以动态更新收藏集内容。如果有添加到 Assets Essentials 存储库的资源符合在[创建智能收藏集](manage-collections.md#create-smart-collection)时定义的搜索条件，则智能收藏集的内容将自动更新。
+Assets Essentials通知现在允许您监视对存储库中可用的集合执行的操作。 您需要选择并订阅向您发送通知的集合。 您还可以配置发送通知的操作，如删除、共享链接、移动、重命名和更新对收藏集执行的操作。
 
-**通知**
+**编辑智能收藏集**
 
-通过 Assets Essentials 通知，可[监视对于可在存储库中找到的资源或文件夹执行的操作](manage-notifications.md)。需要选择并订阅将向您发送其通知的内容。还可配置向您发送其通知的类别。
+Assets Essentials现在还提供编辑创建智能收藏集时使用的搜索标准的功能。  保存新搜索条件以动态更新收藏集内容。
 
-**报表**
+<!--
 
-通过资产报表，管理员可评估 Adobe Experience Manager Assets Essentials 中的用户活动。“报表和实时统计数据”仪表板提供关于用户如何与可在您的部署中找到的资源进行交互的有用信息。[使用报表中的信息](manage-reports.md)获得关键成功指标以衡量在您的企业内和客户采用资源的情况。
+**View live statistics for storage account**
 
-查看“资源下载报表和实时统计数据”仪表板模块以了解正在下载哪些资源和下载的频率。
+Assets Essentials now also enables you to view real-time storage account data for your Assets Essentials environment with the Live Statistics dashboard. You can view real-time event metrics for the last 30 days or for the last 12 months.
+
+-->
+
+**查看上传报表**
+
+现在，资产报表可让管理员能够查看上传到Adobe Experience Manager Assets Essentials部署的资产。 管理员已能够为从Assets Essentials部署中下载的资产生成报表。 这些数据提供关于用户如何与内容和产品进行交互的有用信息。
 
 **基于客户反馈的改进**
 
@@ -47,17 +53,35 @@ ht-degree: 100%
 -->
 
 
-* Assets Essentials 不支持编辑智能收藏集。
-
 * 专用收藏集仅供创建者和具有管理员权限的用户使用。管理员无法将访问集合的权限委派给其他用户。
 
 如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
 
 ## 过去的版本 {#past-release}
 
+### 2022.6.0 {#june-2022}
+
+6月份发布的 [!DNL Assets Essentials] 将于2022年7月14日发布。
+
+此版本提供：
+
+**智能收藏集**
+
+将搜索结果保存为智能收藏集以动态更新收藏集内容。如果有添加到 Assets Essentials 存储库的资源符合在[创建智能收藏集](manage-collections.md#create-smart-collection)时定义的搜索条件，则智能收藏集的内容将自动更新。
+
+**通知**
+
+通过 Assets Essentials 通知，可[监视对于可在存储库中找到的资源或文件夹执行的操作](manage-notifications.md)。需要选择并订阅将向您发送其通知的内容。还可配置向您发送其通知的类别。
+
+**报表**
+
+通过资产报表，管理员可评估 Adobe Experience Manager Assets Essentials 中的用户活动。“报表和实时统计数据”仪表板提供关于用户如何与可在您的部署中找到的资源进行交互的有用信息。[使用报表中的信息](manage-reports.md)获得关键成功指标以衡量在您的企业内和客户采用资源的情况。
+
+查看“资源下载报表和实时统计数据”仪表板模块以了解正在下载哪些资源和下载的频率。
+
 ### 2022.5.0 {#may-2022}
 
-[!DNL Assets Essentials] 的当前版本于 2022 年 6 月 16 日发布。
+5月版 [!DNL Assets Essentials] 将于2022年6月16日发布。
 
 此版本提供：
 

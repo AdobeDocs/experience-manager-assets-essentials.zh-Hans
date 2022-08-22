@@ -2,10 +2,10 @@
 title: 管理收藏集
 description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 096906eded35dc0a8c231534204bfc672c2430b7
-workflow-type: ht
-source-wordcount: '686'
-ht-degree: 100%
+source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
+workflow-type: tm+mt
+source-wordcount: '752'
+ht-degree: 92%
 
 ---
 
@@ -29,9 +29,15 @@ You can share collections with various users that are assigned different levels 
 
 * [将资源添加到收藏集](#add-assets-to-collection)
 
+* [创建智能收藏集](#create-smart-collection)
+
+* [编辑智能收藏集](#edit-smart-collection)
+
 * [从收藏集删除资源](#remove-assets-from-collection)
 
 * [查看和编辑收藏集元数据](#view-edit-collection-metadata)
+
+* [共享收藏集的链接](#share-collection-links)
 
 * [下载收藏集](#download-collection)
 
@@ -71,9 +77,11 @@ You can share collections with various users that are assigned different levels 
 
 要将资源添加到收藏集，您也可以单击左边栏中的&#x200B;**[!UICONTROL 收藏集]**，再依次单击要将资源添加到的收藏集和&#x200B;**[!UICONTROL 添加到收藏集]**，选择资源并单击&#x200B;**[!UICONTROL 选择]**。
 
-## 创建智能收藏集 {#create-smart-collection}
+## 管理智能收藏集 {#manage-smart-collection}
 
 将搜索结果保存为智能收藏集以动态更新收藏集内容。如果有添加到 Assets Essentials 存储库的资源符合在创建智能收藏集时定义的搜索条件，则智能收藏集的内容将自动更新。
+
+### 创建智能收藏集 {#create-smart-collection}
 
 要创建智能收藏集，请执行以下操作：
 
@@ -81,14 +89,25 @@ You can share collections with various users that are assigned different levels 
 
 1. 单击&#x200B;**[!UICONTROL 另存为]**，然后选择&#x200B;**[!UICONTROL 智能收藏集]**。
 
+   ![创建智能收藏集](assets/create-smart-collection.png)
+
 1. 在[!UICONTROL 创建智能收藏集]对话框上，指定智能收藏集的标题和描述。
 
 1. 如果需要所有用户均可访问该收藏集，请选择&#x200B;**[!UICONTROL 公共收藏集]**。如果需要一组数量有限的用户访问该收藏集，请选择&#x200B;**[!UICONTROL 专用收藏集]**。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以创建该智能收藏集。
 
-![创建智能收藏集](assets/create-smart-collection.png)
+### 编辑智能收藏集 {#edit-smart-collection}
 
+要编辑智能收藏集，请执行以下操作：
+
+1. 单击 **[!UICONTROL 收藏集]** ，然后双击您需要编辑的收藏集名称。
+
+1. 单击 **[!UICONTROL 编辑智能收藏集]**.
+
+1. 在 [!UICONTROL 编辑智能收藏集过滤器] 对话框， [更新搜索条件](search.md##refine-search-results) 的URL。
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 从收藏集中移除资源 {#remove-assets-from-collection}
 
