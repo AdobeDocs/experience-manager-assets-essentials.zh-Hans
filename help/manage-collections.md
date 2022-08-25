@@ -3,9 +3,9 @@ title: 管理收藏集
 description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -99,13 +99,13 @@ You can share collections with various users that are assigned different levels 
 
 ### 编辑智能收藏集 {#edit-smart-collection}
 
-要编辑智能收藏集，请执行以下操作：
+要编辑智能收藏集：
 
-1. 单击 **[!UICONTROL 收藏集]** ，然后双击您需要编辑的收藏集名称。
+1. 单击左栏中的&#x200B;**[!UICONTROL 收藏集]**，然后双击需要编辑的收藏集的名称。
 
-1. 单击 **[!UICONTROL 编辑智能收藏集]**.
+1. 单击&#x200B;**[!UICONTROL “编辑智能收藏集”]**。
 
-1. 在 [!UICONTROL 编辑智能收藏集过滤器] 对话框， [更新搜索条件](search.md##refine-search-results) 的URL。
+1. 在[!UICONTROL “编辑智能收集过滤器”]对话框中，[更新智能收藏集的搜索条件](search.md##refine-search-results)。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
