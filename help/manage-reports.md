@@ -3,9 +3,9 @@ title: 在 Assets Essentials 中管理报表
 description: 访问 Assets Essentials 的报表部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 83%
 
 ![选择资源后出现的工具栏选项](assets/assets-essentials-live-statistics.png)
 
-导航到 **[!UICONTROL 设置]** > **[!UICONTROL 实时统计]** 要查看以下自动生成的图表：
+导航到&#x200B;**[!UICONTROL “设置”]**＞**[!UICONTROL “实时统计数据”]**，查看以下自动生成的图表：
 
-* **下载**:过去30天或12个月内从Assets Essentials环境下载的资产数量，使用折线图表示。
+* **下载**：过去 30 天或 12 个月从 Assets Essentials 环境下载的资产数量，用折线图表示。
 
-* **上传**:过去30天或12个月内上传到Assets Essentials环境的资产数量，使用折线图表示。
+* **上载**：过去 30 天或 12 个月上载到 Assets Essentials 环境中的资产数量，用折线图表示。
 
 <!--
 
@@ -35,15 +35,15 @@ ht-degree: 83%
 
 -->
 
-## 创建下载报表 {#create-download-report}
+## 创建下载报告 {#create-download-report}
 
-要创建下载报表，请执行以下操作：
+要创建下载报告：
 
-1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 报表]**，然后单击&#x200B;**[!UICONTROL 创建报表]**。
+1. 请导航到&#x200B;**[!UICONTROL “设置”]**>**[!UICONTROL “报告”]**，然后单击&#x200B;**[!UICONTROL “创建报告”]**。
 
-1. 在 [!UICONTROL 配置] 选项卡，将报表类型指定为 **[!UICONTROL 下载]**.
+1. 在[!UICONTROL 配置]选项卡中，将报告类型指定为&#x200B;**[!UICONTROL 下载]**。
 
-1. 为报表指定标题和可选描述。
+1. 指定报告的标题和可选描述。
 
 1. 使用&#x200B;**[!UICONTROL 选择文件夹路径]**&#x200B;字段选择文件夹路径，其中包括要对其执行报表的资源。
 
@@ -72,7 +72,7 @@ ht-degree: 83%
       <td>在 Assets Essentials 中可从中找到资源的文件夹路径。</td>
      </tr>
      <tr>
-      <td>MIME类型</td>
+      <td>MIME 类型</td>
       <td>资源的 MIME 类型。</td>
      </tr>
      <tr>
@@ -110,15 +110,15 @@ ht-degree: 83%
     </tbody>
    </table>
 
-## 创建上传报表 {#create-upload-report}
+## 创建上载报告 {#create-upload-report}
 
-要创建上传报表，请执行以下操作：
+要创建上载报告：
 
-1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 报表]**，然后单击&#x200B;**[!UICONTROL 创建报表]**。
+1. 请导航到&#x200B;**[!UICONTROL “设置”]**>**[!UICONTROL “报告”]**，然后单击&#x200B;**[!UICONTROL “创建报告”]**。
 
-1. 在 [!UICONTROL 配置] 选项卡，将报表类型指定为 **[!UICONTROL 上传]**.
+1. 在[!UICONTROL 配置]选项卡中，将报告类型指定为&#x200B;**[!UICONTROL 上载]**。
 
-1. 为报表指定标题和可选描述。
+1. 指定报告的标题和可选描述。
 
 1. 使用&#x200B;**[!UICONTROL 选择文件夹路径]**&#x200B;字段选择文件夹路径，其中包括要对其执行报表的资源。
 
@@ -128,7 +128,7 @@ ht-degree: 83%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-   ![上传报表](assets/upload-reports-config.png)
+   ![上载报告](assets/upload-reports-config.png)
 
 下表阐述所有可添加到该报表的列的用途：
 
@@ -147,7 +147,7 @@ ht-degree: 83%
       <td>在 Assets Essentials 中可从中找到资源的文件夹路径。</td>
      </tr>
      <tr>
-      <td>MIME类型</td>
+      <td>MIME 类型</td>
       <td>资源的 MIME 类型。</td>
      </tr>
      <tr>
