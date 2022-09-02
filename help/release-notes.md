@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
-workflow-type: ht
-source-wordcount: '1269'
-ht-degree: 100%
+source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 96%
 
 ---
 
@@ -25,13 +25,9 @@ Assets Essentials 的当前版本于 2022 年 8 月 22 日发布。
 
 Assets Essentials 现在还可以编辑创建智能收藏集时使用的搜索条件。  保存新的搜索条件以动态更新收藏集内容。
 
-<!--
+**查看存储帐户的实时统计信息**
 
-**View live statistics for storage account**
-
-Assets Essentials now also enables you to view real-time storage account data for your Assets Essentials environment with the Live Statistics dashboard. You can view real-time event metrics for the last 30 days or for the last 12 months.
-
--->
+Assets Essentials现在还允许您使用“实时统计”功能板查看Assets Essentials环境的实时存储帐户数据。 您可以查看最近30天或最近12个月的实时事件量度。
 
 **查看下载报告**
 
