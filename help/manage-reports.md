@@ -3,9 +3,9 @@ title: 在 Assets Essentials 中管理报表
 description: 访问 Assets Essentials 的报表部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 * **上载**：过去 30 天或 12 个月上载到 Assets Essentials 环境中的资产数量，用折线图表示。
 
-* **存储使用情况**:Assets Essentials环境在过去30天或12个月内的存储使用（以GB为单位），使用条形图表示。
+* **存储用量**：过去 30 天或 12 个月内 Assets Essentials 环境的以 GB 为单位的存储用量，用条形图表示。
 
 ## 创建下载报告 {#create-download-report}
 
