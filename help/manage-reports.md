@@ -2,10 +2,10 @@
 title: 在 Assets Essentials 中管理报表
 description: 访问 Assets Essentials 的报表部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
-workflow-type: ht
-source-wordcount: '736'
-ht-degree: 100%
+source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ## 访问报表 {#access-reports}
 
-所有分配给 [Assets Essentials 管理员产品配置文件](deploy-administer.md)的用户均可在 Assets Essentials 中访问“实时统计数据”展示板并创建用户定义的报表。
+分配给 [Assets Essentials管理员产品配置文件](deploy-administer.md) 可以访问“实时统计”功能板或在Assets Essentials中创建用户定义的报表。
 
 ## 查看实时统计数据 {#view-live-statistics}
 
@@ -44,6 +44,9 @@ ht-degree: 100%
 1. 使用&#x200B;**[!UICONTROL 选择文件夹路径]**&#x200B;字段选择文件夹路径，其中包括要对其执行报表的资源。
 
 1. 选择该报表的日期间隔。
+   >[!NOTE]
+   >
+   > Assets Essentials将所有本地时区转换为协调世界时(UTC)。
 
 1. 在[!UICONTROL 列]选项卡中，选择需要在该报表中显示的列名称。
 
@@ -73,7 +76,7 @@ ht-degree: 100%
      </tr>
      <tr>
       <td>大小</td>
-      <td>资源的大小。</td>
+      <td>资产的大小（以字节为单位）。</td>
      </tr>
      <tr>
       <td>下载者</td>
@@ -171,7 +174,7 @@ ht-degree: 100%
 
 ## 查看现有报表 {#view-report-list}
 
-在[创建报告](#create-report)之后，可查看现有报表的列表，然后选择以 CSV 格式下载报表或删除报表。
+在[创建报告](#create-download-report)之后，可查看现有报表的列表，然后选择以 CSV 格式下载报表或删除报表。
 
 要查看报表的列表，请导航至&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 报表]**。
 
@@ -190,7 +193,7 @@ ht-degree: 100%
 
 1. 选择一个报表，然后单击&#x200B;**[!UICONTROL 下载 CSV]**。
 
-随后将以 CSV 格式下载所选的报表。在 CSV 报表中显示的列取决于在[创建报表](#create-report)时选择的列。
+随后将以 CSV 格式下载所选的报表。在 CSV 报表中显示的列取决于在[创建报表](#create-download-report)时选择的列。
 
 ## 删除报表 {#delete-report}
 
@@ -199,3 +202,5 @@ ht-degree: 100%
 1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 报表]**。
 
 1. 选择一个报表，然后单击&#x200B;**[!UICONTROL 删除]**。
+
+1. 单击 **[!UICONTROL 删除]** 再次确认。
