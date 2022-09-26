@@ -10,7 +10,7 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: 1d7055f95e051dd0dd8790a0e655344d99f8f24d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 + [解决方案概述](introduction.md)
 + [发行说明](release-notes.md)
 + 开始使用面向管理员的 Assets Essentials{#get-started-admins}
-   + [管理  和添加用户](deploy-administer.md)
+   + [管理和添加用户](deploy-administer.md)
    + 管理文件夹访问权限：{#folder-access}
       + [管理文件夹权限](manage-permissions.md)
       + [权限管理的最佳实践](permission-management-best-practices.md)
@@ -44,4 +44,4 @@ ht-degree: 100%
 + [管理通知](manage-notifications.md)
 + [管理报表](manage-reports.md)
 + [与其他解决方案集成](integration.md)
-+ [视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html)
++ [视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=zh-Hans)
