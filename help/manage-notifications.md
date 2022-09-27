@@ -3,9 +3,9 @@ title: 管理通知
 description: 使用 Assets Essentials 通知监视对于可在存储库中找到的资源或文件夹执行的操作。
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
 source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 95%
 >[!NOTE]
 >
 >* 对于&#x200B;**[!UICONTROL 请求]**&#x200B;和&#x200B;**[!UICONTROL 分配给我]**&#x200B;通知类别，在订阅通知类别之后，无需订阅内容。对于您创建的请求以及在有任务分配给您时，自动向您发送通知。
->* Assets Essentials仅在其他用户对订阅的内容执行操作时发送通知。 您不会收到对订阅内容执行的操作的通知。
+>* 仅在其他用户对订阅的内容执行操作时，Assets Essentials 才发送通知。您不会收到您对订阅的内容执行的操作的通知。
 
 
 要订阅内容，请选择需要订阅的文件夹、资产或收藏集，然后单击&#x200B;**[!UICONTROL “关注”]**。
