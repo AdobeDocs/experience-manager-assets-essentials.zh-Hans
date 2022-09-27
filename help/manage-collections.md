@@ -3,15 +3,15 @@ title: 管理收藏集
 description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # 管理收藏集 {#manage-collections}
 
-收藏集是Adobe Experience Manager Assets Essentials中的一组资产、文件夹或其他收藏集。 使用收藏集可在用户之间共享资源。
+收藏集是 Adobe Experience Manager Assets Essentials 中的一组资源、文件夹或其他收藏集。使用收藏集可在用户之间共享资源。
 
 与文件夹不同，一个收藏集可以包含来自不同位置的资源。
 
@@ -67,7 +67,7 @@ You can share collections with various users that are assigned different levels 
 
 要将资源添加到收藏集，请执行以下操作：
 
-1. 单击 **[!UICONTROL 资产]** ，然后选择您需要添加到收藏集的资产。
+1. 在左侧边栏中单击&#x200B;**[!UICONTROL 资源]**，然后选择要添加到某个收藏集的资源。
 
 1. 单击&#x200B;**[!UICONTROL 添加到收藏集]**。
 
@@ -83,13 +83,13 @@ You can share collections with various users that are assigned different levels 
 
 1. 单击左边栏中的&#x200B;**[!UICONTROL 收藏集]**&#x200B;以查看收藏集列表。
 
-1. 单击收藏集，然后选择您需要从收藏集中删除的项目。
+1. 单击该收藏集，然后选择要从该收藏集中删除的项。
 
-1. 单击&#x200B;**[!UICONTROL 移除]**。
+1. 单击&#x200B;**[!UICONTROL 删除]**。
 
 ## 管理智能收藏集 {#manage-smart-collection}
 
-将搜索结果保存为智能收藏集以动态更新收藏集内容。如果向Assets Essentials存储库添加的资产符合创建智能收藏集时定义的搜索条件，则当您打开智能收藏集时，智能收藏集的内容会自动更新。
+将搜索结果保存为智能收藏集以动态更新收藏集内容。如果有添加到 Assets Essentials 存储库的资源符合在创建智能收藏集时定义的搜索条件，则将在打开智能收藏集时自动更新智能收藏集的内容。
 
 ### 创建智能收藏集 {#create-smart-collection}
 
@@ -149,7 +149,7 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 1. 单击左边栏中的&#x200B;**[!UICONTROL 收藏集]**，选择一个收藏集，然后单击&#x200B;**[!UICONTROL 详细信息]**。
 1. 使用&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡查看收藏集元数据。
-1. 根据需要修改元数据字段。您可以修改 [!UICONTROL 标题] 和 [!UICONTROL 描述] 字段。
+1. 根据需要修改元数据字段。您可以修改[!UICONTROL 标题]和[!UICONTROL 描述]字段。
 
 ![收藏集元数据](assets/collection-metadata.png)
 
