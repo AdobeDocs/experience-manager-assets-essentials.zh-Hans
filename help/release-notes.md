@@ -4,16 +4,68 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+source-git-commit: fbbd982e36f2b0d126c01f71afed8da984320523
+workflow-type: tm+mt
+source-wordcount: '1401'
+ht-degree: 94%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials 的当前版本于 2022 年 8 月 22 日发布。
+Assets Essentials的当前版本于2022年11月17日发布。
+
+此版本提供：
+
+**使用Document Cloud查看器预览文档**
+
+Assets Essentials现在允许您上传其他受支持格式类型的文档，并使用随附的Document Cloud查看器预览它们。 支持的格式类型包括TXT、RTF、DOC、DOCX、PPT、PPTX、XLS和XLSX。
+
+<!--
+
+**View Smart Tags moderation reports**
+
+Asset reporting now provides administrators with visibility into the Smart Tags promoted or deleted for an asset. You can specify a folder path and the report lists the Smart Tags promoted or deleted for all assets available at the folder path.
+
+-->
+
+<!--
+**Read-only access to large number of users**
+
+Assets Essentials allows administrators to provide read-only access to a large number of users for selected assets or folders in the repository. 
+You can easily synchronize the user groups available on the external identity management of an organization with Adobe Admin Console and then manage permissions in Admin Console and Assets Essentials to provide the users with read-only access for selected assets or folders.
+
+-->
+
+
+**新的保存元数据选项**
+
+现在，Assets Essentials用户界面上提供了新的保存元数据选项，以更好地管理元数据。
+
+**基于客户反馈的改进**
+
+基于客户反馈的增强和错误修复。
+
+## 已知问题 {#known-issues}
+
+[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* 专用收藏集仅供创建者和具有管理员权限的用户使用。管理员无法将访问集合的权限委派给其他用户。
+
+如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
+
+## 过去的版本 {#past-releases}
+
+### 2022.8.0 {#august-2022}
+
+8月发布的 [!DNL Assets Essentials] 将于2022年8月22日发布。
 
 此版本提供：
 
@@ -36,24 +88,6 @@ Assets Essentials 现在还可以编辑创建智能收藏集时使用的搜索�
 **基于客户反馈的改进**
 
 基于客户反馈的增强和错误修复。
-
-
-## 已知问题 {#known-issues}
-
-[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* 专用收藏集仅供创建者和具有管理员权限的用户使用。管理员无法将访问集合的权限委派给其他用户。
-
-如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
-
-## 过去的版本 {#past-releases}
 
 ### 2022.6.0 {#june-2022}
 
