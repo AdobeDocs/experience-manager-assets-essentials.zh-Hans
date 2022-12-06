@@ -3,9 +3,9 @@ title: 与其他 Adobe 解决方案集成
 description: “[!DNL Assets Essentials] 与其他 Adobe 解决方案集成，可通过本机应用程序提供嵌入式体验。”
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 268b7eb82b15b658207f24750eeae085ce5bb3d4
 workflow-type: ht
-source-wordcount: '387'
+source-wordcount: '369'
 ht-degree: 100%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 100%
    [观看视频，了解如何将 Assets Essentials 与 Adobe Creative Cloud Libraries 集成](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/creative-cloud.html)
 
 * **[!DNL Adobe Journey Optimizer]**：[[!DNL Adobe Journey Optimizer]](https://business.adobe.com/products/journey-optimizer/adobe-journey-optimizer.html) 简化了客户的历程管理，利用智能决策和见解为客户提供全渠道营销活动。使用 [!DNL Journey Optimizer] 设计消息时，您可以在 [!DNL Journey Optimizer] 界面中直接访问 [!DNL Assets Essentials] 存储库。用户可以使用 [!DNL Assets Essentials] 的嵌入式用户界面访问资源。请参阅[使用 [!DNL Assets Essentials] 帮助文章](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html)或者[创建电子邮件内容的视频教程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)。
-
-   [观看视频，了解如何使用消息编辑器创建电子邮件内容](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)
 
 * **[!DNL Adobe Workfront]**：[[!DNL Adobe Workfront]](https://www.workfront.com/) 是一款工作管理应用程序，帮助您在一个位置对工作的整个生命周期进行管理。[!DNL Adobe Workfront] 与 [!DNL Assets Essentials] 之间的原生集成使得组织可以将工作与资源管理内在地联系起来，提升内容速度，缩短产品上市时间。对于管理工作，用户可以在同一个解决方案中访问所需的文档和图像。[!DNL Assets Essentials] 作为插件提供，[!DNL Workfront] 的新客户可以单独购买。请参阅[配置和使用 [!DNL Workfront] 以及 [!DNL Essentials] 集成](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm)。
 
