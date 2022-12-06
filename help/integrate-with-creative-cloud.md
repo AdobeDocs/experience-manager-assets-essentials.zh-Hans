@@ -1,29 +1,14 @@
 ---
 title: 将 Assets Essentials 与 Creative Cloud 应用程序集成
 description: 将 Assets Essentials 与 Creative Cloud 应用程序集成，以使您可使用 Adobe Asset Link 应用程序内置面板从支持的 [!DNL Adobe Creative Cloud] 桌面应用程序中连接到 [!DNL Assets Essentials] 存储库。
-exl-id: 611fd958-3fd3-4c46-bee9-8b866b7dc208
-source-git-commit: 268b7eb82b15b658207f24750eeae085ce5bb3d4
+source-git-commit: 44b8b8f3c734bd80e9d86177d607d897e696e4ed
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 将 Assets Essentials 与 Creative Cloud 应用程序集成 {#integrate-assets-essentials-creative-cloud-applications}
-
-![用于切换深色和浅色主题的首选项](assets/cce-creative-cloud.png)
-
-## 迄今为止的故事
-
-在本教程中[配置 Experience Manager Assets Essentials ](adminster-aem-assets-essentials.md)后，您可以在此体验的基础上将 Creative Cloud 应用程序与 Assets Essentials 集成。
-
-## 目标
-
-* **受众**：Creative Cloud 管理员
-
-* **目标**：将 Assets Essentials 与 Creative Cloud 应用程序集成，以使您的创意用户可使用 Adobe Asset Link 应用程序内置面板从支持的[!DNL Assets Essentials]桌面应用程序中连接到[!DNL Adobe Creative Cloud]存储库。
-
-## 概述
 
 通过[Adobe Asset Link 应用程序内置面板](https://www.adobe.com/cn/creativecloud/business/enterprise/adobe-asset-link.html)，创意专业人员可从受支持的[!DNL Assets Essentials]桌面应用程序中连接到[!DNL Adobe Creative Cloud]存储库。该面板可用于 [!DNL Adobe Photoshop]、[!DNL Adobe Illustrator]、[!DNL Adobe InDesign] 和 [!DNL Adobe XD]。它简化了对资源的访问，从而有助于提高内容速度。
 
@@ -53,7 +38,7 @@ ht-degree: 96%
 
 其他 Assets Essentials 产品配置文件（**[!DNL Assets Essentials]管理员**&#x200B;和&#x200B;**[!DNL Assets Essentials]消费者用户**）用于不同的用户权限（应用程序管理员和用户通过与 Experience Cloud 的集成访问 Assets Essentials）。
 
-有关如何将用户分配到 Assets Essentials 产品配置文件的更多信息，请参阅[将用户分配到 Assets Essentials 产品配置文件](adminster-aem-assets-essentials.md#add-users-to-product-profiles)。
+有关如何将用户分配到 Assets Essentials 产品配置文件的更多信息，请参阅[将用户分配到 Assets Essentials 产品配置文件](deploy-administer.md#add-users-to-product-profiles)。
 
 ## 安装 Adobe Asset Link {#install-asset-link}
 
@@ -97,7 +82,3 @@ Creative Cloud 管理员在 Admin Console 中&#x200B;**安装 Creative Cloud 软
 * 查看版本历史记录和文件详细信息
 
 有关如何执行这些任务的说明，请参阅[使用 Adobe Asset Link](https://helpx.adobe.com/in/enterprise/using/manage-assets-using-adobe-asset-link.html) 管理资源。
-
-## 接下来呢？
-
-您现在已将 Creative Cloud 应用程序与 Assets Essentials 集成，[请将 Adobe Workfront 与 Experience Manager Assets Essentials 集成](integrate-assets-essentials-workfront.md)。

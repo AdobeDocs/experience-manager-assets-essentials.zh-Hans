@@ -2,10 +2,10 @@
 title: 为带有工作管理解决方案的 Creative Cloud Pro 设置 Assets Essentials
 description: 本教程介绍的管理员历程使 Assets Essentials 应用程序能够与 Creative Cloud 桌面应用程序和 Adobe Workfront 应用程序集成。Creative Cloud 桌面应用程序包括 Adobe Photoshop、Adobe Illustrator、Adobe InDesign 和 Adobe XD。
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
-source-git-commit: a40b608ec72691c10dfbf7dff518a2cfc87d6552
-workflow-type: ht
-source-wordcount: '900'
-ht-degree: 100%
+source-git-commit: 8920080944981fc1a990136af46c9258c5e8627c
+workflow-type: tm+mt
+source-wordcount: '941'
+ht-degree: 92%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 100%
 
 ![Creative Cloud 用户](assets/creative-cloud-users.svg)
 
-如图所示，基于两个控制台之间的信任关系，Creative Cloud 用户可自动在 Experience Cloud Admin Console 中变得可用。然后您可以将用户添加到 Assets Essentials 产品配置文件。因此，Creative Cloud 用户可以访问 Adobe Asset Link 应用程序，该应用程序可以与 Assets Essentials 存储库交互。有关更多信息，请参阅[将 Assets Essentials 与 Creative Cloud 应用程序集成](integrate-assets-essentials-creative-cloud.md)。
+如图所示，基于两个控制台之间的信任关系，Creative Cloud 用户可自动在 Experience Cloud Admin Console 中变得可用。然后您可以将用户添加到 Assets Essentials 产品配置文件。因此，Creative Cloud 用户可以访问 Adobe Asset Link 应用程序，该应用程序可以与 Assets Essentials 存储库交互。有关更多信息，请参阅[将 Assets Essentials 与 Creative Cloud 应用程序集成](integrate-with-creative-cloud.md)。
 
 ## Experience Manager 文档历程 {#documentation-journeys}
 
 文档历程可将许多不同的，甚至复杂的主题和功能联系在一起；它提供了一种叙述，可帮助读者（可能是 Assets Essentials 的新手）从头到尾理解和解决业务问题，同时会假设读者不具备丰富的背景或 Assets Essentials 知识。
 
-文档历程是围绕最佳实践原则设计的；这些原则基于由 Adobe 的最新研究、Adobe 顾问提供的经验证的实施体验以及客户项目的反馈提供的信息。
+文档历程是围绕最佳实践准则而设计的，其中包含了 Adobe 的最新研究、Adobe 顾问提供的成熟实施经验以及来自客户项目的反馈。
 
 ## 前提条件
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 Adobe Experience Manager Assets Essentials 是 Adobe Experience Manager Assets 的一个新的轻量级版本。Assets Essentials 通过简化且一致的用户界面提供统一的资源管理和协作功能。其易用性使得更多创意与营销团队可以轻松地存储、发现和分发数字资源。
 
-Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为资源调配的一部分，Assets Essentials 会被添加至 Adobe Admin Console 中的客户组织中。
+Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为配置的一部分，Assets Essentials将添加到Adobe Admin Console中的客户组织。
 
 管理员使用 Admin Console 管理用户对 Assets Essentials 产品的权限：
 
@@ -77,7 +77,9 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为
 
 * 设置元数据表单
 
-[![请参阅指南]（https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png）](adminster-aem-assets-essentials.md)
+[![请参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](deploy-administer.md)
+
+您现在已经配置并管理了Assets Essentials应用程序，[请将 Creative Cloud 应用程序与 Experience Manager Assets Essentials](integrate-with-creative-cloud.md) 应用程序集成。
 
 ## 将 Creative Cloud applications 应用程序与 Experience Manager Assets Essentials 集成 {#administer-creative-cloud-applications}
 
@@ -97,7 +99,9 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为
 
 * 使用 Adobe Asset Link
 
-[![请参阅指南]（https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png）](integrate-assets-essentials-creative-cloud.md)
+[![请参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
+
+您现在已将 Creative Cloud 应用程序与 Assets Essentials 集成，[请将 Adobe Workfront 与 Experience Manager Assets Essentials 集成](integrate-with-workfront.md)。
 
 ## 将 Adobe Workfront 与 Experience Manager Assets Essentials 集成 {#administer-adobe-workfront}
 
@@ -115,4 +119,4 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为
 
 * 配置 Experience Manager Assets Essentials 集成
 
-[![请参阅指南]（https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png）](integrate-assets-essentials-workfront.md)
+[![请参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-workfront.md)

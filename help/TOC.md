@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 1d7055f95e051dd0dd8790a0e655344d99f8f24d
-workflow-type: ht
-source-wordcount: '131'
-ht-degree: 100%
+source-git-commit: 73a425d494b00650e917a98a35fd53e23cb2a4f1
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,11 +26,7 @@ ht-degree: 100%
    + 管理文件夹访问权限：{#folder-access}
       + [管理文件夹权限](manage-permissions.md)
       + [权限管理的最佳实践](permission-management-best-practices.md)
-   + Creative Cloud Pro 工作管理解决方案 Assets Essentials 管理员历程{#admin-journey}
-      + [管理员历程概述](assets-essentials-cc-pro-work-management-admin-journey.md)
-      + [管理员 Experience Manager Assets Essentials](adminster-aem-assets-essentials.md)
-      + [将 Assets Essentials 与 Creative Cloud 应用程序集成](integrate-assets-essentials-creative-cloud.md)
-      + [将 Assets Essentials 与 Adobe Workfront 集成](integrate-assets-essentials-workfront.md)
+   + [Creative Cloud Pro 工作管理解决方案 Assets Essentials 管理员历程](assets-essentials-cc-pro-work-management-admin-journey.md)
 + [开始使用 [!DNL Assets Essentials]](get-started.md)
 + [支持的文件类型和用例](supported-file-formats.md)
 + [查看资源](navigate-view.md)
@@ -43,5 +39,8 @@ ht-degree: 100%
 + [管理收藏集](manage-collections.md)
 + [管理通知](manage-notifications.md)
 + [管理报表](manage-reports.md)
-+ [与其他解决方案集成](integration.md)
++ 与其他解决方案集成 {#integration-with-other-solutions}
+   + [概述](integration.md)
+   + [与企业Creative Cloud集成](integrate-with-creative-cloud.md)
+   + [与Adobe Workfront集成](integrate-with-workfront.md)
 + [视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=zh-Hans)
