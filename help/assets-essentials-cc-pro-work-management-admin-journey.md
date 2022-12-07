@@ -3,9 +3,9 @@ title: 为带有工作管理解决方案的 Creative Cloud Pro 设置 Assets Ess
 description: 本教程介绍的管理员历程使 Assets Essentials 应用程序能够与 Creative Cloud 桌面应用程序和 Adobe Workfront 应用程序集成。Creative Cloud 桌面应用程序包括 Adobe Photoshop、Adobe Illustrator、Adobe InDesign 和 Adobe XD。
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
 source-git-commit: 8920080944981fc1a990136af46c9258c5e8627c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '941'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 * Adobe Workfront 和 Adobe Experience Manager Assets Essentials 在 [Adobe Admin Console 中管理，以使用 Experience Cloud solutions 解决方案](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)。
 
-要集成 Creative Cloud 和 Assets Essentials 应用程序，Creative Cloud 的 Admin Console 中可用的用户必须在 Experience Cloud 的 Admin Console 中可用。要使用户在 Experience Cloud Admin Console 中可用，请创建一个目录，以在这两个 Admin Console 之间建立[目录信任](https://helpx.adobe.com/enterprise/using/set-up-identity.html#directory-trusting)关系。
+要集成 Creative Cloud 和 Assets Essentials 应用程序，Creative Cloud 的 Admin Console 中可用的用户必须在 Experience Cloud 的 Admin Console 中可用。要使用户在 Experience Cloud Admin Console 中可用，请创建一个目录，以在这两个 Admin Console 之间建立[目录信任](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html#directory-trusting)关系。
 
 ![Creative Cloud 用户](assets/creative-cloud-users.svg)
 
@@ -59,7 +59,7 @@ ht-degree: 92%
 
 Adobe Experience Manager Assets Essentials 是 Adobe Experience Manager Assets 的一个新的轻量级版本。Assets Essentials 通过简化且一致的用户界面提供统一的资源管理和协作功能。其易用性使得更多创意与营销团队可以轻松地存储、发现和分发数字资源。
 
-Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为配置的一部分，Assets Essentials将添加到Adobe Admin Console中的客户组织。
+Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为资源调配的一部分，Assets Essentials 会被添加至 Adobe Admin Console 中的客户组织中。
 
 管理员使用 Admin Console 管理用户对 Assets Essentials 产品的权限：
 
@@ -77,9 +77,9 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为
 
 * 设置元数据表单
 
-[![请参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](deploy-administer.md)
+[![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](deploy-administer.md)
 
-您现在已经配置并管理了Assets Essentials应用程序，[请将 Creative Cloud 应用程序与 Experience Manager Assets Essentials](integrate-with-creative-cloud.md) 应用程序集成。
+您现在已经配置并管理 Assets Essentials 应用程序，请[将 Creative Cloud 应用程序与 Experience Manager Assets Essentials 应用程序集成](integrate-with-creative-cloud.md)。
 
 ## 将 Creative Cloud applications 应用程序与 Experience Manager Assets Essentials 集成 {#administer-creative-cloud-applications}
 
@@ -99,9 +99,9 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为
 
 * 使用 Adobe Asset Link
 
-[![请参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
+[![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
 
-您现在已将 Creative Cloud 应用程序与 Assets Essentials 集成，[请将 Adobe Workfront 与 Experience Manager Assets Essentials 集成](integrate-with-workfront.md)。
+您现在已将 Creative Cloud 应用程序与 Assets Essentials 集成，请[将 Adobe Workfront 与 Experience Manager Assets Essentials 集成](integrate-with-workfront.md)。
 
 ## 将 Adobe Workfront 与 Experience Manager Assets Essentials 集成 {#administer-adobe-workfront}
 
@@ -119,4 +119,4 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为
 
 * 配置 Experience Manager Assets Essentials 集成
 
-[![请参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-workfront.md)
+[![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-workfront.md)
