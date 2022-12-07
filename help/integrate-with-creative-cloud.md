@@ -2,9 +2,9 @@
 title: 将 Assets Essentials 与 Creative Cloud 应用程序集成
 description: 将 Assets Essentials 与 Creative Cloud 应用程序集成，以使您可使用 Adobe Asset Link 应用程序内置面板从支持的 [!DNL Adobe Creative Cloud] 桌面应用程序中连接到 [!DNL Assets Essentials] 存储库。
 source-git-commit: 44b8b8f3c734bd80e9d86177d607d897e696e4ed
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '761'
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 ## 在 Creative Cloud 和 Experience Cloud Admin Console 之间创建目录信任关系 {#directory-trusting-cc-assets-essentials-consoles}
 
-如果您的Creative Cloud部署在Adobe Admin Console中，而不是使用Assets Essentials的(Experience Cloud解决方案)中，则您需要在两个控制台之间添加信任关系。
+如果您的 Creative Cloud 部署在一个单独的 Adobe Admin Console 中，而不是部署在带有 Assets Essentials（Experience Cloud 解决方案）的 Adobe Admin Console 中，则需要在两个控制台之间添加信任关系。
 
 要集成 Creative Cloud 和 Assets Essentials 应用程序，Creative Cloud 的 Admin Console 中可用的用户必须在 Experience Cloud 的 Admin Console 中可用。如果 Creative Cloud 和 Assets Essentials 部署在不同的 Admin Console 中，它们之间需要建立信任关系才能实现这一点。
 
-在 Experience Cloud Admin Console 中，单击&#x200B;**[!UICONTROL “设置”]**，并使用&#x200B;**[!UICONTROL “目录”]**&#x200B;选项卡创建一个目录，在这两个 Admin Console 之间建立[目录信任关系](https://helpx.adobe.com/enterprise/using/set-up-identity.html#directory-trusting)。
+在 Experience Cloud Admin Console 中，单击&#x200B;**[!UICONTROL “设置”]**，并使用&#x200B;**[!UICONTROL “目录”]**&#x200B;选项卡创建一个目录，在这两个 Admin Console 之间建立[目录信任关系](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html#directory-trusting)。
 
 ## 将 Creative Cloud 用户添加到 Assets Essentials 产品配置文件 {#add-cc-users-assets-essentials-product-profiles}
 
@@ -49,12 +49,12 @@ ht-degree: 0%
 
 是否选择添加取决于组织的 IT 政策。
 
-[此处](https://helpx.adobe.com/creative-cloud/kb/installingextensionsandaddons.html)解释了&#x200B;**使用[!DNL Creative Cloud Desktop]应用程序**&#x200B;进行的安装。在 [Adobe Exchange](https://exchange.adobe.com/) Marketplace 上托管的有两个可用插件，具体取决于 Creative Cloud 应用程序的情况：
+[此处](https://helpx.adobe.com/cn/creative-cloud/kb/installingextensionsandaddons.html)解释了&#x200B;**使用[!DNL Creative Cloud Desktop]应用程序**&#x200B;进行的安装。在 [Adobe Exchange](https://exchange.adobe.com/) Marketplace 上托管的有两个可用插件，具体取决于 Creative Cloud 应用程序的情况：
 
 * 对于 [!DNL Adobe Photoshop]、[!DNL Adobe Illustrator] 和 [!DNL Adobe InDesign]：[Adobe Asset Link CEP](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)
 * 对于 [!DNL Adobe XD]：[Adobe Asset Link](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9)
 
-Creative Cloud 管理员在 Admin Console 中&#x200B;**安装 Creative Cloud 软件包**，方法是在构建部署软件包时加入 Asset Link 插件，此后可以将其部署到用户机器上。在托管的选择插件屏幕中，在&#x200B;**精选商用插件**&#x200B;部分中搜索 **Adobe Asset Link**。有关详细信息，请参阅[通过 Admin Console 打包应用程序](https://helpx.adobe.com/enterprise/using/package-apps-admin-console.html)。
+Creative Cloud 管理员在 Admin Console 中&#x200B;**安装 Creative Cloud 软件包**，方法是在构建部署软件包时加入 Asset Link 插件，此后可以将其部署到用户机器上。在托管的选择插件屏幕中，在&#x200B;**精选商用插件**&#x200B;部分中搜索 **Adobe Asset Link**。有关详细信息，请参阅[通过 Admin Console 打包应用程序](https://helpx.adobe.com/cn/enterprise/using/package-apps-admin-console.html)。
 
 ## 使用 Adobe Asset Link {#use-asset-link}
 
