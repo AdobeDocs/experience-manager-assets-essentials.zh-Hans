@@ -2,10 +2,10 @@
 title: 在 Assets Essentials 中管理报表
 description: 访问 Assets Essentials 的报表部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: ht
-source-wordcount: '755'
-ht-degree: 100%
+source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ![选择资源后出现的工具栏选项](assets/assets-essentials-live-statistics.png)
 
-导航到&#x200B;**[!UICONTROL “设置”]**＞**[!UICONTROL “实时统计数据”]**，查看以下自动生成的图表：
+单击 **[!UICONTROL 实时统计]** 可在左侧导航窗格中查看以下自动生成的图表：
 
 * **下载**：过去 30 天或 12 个月从 Assets Essentials 环境下载的资产数量，用折线图表示。
 
