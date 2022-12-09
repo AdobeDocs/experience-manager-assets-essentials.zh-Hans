@@ -2,9 +2,9 @@
 title: 管理收藏集
 description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
 workflow-type: ht
-source-wordcount: '769'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -74,8 +74,6 @@ You can share collections with various users that are assigned different levels 
 1. 在[!UICONTROL 收藏集]对话框上，选择要将所选资源添加到的收藏集。
 
 1. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;以将资源添加到所选收藏集。
-
-要将资源添加到收藏集，您也可以单击左边栏中的&#x200B;**[!UICONTROL 收藏集]**，再依次单击要将资源添加到的收藏集和&#x200B;**[!UICONTROL 添加到收藏集]**，选择资源并单击&#x200B;**[!UICONTROL 选择]**。
 
 ## 从收藏集中移除资源 {#remove-assets-from-collection}
 
