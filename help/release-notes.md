@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: fbbd982e36f2b0d126c01f71afed8da984320523
-workflow-type: ht
-source-wordcount: '1401'
-ht-degree: 100%
+source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
+workflow-type: tm+mt
+source-wordcount: '1471'
+ht-degree: 95%
 
 ---
 
@@ -45,6 +45,16 @@ Assets Essentials 用户界面现在提供了一个新的“保存元数据”�
 **基于客户反馈的改进**
 
 基于客户反馈的增强和错误修复。
+
+**Adobe资产链接版本3.3**
+
+[Adobe资产链接](https://helpx.adobe.com/cn/enterprise/using/adobe-asset-link.html) 版本3.3于2022年12月13日发布，具有以下功能：
+
+* 支持 [Creative Cloud团队](https://www.adobe.com/creativecloud/business/teams.html) 除了支持 [企业Creative Cloud](https://www.adobe.com/creativecloud/business/enterprise.html) 之前。
+
+* 支持最新的Adobe InDesign、Photoshop和Illustrator 2023应用程序。
+
+* 支持在具有代理服务器的环境中使用Adobe资产链接CEP插件。
 
 ## 已知问题 {#known-issues}
 
