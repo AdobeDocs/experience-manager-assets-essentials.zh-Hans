@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -46,15 +46,15 @@ Assets Essentials 用户界面现在提供了一个新的“保存元数据”�
 
 基于客户反馈的增强和错误修复。
 
-**Adobe资产链接版本3.3**
+**Adobe Asset Link 3.3 版本**
 
-[Adobe资产链接](https://helpx.adobe.com/cn/enterprise/using/adobe-asset-link.html) 版本3.3于2022年12月13日发布，具有以下功能：
+[Adobe Asset Link](https://helpx.adobe.com/cn/enterprise/using/adobe-asset-link.html) 3.3 版本于 2022 年 12 月 13 日发布，具有以下功能：
 
-* 支持 [Creative Cloud团队](https://www.adobe.com/creativecloud/business/teams.html) 除了支持 [企业Creative Cloud](https://www.adobe.com/creativecloud/business/enterprise.html) 之前。
+* 除了之前支持 [Creative Cloud 企业版](https://www.adobe.com/cn/creativecloud/business/enterprise.html)之外，还支持 [Creative Cloud 团队版](https://www.adobe.com/cn/creativecloud/business/teams.html)。
 
-* 支持最新的Adobe InDesign、Photoshop和Illustrator 2023应用程序。
+* 支持最新的 Adobe InDesign、Photoshop 和 Illustrator 2023 应用程序。
 
-* 支持在具有代理服务器的环境中使用Adobe资产链接CEP插件。
+* 支持在具有代理服务器的环境中使用 Adobe Asset Link CEP 插件。
 
 ## 已知问题 {#known-issues}
 
