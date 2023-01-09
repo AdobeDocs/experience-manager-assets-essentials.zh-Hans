@@ -3,9 +3,9 @@ title: 管理用户
 description: 管理用例，例如  [!DNL Assets Essentials] 中的部署和用户管理。
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 940f3155a8310ace2768cdfee152c62e99ea2526
+source-git-commit: c7b863aa81337293454199e72f705e53f05a5130
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1344'
 ht-degree: 92%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 92%
 
 ### 创建 Assets Essentials 应用程序管理员 {#create-assets-essentials-administrator}
 
-Admin Console管理员必须将Assets Essentials管理员产品配置文件添加到用户，而不是添加到用户群组。 然后，Assets Essentials应用程序管理员可以管理各种任务，例如创建文件夹结构、上传资产、设置权限、设置元数据表单以及创建公共收藏集。 有关如何将用户分配给Assets Essentials应用程序管理员配置文件的信息，请参阅 [将用户添加到产品配置文件](#add-users-to-product-profiles).
+Admin Console管理员必须将Assets Essentials管理员产品配置文件添加到用户，而不是添加到用户群组。 然后，Assets Essentials应用程序管理员可以管理各种任务，例如创建文件夹结构、上传资产、设置权限、设置元数据表单以及创建公共收藏集。 有关如何将Assets Essentials应用程序管理员配置文件分配给用户的信息，请参阅 [将产品配置文件添加到用户组](#add-product-profiles-to-user-groups).
 
 ### 添加用户组 {#add-user-groups}
 
