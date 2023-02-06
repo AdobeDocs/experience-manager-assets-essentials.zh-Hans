@@ -4,10 +4,10 @@ description: 在 [!DNL Assets Essentials] 中管理资源的元数据
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+source-git-commit: 9a29e1a9403a9790a3e6aa50b222fa7a6bfd66ec
+workflow-type: tm+mt
+source-wordcount: '1203'
+ht-degree: 99%
 
 ---
 
@@ -59,9 +59,17 @@ ht-degree: 100%
 
 ## 元数据表单 {#metadata-forms}
 
-默认情况下，Assets Essentials 提供了多个标准元数据字段。组织可能会有额外的元数据需求，需要更多元数据字段来添加特定于业务的元数据。企业可以利用元数据表单，将自定义元数据字段添加到资源的[!UICONTROL 详情]页面。特定于业务的元数据可以改进其资源的管理和发现。
+默认情况下，Assets Essentials 提供了多个标准元数据字段。组织可能会有额外的元数据需求，需要更多元数据字段来添加特定于业务的元数据。企业可以利用元数据表单，将自定义元数据字段添加到资源的[!UICONTROL 详情]页面。特定于相关业务的元数据改进了对其资源的管理和发现。您可以从头开始创建表单，也可以重新利用现有表单。
 
-您可以为不同的资源类型（不同的 MIME 类型）配置元数据表单。使用与文件的 MIME 类型相同的表单名称。Essentials 自动将上传的资源与表单的名称匹配。例如，如果存在名为 `PDF` 或 `pdf` 的元数据表单，则上传的 PDF 文档将包含该表单中定义的元数据字段。您可以从头开始创建表单，也可以重新利用现有表单。
+您可以为不同的资源类型（不同的 MIME 类型）配置元数据表单。使用与文件的 MIME 类型相同的表单名称。Essentials 会自动将上载的资源 MIME 类型与表单名称相匹配，并根据表单字段更新上载资源的元数据。
+
+例如，如果存在名为 `PDF` 或 `pdf` 的元数据表单，则上载的 PDF 文档包含表单中定义的元数据字段。
+
+Assets Essentials 使用以下顺序搜索现有元数据表单名称，以将元数据字段应用于特定类型的上载资源：
+
+MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
+
+例如，如果存在名为 `PDF` 或 `pdf` 的元数据表单，则上传的 PDF 文档将包含该表单中定义的元数据字段。如果不存在名为 `PDF` 或 `pdf` 的元数据表单，但存在名为 `application` 的元数据表单，则 Assets Essentials 匹配。如果存在名为 `application` 的元数据表单，则上传的 PDF 文档将包含该表单中定义的元数据字段。如果 Assets Essentials 仍然找不到匹配的元数据表单，它将搜索`default` 元数据表单，以将表单中定义的元数据字段应用于上载的 PDF 文档。如果这些步骤都不起作用，Assets Essentials 会将现成表单中定义的元数据字段应用于所有上载的 PDF 文档。
 
 >[!IMPORTANT]
 >
@@ -87,6 +95,10 @@ ht-degree: 100%
 1. （可选）单击&#x200B;**[!UICONTROL 预览]**&#x200B;以预览您创建的表单。
 1. （可选）添加多个选项卡并在每个选项卡中添加所需的组件。
 1. 表单完成后，单击&#x200B;**[!UICONTROL 保存]**。
+
+请观看此视频以查看步骤顺序：
+
+>[!VIDEO](https://video.tv.adobe.com/v/341275)
 
 创建表单后，当用户上传具有匹配 MIME 类型的资源时，将会自动应用表单。
 
