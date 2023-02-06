@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 73a425d494b00650e917a98a35fd53e23cb2a4f1
-workflow-type: ht
-source-wordcount: '121'
-ht-degree: 100%
+source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 
 + [解决方案概述](introduction.md)
 + [发行说明](release-notes.md)
++ [我的工作区](my-workspace.md)
 + 开始使用面向管理员的 Assets Essentials{#get-started-admins}
    + [管理和添加用户](deploy-administer.md)
    + 管理文件夹访问权限：{#folder-access}
