@@ -7,7 +7,7 @@ exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: b264c9cdff39f75dce31976add8621a33bc72e4b
 workflow-type: tm+mt
 source-wordcount: '1262'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 97%
 
 ## 标记 {#tags}
 
-[!DNL Assets Essentials] 使用 [Adobe Sensei](https://www.adobe.com/sensei.html) 提供的人工智能，自动将相关标记应用到您上传的所有资源。正如其名，这些标记被称为“智能标记”，可以帮助您快速找到相关资源，从而提升内容速度。智能标记是未包含在图像中的元数据示例。
+[!DNL Assets Essentials] 使用 [Adobe Sensei](https://www.adobe.com/cn/sensei.html) 提供的人工智能，自动将相关标记应用到您上传的所有资源。正如其名，这些标记被称为“智能标记”，可以帮助您快速找到相关资源，从而提升内容速度。智能标记是未包含在图像中的元数据示例。
 
 智能标记根据图像的内容生成，近乎实时地应用。上传资源时，用户界面会在资源缩略图上显示[!UICONTROL 处理中]并保持片刻。处理完成后，您可以[查看元数据](#view-metadata)和智能标记。
 
@@ -102,7 +102,7 @@ MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
 1. （可选）添加多个选项卡并在每个选项卡中添加所需的组件。
 1. 表单完成后，单击&#x200B;**[!UICONTROL 保存]**。
 
-请观看此视频以查看步骤顺序：
+观看此视频以查看步骤顺序：
 
 >[!VIDEO](https://video.tv.adobe.com/v/341275)
 
