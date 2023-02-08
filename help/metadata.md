@@ -4,10 +4,10 @@ description: 在 [!DNL Assets Essentials] 中管理资源的元数据
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 274028a1fb224b045c047e63539a9b96b1cc4357
+source-git-commit: 260eb904240652d174cc29bacfe92b03699305d0
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 95%
+source-wordcount: '1252'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 95%
 
 您也可以在[!UICONTROL 智能标记]部分中，删除由 [!DNL Assets Essentials] 自动添加到所有上传资源的标记。
 
-## 元数据Forms {#metadata-forms}
+## 设置元数据表单 {#metadata-forms}
 
 >[!CONTEXTUALHELP]
 >id="assets_metadata_forms"
