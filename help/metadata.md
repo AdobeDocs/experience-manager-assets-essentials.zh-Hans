@@ -4,10 +4,10 @@ description: 在 [!DNL Assets Essentials] 中管理资源的元数据
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: b264c9cdff39f75dce31976add8621a33bc72e4b
+source-git-commit: 274028a1fb224b045c047e63539a9b96b1cc4357
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 98%
+source-wordcount: '1251'
+ht-degree: 95%
 
 ---
 
@@ -62,12 +62,11 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="assets_metadata_forms"
 >title="元数据Forms"
->abstract="Experience Manager Assets默认提供许多标准元数据字段。 组织可能会有额外的元数据需求，需要更多元数据字段来添加特定于业务的元数据。企业可以利用元数据表单，将自定义元数据字段添加到资源的详情页面。特定于业务的元数据可以改进其资源的管理和发现。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html#metadata-forms" text="了解详情"
+>abstract="[!DNL Experience Manager Assets] 默认提供许多标准元数据字段。 组织还有其他元数据要求，需要更多元数据字段才能添加特定于业务的元数据。 企业可以利用元数据表单，将自定义元数据字段添加到资源的详情页面。特定于业务的元数据可以改进其资源的管理和发现。"
 
 默认情况下，Assets Essentials 提供了多个标准元数据字段。组织可能会有额外的元数据需求，需要更多元数据字段来添加特定于业务的元数据。企业可以利用元数据表单，将自定义元数据字段添加到资源的[!UICONTROL 详情]页面。特定于相关业务的元数据改进了对其资源的管理和发现。您可以从头开始创建表单，也可以重新利用现有表单。
 
-您可以为不同的资源类型（不同的 MIME 类型）配置元数据表单。使用与文件的 MIME 类型相同的表单名称。Essentials 会自动将上载的资源 MIME 类型与表单名称相匹配，并根据表单字段更新上载资源的元数据。
+您可以为不同的资源类型（不同的 MIME 类型）配置元数据表单。使用与文件的 MIME 类型相同的表单名称。Assets Essentials会自动将上传的资产MIME类型与表单名称匹配，并根据表单字段更新上传资产的元数据。
 
 例如，如果存在名为 `PDF` 或 `pdf` 的元数据表单，则上载的 PDF 文档包含表单中定义的元数据字段。
 
