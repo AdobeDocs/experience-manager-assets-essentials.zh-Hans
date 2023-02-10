@@ -3,9 +3,9 @@ title: 如何共享资产链接？
 description: 生成链接并与无权访问该 [!DNL Assets Essentials] 应用程序的其他人共享资产。
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
 source-git-commit: 79039f96a4aa44bb81923ec909766969f81e1a3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 1. 如果要对其进行调整，请单击“日程表”图标以使用&#x200B;**[!UICONTROL 到期日期]**&#x200B;字段定义链接的到期日期。您也可以直接在`yyyy-mm-dd`格式中指定日期。默认情况下，链接的到期日期设置为自共享之日起 2 周。
 
-1. 从 **[!UICONTROL 共享链接]** 字段。
+1. 从&#x200B;**[!UICONTROL 共享链接]**&#x200B;字段复制链接。
 
    ![裁切和拉直图像的选项](assets/share-asset-link.png)
 
