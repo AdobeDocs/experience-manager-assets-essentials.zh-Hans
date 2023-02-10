@@ -5,35 +5,35 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1690'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials的当前版本于2023年1月27日发布。
+Assets Essentials 的当前版本于 2023 年 1 月 27 日发布。
 
 此版本提供：
 
-**我的工作区带有可配置小组件**
+**带有可配置的小部件的“我的工作区”**
 
-Assets现在可为您提供自定义工作区，该工作区作为一站式解决方案，可让您方便地访问Assets用户界面的关键区域以及与您最相关的信息。 更快地访问这些选项可以提高项目的内容速度和效率。
+Assets 现在为您提供一个自定义的工作区，它充当一个综合解决方案，以方便地访问 Assets 用户界面的关键区域以及与您密切相关的信息。由于能够更快地访问这些选项，因此可以提高项目的内容速度和效率。
 
-我的工作区包含用于即将推出的新增功能、分析、任务和内容的小组件。 您可以根据自己的首选项配置这些小组件在工作区中的显示方式。
+“我的工作区”包括“即将推出的新功能”、“见解”、“任务”和“内容”小部件。可根据自己的偏好配置如何在工作区中显示这些小部件。
 
-**专用任务管理UI**
+**专用任务管理 UI**
 
-Assets Essentials现在允许您使用新的 **[!UICONTROL 任务]** 选项。 您还可以通过选择任务以批准或拒绝该任务或打开任务详细信息以批准、拒绝、编辑或删除该任务来执行相应操作。
+现在可在 Assets Essentials 中使用可在左侧导航窗格中找到的新增&#x200B;**[!UICONTROL 任务]**&#x200B;选项，集中管理当前分配给您、由您创建和已由您完成的任务的列表。还可通过选择一个任务以批准或拒绝它，或打开该任务的详细信息以批准、拒绝、编辑或删除它，从而采取相应的操作。
 
-![工作区中的任务](assets/tasks-workspace.png)
+![工作区中的“任务”](assets/tasks-workspace.png)
 
-**自动生成的用于共享资产的链接**
+**自动生成链接以共享资源**
 
-现在，当您选择使用Assets Essentials用户界面共享资产时，Assets Essentials会立即自动生成链接。 即使更改过期日期，生成的链接仍会保持有效。
+现在，一旦您选择使用 Assets Essentials 用户界面共享资源，Assets Essentials 即自动生成链接。即使您更改到期日期，所生成的链接仍保持有效。
 
-![工作区中的任务](assets/share-asset.png)
+![工作区中的“任务”](assets/share-asset.png)
 
 
 **基于客户反馈的改进**
@@ -59,7 +59,7 @@ Assets Essentials现在允许您使用新的 **[!UICONTROL 任务]** 选项。 �
 
 ### 2022.11.0 {#november-2022}
 
-11月发布的 [!DNL Assets Essentials] 将于2022年11月17日发布。
+[!DNL Assets Essentials] 的 11 月版于 2022 年 11 月 17 日发布。
 
 此版本提供：
 
