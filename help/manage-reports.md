@@ -3,9 +3,9 @@ title: 在 Assets Essentials 中管理报表
 description: 访问 Assets Essentials 的报表部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: ec9cdf0d206aa59d67b8ac96504b590a2db19663
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 92%
 
 ## 访问报表 {#access-reports}
 
-分配给 [Assets Essentials管理员产品配置文件](deploy-administer.md) 可以在Assets Essentials中访问分析功能板或创建用户定义的报表。
+所有分配给 [Assets Essentials 管理员产品配置文件](deploy-administer.md)的用户均可在 Assets Essentials 中访问“见解”仪表板或创建用户定义的报表。
 
-## 查看分析 {#view-live-statistics}
+## 查看见解 {#view-live-statistics}
 
-Assets Essentials让您能够通过分析功能板查看Assets Essentials环境的实时数据。 可查看过去 30 天或过去 12 个月的实时事件指标。
+通过 Assets Essentials 的“见解”仪表板，可查看 Assets Essentials 环境的实时数据。可查看过去 30 天或过去 12 个月的实时事件指标。
 
 ![选择资源后出现的工具栏选项](assets/assets-essentials-live-statistics.png)
 
-单击 **[!UICONTROL 分析]** 可在左侧导航窗格中查看以下自动生成的图表：
+单击可在左侧导航窗格中找到的&#x200B;**[!UICONTROL 见解]**&#x200B;以查看以下自动生成的图表：
 
 * **下载**：过去 30 天或 12 个月从 Assets Essentials 环境下载的资产数量，用折线图表示。
 
