@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: fecbd1b05cc91148f41c576f4569f1799df6095e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1252'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="assets_metadata_forms"
 >title="元数据表单"
->abstract="[!DNL Experience Manager Assets] 默认提供许多标准元数据字段。组织还有其他元数据需求，需要更多元数据字段才能添加特定于业务的元数据。 通过元数据表单，可将自定义元数据字段添加到资源的“详细信息”页面。业务特有的元数据改善对其资源的治理和发现。"
+>abstract="[!DNL Experience Manager Assets] 默认提供许多标准元数据字段。组织有其他元数据需求时，就需要更多元数据字段来添加业务特有的元数据。 通过元数据表单，可将自定义元数据字段添加到资源的“详细信息”页面。业务特有的元数据改善对其资源的治理和发现。"
 
 默认情况下，Assets Essentials 提供了多个标准元数据字段。组织有额外的元数据需求，就需要更多元数据字段以添加业务特有的元数据。通过元数据表单，可将自定义元数据字段添加到资源的[!UICONTROL 详细信息]页面。业务特有的元数据改善对其资源的治理和发现。您可以从头开始创建表单，也可以重新利用现有表单。
 
