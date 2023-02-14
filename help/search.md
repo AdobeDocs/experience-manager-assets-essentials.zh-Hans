@@ -3,14 +3,20 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+source-git-commit: 18929733eb7ef1c862637cc5d03d44ac3c62875b
+workflow-type: tm+mt
+source-wordcount: '869'
+ht-degree: 92%
 
 ---
 
 # 在 [!DNL Assets Essentials] 中搜索资源 {#search-assets}
+
+>[!CONTEXTUALHELP]
+>id="assets_search"
+>title="搜索资产"
+>abstract="通过指定搜索标准或根据资产的状态、文件类型、MIME类型、大小、创建、修改和过期日期来筛选资产，来搜索您的资产。 除了标准过滤器外，您还可以应用自定义过滤器。 您可以将过滤的结果另存为保存的搜索或智能收藏集。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=en#manage-smart-collection" text="创建智能收藏集"
 
 [!DNL Assets Essentials] 提供了高效的搜索功能，只需按默认设置即可使用。该搜索执行全文搜索，因此非常全面。利用强大的搜索功能，您可以快速发现适用的资源，并帮助您提升内容速度。[!DNL Assets Essentials] 提供全文搜索，甚至可以对元数据进行搜索，例如智能标记、标题、创建日期和版权。
 
