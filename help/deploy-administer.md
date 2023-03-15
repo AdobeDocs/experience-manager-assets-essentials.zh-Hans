@@ -3,10 +3,10 @@ title: 管理用户
 description: 管理用例，例如  [!DNL Assets Essentials] 中的部署和用户管理。
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 07537aea39140f649d17353430a505c36e971aea
-workflow-type: ht
-source-wordcount: '1329'
-ht-degree: 100%
+source-git-commit: 989d4b2105636b03bef8b8aa5e653c3800845f69
+workflow-type: tm+mt
+source-wordcount: '1342'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,8 @@ Admin Console 管理员必须将 Assets Essentials 管理员产品配置文件�
 
    * **[!DNL Assets Essentials]用户**&#x200B;具有完整用户界面的访问权限。这些用户可以上传、组织、标记和查找数字资源。
 
-   * **[!DNL Assets Essentials]使用者用户**：可以访问 [!DNL Adobe Journey Optimizer] 电子邮件模板编辑器中的嵌入式资源选择体验。有关更多信息，请参阅[在 [!DNL Journey Optimizer] 中使用 [!DNL Assets Essentials] ](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=zh-Hans)。
+   * **[!DNL Assets Essentials]消费者用户** 可以在Assets Essentials中执行查找、预览和下载操作。 他们还可以在Adobe Journey Optimizer中查找和选择资产，以及查找和选择要在Workfront中使用的资产。
+有关更多信息，请参阅[与其他 解决方案集成](integration.md)。
 
    ![Admin Console 管理员配置文件](assets/admin-console-admin-profile.png)
 
