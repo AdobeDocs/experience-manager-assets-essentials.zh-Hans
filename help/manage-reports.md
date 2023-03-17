@@ -4,8 +4,8 @@ description: 访问 Assets Essentials 的报表部分中的数据，即可评估
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: b222e03a8eca0837ca647740baed7d77afe96ed3
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -13,8 +13,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="assets_reports"
->title="报告"
->abstract="通过资源报表，管理员可了解 Adobe Experience Manager Assets Essentials 环境的活动。这些数据提供关于用户如何与内容和产品进行交互的有用信息。所有分配给管理员产品配置文件的用户均可访问 Insights 仪表板或创建用户定义的报表。"
+>title="报表"
+>abstract="管理员可通过资源报表深入了解 Adobe Experience Manager Assets Essentials 环境的活动。这些数据提供关于用户如何与内容和产品进行交互的有用信息。所有分配给管理员产品配置文件的用户均可访问 Insights 仪表板或创建用户定义的报表。"
 
 通过资源报表，管理员可了解 Adobe Experience Manager Assets Essentials 环境的活动。这些数据提供关于用户如何与内容和产品进行交互的有用信息。
 

@@ -5,8 +5,8 @@ role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: f63cbffbbc6acc37a1a08f28cbdc4cee7f66d883
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -127,7 +127,7 @@ Assets Essentials 提供了以下自定义筛选条件：
 
 您还可以根据有关元数据和资源类型的特定标准来筛选搜索结果。对于经常使用的筛选条件，为了改进搜索体验，[!DNL Assets Essentials] 允许您保存搜索参数。以后，您可以选择保存的搜索来执行搜索，只需一次单击即可应用筛选条件。
 
-要创建保存的搜索，请搜索某些资产，应用一个或多个过滤器，然后单击 **[!UICONTROL 另存为]** > **[!UICONTROL 保存的搜索]** 在 [!UICONTROL 过滤器] 的上界。 您还可以单击 **[!UICONTROL 另存为]** 选择 **[!UICONTROL 智能收藏集]** 将结果另存为智能收藏集。 请参阅 [创建智能收藏集](manage-collections.md#create-a-smart-collection) 以了解更多详细信息。
+要创建保存的搜索，请搜索一些资源，应用一个或多个筛选条件，然后在[!UICONTROL 筛选条件]面板中单击&#x200B;**[!UICONTROL 保存为]** > **[!UICONTROL 保存的搜索]**。还可单击&#x200B;**[!UICONTROL 另存为]**&#x200B;并选择&#x200B;**[!UICONTROL 智能收藏集]**&#x200B;以将结果另存为智能收藏集。有关详细信息，请参阅[创建智能收藏集](manage-collections.md#create-a-smart-collection)。
 
 ![创建智能收藏集](assets/create-smart-collection.png)
 
