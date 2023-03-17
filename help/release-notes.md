@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: f06e3a5db2c91e6778ea196fdc69293d1b2732e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1695'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 Assets Essentials 的当前版本于 2023 年 1 月 27 日发布。
 
-此版本中的功能列表包括：
+该版本中的各项功能包括：
 
 **带有可配置的小部件的“我的工作区”**
 
