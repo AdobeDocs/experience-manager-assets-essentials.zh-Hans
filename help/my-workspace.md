@@ -1,10 +1,10 @@
 ---
 title: Assets 的“我的工作区”
 description: “我的工作区”是一个页面，其中提供各种可自定义的视觉模块，以方便访问 Assets 用户界面的关键区域以及与用户密切相关的信息。
-source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
-workflow-type: ht
-source-wordcount: '477'
-ht-degree: 100%
+source-git-commit: 184e80c88fb8e13ca24049d95146b5305b2008dc
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 96%
 
 ---
 
@@ -12,17 +12,21 @@ ht-degree: 100%
 
 Assets 现在包括一个可自定义的工作区，此工作区提供各种小部件，以方便访问 Assets 用户界面的关键区域以及与您密切相关的信息。此页面充当一个综合解决方案以提供您工作项的概述，并且通过它可快速地访问关键工作流。由于能够更方便地访问这些选项，因此可以提高您的效率和内容速度。
 
-通过从可在左导航窗格中找到的各项中单击&#x200B;**[!UICONTROL 我的工作区]**，即可访问“我的工作区”。“我的工作区”包括显示“即将推出的新功能”的小部件、“见解”、“任务”和“内容”小部件。可根据自己的偏好配置如何在工作区中显示这些小部件。
+通过从可在左导航窗格中找到的各项中单击&#x200B;**[!UICONTROL 我的工作区]**，即可访问“我的工作区”。我的工作区中包含各种小组件，这些小组件显示分析、任务和内容小组件。 可根据自己的偏好配置如何在工作区中显示这些小部件。
 
 >[!NOTE]
 >
 >“见解”小部件仅对管理员可见。
 
-**即将推出的新功能**
+<!--
 
-强调 Assets 即将推出的功能。
+**New features coming soon**
 
-![即将在工作区中推出的新功能](assets/new-features.png)
+Highlights upcoming features for Assets.
+
+![New features coming soon in Workspace](assets/new-features.png)
+
+-->
 
 **见解**
 
