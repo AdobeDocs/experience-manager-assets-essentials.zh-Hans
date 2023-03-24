@@ -4,9 +4,9 @@ description: 了解  [!DNL Assets Essentials] 中的用户界面并在其中导�
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: b627c20ee9be9be79bb0325b55543ae9e2935b9a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 * **资源**：以树视图列出您有权访问的所有文件夹。
 * **最近查看过的项目**：您最近查看过的资源列表。[!DNL Assets Essentials] 仅显示您预览过的资源。它不显示您在浏览存储库文件或文件夹时滚动浏览的资源。
-* **垃圾桶**： 列出从根目录删除的资产 **[!UICONTROL 资产]** 文件夹。 您可以在垃圾桶文件夹中选择资产，以将其恢复到原始位置或将其永久删除。
+* **垃圾桶**：列出从根 **[!UICONTROL Assets]** 文件夹中删除的资产。在垃圾桶文件夹中选择某个资源可将它还原到原有位置或永久删除它。
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
