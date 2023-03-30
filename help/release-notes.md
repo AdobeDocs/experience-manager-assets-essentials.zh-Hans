@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 472bf55c17d3915b657d3309e2e0a6e54bf49172
+source-git-commit: aefa3e0c76a4b92b00ff069655297387cfe733b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1734'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ Assets Essentials的当前版本于2023年3月30日发布。
 
 最近添加的功能列表包括：
 
-**批量资源元数据编辑**
+**批量更新资产元数据**
 
 批量元数据更新允许您同时跨多个资产执行常见元数据更新。 您无需单独更新记录，并且可以快速将属性应用到通过搜索、文件夹和收藏集访问的资产。
 
