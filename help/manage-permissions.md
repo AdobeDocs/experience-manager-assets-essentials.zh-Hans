@@ -2,17 +2,17 @@
 title: 如何管理 AEM Assets Essentials 中文件夹的权限？
 description: Assets Essentials 允许管理员管理存储库中可用文件夹的访问级别。创建用户组并向这些组分配权限以管理访问级别。作为管理员，您还可以将权限管理权委派给文件夹级别的用户组。
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 5ebfa8080b59bee3b7cf4c25056a778c821003f1
+source-git-commit: 14048cd4c40c4d942d43a2ed955d09c71d72b684
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 管理文件夹的权限 {#manage-permissions}
 
 >[!CONTEXTUALHELP]
->id="assets_workspace"
+>id="assets_permissions_folders"
 >title="管理权限"
 >abstract="[!DNL Assets Essentials] 允许管理员管理存储库中可用文件夹的访问级别。作为管理员，您可以创建用户组并向这些组分配权限以管理访问级别。您还可以将权限管理权委派给文件夹级别的用户组。"
 

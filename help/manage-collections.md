@@ -2,14 +2,19 @@
 title: 管理收藏集
 description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
+source-git-commit: 14048cd4c40c4d942d43a2ed955d09c71d72b684
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '793'
 ht-degree: 100%
 
 ---
 
 # 管理收藏集 {#manage-collections}
+
+>[!CONTEXTUALHELP]
+>id="assets_collections"
+>title="管理收藏集"
+>abstract="收藏集是 Assets Essentials 中的一组资源、文件夹或其他收藏集。使用收藏集可在用户之间共享资源。收藏集与文件夹的不同之处是可包含来自不同位置的资源。您可以与一个用户共享多个收藏集。每个收藏集都包含对资源的引用。收藏集中会保持资源的引用完整性。"
 
 收藏集是 Adobe Experience Manager Assets Essentials 中的一组资源、文件夹或其他收藏集。使用收藏集可在用户之间共享资源。
 
