@@ -1,14 +1,20 @@
 ---
 title: Assets 的“我的工作区”
 description: “我的工作区”是一个页面，其中提供各种可自定义的视觉模块，以方便访问 Assets 用户界面的关键区域以及与用户密切相关的信息。
-source-git-commit: 184e80c88fb8e13ca24049d95146b5305b2008dc
-workflow-type: ht
-source-wordcount: '458'
+exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
+source-git-commit: 7234af017de7e5d5ebf31e8855a322d846c3a389
+workflow-type: tm+mt
+source-wordcount: '511'
 ht-degree: 100%
 
 ---
 
 # Assets 的“我的工作区” {#my-workspace}
+
+>[!CONTEXTUALHELP]
+>id="assets_my_workspace"
+>title="我的工作区"
+>abstract="Assets 现在包括一个可自定义的工作区，此工作区提供各种小部件，以方便访问 Assets 用户界面的关键区域以及与您密切相关的信息。此页面充当一个综合解决方案以提供您工作项的概述，并且通过它可快速地访问关键工作流。"
 
 Assets 现在包括一个可自定义的工作区，此工作区提供各种小部件，以方便访问 Assets 用户界面的关键区域以及与您密切相关的信息。此页面充当一个综合解决方案以提供您工作项的概述，并且通过它可快速地访问关键工作流。由于能够更方便地访问这些选项，因此可以提高您的效率和内容速度。
 
