@@ -4,9 +4,9 @@ description: 了解  [!DNL Assets Essentials] 中的用户界面并在其中导�
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 3cc4d8ea48b0b2c8014572fce7609ee39f5868e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 63%
 
 ![[!DNL Assets Essentials] 用户界面](assets/essentials-interface.png)
 
-    *答：用于浏览存储库的左侧边栏，并提供对其他几个选项的访问*
-    *B:显示或折叠左侧栏以增加资产查看区域*
-    *C:筛选搜索结果*
-    *D:选择所选文件夹的所有内容*
-    *E:用于对资产排序的选项*
-    *F:搜索框*
-    *G:使用 `Add Assets` 按钮*
-    *H:创建新文件夹*
-    *I:在不同视图之间切换*
+    *A：左侧边栏用于浏览存储库并提供对其他一些选项的访问*
+    *B：显示或折叠左侧边栏以增加资产查看区域*
+    *C：过滤搜索结果*
+    *D：选择所选文件夹的所有内容*
+    *E：资产分类选项*
+    *F：搜索框*
+    *G：上传或拖放文件使用`Add Assets`按钮*
+    *H：新建文件夹*
+    *I：切换不同视图*
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
@@ -40,15 +40,15 @@ ht-degree: 63%
 
 您可以从主用户界面或者从左侧边栏浏览文件夹。在浏览时，您可以使用界面来查看资源缩略图，从而直观地浏览存储库或者查看资源详细信息，来快速查找所需的资源。左侧边栏中提供的选项包括：
 
-* [我的工作区](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en):资产现在包含一个可自定义的工作区，该工作区提供了用于方便访问资产用户界面关键区域以及与您最相关的信息的小组件。 此页面充当一个综合解决方案以提供您工作项的概述，并且通过它可快速地访问关键工作流。由于能够更方便地访问这些选项，因此可以提高您的效率和内容速度。
-* [任务](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en):您可以在 **我的任务** 选项卡。 但是，您创建的任务可以在 **分配的任务** 选项卡。 此外，您完成的任务位于 **已完成的任务** 选项卡。
+* [我的工作区](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en)：Assets 现在包括一个可自定义的工作区，此工作区提供各种小部件，以方便访问 Assets 用户界面的关键区域以及与您密切相关的信息。此页面充当一个综合解决方案以提供您工作项的概述，并且通过它可快速地访问关键工作流。由于能够更方便地访问这些选项，因此可以提高您的效率和内容速度。
+* [任务](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en)：您可以在&#x200B;**我的任务**&#x200B;选项卡中查看分配给您的任务。而您创建的任务可以在&#x200B;**分配的任务**&#x200B;选项卡中查看。此外，您完成的任务位于&#x200B;**完成的任务**&#x200B;选项卡中。
 * [资源](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en)：以树视图列出您有权访问的所有文件夹。
 * **最近查看过的项目**：您最近查看过的资源列表。[!DNL Assets Essentials] 仅显示您预览过的资源。它不显示您在浏览存储库文件或文件夹时滚动浏览的资源。
-* [收藏集](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=zh-Hans):收藏集是Adobe Experience Manager Assets Essentials中的一组资产、文件夹或其他收藏集。 使用收藏集可在用户之间共享资源。收藏集与文件夹的不同之处是可包含来自不同位置的资源。您可以与一个用户共享多个收藏集。每个收藏集都包含对资源的引用。收藏集中会保持资源的引用完整性。
+* [收藏集](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=en)：收藏集是 Adobe Experience Manager Assets Essentials 中的一组资源、文件夹或其他收藏集。使用收藏集可在用户之间共享资源。收藏集与文件夹的不同之处是可包含来自不同位置的资源。您可以与一个用户共享多个收藏集。每个收藏集都包含对资源的引用。收藏集中会保持资源的引用完整性。
 
-* [分析](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics):在 [!DNL Assets Essentials]，则可以查看功能板上的实时分析。 通过 Assets Essentials 的“见解”仪表板，可查看 Assets Essentials 环境的实时数据。可查看过去 30 天或过去 12 个月的实时事件指标。
-* **垃圾**:列出从根目录删除的资产 **[!UICONTROL 资产]** 文件夹。 在垃圾桶文件夹中选择某个资源可将它还原到原有位置或永久删除它。
-* **设置**:您可以使用 **设置**，例如元数据表单、报表和分类管理。
+* [见解](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics)：在 [!DNL Assets Essentials] 中可以在仪表板上查看实时见解。通过 Assets Essentials 的“见解”仪表板，可查看 Assets Essentials 环境的实时数据。可查看过去 30 天或过去 12 个月的实时事件指标。
+* **垃圾箱**：列出从根 **[!UICONTROL Assets]** 文件夹中删除的资产。在垃圾桶文件夹中选择某个资源可将它还原到原有位置或永久删除它。
+* **设置**：您可以使用&#x200B;**设置**&#x200B;配置 Assets Essentials 的各种选项，如元数据表单、报告和分类管理。
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
@@ -82,23 +82,23 @@ ht-degree: 63%
 
 ![预览资源](assets/preview-asset-2.png)
 
-*答：返回到存储库中的当前文件夹或当前搜索结果*
-*B:您正在预览的文件的名称和格式*
-*C:分配任务*
-*D:下载资产*
-*E:预览资产并查看元数据信息*
-*D:高级元数据*
-*E:关键词和智能标记*
-*F:注释和注释*
-*G:查看与选定资产相关的任务*
-*H:查看和管理版本*
-*I:查看图像的演绎版*
-*J:编辑图像*
-*K:基本元数据*
-*L:高级元数据*
-*M:关键词和智能标记*
-*N:更仔细地预览。 缩放、全屏和其他选项*
-*O:转到当前文件夹中的上一个或下一个资产，而不返回到该文件夹*
+*A：返回当前文件夹或存储库中的当前搜索结果*
+*B：您正在预览的文件的名称和格式*
+*C：分配任务*
+*D：下载资产*
+*E：预览资产并查看元数据信息*
+*D：高级元数据*
+*E：关键词和智能标签*
+*F：评论和注释*
+*G：查看与所选资产相关的任务*
+*H：查看和管理版本*
+*I：查看图像的演绎版*
+*J：编辑图像*
+*K：基本元数据*
+*L：高级元数据*
+*M：关键词和智能标签*
+*N：更仔细地预览。缩放、全屏和其他选项*
+*O：继续到当前文件夹中的上一个或下一个资源，而不返回文件夹*
 
 您也可以预览视频。
 
