@@ -1,8 +1,9 @@
 ---
 title: 将 Assets Essentials 与 Creative Cloud 应用程序集成
 description: 将 Assets Essentials 与 Creative Cloud 应用程序集成，以使您可使用 Adobe Asset Link 应用程序内置面板从支持的 [!DNL Adobe Creative Cloud] 桌面应用程序中连接到 [!DNL Assets Essentials] 存储库。
-source-git-commit: 44b8b8f3c734bd80e9d86177d607d897e696e4ed
-workflow-type: ht
+exl-id: 817bc955-0074-435e-83a8-3fd5f7f2505a
+source-git-commit: 6194a778133842d40c4ef2bc257eec8a34b0a481
+workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 100%
 

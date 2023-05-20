@@ -4,7 +4,7 @@ description: 管理用例，例如  [!DNL Assets Essentials] 中的部署和用�
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: 989d4b2105636b03bef8b8aa5e653c3800845f69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 100%
 

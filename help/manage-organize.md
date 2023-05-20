@@ -5,7 +5,7 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 100%
 
@@ -127,7 +127,7 @@ Assets Essentials 允许您为存储库中可用的资源设置状态。设置�
 
 **所需的权限：**&#x200B;管理员
 
-默认情况下，Assets Essentials 提供了多个标准元数据字段。组织可能会有额外的元数据需求，需要更多元数据字段来添加特定于业务的元数据。企业可以利用元数据表单，将自定义元数据字段添加到资源的[!UICONTROL 详情]页面。特定于业务的元数据可以改进其资源的管理和发现。
+默认情况下，Assets Essentials 提供了多个标准元数据字段。组织有额外的元数据需求，就需要更多元数据字段以添加业务特有的元数据。企业可以利用元数据表单，将自定义元数据字段添加到资源的[!UICONTROL 详情]页面。特定于业务的元数据可以改进其资源的管理和发现。
 
 有关如何将其他元数据字段添加到元数据表单的更多信息，请参阅[元数据表单](metadata.md##metadata-forms)。
 

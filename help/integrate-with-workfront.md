@@ -1,7 +1,8 @@
 ---
 title: 将 Assets Essentials 与 Adobe Workfront 集成
 description: 将 Assets Essentials 与 Adobe Workfront 应用程序集成，以使您可在 Workfront 应用程序中访问 Assets Essentials 存储库。
-source-git-commit: 8920080944981fc1a990136af46c9258c5e8627c
+exl-id: 9605fa3a-d454-48b5-9f84-b384eb1ad493
+source-git-commit: 6194a778133842d40c4ef2bc257eec8a34b0a481
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%

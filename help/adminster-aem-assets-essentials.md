@@ -3,7 +3,7 @@ title: 管理员 Experience Manager Assets Essentials
 description: 使用 Admin Console 配置对 Assets Essentials 应用程序的访问权限，然后管理登录到 Assets Essentials 应用程序后可以执行的任务。
 exl-id: ffd65741-21b7-47cd-9779-63a7903879e6
 source-git-commit: a40b608ec72691c10dfbf7dff518a2cfc87d6552
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 配置 Assets Essentials 解决方案之后，管理员会收到来自 Adobe 的电子邮件。该电子邮件包含欢迎消息以及开始使用链接。此外，Adobe 启动流程来自动部署 Assets Essentials。部署流程需要一个小时来完成。
 
-通过电子邮件中的链接，访问并登录 [Admin Console](https://adminconsole.adobe.com)。如果您有多个组织帐户的管理员访问权限，请使用[组织选择器](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)选择适当的组织或切换到该组织。自动部署流程完成后，[!DNL AEM Assets Essentials] 的产品卡在 [!DNL Admin Console] 中可见。
+通过电子邮件中的链接，访问并登录 [Admin Console](https://adminconsole.adobe.com)。如果您有多个组织帐户的管理员访问权限，请使用[组织选择器](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)选择适当的组织或切换到该组织。自动部署过程完毕后，即可在 [!DNL Admin Console] 中看到 [!DNL AEM Assets Essentials] 的产品卡。
 
 ![Assets Essentials 部署](assets/admin-console-cards.png)
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
    ![Admin Console 管理员配置文件](assets/assets-essentials-instance.png)
 
-   [!DNL Assets Essentials] 有三个产品配置文件，分别代表管理员、常规和消费者用户的访问权限。
+   [!DNL Assets Essentials] 有三个产品配置文件，分别表示管理员访问、定期访问和使用者用户访问。
 
    ![Admin Console 管理员配置文件](assets/admin-console-admin-profile.png)
 
@@ -145,7 +145,7 @@ Assets Essentials 允许管理员管理存储库中可用文件夹的访问级�
 
 ### 设置元数据表单 {#metadata-forms}
 
-默认情况下，Assets Essentials 提供了多个标准元数据字段。组织可能会有额外的元数据需求，需要更多元数据字段来添加特定于业务的元数据。企业可以利用元数据表单，将自定义元数据字段添加到资源的[!UICONTROL 详情]页面。特定于相关业务的元数据改进了对其资源的管理和发现。您可以从头开始创建表单，也可以重新利用现有表单。
+默认情况下，Assets Essentials 提供了多个标准元数据字段。组织有额外的元数据需求，就需要更多元数据字段以添加业务特有的元数据。通过元数据表单，可将自定义元数据字段添加到资源的[!UICONTROL 详细信息]页面。业务特有的元数据改善对其资源的治理和发现。您可以从头开始创建表单，也可以重新利用现有表单。
 
 您可以为不同的资源类型（不同的 MIME 类型）配置元数据表单。使用与文件的 MIME 类型相同的表单名称。Essentials 会自动将上载的资源 MIME 类型与表单名称相匹配，并根据表单字段更新上载资源的元数据。
 
