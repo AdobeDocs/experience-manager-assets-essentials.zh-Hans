@@ -2,10 +2,10 @@
 title: Assets 的“我的工作区”
 description: “我的工作区”是一个页面，其中提供各种可自定义的视觉模块，以方便访问 Assets 用户界面的关键区域以及与用户密切相关的信息。
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
-source-git-commit: 7234af017de7e5d5ebf31e8855a322d846c3a389
+source-git-commit: e6c6a7ee20fca5e87f521708fb7ddec453131e40
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 89%
 
 ---
 
@@ -53,6 +53,8 @@ Highlights upcoming features for Assets.
 **内容**
 
 显示各种各样的资源视图，包括您最近查看的资源的列表。可选择在列表视图、网格视图、图库视图或瀑布视图的小部件中显示资源，并可按名称、大小和修改日期为资源排序。还可选择资源以查看该资源的详细信息或从最近查看过的资源的列表中删除该资源。
+
+此 **[!UICONTROL 热门下载]** 选项卡显示Assets Essentials环境中下载次数最多的前十个资源。 您可以选择在“列表视图”或“网格视图”中显示资源。 两个视图都显示每个资源的格式类型和下载次数。 您还可以选择资源并单击 **[!UICONTROL 详细信息]** 查看其属性。
 
 ![工作区中的“内容”小部件](assets/workspace-content.png)
 
