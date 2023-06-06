@@ -3,14 +3,14 @@ title: 开始使用 [!DNL Assets Essentials]
 description: 如何访问  [!DNL Assets Essentials]，其登录体验，支持的用例以及已知问题
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: tm+mt
+source-git-commit: a95f0cba350d0c766fefb90609aba5a3f50e9d0f
+workflow-type: ht
 source-wordcount: '432'
 ht-degree: 100%
 
 ---
 
-# 开始使用 [!DNL Experience Manager Assets Essentials] {#assets-essentials-get-started}
+# 开始使用 [!DNL Adobe Experience Manager Assets Essentials] {#assets-essentials-get-started}
 
 <!-- TBD: Make links for these steps. -->
 
