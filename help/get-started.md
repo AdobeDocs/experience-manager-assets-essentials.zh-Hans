@@ -4,7 +4,7 @@ description: 如何访问  [!DNL Assets Essentials]，其登录体验，支持�
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
 source-git-commit: a95f0cba350d0c766fefb90609aba5a3f50e9d0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
