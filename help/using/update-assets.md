@@ -4,7 +4,7 @@ description: 更新存储库中已存在的资源
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '39'
 ht-degree: 100%
 
