@@ -4,16 +4,77 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: d6737d903b8010e2a3b7434584a7aae0d7bc68bd
+workflow-type: tm+mt
+source-wordcount: '2040'
+ht-degree: 87%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials 的当前版本于 2023 年 5 月 24 日发布。
+Assets Essentials的当前版本于2023年6月8日发布。
+
+功能列表包括：
+
+
+**资产的分层标记可加快搜索体验**
+
+随着时间的推移，受控词汇的平面列表变得难以管理。 Assets Essentials现在支持分层标记结构，这有助于应用相关元数据、对资产进行分类、支持搜索、重用标记、提高可发现性等。
+
+![标记管理](assets/tags-hierarchy.png)
+
+**固定文件、文件夹和收藏集以进行快速访问**
+
+您现在可以固定文件、文件夹和收藏集，以便在以后需要时更快地访问这些项目。 固定项目显示在 **快速访问** 部分。 您可以使用“我的工作区”访问它们，而不是导航到将它们保存在存储库中的位置。
+
+![工作区中的“任务”](assets/quick-access.png)
+
+**在垃圾桶文件夹中筛选资源**
+
+Assets Essentials现在允许您筛选垃圾桶文件夹中可用的资源。 您可以应用标准或自定义筛选条件，在垃圾桶文件夹内搜索相应的资源以恢复或永久删除它们。
+
+**3D资产的缩略图预览**
+
+Assets Essentials现在为常见的3D文件格式（包括gLB、USDz、FBX、3DS、OBJ和SBSAR）生成缩略图预览。 这些文件上传到Assets Essentials后，系统会默认自动生成缩略图。
+
+![工作区中的“任务”](assets/3d-preview.png)
+
+**查看热门搜索词**
+
+Assets Essentials现在支持使用查看Assets Essentials部署中的热门搜索词 **分析** 部分。 您还可以导航到详细分析，以查看过去30天或12个月内的热门搜索。
+
+![工作区中的“任务”](assets/insights-top-searches.png)
+
+**元数据表单增强功能**
+
+Assets Essentials现在允许您向元数据表单添加多值文本和下拉列表属性组件。
+
+
+**基于客户反馈的改进**
+
+基于客户反馈的增强和错误修复。
+
+## 已知问题 {#known-issues}
+
+[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* 专用收藏集仅供创建者和具有管理员权限的用户使用。管理员无法将访问集合的权限委派给其他用户。
+
+* 管理员无法将访问集合的权限委派给其他用户。
+
+如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
+
+## 过去的版本 {#past-releases}
+
+### 2023年发布多个版本 {#multiple-releases-2023}
 
 最近添加的特性的列表包括以下各项：
 
@@ -47,25 +108,6 @@ Assets 现在为您提供一个自定义的工作区，它充当一个综合解�
 **基于客户反馈的改进**
 
 基于客户反馈的增强和错误修复。
-
-## 已知问题 {#known-issues}
-
-[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* 专用收藏集仅供创建者和具有管理员权限的用户使用。管理员无法将访问集合的权限委派给其他用户。
-
-* 管理员无法将访问集合的权限委派给其他用户。
-
-如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
-
-## 过去的版本 {#past-releases}
 
 ### 2022.11.0 {#november-2022}
 
@@ -253,7 +295,7 @@ Assets Essentials 现在还可以编辑创建智能收藏集时使用的搜索�
 
 [!DNL Assets Essentials] 2021.8.0 发布于 2021 年 8 月 30 日，提供以下更新：
 
-* 与 [!DNL Adobe Workfront] 集成，使得 [!DNL Workfront] 用户可在管理其工作的环境下管理其数字资源。有关更多信息，请参阅[与其他 Adobe 解决方案集成](/help/using/integration.md)。
+* 与 [!DNL Adobe Workfront] 集成，使得 [!DNL Workfront] 用户可在管理其工作的环境下管理其数字资源。
 
 ### 2021.7.0 发行版 {#july2021}
 
@@ -269,4 +311,4 @@ Assets Essentials 现在还可以编辑创建智能收藏集时使用的搜索�
 * 上传并添加资源，包括嵌套文件夹。预览资源和版本。
 * 全文搜索、精细搜索筛选条件以及保存的搜索，用于快速发现资源。
 * 基本资源管理操作，例如更新、删除、下载和管理元数据。
-* [!DNL Assets Essentials] 可供 [!DNL Adobe Journey Optimizer] 用户在创建消息时管理资源。有关更多信息，请参阅[与其他 Adobe 解决方案集成](/help/using/integration.md)。
+* [!DNL Assets Essentials] 可供 [!DNL Adobe Journey Optimizer] 用户在创建消息时管理资源。
