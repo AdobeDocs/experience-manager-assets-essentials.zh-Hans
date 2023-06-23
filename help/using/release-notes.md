@@ -4,7 +4,7 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: d6737d903b8010e2a3b7434584a7aae0d7bc68bd
+source-git-commit: 9b05b9cec106b426038d53d195516a1c616a07a1
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 87%
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials的当前版本于2023年6月8日发布。
+Assets Essentials的当前版本于2023年6月22日发布。
 
 功能列表包括：
 
