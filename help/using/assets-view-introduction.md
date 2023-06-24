@@ -1,7 +1,7 @@
 ---
 title: “资产”视图简介
 description: “资产”视图的新增功能
-source-git-commit: c633c6195efc1f249b7c7568a8688409dfa7465e
+source-git-commit: 9d14827d10d2bae34b19a318aac1cc0820e81f35
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 6%
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 请向数字资产管理解决方案问好，该解决方案了解不同组织角色的各种需求。 时尚的新版Assets View注重易用性和速度，迎合了营销人员对视觉魅力和简洁工作区的偏好。 借助可自定义的用户特定的“我的工作区”功能板，营销人员能够以非凡的效率快速查找、预览、编辑、管理和交付资产。 告别花在搜索特定资产上的无休止时间，欢迎体验精简，让所有需要的事情触手可及。
 
-![部署 Assets Essentials](assets/my-workspace1.gif)
+![部署 Assets Essentials](assets/workspace.gif)
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
