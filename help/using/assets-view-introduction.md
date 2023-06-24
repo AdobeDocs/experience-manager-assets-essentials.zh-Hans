@@ -1,10 +1,10 @@
 ---
 title: “资产”视图简介
 description: “资产”视图的新增功能
-source-git-commit: d725a3525c7f451b6dd3377ff267adb50df72280
+source-git-commit: 839c85efa1ba91db5644c7463ff269b6b06f69a1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 7%
+source-wordcount: '412'
+ht-degree: 6%
 
 ---
 
@@ -46,5 +46,10 @@ ht-degree: 7%
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
+## 提高效率的搜索优先方法
+
+利用尖端功能的搜索功能，释放贵组织数字资产库的潜力。 您可以为手动筛选无数文件和文件夹的麻烦道别。 任何用户都可以立即找到您创建令人惊叹的营销活动、引人入胜的演示文稿和引人入胜的内容所需的完美图像、视频或文档。 我们的搜索第一引擎允许您轻松浏览资产类型、元数据、智能标记，甚至内容本身，而无需知道确切的关键字。 使用我们的“搜索优先”拥抱DAM的未来，并释放数字资源库的全部潜力。
+
+![部署 Assets Essentials](assets/search-first.gif)
 
 
