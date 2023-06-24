@@ -1,14 +1,17 @@
 ---
 title: “资产”视图简介
 description: “资产”视图的新增功能
-source-git-commit: faa88352204ffa607f669e90fce0fb25320f3de8
+source-git-commit: d725a3525c7f451b6dd3377ff267adb50df72280
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: '305'
+ht-degree: 7%
 
 ---
 
+
 # 资产视图简介 {#assets-view}
+
+![部署 Assets Essentials](assets/banner-image.jpg)
 
 在当今快节奏的数字优先环境中，实时内容创建和交付至关重要，因此，专为下游营销速度而设计的数字资产管理(DAM)体验至关重要。 Adobe利用其增强营销和创意专业人员的专业能力，引入了突破性的新Assets View用户体验。 这种工作流程优先的方法彻底改变了企业处理动态数字资产的方式，使营销人员能够最大限度地提高发现、协作、个性化和交付资产的效率。 这些简化的工作流加快了内容速度，并将您的营销工作推向了新的高度。
 
