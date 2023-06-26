@@ -3,10 +3,10 @@ title: “资产”视图简介
 description: “资产”视图的新增功能
 hidefromtoc: true
 hide: true
-source-git-commit: 547dd9dab9a2b176f9fb7bed62289d60f96243dc
+source-git-commit: cd99934326eab5f7701e691a7f98329c57f8d2c4
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 14%
+source-wordcount: '861'
+ht-degree: 15%
 
 ---
 
@@ -78,13 +78,21 @@ ht-degree: 14%
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
-## 订阅内容以接收通知
+## 订阅存储库内容以实现高效的资源管理
 
 通过Assets视图，可监视对存储库中可用的资源、文件夹或收藏集执行的操作。 需要选择并订阅将向您发送其通知的内容。您还可以配置事件类型，例如删除订阅的内容、修改订阅的内容等。 然后，仅会向您发送这些事件类型的通知。
 
 ![接收通知](assets/notifications.gif)
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
+
+## 软删除资产，以便更好地控制管理员 {#soft-delete-assets}
+
+“资源”视图中可用的“垃圾桶”文件夹列出了从根“资源”文件夹中删除的资源。 您可以从垃圾桶文件夹中选择资源以将其还原到原始位置或永久删除。 您还可以指定关键字或应用标准或自定义筛选条件来搜索垃圾桶文件夹中的相应资源。
+
+![软删除](assets/soft-delete.gif)
+
+[![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](navigate-view.md)
 
 
 
