@@ -3,9 +3,9 @@ title: “资产”视图简介
 description: “资产”视图的新增功能
 hidefromtoc: true
 hide: true
-source-git-commit: f370e2e3e1c7fc5798e6873bd37098e5c22b8e5a
+source-git-commit: 9ce744b0a920dc553a41e631d0f1be1d8f26bb93
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 12%
 
 ---
@@ -65,6 +65,8 @@ ht-degree: 12%
 ## Adobe Photoshop Express集成可加快协作 {#accelerate-collaboration}
 
 新版Experience提供了一组强大的协作功能，包括利用内置的Adobe Photoshop功能、版本控制和注释工具进行实时编辑。 这实现了跨设计、创意、品牌和营销团队的无缝协作，使他们能够克服瓶颈并加快营销运营过程。 营销人员现在拥有强大的工具来加快项目交付并提高其整体生产力。
+
+观看此视频，了解Assets视图与Adobe Photoshop Express集成的强大功能：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420922)
 
