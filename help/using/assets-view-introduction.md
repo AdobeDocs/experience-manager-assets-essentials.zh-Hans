@@ -3,10 +3,10 @@ title: “资产”视图简介
 description: “资产”视图的新增功能
 hidefromtoc: true
 hide: true
-source-git-commit: cd99934326eab5f7701e691a7f98329c57f8d2c4
+source-git-commit: f370e2e3e1c7fc5798e6873bd37098e5c22b8e5a
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 15%
+source-wordcount: '1022'
+ht-degree: 12%
 
 ---
 
@@ -93,6 +93,16 @@ ht-degree: 15%
 ![软删除](assets/soft-delete.gif)
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](navigate-view.md)
+
+除了这些功能外，您还可以通过Assets视图执行以下在“管理员”视图中不可用的功能：
+
+* 将具有不同名称的新版本资产从本地文件系统上传到资产存储库。 上传的资产可用作新版本，其名称与原始资产的名称相同。
+
+* 重命名存储库中可用的资源和文件夹。
+
+## 结论 {#conclusion}
+
+数字优先时代已经到来，是时候改造我们的营销工具以支持不断演变的业务格局了。 新的Adobe Experience Manager Assets Assets视图专为简化工作流、促进协作和加快资产交付而定制。 通过拥抱内容周转率，营销人员可以释放其数字资产的全部潜力，并以前所未有的方式释放创造力。 准备好利用Adobe新的资产视图体验的强大功能，在您的营销活动中实现卓越的成效。 是时候拥抱DAM的未来并推动您的业务向前发展了。
 
 
 
