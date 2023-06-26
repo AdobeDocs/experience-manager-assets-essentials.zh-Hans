@@ -3,10 +3,10 @@ title: “资产”视图简介
 description: “资产”视图的新增功能
 hidefromtoc: true
 hide: true
-source-git-commit: dd6734b4e43eef875515e48704757a4f53a1a185
+source-git-commit: 547dd9dab9a2b176f9fb7bed62289d60f96243dc
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 12%
+source-wordcount: '773'
+ht-degree: 14%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 12%
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## 通过Adobe Photoshop Express集成加快协作 {#accelerate-collaboration}
+## Adobe Photoshop Express集成可加快协作 {#accelerate-collaboration}
 
 新版Experience提供了一组强大的协作功能，包括利用内置的Adobe Photoshop功能、版本控制和注释工具进行实时编辑。 这实现了跨设计、创意、品牌和营销团队的无缝协作，使他们能够克服瓶颈并加快营销运营过程。 营销人员现在拥有强大的工具来加快项目交付并提高其整体生产力。
 
@@ -70,13 +70,21 @@ ht-degree: 12%
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
 
-## 使用文件夹上传的快速层次结构设置 {#folder-uploads}
+## 文件夹上传以设置组织的层次结构 {#folder-uploads}
 
 通过上传本地文件系统上存在的文件夹，使用资产视图快速为您的组织设置文件夹结构。 您无需在根文件夹下创建文件夹，然后手动将资产上传到这些文件夹以维护逻辑层次结构。 根文件夹下的所有文件夹和资产会自动上传到Experience Manager Assets。
 
-![部署 Assets Essentials](assets/folder-uploads.gif)
+![上传文件夹](assets/folder-uploads.gif)
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
+
+## 订阅内容以接收通知
+
+通过Assets视图，可监视对存储库中可用的资源、文件夹或收藏集执行的操作。 需要选择并订阅将向您发送其通知的内容。您还可以配置事件类型，例如删除订阅的内容、修改订阅的内容等。 然后，仅会向您发送这些事件类型的通知。
+
+![接收通知](assets/notifications.gif)
+
+[![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
 
 
 
