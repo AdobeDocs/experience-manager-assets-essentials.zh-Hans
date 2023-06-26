@@ -3,10 +3,10 @@ title: “资产”视图简介
 description: “资产”视图的新增功能
 hidefromtoc: true
 hide: true
-source-git-commit: 7a1d9c01ed19015f8552b088142122b354c6074b
+source-git-commit: dd6734b4e43eef875515e48704757a4f53a1a185
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 9%
+source-wordcount: '677'
+ht-degree: 12%
 
 ---
 
@@ -73,6 +73,10 @@ ht-degree: 9%
 ## 使用文件夹上传的快速层次结构设置 {#folder-uploads}
 
 通过上传本地文件系统上存在的文件夹，使用资产视图快速为您的组织设置文件夹结构。 您无需在根文件夹下创建文件夹，然后手动将资产上传到这些文件夹以维护逻辑层次结构。 根文件夹下的所有文件夹和资产会自动上传到Experience Manager Assets。
+
+![部署 Assets Essentials](assets/folder-uploads.gif)
+
+[![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
 
 
