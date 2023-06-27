@@ -4,9 +4,9 @@ description: “资产”视图的新增功能
 mini-toc-levels: 3
 hidefromtoc: true
 hide: true
-source-git-commit: 52ec2263e237e6c3b47dc967eb5cc3e6acbe814f
+source-git-commit: 094ee651d7ac90675df88b52a5e76dd3e6e84094
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1070'
 ht-degree: 11%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 11%
 ## 如何访问资产视图？ {#access-assets-view}
 
 您可以通过以下方式访问“资源”视图：
-
 ![我的工作区概述](assets/assets-view.png)
 
 <!--
@@ -81,6 +80,8 @@ ht-degree: 11%
 观看此视频，了解Assets视图与Adobe Photoshop Express集成的强大功能：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420922)
+
+即将发布的版本还将包括 [通过Adobe Express进行Adobe Firefly集成](https://firefly.adobe.com/?gclid=EAIaIQobChMIlZeKuNfj_wIVeyCtBh3e5g2cEAAYASAAEgL56_D_BwE&amp;sdid=JM4FW6VL&amp;mv=search&amp;mv2=paidsearch&amp;ef_id=EAIaIQobChMIlZeKuNfj_wIVeyCtBh3e5g2cEAAYASAAEgL56_D_BwE:G:s&amp;s_kwcid=AL!3085!3!652077237594！e!!g!!adobe%20firefly！19870733758!148140507838).
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
 
