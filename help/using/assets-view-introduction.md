@@ -1,12 +1,13 @@
 ---
 title: “资产”视图简介
 description: “资产”视图的新增功能
+mini-toc-levels: 3
 hidefromtoc: true
 hide: true
-source-git-commit: 9ce744b0a920dc553a41e631d0f1be1d8f26bb93
+source-git-commit: 138e8eaa8e4c0ff83c46e2b6a62e92740c87f366
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 12%
+source-wordcount: '1103'
+ht-degree: 11%
 
 ---
 
@@ -39,30 +40,35 @@ ht-degree: 12%
    * 单击 **[!UICONTROL Experience Manager Assets]** 以访问“资源”视图。
    * 单击 **[!UICONTROL Experience Manager Assets]** 以访问“资源”视图。
 
+## 为什么查看资产？
 
-## 我的工作区仪表板以提供简化的体验
+“资产”视图提供了以下在“管理员”视图中不可用的主要优势：
+
+* [我的工作区仪表板以提供简化的体验](#my-workspace-for-streamlined-experience)
+* [提高效率的搜索优先方法](#search-first)
+* [洞察数据驱动型决策](#insights-data)
+* [Adobe Photoshop Express集成可加快协作](#accelerate-collaboration)
+* [文件夹上传以设置组织的层次结构](#folder-uploads)
+* [订阅存储库内容以实现高效的资源管理](#subscribe-content)
+* [软删除资产，以便更好地控制管理员](#soft-delete-assets)
+
+### 我的工作区仪表板以提供简化的体验 {#my-workspace-for-streamlined-experience}
 
 请向数字资产管理解决方案问好，该解决方案了解不同组织角色的各种需求。 时尚的新版Assets View注重易用性和速度，迎合了营销人员对视觉魅力和简洁工作区的偏好。 借助可自定义的用户特定的“我的工作区”功能板，营销人员能够以非凡的效率快速查找、预览、编辑、管理和交付资产。 告别花在搜索特定资产上的无休止时间，欢迎体验精简，让所有需要的事情触手可及。
 
-![部署 Assets Essentials](assets/my-workspace-demo.gif)
+![我的工作区概述](assets/my-workspace-demo.gif)
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
-## 提高效率的搜索优先方法
-
-利用尖端功能的搜索功能，释放贵组织数字资产库的潜力。 您可以为手动筛选无数文件和文件夹的麻烦道别。 任何用户都可以立即找到您创建令人惊叹的营销活动、引人入胜的演示文稿和引人入胜的内容所需的完美图像、视频或文档。 我们的搜索第一引擎允许您轻松浏览资产类型、元数据、智能标记，甚至内容本身，而无需知道确切的关键字。 使用我们的“搜索优先”拥抱DAM的未来，并释放数字资源库的全部潜力。
-
-![部署 Assets Essentials](assets/search-first.gif)
-
-## 洞察数据驱动型决策 {#insights-data}
+### 洞察数据驱动型决策 {#insights-data}
 
 要跟上内容速度的步伐，切实可行的见解至关重要。 新的资产视图体验在“我的工作区”中提供高级见解，提供关于资产性能、受众使用情况和参与的宝贵数据。 营销人员可以制定数据驱动型决策、优化内容策略并优化下游交付以实现最佳结果。 通过获得有意义的见解，企业可以保持竞争优势，并推动卓越成果。
 
-![部署 Assets Essentials](assets/insights-overview.gif)
+![分析概述](assets/insights-overview.gif)
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## Adobe Photoshop Express集成可加快协作 {#accelerate-collaboration}
+### Adobe Photoshop Express集成可加快协作 {#accelerate-collaboration}
 
 新版Experience提供了一组强大的协作功能，包括利用内置的Adobe Photoshop功能、版本控制和注释工具进行实时编辑。 这实现了跨设计、创意、品牌和营销团队的无缝协作，使他们能够克服瓶颈并加快营销运营过程。 营销人员现在拥有强大的工具来加快项目交付并提高其整体生产力。
 
@@ -72,7 +78,7 @@ ht-degree: 12%
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
 
-## 文件夹上传以设置组织的层次结构 {#folder-uploads}
+### 文件夹上传以设置组织的层次结构 {#folder-uploads}
 
 通过上传本地文件系统上存在的文件夹，使用资产视图快速为您的组织设置文件夹结构。 您无需在根文件夹下创建文件夹，然后手动将资产上传到这些文件夹以维护逻辑层次结构。 根文件夹下的所有文件夹和资产会自动上传到Experience Manager Assets。
 
@@ -80,7 +86,13 @@ ht-degree: 12%
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
-## 订阅存储库内容以实现高效的资源管理
+### 提高效率的搜索优先方法 {#search-first}
+
+利用尖端功能的搜索功能，释放贵组织数字资产库的潜力。 您可以为手动筛选无数文件和文件夹的麻烦道别。 任何用户都可以立即找到您创建令人惊叹的营销活动、引人入胜的演示文稿和引人入胜的内容所需的完美图像、视频或文档。 我们的搜索第一引擎允许您轻松浏览资产类型、元数据、智能标记，甚至内容本身，而无需知道确切的关键字。 使用我们的“搜索优先”拥抱DAM的未来，并释放数字资源库的全部潜力。
+
+![首先搜索](assets/search-first.gif)
+
+### 订阅存储库内容以实现高效的资源管理 {#subscribe-content}
 
 通过Assets视图，可监视对存储库中可用的资源、文件夹或收藏集执行的操作。 需要选择并订阅将向您发送其通知的内容。您还可以配置事件类型，例如删除订阅的内容、修改订阅的内容等。 然后，仅会向您发送这些事件类型的通知。
 
@@ -88,7 +100,7 @@ ht-degree: 12%
 
 [![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
 
-## 软删除资产，以便更好地控制管理员 {#soft-delete-assets}
+### 软删除资产，以便更好地控制管理员 {#soft-delete-assets}
 
 “资源”视图中可用的“垃圾桶”文件夹列出了从根“资源”文件夹中删除的资源。 您可以从垃圾桶文件夹中选择资源以将其还原到原始位置或永久删除。 您还可以指定关键字或应用标准或自定义筛选条件来搜索垃圾桶文件夹中的相应资源。
 
