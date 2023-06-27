@@ -4,9 +4,9 @@ description: “资产”视图的新增功能
 mini-toc-levels: 3
 hidefromtoc: true
 hide: true
-source-git-commit: 138e8eaa8e4c0ff83c46e2b6a62e92740c87f366
+source-git-commit: 52ec2263e237e6c3b47dc967eb5cc3e6acbe814f
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1020'
 ht-degree: 11%
 
 ---
@@ -22,23 +22,29 @@ ht-degree: 11%
 
 您可以通过以下方式访问“资源”视图：
 
-* **在“管理员”视图中切换**
+![我的工作区概述](assets/assets-view.png)
 
-   * 登录 [!DNL Experience Manager] 使用Cloud Manager。
-   * 导航到 **[!UICONTROL 资产]** > **[!UICONTROL 文件]**.
-   * 单击右上角的配置文件图标。
-   * 单击 **[!UICONTROL 切换视图]** 从 **[!UICONTROL 配置文件设置]** 部分。
-重复这些步骤以切换回“管理员”视图。
+<!--
 
-* **产品切换器**
-   * 登录 [!DNL Experience Manager] 并单击
-   * 选择 **[!UICONTROL Experience Manager Assets]** 以访问“资源”视图。
-   * 选择 **[!UICONTROL Experience Manager]** 以访问管理员视图。
+* **Toggle in Admin view**
 
-* **快速链接**
-   * 登录experience.adobe.com。
-   * 单击 **[!UICONTROL Experience Manager Assets]** 以访问“资源”视图。
-   * 单击 **[!UICONTROL Experience Manager Assets]** 以访问“资源”视图。
+    * Log into [!DNL Experience Manager] using Cloud Manager.
+    * Navigate to **[!UICONTROL Assets]** > **[!UICONTROL Files]**.
+    * Click the profile icon on the top right corner.
+    * Click **[!UICONTROL Switch View]** from the **[!UICONTROL Profile Settings]** section.
+    Repeat these steps to switch back to the Admin view.
+
+* **Product Switcher**
+    * Log into [!DNL Experience Manager] and click ![Product selector](assets/waffle-icon.svg).
+    * Select **[!UICONTROL Experience Manager Assets]** to access the Assets view.
+    * Select **[!UICONTROL Experience Manager]** to access the Admin view.
+
+* **Quick Links** 
+    * Log into experience.adobe.com.
+    * Click **[!UICONTROL Experience Manager Assets]** to access the Assets view.
+    * Click **[!UICONTROL Experience Manager Assets]** to access the Assets view.
+
+    -->
 
 ## 为什么查看资产？
 
