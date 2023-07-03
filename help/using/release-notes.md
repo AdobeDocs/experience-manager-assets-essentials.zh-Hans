@@ -5,50 +5,50 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 84b830af6225242aa8cb851ac6458a66394a281a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2044'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials的当前版本于2023年6月22日发布。
+Assets Essentials 的当前版本于 2023 年 6 月 22 日发布。
 
-此版本中包含的功能列表包括：
+该版本中包含的各项功能包括：
 
 
-**资产的分层标记可加快搜索体验**
+**资源的分层标记可提供更快的搜索体验**
 
-随着时间的推移，受控词汇的平面列表变得难以管理。 Assets Essentials现在支持分层标记结构，这有助于应用相关元数据、对资产进行分类、支持搜索、重用标记、提高可发现性等。
+随着时间的推移，受控词汇的扁平列表变得难以管理。Assets Essentials 现在支持分层的标记结构，该结构便于应用相关的元数据、为资源分类、支持搜索、重用标记、提高可发现性等。
 
 ![标记管理](assets/tags-hierarchy.png)
 
-**固定文件、文件夹和收藏集以进行快速访问**
+**固定文件、文件夹和集合以便快速访问**
 
-您现在可以固定文件、文件夹和收藏集，以便在以后需要时更快地访问这些项目。 固定项目显示在 **快速访问** 部分。 您可以使用“我的工作区”访问它们，而不是导航到将它们保存在存储库中的位置。
+您现在可以固定文件、文件夹和集合，以便在以后需要时更快地访问这些项目。经过固定的项目都显示在“我的工作区”的&#x200B;**快速访问**&#x200B;部分。您可以使用“我的工作区”访问它们，而无需导航到存储库中保存它们的位置。
 
 ![工作区中的“任务”](assets/quick-access.png)
 
-**在垃圾桶文件夹中筛选资源**
+**过滤“垃圾箱”文件夹中的资源**
 
-Assets Essentials现在允许您筛选垃圾桶文件夹中可用的资源。 您可以应用标准或自定义筛选条件，在垃圾桶文件夹内搜索相应的资源以恢复或永久删除它们。
+现在通过 Assets Essentials 可以筛选“垃圾箱”文件夹中的资源。您还可以应用标准或自定义过滤器来搜索“垃圾箱”文件夹中的相应资源，以恢复或永久删除它们。
 
-**3D资产的缩略图预览**
+**3D 资源的缩略图预览**
 
-Assets Essentials现在为常见的3D文件格式（包括gLB、USDz、FBX、3DS、OBJ和SBSAR）生成缩略图预览。 这些文件上传到Assets Essentials后，系统会默认自动生成缩略图。
+Assets Essentials 现在可以生成常见 3D 文件格式的缩略图预览，包括 gLB、USDz、FBX、3DS、OBJ 和 SBSAR。当这些文件上传到 Assets Essentials 时，默认情况下系统会自动生成缩略图。
 
 ![工作区中的“任务”](assets/3d-preview.png)
 
 **查看热门搜索词**
 
-Assets Essentials现在支持使用查看Assets Essentials部署中的热门搜索词 **分析** 部分。 您还可以导航到详细分析，以查看过去30天或12个月内的热门搜索。
+Assets Essentials 现在支持使用“我的工作区”的&#x200B;**“见解”**&#x200B;部分查看 Assets Essentials 部署中搜索最多的术语。您还可以访问详细的见解，以查看过去 30 天或 12 个月内的热门搜索。
 
 ![工作区中的“任务”](assets/insights-top-searches.png)
 
 **元数据表单增强功能**
 
-Assets Essentials现在允许您向元数据表单添加多值文本和下拉列表属性组件。
+Assets Essentials 现在允许您向元数据表单添加多值文本和下拉列表属性组件。
 
 
 **基于客户反馈的改进**
@@ -74,7 +74,7 @@ Assets Essentials现在允许您向元数据表单添加多值文本和下拉列
 
 ## 过去的版本 {#past-releases}
 
-### 2023年发布多个版本 {#multiple-releases-2023}
+### 2023 年发布的多个版本 {#multiple-releases-2023}
 
 最近添加的特性的列表包括以下各项：
 
@@ -82,7 +82,7 @@ Assets Essentials现在允许您向元数据表单添加多值文本和下拉列
 
 “我的工作区”目前在[!UICONTROL 内容]部分中显示您的 Assets Essentials 环境下载次数排名前十的资源。您还可以查看每个列出的资源的格式类型和下载次数。
 
-**批量更新资产元数据**
+**批量更新资源元数据**
 
 通过批量元数据更新，可同时在多个资源上执行共同元数据更新。您无需逐一更新记录，而是可快速地将属性应用于通过搜索访问的资源或文件夹。
 
@@ -174,7 +174,7 @@ Assets Essentials 现在还可以编辑创建智能收藏集时使用的搜索�
 
 **查看下载报告**
 
-资产报告功能现允许管理员查看上载到 Adobe Experience Manager Assets Essentials 部署的资产。 对于从 Assets Essentials 部署下载的资产，管理员已经能够为其生成报告。 这些数据提供关于用户如何与内容和产品进行交互的有用信息。
+资源报表功能现允许管理员查看上载到 Adobe Experience Manager Assets Essentials 部署的资源。 对于从 Assets Essentials 部署下载的资源，管理员已经能够为其生成报告。 这些数据提供关于用户如何与内容和产品进行交互的有用信息。
 
 **基于客户反馈的改进**
 
@@ -196,7 +196,7 @@ Assets Essentials 现在还可以编辑创建智能收藏集时使用的搜索�
 
 **报表**
 
-通过资产报表，管理员可评估 Adobe Experience Manager Assets Essentials 中的用户活动。“报表和实时统计数据”仪表板提供关于用户如何与可在您的部署中找到的资源进行交互的有用信息。[使用报表中的信息](manage-reports.md)获得关键成功指标以衡量在您的企业内和客户采用资源的情况。
+通过资源报表，管理员可评估 Adobe Experience Manager Assets Essentials 中的用户活动。“报表和实时统计数据”仪表板提供关于用户如何与可在您的部署中找到的资源进行交互的有用信息。[使用报表中的信息](manage-reports.md)获得关键成功指标以衡量在您的企业内和客户采用资源的情况。
 
 查看“资源下载报表和实时统计数据”仪表板模块以了解正在下载哪些资源和下载的频率。
 
@@ -246,7 +246,7 @@ Assets Essentials 现在还可以编辑创建智能收藏集时使用的搜索�
 
 [!DNL Assets Essentials] 的当前版本于 2022 年 5 月 12 日发布。此版本提供：
 
-* [!DNL Assets Essentials] 现在支持[创建收藏集](manage-collections.md)。收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。与文件夹不同，一个收藏集可以包含来自不同位置的资源。
+* [!DNL Assets Essentials] 现在支持[创建收藏集](manage-collections.md)。收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。收藏集与文件夹的不同之处是可包含来自不同位置的资源。
 
 * Assets Essentials 现在还支持向用户界面[添加自定义筛选条件](search.md#custom-filters)。除了标准筛选条件之外，您还可以应用这些自定义筛选条件来优化您的搜索结果。
 
