@@ -4,9 +4,9 @@ description: 了解  [!DNL Assets Essentials] 中的用户界面并在其中导�
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: b2ec3dde3d231cdb772833dfa7c9de01b7c3dd38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 96%
 ![[!DNL Assets Essentials] 用户界面](assets/essentials-interface.png)
 
     *A：左侧边栏用于浏览存储库并提供对其他一些选项的访问*
-    *B：显示或折叠左侧边栏以增加资产查看区域*
+    *B：显示或折叠左侧边栏以增加资源查看区域*
     *C：过滤搜索结果*
     *D：选择所选文件夹的所有内容*
-    *E：资产分类选项*
+    *E：资源分类选项*
     *F：搜索框*
     *G：上传或拖放文件使用`Add Assets`按钮*
     *H：新建文件夹*
@@ -47,7 +47,7 @@ ht-degree: 96%
 * [收藏集](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=en)：收藏集是 Adobe Experience Manager Assets Essentials 中的一组资源、文件夹或其他收藏集。使用收藏集可在用户之间共享资源。收藏集与文件夹的不同之处是可包含来自不同位置的资源。您可以与一个用户共享多个收藏集。每个收藏集都包含对资源的引用。收藏集中会保持资源的引用完整性。
 
 * [见解](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics)：在 [!DNL Assets Essentials] 中可以在仪表板上查看实时见解。通过 Assets Essentials 的“见解”仪表板，可查看 Assets Essentials 环境的实时数据。可查看过去 30 天或过去 12 个月的实时事件指标。
-* **垃圾箱**：列出从根 **[!UICONTROL Assets]** 文件夹中删除的资产。在垃圾桶文件夹中选择某个资源可将它还原到原有位置或永久删除它。您还可以指定关键字或应用标准或自定义筛选条件来搜索垃圾桶文件夹中的相应资源。 有关使用标准和自定义筛选器的更多信息，请参阅 [在Assets Essentials中搜索资源](search.md).
+* **垃圾箱**：列出从根 **[!UICONTROL Assets]** 文件夹中删除的资源。在垃圾桶文件夹中选择某个资源可将它还原到原有位置或永久删除它。您还可以指定关键字或应用标准或自定义过滤器来搜索“垃圾箱”文件夹中的相应资源。有关使用标准和自定义过滤器的更多信息，请参阅[在 Assets Essentials 中搜索资源](search.md)。
 * **设置**：您可以使用&#x200B;**设置**&#x200B;配置 Assets Essentials 的各种选项，如元数据表单、报告和分类管理。
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
@@ -85,18 +85,18 @@ ht-degree: 96%
 *A：返回当前文件夹或存储库中的当前搜索结果*
 *B：您正在预览的文件的名称和格式*
 *C：分配任务*
-*D：下载资产*
-*E：预览资产并查看元数据信息*
+*D：下载资源*
+*E：预览资源并查看元数据信息*
 *D：高级元数据*
-*E：关键词和智能标签*
+*E：关键词和智能标记*
 *F：评论和注释*
-*G：查看与所选资产相关的任务*
+*G：查看与所选资源相关的任务*
 *H：查看和管理版本*
 *I：查看图像的演绎版*
 *J：编辑图像*
 *K：基本元数据*
 *L：高级元数据*
-*M：关键词和智能标签*
+*M：关键词和智能标记*
 *N：更仔细地预览。缩放、全屏和其他选项*
 *O：继续到当前文件夹中的上一个或下一个资源，而不返回文件夹*
 
