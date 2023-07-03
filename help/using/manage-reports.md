@@ -3,9 +3,9 @@ title: 在 Assets Essentials 中管理报表
 description: 访问 Assets Essentials 的报表部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="assets_reports"
 >title="报表"
->abstract="管理员可通过资源报表深入了解 Adobe Experience Manager Assets Essentials 环境的活动。这些数据提供关于用户如何与内容和产品进行交互的有用信息。所有分配给管理员产品配置文件的用户均可访问 Insights 仪表板或创建用户定义的报表。"
+>abstract="通过资源报表，管理员可了解 Adobe Experience Manager Assets Essentials 环境的活动。这些数据提供关于用户如何与内容和产品进行交互的有用信息。所有分配给管理员产品配置文件的用户均可访问 Insights 仪表板或创建用户定义的报表。"
 
 通过资源报表，管理员可了解 Adobe Experience Manager Assets Essentials 环境的活动。这些数据提供关于用户如何与内容和产品进行交互的有用信息。
 
@@ -30,11 +30,11 @@ ht-degree: 93%
 
 单击可在左侧导航窗格中找到的&#x200B;**[!UICONTROL 见解]**&#x200B;以查看以下自动生成的图表：
 
-* **下载**：过去 30 天或 12 个月从 Assets Essentials 环境下载的资产数量，用折线图表示。
+* **下载**：过去 30 天或 12 个月从 Assets Essentials 环境下载的资源数量，用折线图表示。
 
-* **上传**：使用折线图表示过去30天或12个月内上传到Assets Essentials环境的资源数。
+* **上载**：过去 30 天或 12 个月上载到 Assets Essentials 环境中的资源数量，用折线图表示。
 
-* **热门搜索**：以表格格式查看过去30天或12个月内Assets Essentials环境中热门搜索词以及这些搜索词的搜索次数。
+* **热门搜索**：以表格格式查看过去 30 天或 12 个月内在 Assets Essentials 环境中搜索最多的术语以及这些术语的搜索次数。
 
 <!--
 
