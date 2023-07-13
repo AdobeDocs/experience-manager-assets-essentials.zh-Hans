@@ -3,10 +3,10 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 839ec4e2dcd324c481d9b4b5aba2210ec95203ba
+source-git-commit: 99f843be67ca6ca9dc1afe4887937b0fbcbfcf8e
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 100%
+source-wordcount: '1033'
+ht-degree: 87%
 
 ---
 
@@ -141,6 +141,34 @@ What about temporarily hiding an asset (suspending search on it) from the search
 
 When userA is searching and userB add an asset that matches search results, will the asset display in search as soon as userA refreshes the page? Assuming indexing is near real-time. May not be so for bulk uploads.
 -->
+
+## 使用搜索结果 {#work-with-search-results}
+
+您可以选择搜索结果中显示的资源并执行以下操作：
+
+* **详细信息**：查看和编辑资源属性。
+
+* **添加到收藏集**：将选定的资源添加到收藏集。
+
+* **下载**：下载资源。
+
+* **删除**：删除资源。
+
+* **复制**：将资源复制到其他文件夹位置。
+
+* **移动**：将资源移动到其他文件夹位置。
+
+* **重命名**：重命名资源。
+
+* **分配任务**：将任务分配给资源的用户。
+
+* **共享链接**： [共享链接](share-links-for-assets.md) ，以便其他用户可以访问和下载该资源。
+
+* **观看**： [监控操作](manage-notifications.md) 对资产执行。
+
+* **显示文件位置**：导航到资产文件夹位置。
+
+* **固定到快速访问**： [固定资产](my-workspace.md) 以便在以后需要时更快地访问。 所有经过固定的项目都显示在“我的工作区”的&#x200B;**快速访问**&#x200B;部分。
 
 ## 后续步骤 {#next-steps}
 
