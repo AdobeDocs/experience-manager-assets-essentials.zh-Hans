@@ -172,7 +172,7 @@ When userA is searching and userB add an asset that matches search results, will
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，了解如何在 Assets Essentials 中搜索资源](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
+* [观看视频，了解如何在 Assets Essentials 中搜索资源](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html?lang=zh-Hans)
 
 * 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 
