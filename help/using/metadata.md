@@ -4,10 +4,10 @@ description: 在 [!DNL Assets Essentials] 中管理资源的元数据
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 839ec4e2dcd324c481d9b4b5aba2210ec95203ba
+source-git-commit: e5c76d08c2a9cd35a0efb05743a3069d0efd3f62
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 100%
+source-wordcount: '1557'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 >id="assets_metadata_forms"
 >title="元数据表单"
 >abstract="[!DNL Experience Manager Assets] 默认提供许多标准元数据字段。组织有其他元数据需求时，就需要更多元数据字段来添加业务特有的元数据。 通过元数据表单，可将自定义元数据字段添加到资源的“详细信息”页面。业务特有的元数据改善对其资源的治理和发现。"
->additional-url="https://video.tv.adobe.com/v/3420922" text="观看此功能的实际操作"
+>additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="观看此功能的实际操作"
 
 默认情况下，Assets Essentials 提供了多个标准元数据字段。组织有额外的元数据需求，就需要更多元数据字段以添加业务特有的元数据。通过元数据表单，可将自定义元数据字段添加到资源的[!UICONTROL 详细信息]页面。业务特有的元数据改善对其资源的治理和发现。您可以从头开始创建表单，也可以重新利用现有表单。
 
