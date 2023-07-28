@@ -4,19 +4,68 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 84b830af6225242aa8cb851ac6458a66394a281a
-workflow-type: ht
-source-wordcount: '2044'
-ht-degree: 100%
+source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
+workflow-type: tm+mt
+source-wordcount: '2154'
+ht-degree: 96%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials 的当前版本于 2023 年 6 月 22 日发布。
+Assets Essentials的当前版本于2023年7月27日发布。
 
 该版本中包含的各项功能包括：
 
+<!--
+
+**Assign metadata form to a folder**
+
+You can now assign metadata form to a specific folder within your Assets Essentials deployment. All assets in the folder, including assets in the sub-folders, then display properties defined in the assigned metadata form.
+
+![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
+
+-->
+
+**改进了图像智能标记的人工智能框架**
+
+Experience Manager Assets 现在为图像智能标记使用改进的人工智能框架。 这种内容智能化可提高智能标记的相关性和准确性，可用于摄取的所有图像资产。 
+
+**配置资产列表视图的列显示**
+
+Assets Essentials现在提供用于选择在“资源列表”视图中显示的列的功能，如状态、格式、Dimension、大小等。
+
+![配置列](/help/using/assets/configure-columns.png)
+
+**根据相关性对搜索结果排序**
+
+默认情况下，Assets Essentials现在会根据相关性对搜索结果进行排序。 可按 `Name`、`Relevance`、`Size`、`Modified` 和 `Created` 的升序或降序为搜索到的资源排序。
+
+**基于客户反馈的改进**
+
+基于客户反馈的增强和错误修复。
+
+
+## 已知问题 {#known-issues}
+
+[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* 专用收藏集仅供创建者和具有管理员权限的用户使用。管理员无法将访问集合的权限委派给其他用户。
+
+* 管理员无法将访问集合的权限委派给其他用户。
+
+如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
+
+## 过去的版本 {#past-releases}
+
+### 6月版 {#june2023-release}
 
 **资源的分层标记可提供更快的搜索体验**
 
@@ -49,30 +98,6 @@ Assets Essentials 现在支持使用“我的工作区”的&#x200B;**“见解�
 **元数据表单增强功能**
 
 Assets Essentials 现在允许您向元数据表单添加多值文本和下拉列表属性组件。
-
-
-**基于客户反馈的改进**
-
-基于客户反馈的增强和错误修复。
-
-## 已知问题 {#known-issues}
-
-[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* 专用收藏集仅供创建者和具有管理员权限的用户使用。管理员无法将访问集合的权限委派给其他用户。
-
-* 管理员无法将访问集合的权限委派给其他用户。
-
-如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
-
-## 过去的版本 {#past-releases}
 
 ### 2023 年发布的多个版本 {#multiple-releases-2023}
 

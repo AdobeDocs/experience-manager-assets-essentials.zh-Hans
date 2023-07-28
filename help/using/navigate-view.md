@@ -3,10 +3,10 @@ title: “[!DNL Assets Essentials] 用户界面”
 description: 了解  [!DNL Assets Essentials] 中的用户界面并在其中导航。
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: b2ec3dde3d231cdb772833dfa7c9de01b7c3dd38
-workflow-type: ht
-source-wordcount: '937'
-ht-degree: 100%
+source-git-commit: 4f3141fe95a0c33b22042da4f234dd2a921cbac6
+workflow-type: tm+mt
+source-wordcount: '1000'
+ht-degree: 93%
 
 ---
 
@@ -111,6 +111,16 @@ ht-degree: 100%
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
 -->
+
+## 配置资产列表视图的列显示 {#configure-columns-list-view}
+
+您可以选择在“资源列表”视图中显示的列，如状态、格式、Dimension、大小等：
+
+1. 选择 **[!UICONTROL 资产]** 从左侧导航窗格中，切换到资产列表视图，然后单击 ![“设置”图标](assets/settings-icon.svg).
+
+1. 选择需要在列表视图中显示的列，然后单击 **[!UICONTROL 确认]**.
+
+   ![配置列](/help/using/assets/configure-columns.png)
 
 ## 后续步骤 {#next-steps}
 
