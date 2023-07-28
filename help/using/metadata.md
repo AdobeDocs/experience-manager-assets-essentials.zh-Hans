@@ -4,7 +4,7 @@ description: 在 [!DNL Assets Essentials] 中管理资源的元数据
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 5b9e3297c37bca0e5badc2073f8c6467e012ccde
+source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
 workflow-type: ht
 source-wordcount: '1558'
 ht-degree: 100%
@@ -114,7 +114,7 @@ MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
 
 要重用现有的表单创建新表单，请选择一个元数据表单，在工具栏中单击&#x200B;**[!UICONTROL 复制]**，提供名称，然后单击&#x200B;**[!UICONTROL 确认]**。您可以编辑元数据表单来进行更改。更改表单后，它会用于在更改之后上传的资源。它不会更改现有资源。
 
-## 属性组件 {#property-components}
+### 属性组件 {#property-components}
 
 您可以使用以下任何属性组件自定义元数据表单。只需将组件类型拖放到表单上的所需位置并修改组件设置即可。以下是每种属性类型及其存储方式的概述。
 
@@ -133,6 +133,24 @@ MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
 | 标记 | 从分类管理中存储的值添加标记（映射到 xcm:tags）。 |
 | 关键字 | 添加自由格式关键字（映射到 dc:subject）。 |
 | 智能标记 | 通过自动添加元数据标记来增强搜索功能。 |
+
+<!--
+
+### Assign metadata form to a folder {#assign-metadata-form-folder}
+
+You can also assign a metadata form to a folder within your Assets Essentials deployment. The metadata form assigned to a folder as per the MIME type is overwritten when you apply a metadata form to a folder manually. All assets in the folder, including assets in the sub-folders, then display properties defined in the metadata form.
+
+To assign a metadata form to a folder:
+
+1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** and select a metadata form.
+
+2. Click **[!UICONTROL Assign to Folder]**.
+
+3. Select the folder and click **[!UICONTROL Assign]**.
+
+   ![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
+
+-->
 
 ## 后续步骤 {#next-steps}
 
