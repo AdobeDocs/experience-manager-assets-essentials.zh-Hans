@@ -5,17 +5,17 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials的当前版本于2023年7月27日发布。
+Assets Essentials 的当前版本于 2023 年 7 月 27 日发布。
 
-该版本中包含的各项功能包括：
+该版本中包括的功能的列表为：
 
 <!--
 
@@ -27,19 +27,19 @@ You can now assign metadata form to a specific folder within your Assets Essenti
 
 -->
 
-**改进了图像智能标记的人工智能框架**
+**为图像智能标记改进了人工智能框架**
 
-Experience Manager Assets 现在为图像智能标记使用改进的人工智能框架。 这种内容智能化可提高智能标记的相关性和准确性，可用于摄取的所有图像资产。 
+Experience Manager Assets 现在使用为图像智能标记改进的人工智能框架。这种内容情报可提高对摄取的所有图像资源都可用的智能标记的相关性和准确性。
 
-**配置资产列表视图的列显示**
+**配置显示“资源列表”视图的各列的方式**
 
-Assets Essentials现在提供用于选择在“资源列表”视图中显示的列的功能，如状态、格式、Dimension、大小等。
+Assets Essentials 现在让您可选择在“资源列表”视图中显示的列，如“状态”、“格式”、“维度”、“大小”等。
 
-![配置列](/help/using/assets/configure-columns.png)
+![配置各列](/help/using/assets/configure-columns.png)
 
-**根据相关性对搜索结果排序**
+**根据相关性为搜索结果排序**
 
-默认情况下，Assets Essentials现在会根据相关性对搜索结果进行排序。 可按 `Name`、`Relevance`、`Size`、`Modified` 和 `Created` 的升序或降序为搜索到的资源排序。
+Assets Essentials 现在默认情况下根据相关性为搜索结果排序。可按 `Name`、`Relevance`、`Size`、`Modified` 和 `Created` 的升序或降序为搜索到的资源排序。
 
 **基于客户反馈的改进**
 
@@ -65,7 +65,7 @@ Assets Essentials现在提供用于选择在“资源列表”视图中显示的
 
 ## 过去的版本 {#past-releases}
 
-### 6月版 {#june2023-release}
+### 6 月版 {#june2023-release}
 
 **资源的分层标记可提供更快的搜索体验**
 
