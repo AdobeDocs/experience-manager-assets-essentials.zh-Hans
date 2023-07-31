@@ -4,9 +4,9 @@ description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 99%
 
 * 自定义筛选器：[将自定义筛选器添加](#custom-filters)到 Assets Essentials 用户界面。与标准筛选器一起应用自定义筛选器以细化搜索结果。
 
-可按 `Name`、`Relevance`、`Size`、`Modified` 和 `Created` 的升序或降序为搜索到的资源排序。搜索出的资源将根据 `Relevance`，默认情况下。
+可按 `Name`、`Relevance`、`Size`、`Modified` 和 `Created` 的升序或降序为搜索到的资源排序。默认情况下，根据 `Relevance` 为搜索到的资源排序。
 
 ## 管理自定义筛选条件 {#custom-filters}
 
