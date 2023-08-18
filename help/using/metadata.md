@@ -4,10 +4,10 @@ description: 在 [!DNL Assets Essentials] 中管理资源的元数据
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 6a9bc34907f9eb8c7d18a8fbb139e27244538256
+source-git-commit: 50b9ba30eac2d99fe72a8cfacf4b0361b8955a87
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 99%
+source-wordcount: '1558'
+ht-degree: 100%
 
 ---
 
@@ -58,11 +58,6 @@ ht-degree: 99%
 您也可以在[!UICONTROL 智能标记]部分中，删除由 [!DNL Assets Essentials] 自动添加到所有上传资源的标记。
 
 ## 分类管理 {#taxonomy-management}
-
->[!CONTEXTUALHELP]
->id="assets_express_integration"
->title="Adobe Express集成"
->abstract="[!DNL Experience Manager Assets] 默认提供许多标准元数据字段。组织有其他元数据需求时，就需要更多元数据字段来添加业务特有的元数据。 通过元数据表单，可将自定义元数据字段添加到资源的“详细信息”页面。业务特有的元数据改善对其资源的治理和发现。"
 
 标记还可以嵌套到层次结构中以支持类别和子类别等关系。如果您需要插入分层标记，管理员可以在[!UICONTROL 设置]的[!UICONTROL 分类管理]部分轻松管理这些标记。您可以创建一组受管理的命名空间和标记，所有用户都可以在描述内容时访问并使用它们。只有管&#x200B;&#x200B;理员可以在[!UICONTROL 分类管理器]中设置标记层次结构，确保以一致的方式控制和使用这些值。
 

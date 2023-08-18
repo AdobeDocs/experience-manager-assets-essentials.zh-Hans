@@ -2,10 +2,10 @@
 title: 管理通知
 description: 使用 Assets Essentials 通知监视对于可在存储库中找到的资源或文件夹执行的操作。
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '617'
-ht-degree: 100%
+source-git-commit: 07457e86a37b5d39a6c843c2c2cf8750a6acb354
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 99%
 
 ---
 
@@ -95,6 +95,11 @@ Assets Essentials 现在为订阅的类别发送通知。您还可以选择多�
 同样，要取消订阅，请选择已订阅的资产或文件夹，然后单击&#x200B;**[!UICONTROL “取消关注]**。
 
 ## 查看通知 {#view-notifications}
+
+>[!CONTEXTUALHELP]
+>id="assets_express_integration"
+>title="Adobe Express集成"
+>abstract="[!DNL Experience Manager Assets] 默认提供许多标准元数据字段。组织有其他元数据需求时，就需要更多元数据字段来添加业务特有的元数据。 通过元数据表单，可将自定义元数据字段添加到资源的“详细信息”页面。业务特有的元数据改善对其资源的治理和发现。"
 
 通知显示在 Assets Essentials 用户界面上的菜单栏右端。
 
