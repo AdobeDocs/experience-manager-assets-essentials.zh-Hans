@@ -2,10 +2,10 @@
 title: 在 Assets Essentials 中管理报表
 description: 访问 Assets Essentials 的报表部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 7bda2024fd9e9d2ad05ccffccf76a51b16a113fa
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 94%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="assets_reports"
 >title="报表"
->abstract="通过资源报表，管理员可了解 Adobe Experience Manager Assets Essentials 环境的活动。这些数据提供关于用户如何与内容和产品进行交互的有用信息。所有分配给管理员产品配置文件的用户均可访问 Insights 仪表板或创建用户定义的报表。"
+>abstract="通过资源报表，管理员可了解 Adobe Experience Manager Assets Essentials 环境的活动。这些数据提供关于用户如何与内容和产品进行交互的有用信息。所有用户均可以访问分析仪表板，而分配给管理员产品配置文件的用户可以创建用户定义的报表。"
 
-通过资源报表，管理员可了解 Adobe Experience Manager Assets Essentials 环境的活动。这些数据提供关于用户如何与内容和产品进行交互的有用信息。
+通过资源报表，管理员可了解 Adobe Experience Manager Assets Essentials 环境的活动。这些数据提供关于用户如何与内容和产品进行交互的有用信息。所有用户均可以访问分析仪表板，而分配给管理员产品配置文件的用户可以创建用户定义的报表。
 
 ## 访问报表 {#access-reports}
 
@@ -55,6 +55,7 @@ ht-degree: 100%
 1. 使用&#x200B;**[!UICONTROL 选择文件夹路径]**&#x200B;字段选择文件夹路径，其中包括要对其执行报表的资源。
 
 1. 选择该报表的日期间隔。
+
    >[!NOTE]
    >
    > Assets Essentials 将所有本地时区转换为协调世界时 (UTC)。
