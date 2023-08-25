@@ -4,16 +4,16 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
-workflow-type: ht
-source-wordcount: '2154'
-ht-degree: 100%
+source-git-commit: de90b6958e4db44e8706d4a74558006702c3057c
+workflow-type: tm+mt
+source-wordcount: '2298'
+ht-degree: 93%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials 的当前版本于 2023 年 7 月 27 日发布。
+Assets Essentials 的当前版本于 2023 年 8 月 24 日发布。
 
 该版本中包括的功能的列表为：
 
@@ -27,19 +27,23 @@ You can now assign metadata form to a specific folder within your Assets Essenti
 
 -->
 
-**为图像智能标记改进了人工智能框架**
+**从数据源批量导入资源**
 
-Experience Manager Assets 现在使用为图像智能标记改进的人工智能框架。这种内容情报可提高对摄取的所有图像资源都可用的智能标记的相关性和准确性。
+管理员现在能够将大量资源从数据源导入AEM Assets。 管理员不再需要将单个资源或文件夹上传到AEM Assets。 支持批量导入的数据源包括Azure、AWS、Google Cloud和Dropbox。
 
-**配置显示“资源列表”视图的各列的方式**
+![从数据源批量导入资源](/help/using/assets/bulk-import.png)
 
-Assets Essentials 现在让您可选择在“资源列表”视图中显示的列，如“状态”、“格式”、“维度”、“大小”等。
+**由Adobe Express提供支持的图像编辑工具**
 
-![配置各列](/help/using/assets/configure-columns.png)
+由Adobe Express提供支持的简单直观的图像编辑工具可直接在AEM Assets中使用，以提高内容重复利用率和加快内容速度。
 
-**根据相关性为搜索结果排序**
+![使用Adobe Express编辑图像](/help/using/assets/edit-adobe-express.png)
 
-Assets Essentials 现在默认情况下根据相关性为搜索结果排序。可按 `Name`、`Relevance`、`Size`、`Modified` 和 `Created` 的升序或降序为搜索到的资源排序。
+**为“我的工作区快速访问”固定项目时的灵活性**
+
+可以为您、整个组织或组列表选择并固定项目，以便它们根据您的选择显示在“我的工作区”的“快速访问”部分中。
+
+![固定组的项目](assets/pin-items-for-groups.png)
 
 **基于客户反馈的改进**
 
@@ -65,7 +69,23 @@ Assets Essentials 现在默认情况下根据相关性为搜索结果排序。�
 
 ## 过去的版本 {#past-releases}
 
-### 6 月版 {#june2023-release}
+### 2023年7月版 {#july2023-release}
+
+**为图像智能标记改进了人工智能框架**
+
+Experience Manager Assets 现在使用为图像智能标记改进的人工智能框架。这种内容情报可提高对摄取的所有图像资源都可用的智能标记的相关性和准确性。
+
+**配置显示“资源列表”视图的各列的方式**
+
+Assets Essentials 现在让您可选择在“资源列表”视图中显示的列，如“状态”、“格式”、“维度”、“大小”等。
+
+![配置各列](/help/using/assets/configure-columns.png)
+
+**根据相关性为搜索结果排序**
+
+Assets Essentials 现在默认情况下根据相关性为搜索结果排序。可按 `Name`、`Relevance`、`Size`、`Modified` 和 `Created` 的升序或降序为搜索到的资源排序。
+
+### 2023年6月版 {#june2023-release}
 
 **资源的分层标记可提供更快的搜索体验**
 
