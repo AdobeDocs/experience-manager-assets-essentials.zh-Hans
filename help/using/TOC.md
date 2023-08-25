@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 95720f448d45e1e3f36d10dacbe5c0903a83b3e8
-workflow-type: ht
-source-wordcount: '131'
-ht-degree: 100%
+source-git-commit: e6720e7f3f19e81b50feece7e7adaddca0b861d8
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 97%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 100%
 + [支持的文件类型和用例](supported-file-formats.md)
 + [查看资源](navigate-view.md)
 + [上传和添加资源](add-delete.md)
++ [批量导入资源](bulk-import-assets-view.md)
 + [搜索和发现资源](search.md)
 + [资源管理任务](manage-organize.md)
 + [编辑图像](edit-images.md)
