@@ -27,7 +27,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
 >title="Adobe Express 集成"
->abstract="由 Adobe Express 提供支持的简单直观的图像编辑工具可直接在 AEM Assets 中使用，以增加内容重用并加快内容处理速度。"
+>abstract="可直接在 AEM Assets 中找到受 Adobe Express 支持的简单而直观的图像编辑工具以提高内容重用并加快内容速度。"
 
 ### 调整图像大小 {#resize-image-using-express}
 
