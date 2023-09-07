@@ -4,7 +4,7 @@ description: 了解如何使用新的资源 UI（资源视图）批量导入资�
 source-git-commit: 946dc5ea27c61eb5f2dc74054ebdd65cdbdb71a8
 workflow-type: tm+mt
 source-wordcount: '1244'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -13,13 +13,13 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="批量导入资源"
->abstract="管理员现在能够使用Assets视图将大量资源从数据源导入Experience Manager Assets。 管理员不再需要将单个资源或文件夹上传到Experience Manager Assets。 支持批量导入的云存储提供商包括Azure、AWS、Google Cloud和Dropbox。"
+>abstract="管理员现在能够使用资源视图将大量资源从数据源导入到 Experience Manager Assets。管理员不再需要将单个资源或文件夹上传到 Experience Manager Assets。支持的批量导入云存储提供程序包括 Azure、AWS、Google Cloud 和 Dropbox。"
 
 AEM Assets 视图中的“批量导入”功能使管理员能够将大量资源从数据源导入到 AEM Assets。管理员不再需要将单个资源或文件夹上传到 AEM Assets。
 
 >[!NOTE]
 >
->资产视图批量导入程序使用与管理员视图批量导入程序相同的后端。 但是，它提供了更多可从中导入的数据源，并提供了更简化的用户体验。
+>资源视图批量导入器使用与管理视图批量导入器相同的后端。但是，它提供了更多可供导入的数据源和更简化的用户体验。
 
 您可以从以下数据源导入资源：
 
@@ -68,13 +68,13 @@ AEM Assets 视图中的“批量导入”功能使管理员能够将大量资源
 
 1. 单击&#x200B;**[!UICONTROL “保存”]**，执行所选选项。
 
-### 在批量导入期间处理文件名 {#filename-handling-bulkimport-assets-view}
+### 批量导入期间处理文件名 {#filename-handling-bulkimport-assets-view}
 
-批量导入资源或文件夹时， [!DNL Experience Manager Assets] 导入导入源中存在的全部结构。 [!DNL Experience Manager] 遵循资产和文件夹名称中特殊字符的内置规则，因此需要清理这些文件名。 对于文件夹名称和资产名称，用户定义的标题保持不变，并存储在中 `jcr:title`.
+当您批量导入资源或文件夹时，[!DNL Experience Manager Assets] 会将导入源中存在的整个结构进行导入。[!DNL Experience Manager] 将遵循有关资源和文件夹名称中的特殊字符的内置规则，因此这些文件名需要净化。对于文件夹名称和资源名称，用户定义的标题将保持不变，并存储在 `jcr:title` 中。
 
-在批量导入期间， [!DNL Experience Manager] 查找现有文件夹以避免重新导入资产和文件夹，还可验证在导入发生的父文件夹中应用的清理规则。 如果在父文件夹中应用了清理规则，则相同的规则将应用于导入源。 对于新导入，将应用以下清理规则来管理资源和文件夹的文件名。
+批量导入时，[!DNL Experience Manager] 将查找现有文件夹以避免重新导入资源和文件夹，并验证在发生导入的父文件夹中应用的净化规则。如果在父文件夹中应用净化规则，则相同的规则也将应用于导入源。对于新导入，将应用以下净化规则来管理资源和文件夹的文件名。
 
-有关在批量导入期间不允许使用的名称、处理资产名称和处理文件夹名称的详细信息，请参阅 [在管理员视图中批量导入期间处理文件名](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
+有关批量导入期间禁止的名称、资源名称和文件夹名称的处理的更多信息，请参阅[批量导入期间在管理视图中处理文件名](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport)。
 
 ## 查看现有的批量导入配置 {#view-import-configuration}
 
