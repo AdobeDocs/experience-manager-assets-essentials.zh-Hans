@@ -3,10 +3,10 @@ title: 与其他 Adobe 解决方案集成
 description: “[!DNL Assets Essentials] 与其他 Adobe 解决方案集成，可通过本机应用程序提供嵌入式体验。”
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: 5bcd55313d1fb8bcf3dedbb24742eca5e2663aa8
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 82%
 
 ---
 
@@ -25,6 +25,12 @@ ht-degree: 100%
 * **[!DNL Adobe Workfront]**：[[!DNL Adobe Workfront]](https://www.workfront.com/) 是一款工作管理应用程序，帮助您在一个位置对工作的整个生命周期进行管理。[!DNL Adobe Workfront] 与 [!DNL Assets Essentials] 之间的原生集成使得组织可以将工作与资源管理内在地联系起来，提升内容速度，缩短产品上市时间。对于管理工作，用户可以在同一个解决方案中访问所需的文档和图像。[!DNL Assets Essentials] 作为插件提供，[!DNL Workfront] 的新客户可以单独购买。请参阅[配置和使用 [!DNL Workfront] 以及 [!DNL Essentials] 集成](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm)。
 
   [观看视频，了解如何配置 Adobe Workfront 和 Assets Essentials 集成](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html)
+
+## 与Edge Delivery Services的基于文档的创作集成 {#integrate-doc-authoring-edge-and-assets}
+
+Edge Delivery使您能够创建快速吸引人的网站，作者可以在其中快速更新和发布内容，并且可以快速启动新站点。
+
+将AEM Assets与基于文档的创作集成以供Edge Delivery Services使用，以使网站作者能够在Microsoft Word或Google文档中创作文档时使用AEM Assets存储库中可用的图像。 有关更多信息，请参阅 [将AEM Assets与基于文档的创作集成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/edge-delivery/using.html#integrate-assets-edge).
 
 ## 后续步骤 {#next-steps}
 
