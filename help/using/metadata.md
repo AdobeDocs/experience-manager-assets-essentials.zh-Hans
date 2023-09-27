@@ -4,10 +4,10 @@ description: 在 [!DNL Assets Essentials] 中管理资源的元数据
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 1897989934b12b0f88b56461c76833273ca04447
-workflow-type: ht
-source-wordcount: '1558'
-ht-degree: 100%
+source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
+workflow-type: tm+mt
+source-wordcount: '1686'
+ht-degree: 92%
 
 ---
 
@@ -134,25 +134,21 @@ MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
 | 关键字 | 添加自由格式关键字（映射到 dc:subject）。 |
 | 智能标记 | 通过自动添加元数据标记来增强搜索功能。 |
 
-<!--
+### 将元数据表单分配给文件夹 {#assign-metadata-form-folder}
 
-### Assign metadata form to a folder {#assign-metadata-form-folder}
+您还可以将元数据表单分配给Assets Essentials部署中的文件夹。 手动将元数据表单应用于文件夹时，将覆盖根据MIME类型分配给文件夹的元数据表单。 文件夹中的所有资产（包括子文件夹中的资产）将显示元数据表单中定义的属性。
 
-You can also assign a metadata form to a folder within your Assets Essentials deployment. The metadata form assigned to a folder as per the MIME type is overwritten when you apply a metadata form to a folder manually. All assets in the folder, including assets in the sub-folders, then display properties defined in the metadata form.
+要将元数据表单分配给文件夹，请执行以下操作：
 
-To assign a metadata form to a folder:
+1. 导航到 **[!UICONTROL 设置]** > **[!UICONTROL 元数据Forms]** 并选择元数据表单。
 
-1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** and select a metadata form.
+2. 单击 **[!UICONTROL 分配到文件夹]**.
 
-2. Click **[!UICONTROL Assign to Folder]**.
+3. 选择文件夹并单击 **[!UICONTROL 分配]**.
 
-3. Select the folder and click **[!UICONTROL Assign]**.
+   ![将元数据表单分配给文件夹](/help/using/assets/assign-to-folder.png)
 
-   ![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
-
-   You can also navigate to the folder details page and select a metadata form from the folder properties available in the right pane to assign the metadata form to the folder.
-
--->
+   您还可以导航到文件夹详细信息页面，并从右侧窗格中可用的文件夹属性中选择一个元数据表单，以将元数据表单分配给文件夹。
 
 ## 后续步骤 {#next-steps}
 
