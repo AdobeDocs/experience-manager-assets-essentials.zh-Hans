@@ -1,25 +1,25 @@
 ---
-title: 使用资源视图批量导入资源
-description: 了解如何使用新的资源 UI（资源视图）批量导入资源。管理员使用它可以将大量资源从数据源导入到 AEM Assets。
-source-git-commit: 946dc5ea27c61eb5f2dc74054ebdd65cdbdb71a8
+title: 使用Assets Essentials批量导入资源
+description: 了解如何使用新的资源UI(Assets Essentials)批量导入资源。 管理员使用它可以将大量资源从数据源导入到 AEM Assets。
+source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 使用资源视图批量导入资源  {#bulk-import-assets-view}
+# 使用Assets Essentials批量导入资源  {#bulk-import-essentials}
 
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="批量导入资源"
->abstract="管理员现在能够使用资源视图将大量资源从数据源导入到 Experience Manager Assets。管理员不再需要逐个将资源或文件夹上传到 Experience Manager Assets。批量导入支持的云存储提供商包括 Azure、AWS、Google Cloud 和 Dropbox。"
+>abstract="管理员现在能够使用Assets Essentials将大量资源从数据源导入Experience Manager Assets。 管理员不再需要逐个将资源或文件夹上传到 Experience Manager Assets。批量导入支持的云存储提供商包括 Azure、AWS、Google Cloud 和 Dropbox。"
 
-AEM Assets 视图中的“批量导入”功能使管理员能够将大量资源从数据源导入到 AEM Assets。管理员不再需要将单个资源或文件夹上传到 AEM Assets。
+通过AEM Assets Essentials中的批量导入，管理员能够将大量资源从数据源导入到AEM Assets。 管理员不再需要将单个资源或文件夹上传到 AEM Assets。
 
 >[!NOTE]
 >
->资源视图批量导入器与管理视图批量导入器使用的后端相同。但是，它提供更多可从其导入的数据源和更简化的用户体验。
+>Assets Essentials批量导入程序使用与Assetsas a Cloud Service批量导入程序相同的后端。 但是，Assets Essentials提供了更多要从中导入的数据源，并提供了更加简化的用户体验。
 
 您可以从以下数据源导入资源：
 
@@ -74,7 +74,7 @@ AEM Assets 视图中的“批量导入”功能使管理员能够将大量资源
 
 批量导入期间，[!DNL Experience Manager] 查找现有文件夹以避免重复导入资源和文件夹，还验证在发生导入的父文件夹中应用的净化规则。如果在父文件夹中应用了净化规则，则将相同的规则应用于导入源。对于新导入，应用以下净化规则以管理资源的文件名和文件夹名称。
 
-有关在批量导入期间不允许使用的名称、处理资源名称和处理文件夹名称的详细信息，请参阅[批量导入期间在管理视图中处理文件名](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport)。
+有关在批量导入期间不允许使用的名称、处理资产名称和处理文件夹名称的详细信息，请参阅 [在批量导入期间处理文件名](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
 
 ## 查看现有的批量导入配置 {#view-import-configuration}
 
