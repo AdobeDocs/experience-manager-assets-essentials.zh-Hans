@@ -1,14 +1,14 @@
 ---
-title: 如何在资源视图中管理标记？
-description: 了解如何在资源视图中管理标记。标记帮助您将资源分类，这样可更高效地浏览和搜索资源。
-source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
-workflow-type: ht
-source-wordcount: '1422'
-ht-degree: 100%
+title: 如何管理Assets Essentials中的标记？
+description: 了解如何管理Assets Essentials中的标记。 标记帮助您将资源分类，这样可更高效地浏览和搜索资源。
+source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
+workflow-type: tm+mt
+source-wordcount: '1292'
+ht-degree: 88%
 
 ---
 
-# 在资源视图中管理标记 {#view-assets-and-details}
+# 管理Assets Essentials中的标记 {#view-assets-and-details}
 
 
 >[!CONTEXTUALHELP]
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 * 随着组织词汇的变化，标记可能会随着时间的推移而演变。
 
-* 在管理视图中管理的标记与在资源视图中管理的标记保持同步，从而确保元数据得到治理及其完整性。
+* 在Assets as a Cloud Service中管理的标记与Assets Essentials中管理的标记保持同步，这可以确保元数据的治理和完整性。
 
 若要将标记应用于资源，您必须首先创建一个命名空间，然后创建并向其添加标记。您还可以创建标记并将其添加到现有命名空间。您在根级别创建的任何标记都会自动添加到标准标记命名空间。然后，您可以将“标记”字段添加到元数据表单，以便它显示在“资源详细信息”页面上。配置这些设置后，您可以开始将标记应用到资源。
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 ![标记管理](assets/tagging-taxonomy-management.png)
 
-除了本文提到的功能之外，管理视图中还提供了其他功能，包括合并、重命名、本地化和发布标记。
+Assets as a Cloud Service中提供了本文之外的其他功能，包括合并、重命名、本地化和发布标记。
 
 ## 创建命名空间 {#creating-a-namespace}
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->如果您使用管理视图删除`Standard Tags`命名空间，在根级别创建的标记不会显示在可用标记列表中。
+>如果您删除 `Standard Tags` 命名空间使用Assetsas a Cloud Service，在根级别创建的标记不会显示在可用标记列表中。
 
 ## 移动标记 {#moving-tags}
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 >[!NOTE]
 >
 >* 标记的 `Name` 无法更新。标记的根路径也基于标记的名称。即使更新了 `Title` 字段，路径也保持不变。
->* 通过管理视图还可进行其他操作，例如合并、本地化和发布。
+>* Assetsas a Cloud Service中提供了其他操作，例如合并、本地化和发布。
 
 ## 正在删除标记 {#deleting-tags}
 
@@ -134,7 +134,7 @@ ht-degree: 100%
 
 ## 将标记组件添加到元数据表单 {#adding-tags-to-metadata-form}
 
-标记组件会自动添加到 `default` 元数据表单中。您可以使用模板或从头开始设计[元数据表单](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=en#metadata-forms)。如果您使用的不是现有的元数据表单模板，则可以修改您的元数据表单并添加标记组件。元数据属性映射是自动填充的，因此此时无法修改。管理视图中的用户可以更新映射以使用自定义命名空间存储标记值，并使用根路径仅公开层次结构的子集。
+标记组件会自动添加到 `default` 元数据表单中。您可以使用模板或从头开始设计[元数据表单](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=en#metadata-forms)。如果您使用的不是现有的元数据表单模板，则可以修改您的元数据表单并添加标记组件。元数据属性映射是自动填充的，因此此时无法修改。资产as a Cloud Service用户可以使用自定义命名空间更新映射以存储标记值，并使用根路径仅公开层次结构的子集。
 
 观看此简短视频，了解如何将标记组件添加到元数据表单中：
 
@@ -149,17 +149,7 @@ ht-degree: 100%
    ![标记资源](assets/adding-tags-to-assets.png)
 
 1. 选择一个或多个标记。 子标记将与父标记或名称空间一起自动选择。
-在资源视图中修改的标记也会应用在管理视图中。
-
-## 限制 {#limitations}
-
-目前，以下高级分类功能在资源视图中不可用，只能通过管理视图访问：
-
-* **本土化：**&#x200B;任何本地化都必须在管理视图中进行。
-* **根路径：**&#x200B;根路径不可配置。存储在分类管理中的所有命名空间都会在资源视图中的标记属性上公开。
-* **标准标记：**&#x200B;在管理视图中应用的标准标记在资源视图中可见。您无法在资源详细信息页面的资源视图中添加新的标准标记。标准标记中存储的现有值将会应用于“资源详细信息”页面。
-* **自定义命名空间：**&#x200B;标记无法映射到自定义命名空间。
-* **查看参考资料：**&#x200B;管理员可以在资源视图中查看标记使用情况。这是指所有正在使用标记的资源。但是，管理员无法在参考中使用该标记查看单个资源。
+在Assets Essentials中修改的标记也会在Assets中应用as a Cloud Service。
 
 <!--
 *   Overview

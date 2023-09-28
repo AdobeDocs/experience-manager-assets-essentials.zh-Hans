@@ -3,8 +3,8 @@ title: 使用Assets Essentials批量导入资源
 description: 了解如何使用新的资源UI(Assets Essentials)批量导入资源。 管理员使用它可以将大量资源从数据源导入到 AEM Assets。
 source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1245'
+ht-degree: 89%
 
 ---
 
