@@ -4,9 +4,9 @@ description: “[!DNL Assets Essentials] 与其他 Adobe 解决方案集成，�
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
 source-git-commit: 5bcd55313d1fb8bcf3dedbb24742eca5e2663aa8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 82%
 
   [观看视频，了解如何配置 Adobe Workfront 和 Assets Essentials 集成](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html)
 
-## 与Edge Delivery Services的基于文档的创作集成 {#integrate-doc-authoring-edge-and-assets}
+## 与 Edge Delivery Services 的基于文档的创作集成 {#integrate-doc-authoring-edge-and-assets}
 
-Edge Delivery使您能够创建快速吸引人的网站，作者可以在其中快速更新和发布内容，并且可以快速启动新站点。
+Edge Delivery 使您可快速创建吸引人的网站，作者从中可快速地更新和发布内容，并可快速地推出新网站。
 
-将AEM Assets与基于文档的创作集成以供Edge Delivery Services使用，以使网站作者能够在Microsoft Word或Google文档中创作文档时使用AEM Assets存储库中可用的图像。 有关更多信息，请参阅 [将AEM Assets与基于文档的创作集成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/edge-delivery/using.html#integrate-assets-edge).
+通过将 AEM Assets 与 Edge Delivery Services 的基于文档的创作集成，网站作者在 Microsoft Word 或 Google Docs 中创作文档时可使用可在 AEM Assets 存储库中找到的图像。有关更多信息，请参阅[将 AEM Assets 与基于文档的创作集成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/edge-delivery/using.html#integrate-assets-edge)。
 
 ## 后续步骤 {#next-steps}
 
