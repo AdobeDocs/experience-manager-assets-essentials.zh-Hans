@@ -5,27 +5,27 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials的当前版本于2023年9月21日发布。
+Assets Essentials 的当前版本于 2023 年 9 月 21 日发布。
 
 最近添加的特性的列表包括以下各项：
 
 **将元数据表单分配给文件夹**
 
-您现在可以将Assets Essentials表单分配给元数据部署中的特定文件夹。 文件夹中的所有资产（包括子文件夹中的资产）将显示在分配的元数据表单中定义的属性。
+现在可将元数据表单分配给 Assets Essentials 部署中的特定文件夹。随后该文件夹中的所有资源（包括子文件夹中的资源）显示在所分配的元数据表单中定义的属性。
 
 ![将元数据表单分配给文件夹](/help/using/assets/assign-to-folder.png)
 
 **从数据源批量导入资源**
 
-管理员现在能够将大量资源从数据源导入到 AEM Assets。管理员不再需要将单个资源或文件夹上传到 AEM Assets。支持批量导入的数据源包括 Azure、AWS、Google Cloud 和 Dropbox。
+管理员现在能够将大量资源从数据源导入到 AEM Assets。管理员不再需要将单独的资源或文件夹上传到 AEM Assets。支持批量导入的数据源包括 Azure、AWS、Google Cloud 和 Dropbox。
 
 ![从数据源批量导入资源](/help/using/assets/bulk-import.png)
 
