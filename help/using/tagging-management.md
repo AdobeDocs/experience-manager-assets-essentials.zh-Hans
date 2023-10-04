@@ -1,14 +1,14 @@
 ---
-title: 如何管理Assets Essentials中的标记？
-description: 了解如何管理Assets Essentials中的标记。 标记帮助您将资源分类，这样可更高效地浏览和搜索资源。
+title: 如何在 Assets Essentials 中管理标记？
+description: 了解如何在 Assets Essentials 中管理标记。标记帮助您将资源分类，这样可更高效地浏览和搜索资源。
 source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1292'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# 管理Assets Essentials中的标记 {#view-assets-and-details}
+# 在 Assets Essentials 中管理标记 {#view-assets-and-details}
 
 
 >[!CONTEXTUALHELP]
@@ -32,7 +32,7 @@ ht-degree: 88%
 
 * 随着组织词汇的变化，标记可能会随着时间的推移而演变。
 
-* 在Assets as a Cloud Service中管理的标记与Assets Essentials中管理的标记保持同步，这可以确保元数据的治理和完整性。
+* 在 Assets as a Cloud Service 中管理的标记与在 Assets Essentials 中管理的标记保持同步，从而确保元数据得到治理及其完整性。
 
 若要将标记应用于资源，您必须首先创建一个命名空间，然后创建并向其添加标记。您还可以创建标记并将其添加到现有命名空间。您在根级别创建的任何标记都会自动添加到标准标记命名空间。然后，您可以将“标记”字段添加到元数据表单，以便它显示在“资源详细信息”页面上。配置这些设置后，您可以开始将标记应用到资源。
 
@@ -42,7 +42,7 @@ ht-degree: 88%
 
 ![标记管理](assets/tagging-taxonomy-management.png)
 
-Assets as a Cloud Service中提供了本文之外的其他功能，包括合并、重命名、本地化和发布标记。
+除了在本文中提到的功能之外，在 Assets as a Cloud Service 中还有包括合并、重命名、本地化和发布标记在内的其他功能可用。
 
 ## 创建命名空间 {#creating-a-namespace}
 
@@ -92,7 +92,7 @@ Assets as a Cloud Service中提供了本文之外的其他功能，包括合并�
 
 >[!NOTE]
 >
->如果您删除 `Standard Tags` 命名空间使用Assetsas a Cloud Service，在根级别创建的标记不会显示在可用标记列表中。
+>如果您使用 Assets as a Cloud Service 删除 `Standard Tags` 命名空间，则在可用标记的列表中不显示在根级别创建的标记。
 
 ## 移动标记 {#moving-tags}
 
@@ -115,7 +115,7 @@ Assets as a Cloud Service中提供了本文之外的其他功能，包括合并�
 >[!NOTE]
 >
 >* 标记的 `Name` 无法更新。标记的根路径也基于标记的名称。即使更新了 `Title` 字段，路径也保持不变。
->* Assetsas a Cloud Service中提供了其他操作，例如合并、本地化和发布。
+>* 在 Assets as a Cloud Service 中还有合并、本地化和发布等其他操作可用。
 
 ## 正在删除标记 {#deleting-tags}
 
@@ -134,7 +134,7 @@ Assets as a Cloud Service中提供了本文之外的其他功能，包括合并�
 
 ## 将标记组件添加到元数据表单 {#adding-tags-to-metadata-form}
 
-标记组件会自动添加到 `default` 元数据表单中。您可以使用模板或从头开始设计[元数据表单](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=en#metadata-forms)。如果您使用的不是现有的元数据表单模板，则可以修改您的元数据表单并添加标记组件。元数据属性映射是自动填充的，因此此时无法修改。资产as a Cloud Service用户可以使用自定义命名空间更新映射以存储标记值，并使用根路径仅公开层次结构的子集。
+标记组件会自动添加到 `default` 元数据表单中。您可以使用模板或从头开始设计[元数据表单](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=en#metadata-forms)。如果您使用的不是现有的元数据表单模板，则可以修改您的元数据表单并添加标记组件。元数据属性映射是自动填充的，因此此时无法修改。Assets as a Cloud Service 用户可更新映射以使用自定义命名空间存储标记值，还可使用根路径仅公开层次结构的子集。
 
 观看此简短视频，了解如何将标记组件添加到元数据表单中：
 
@@ -149,7 +149,7 @@ Assets as a Cloud Service中提供了本文之外的其他功能，包括合并�
    ![标记资源](assets/adding-tags-to-assets.png)
 
 1. 选择一个或多个标记。 子标记将与父标记或名称空间一起自动选择。
-在Assets Essentials中修改的标记也会在Assets中应用as a Cloud Service。
+在 Assets Essentials 中修改的标记还被应用于 Assets as a Cloud Service 中。
 
 <!--
 *   Overview
