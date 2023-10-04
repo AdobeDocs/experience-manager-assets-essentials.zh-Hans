@@ -5,13 +5,13 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1686'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Assets Essentials中的元数据 {#metadata}
+# Assets Essentials 中的元数据 {#metadata}
 
 元数据是指有关数据的数据或者描述。例如，作为资源，您的图像可以包含有关拍摄图像所用相机的信息或者任何版权信息。此信息是图像的元数据。元数据对于高效的资源管理非常关键。元数据是某个资源的所有可用数据的集合，但资源中并不一定包含元数据。
 
@@ -136,19 +136,19 @@ MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
 
 ### 将元数据表单分配给文件夹 {#assign-metadata-form-folder}
 
-您还可以将元数据表单分配给Assets Essentials部署中的文件夹。 手动将元数据表单应用于文件夹时，将覆盖根据MIME类型分配给文件夹的元数据表单。 文件夹中的所有资产（包括子文件夹中的资产）将显示元数据表单中定义的属性。
+现在可将元数据表单分配给 Assets Essentials 部署中的文件夹。在手动将元数据表单应用于文件夹时，将覆盖根据 MIME 类型分配给文件夹的元数据表单。随后该文件夹中的所有资源（包括子文件夹中的资源）显示在该元数据表单中定义的属性。
 
 要将元数据表单分配给文件夹，请执行以下操作：
 
-1. 导航到 **[!UICONTROL 设置]** > **[!UICONTROL 元数据Forms]** 并选择元数据表单。
+1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 元数据表单]**，然后选择一个元数据表单。
 
-2. 单击 **[!UICONTROL 分配到文件夹]**.
+2. 单击&#x200B;**[!UICONTROL 分配到文件夹]**。
 
-3. 选择文件夹并单击 **[!UICONTROL 分配]**.
+3. 选择该文件夹并单击&#x200B;**[!UICONTROL 分配]**。
 
    ![将元数据表单分配给文件夹](/help/using/assets/assign-to-folder.png)
 
-   您还可以导航到文件夹详细信息页面，并从右侧窗格中可用的文件夹属性中选择一个元数据表单，以将元数据表单分配给文件夹。
+   还可导航到文件夹详细信息页面，然后从可在右侧窗格中找到的文件夹属性中选择一个元数据表单以将该元数据表单分配给该文件夹。
 
 ## 后续步骤 {#next-steps}
 
