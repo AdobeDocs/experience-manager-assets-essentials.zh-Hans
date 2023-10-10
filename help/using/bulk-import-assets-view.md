@@ -2,10 +2,10 @@
 title: 使用 Assets Essentials 批量导入资源
 description: 了解如何使用新的资源 UI (Assets Essentials) 批量导入资源。管理员使用它可以将大量资源从数据源导入到 AEM Assets。
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 77accbc70d973a9b4afddde1c8bcd60c37ff636d
+source-git-commit: db664a94a8e0c8bddcd415477518ab9d354faee0
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 100%
+source-wordcount: '1263'
+ht-degree: 98%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 100%
 >id="assets_bulk_import"
 >title="批量导入资源"
 >abstract="管理员现在能够使用 Assets Essentials 将大量资源从数据源导入到 Experience Manager Assets。管理员不再需要逐个将资源或文件夹上传到 Experience Manager Assets。批量导入支持的云存储提供商包括 Azure、AWS、Google Cloud 和 Dropbox。"
+>additional-url="https://images-tv.adobe.com/mpcv3/4477/513abbee-d037-44dc-bc3a-47a91d4b0078_1696935015.854x480at800_h264.mp4" text="观看此功能的实际操作"
 
 通过 AEM Assets Essentials 中的批量导入，管理员可将大量资源从数据源导入到 AEM Assets。管理员不再需要将单独的资源或文件夹上传到 AEM Assets。
 
