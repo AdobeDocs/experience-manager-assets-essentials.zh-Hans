@@ -1,7 +1,8 @@
 ---
 title: 如何在 Assets Essentials 中管理标记？
 description: 了解如何在 Assets Essentials 中管理标记。标记帮助您将资源分类，这样可更高效地浏览和搜索资源。
-source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
+exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
+source-git-commit: 74f78f0675e01c09a8654d7f7d0db14a0ee674a2
 workflow-type: ht
 source-wordcount: '1292'
 ht-degree: 100%
@@ -150,21 +151,3 @@ ht-degree: 100%
 
 1. 选择一个或多个标记。 子标记将与父标记或名称空间一起自动选择。
 在 Assets Essentials 中修改的标记还被应用于 Assets as a Cloud Service 中。
-
-<!--
-*   Overview
-*   Benefits
-*   Prerequisites and Permissions
-*   Configuration
-*   Managing Tags
-    *   Creating a Namespace
-    *   Adding Tags to a Namespace
-    *   Adding Tags to Standard Tags
-    *   Moving Tags
-    *   Editing Tags
-    *   Deleting Tags
-*   Applying Tags
-    *   Adding Tags to the Metadata form
-    *   Adding Tags to Assets
-*   Limitations
--->
