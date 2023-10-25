@@ -3,7 +3,7 @@ title: 如何在 Assets Essentials 中管理标记？
 description: 了解如何在 Assets Essentials 中管理标记。标记帮助您将资源分类，这样可更高效地浏览和搜索资源。
 exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
 source-git-commit: 74f78f0675e01c09a8654d7f7d0db14a0ee674a2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 100%
 
