@@ -2,10 +2,10 @@
 title: 使用 Assets Essentials 批量导入资源
 description: 了解如何使用新的资源 UI (Assets Essentials) 批量导入资源。管理员使用它可以将大量资源从数据源导入到 AEM Assets。
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 73721e8ee5c130ccad2ef2bdccba2e8412e031f2
+source-git-commit: d7e239008c5235cc423f0a2d168f37c315a0118e
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 100%
+source-wordcount: '1796'
+ht-degree: 69%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 100%
 * AWS
 * Google Cloud
 * Dropbox
+* OneDrive
 
 ## 前提条件 {#prerequisites}
 
@@ -37,8 +38,80 @@ ht-degree: 100%
 | AWS | <ul> <li>AWS 区域 </li> <li> AWS 分段 <li> AWS 访问密钥 </li><li> AWS 访问私钥 </li></ul> |
 | Google Cloud | <ul> <li>GCP 桶 </li> <li> GCP 服务帐户电子邮件 <li> GCP 服务帐户私钥</li></ul> |
 | Dropbox | <ul> <li>Dropbox 客户端 ID </li> <li> Dropbox 客户端私钥</li></ul> |
+| OneDrive | <ul> <li>OneDrive租户ID  </li> <li> OneDrive客户端ID</li><li> OneDrive客户端密码</li></ul> |
 
 除了基于数据源的这些先决条件之外，您还必须了解数据源中可用的源文件夹名称，其中包含需要导入到 AEM Assets 的所有资源。
+
+## 配置Dropbox开发人员应用程序 {#dropbox-developer-application}
+
+在将资源从Dropbox帐户导入到AEM Assets之前，请创建和配置Dropbox开发人员应用程序。
+
+执行以下步骤：
+
+1. 登录 [Dropbox帐户](https://www.dropbox.com/developers) 并单击 **[!UICONTROL 创建应用程序]**.
+
+1. 在 **[!UICONTROL 选择API]** 部分，选择唯一可用的单选按钮。
+
+1. 在 **[!UICONTROL 选择所需的访问类型]** 部分，选择以下选项之一：
+
+   * 选择 **[!UICONTROL 应用程序文件夹]**，如果您需要访问在应用程序中创建的、位于Dropbox帐户中的单个文件夹。
+
+   * 选择 **[!UICONTROL 完整Dropbox]**，以访问Dropbox帐户中的所有文件和文件夹。
+
+1. 指定应用程序的名称，然后单击 **[!UICONTROL 创建应用程序]**.
+
+1. 在 **[!UICONTROL 设置]** 选项卡，将以下内容添加到 **[!UICONTROL 重定向URI]** 部分：
+
+   * https://exc-unifiedcontent.experience.adobe.net
+
+   * https://exc-unifiedcontent.experience-stage.adobe.net （仅对暂存环境有效）
+
+1. 复制值 **[!UICONTROL 应用程序密钥]** 和 **[!UICONTROL 应用程序密钥]** 字段。 在AEM Assets中配置批量导入工具时需要这些值。
+
+1. 在 **[!UICONTROL 权限]** 选项卡中，添加以下权限 **[!UICONTROL 单个范围]** 部分。
+
+   * account_info.read
+
+   * files.metadata.read
+
+   * files.content.read
+
+   * files.content.write
+
+1. 单击 **[!UICONTROL 提交]** 以保存更改。
+
+## 配置OneDrive开发人员应用程序 {#onedrive-developer-application}
+
+在将资产从OneDrive帐户导入AEM Assets之前，请创建和配置OneDrive开发人员应用程序。
+
+执行以下步骤：
+
+1. 登录 [OneDrive帐户](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) 并单击 **[!UICONTROL 新注册]**.
+
+1. 指定应用程序的名称，选择 **[!UICONTROL 仅此组织目录中的帐户(仅Adobe — 单个租户)]** 从 **[!UICONTROL 支持的帐户类型]**，然后单击 **[!UICONTROL 注册]**. 已成功创建应用程序。
+
+1. 复制应用程序客户端ID和租户ID字段的值。 在AEM Assets中配置批量导入工具时需要这些值。
+
+1. 执行以下步骤以添加证书：
+   1. 在应用程序概述页面上，单击 **[!UICONTROL 添加证书或密码]** 然后单击 **[!UICONTROL 新客户端密码]**.
+   1. 指定客户端密钥说明和到期时间，然后单击 **[!UICONTROL 添加]**.
+   1. 创建客户端密钥后，复制 **[!UICONTROL 值]** 字段（请勿复制机密ID字段）。 在AEM Assets中配置批量导入时需要此变量。
+
+1. 执行以下步骤以添加重定向URI：
+   1. 在应用程序概述页面上，单击 **[!UICONTROL 添加重定向URI]** > **[!UICONTROL 添加平台]** > **[!UICONTROL Web]**.
+   1. 将以下内容添加到 **[!UICONTROL 重定向URI]** 部分：
+
+      * https://exc-unifiedcontent.experience.adobe.net
+
+      * https://exc-unifiedcontent.experience-stage.adobe.net （仅对暂存环境有效）
+
+      添加第一个URI并单击 **[!UICONTROL 配置]** 以添加它。 您可以通过单击 **[!UICONTROL 添加URI]** 中提供的选项 **[!UICONTROL Web]** 部分，位于 **[!UICONTROL 身份验证]** 页面。
+
+1. 执行以下步骤可为应用程序添加API权限：
+   1. 单击 **[!UICONTROL API权限]** 在左窗格中单击 **[!UICONTROL 添加权限]**.
+   1. 单击 **[!UICONTROL Microsoft Graph]** > **[!UICONTROL 已委派权限]**. 此 **[!UICONTROL 选择权限]** 部分显示可用的权限。
+   1. 选择 `offline_access` 权限来自 `OpenId permissions` 和 `Files.ReadWrite.All` 权限来自 `Files`.
+   1. 单击 **[!UICONTROL 添加权限]** 以保存更新。
 
 ## 创建批量导入配置 {#create-bulk-import-configuration}
 
@@ -49,6 +122,13 @@ ht-degree: 100%
 1. 在&#x200B;**[!UICONTROL “名称”]**&#x200B;字段中指定批量导入配置的名称。
 1. 指定数据源特定的凭据，如[“先决条件”](#prerequisites)中所述。
 1. 在&#x200B;**[!UICONTROL 源文件夹]**&#x200B;字段中提供包含数据源中资源的根文件夹的名称。
+
+   >[!NOTE]
+   >
+   >如果将Dropbox用作数据源，请根据以下规则指定源文件夹路径：
+   >* 如果您选择 **完整Dropbox** 创建Dropbox应用程序时，以及包含资源的文件夹 `https://www.dropbox.com/home/bulkimport-assets`，然后指定 `bulkimport-assets` 在 **[!UICONTROL 源文件夹]** 字段。
+   >* 如果您选择 **应用程序文件夹** 创建Dropbox应用程序时，以及包含资源的文件夹 `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`，然后指定 `bulkimport-assets` 在 **[!UICONTROL 源文件夹]** 字段，其中 `BulkImportAppFolderScope` 指应用程序的名称。 `Apps` 在以下时段后自动添加： `home` 这种情况下。
+
 1. （可选）选择&#x200B;**[!UICONTROL “导入后删除源文件”]**&#x200B;选项，以在文件导入到 Experience Manager Assets 后，从源数据存储中删除原始文件。
 1. 选择&#x200B;**[!UICONTROL “导入模式”。]**&#x200B;选择&#x200B;**[!UICONTROL “跳过”]**、**[!UICONTROL “代替”]**，或者&#x200B;**[!UICONTROL 创建版本。]**跳过模式是默认模式，在该模式下，如果资源已经存在，则摄取器会跳过导入该资源。
    ![导入源详细信息](assets/bulk-import-source-details.png)

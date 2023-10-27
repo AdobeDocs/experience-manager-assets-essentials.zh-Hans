@@ -4,18 +4,54 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
-workflow-type: ht
-source-wordcount: '2342'
-ht-degree: 100%
+source-git-commit: 347ec8c64daa46f603b41dd3845503863a1ccedd
+workflow-type: tm+mt
+source-wordcount: '2435'
+ht-degree: 95%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials 的当前版本于 2023 年 9 月 21 日发布。
+Assets Essentials的当前版本于2023年10月26日发布。
 
-最近添加的特性的列表包括以下各项：
+新增功能包括：
+
+**从OneDrive数据源批量导入资产**
+
+管理员现在能够 [将大量资源从OneDrive导入到AEM Assets](/help/using/bulk-import-assets-view.md). 支持批量导入的数据源的更新列表包括Azure、AWS、Google Cloud、Dropbox和OneDrive。
+
+![将元数据表单分配给文件夹](/help/using/assets/bulk-import-source-details.png)
+
+**跨组织授权库支持**
+
+现在通过Experience Manager Assets可配置对其他IMS组织中的Creative Cloud库的访问权限。 它允许更轻松地访问Creative Cloud和Experience Manager之间最新的跨产品工作流程，并减少创意人员的时间和精力。
+
+**基于客户反馈的改进**
+
+基于客户反馈的增强和错误修复。
+
+
+## 已知问题 {#known-issues}
+
+[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* 专用收藏集仅供创建者和具有管理员权限的用户使用。管理员无法将访问集合的权限委派给其他用户。
+
+* 管理员无法将访问集合的权限委派给其他用户。
+
+如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
+
+## 过去的版本 {#past-releases}
+
+### 2023年9月版 {#september2023-release}
 
 **将元数据表单分配给文件夹**
 
@@ -41,29 +77,6 @@ Assets Essentials 的当前版本于 2023 年 9 月 21 日发布。
 
 ![为群组固定项目](assets/pin-items-for-groups.png)
 
-**基于客户反馈的改进**
-
-基于客户反馈的增强和错误修复。
-
-
-## 已知问题 {#known-issues}
-
-[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新：
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* 专用收藏集仅供创建者和具有管理员权限的用户使用。管理员无法将访问集合的权限委派给其他用户。
-
-* 管理员无法将访问集合的权限委派给其他用户。
-
-如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
-
-## 过去的版本 {#past-releases}
 
 ### 2023 年 7 月版本 {#july2023-release}
 
