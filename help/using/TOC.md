@@ -10,9 +10,9 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: 9260de0c52b21d17a1c2f64c2c3da6d2a42046f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 89%
 + [管理标记](tagging-management.md)
 + 与其他解决方案集成 {#integration-with-other-solutions}
    + [概述](integration.md)
-   + [与Adobe Asset Link集成](integrate-with-creative-cloud.md)
+   + [与 Adobe Asset Link 集成](integrate-with-creative-cloud.md)
    + [与 Adobe Workfront 集成](integrate-with-workfront.md)
-+ 与Creative Cloud集成 {#integration-with-creative-cloud}
-   + [将AEM Assets连接到Creative Cloud](connect-assets-with-creative-cloud.md)
++ 与 Creative Cloud 集成{#integration-with-creative-cloud}
+   + [将 AEM Assets 连接到 Creative Cloud](connect-assets-with-creative-cloud.md)
 + [视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=zh-Hans)
