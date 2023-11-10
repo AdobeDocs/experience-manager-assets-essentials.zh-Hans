@@ -2,19 +2,14 @@
 title: 在 Assets Essentials 中管理报表
 description: 访问 Assets Essentials 的报表部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 7bda2024fd9e9d2ad05ccffccf76a51b16a113fa
+source-git-commit: 43ecb9862b6553ffd34cf1e116eb018505eff28e
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '827'
+ht-degree: 95%
 
 ---
 
 # 管理报表 {#manage-reports}
-
->[!CONTEXTUALHELP]
->id="assets_reports"
->title="报表"
->abstract="通过资源报表，管理员可了解 Adobe Experience Manager Assets Essentials 环境的活动。这些数据提供关于用户如何与内容和产品进行交互的有用信息。所有用户都可以访问 Insights 仪表板，分配给管理员产品配置文件的用户可以创建用户定义的报告。"
 
 通过资源报表，管理员可了解 Adobe Experience Manager Assets Essentials 环境的活动。这些数据提供关于用户如何与内容和产品进行交互的有用信息。所有用户都可以访问 Insights 仪表板，分配给管理员产品配置文件的用户可以创建用户定义的报告。
 
@@ -23,6 +18,11 @@ ht-degree: 100%
 所有分配给 [Assets Essentials 管理员产品配置文件](deploy-administer.md)的用户均可在 Assets Essentials 中访问“见解”仪表板或创建用户定义的报表。
 
 ## 查看见解 {#view-live-statistics}
+
+>[!CONTEXTUALHELP]
+>id="assets_reports"
+>title="报表"
+>abstract="通过见解仪表板，可查看过去30天或过去12个月内Experience Manager Assets环境的实时事件指标。 事件列表包括下载次数、上传次数、热门搜索次数等。"
 
 通过 Assets Essentials 的“见解”仪表板，可查看 Assets Essentials 环境的实时数据。可查看过去 30 天或过去 12 个月的实时事件指标。
 
