@@ -5,7 +5,7 @@ exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 43ecb9862b6553ffd34cf1e116eb018505eff28e
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="assets_reports"
 >title="报表"
->abstract="通过见解仪表板，可查看过去30天或过去12个月内Experience Manager Assets环境的实时事件指标。 事件列表包括下载次数、上传次数、热门搜索次数等。"
+>abstract="利用 Insights 仪表板，可查看您的 Experience Manager Assets 环境在过去 30 天或过去 12 个月的实时事件量度。事件列表包括下载次数、上传次数、热门搜索等。"
 
 通过 Assets Essentials 的“见解”仪表板，可查看 Assets Essentials 环境的实时数据。可查看过去 30 天或过去 12 个月的实时事件指标。
 
