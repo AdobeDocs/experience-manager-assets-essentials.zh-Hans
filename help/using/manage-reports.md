@@ -2,10 +2,10 @@
 title: 在 Assets Essentials 中管理报表
 description: 访问 Assets Essentials 的报表部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 43ecb9862b6553ffd34cf1e116eb018505eff28e
+source-git-commit: aee57f5a83bfa5a292e9c0c50e2cb00499dbb08c
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 100%
+source-wordcount: '916'
+ht-degree: 90%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 100%
 ## 访问报表 {#access-reports}
 
 所有分配给 [Assets Essentials 管理员产品配置文件](deploy-administer.md)的用户均可在 Assets Essentials 中访问“见解”仪表板或创建用户定义的报表。
+
+要访问报表，请导航至 **[!UICONTROL 报表]** 下 **[!UICONTROL 设置]**.
+
+![报表](assets/reports.png)
+<!--
+In the **[!UICONTROL Reports]** screen, various components are shown in the tabular format which includes the following:
+
+* **Title**: Title of the report
+* **Type**: Determines whether the report is uploaded or downloaded to the repository
+* **Description**: Provide details of the report that was given during uploading/downloading the report
+* **Status**: Determines whether the report is completed, under progress, or deleted.
+* **Author**: Provides email of the author who has uploaded/downloaded the report.
+* **Created**: Gives information of the date when the report was generated.
+-->
 
 ## 查看见解 {#view-live-statistics}
 
@@ -34,13 +48,18 @@ ht-degree: 100%
 
 * **上载**：过去 30 天或 12 个月上载到 Assets Essentials 环境中的资源数量，用折线图表示。
 
+* **按大小划分的资源计数**：根据资源从0 MB到100 GB的各种大小划分的资源计数。
+
+* **存储使用情况**：使用条形图表示的Assets Essentials环境的存储使用情况（以字节为单位），具体取决于可用性。
+
+  ![存储](assets/storage.png)
+
+
+* **投放**：该图表将资源计数描述为投放日期。
+
+* **按资源类型列出的资源计数**：表示可用资源的各种MIME类型计数。 例如，application/zip、image/png、video/mp4、application/postscripte。
+
 * **热门搜索**：以表格格式查看过去 30 天或 12 个月内在 Assets Essentials 环境中搜索最多的术语以及这些术语的搜索次数。
-
-<!--
-
-* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
-
--->
 
 ## 创建下载报告 {#create-download-report}
 
