@@ -2,9 +2,9 @@
 title: 在 Assets Essentials 中管理报表
 description: 访问 Assets Essentials 的报表部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: aee57f5a83bfa5a292e9c0c50e2cb00499dbb08c
+source-git-commit: 37a0692c47d4fa14e9c2582a34000ec8bf975692
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '910'
 ht-degree: 90%
 
 ---
@@ -40,7 +40,7 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 通过 Assets Essentials 的“见解”仪表板，可查看 Assets Essentials 环境的实时数据。可查看过去 30 天或过去 12 个月的实时事件指标。
 
-![选择资源后出现的工具栏选项](assets/assets-essentials-live-statistics.png)
+<!--![Toolbar options when you select an asset](assets/assets-essentials-live-statistics.png)-->
 
 单击可在左侧导航窗格中找到的&#x200B;**[!UICONTROL 见解]**&#x200B;以查看以下自动生成的图表：
 
@@ -52,7 +52,7 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 * **存储使用情况**：使用条形图表示的Assets Essentials环境的存储使用情况（以字节为单位），具体取决于可用性。
 
-  ![存储](assets/storage.png)
+  <!--![Storage](assets/storage.png)-->
 
 
 * **投放**：该图表将资源计数描述为投放日期。
@@ -60,6 +60,9 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 * **按资源类型列出的资源计数**：表示可用资源的各种MIME类型计数。 例如，application/zip、image/png、video/mp4、application/postscripte。
 
 * **热门搜索**：以表格格式查看过去 30 天或 12 个月内在 Assets Essentials 环境中搜索最多的术语以及这些术语的搜索次数。
+
+  ![见解](assets/insights1.png)
+  ![见解](assets/insights2.png)
 
 ## 创建下载报告 {#create-download-report}
 
