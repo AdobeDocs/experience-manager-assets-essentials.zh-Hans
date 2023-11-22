@@ -2,10 +2,10 @@
 title: 在 Assets Essentials 中管理报表
 description: 访问 Assets Essentials 的报表部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 37a0692c47d4fa14e9c2582a34000ec8bf975692
+source-git-commit: b065a56bbd0ce86bc9dd6ac568364de30d77be4e
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 90%
+source-wordcount: '850'
+ht-degree: 96%
 
 ---
 
@@ -48,21 +48,23 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 * **上载**：过去 30 天或 12 个月上载到 Assets Essentials 环境中的资源数量，用折线图表示。
 
-* **按大小划分的资源计数**：根据资源从0 MB到100 GB的各种大小划分的资源计数。
+<!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **存储使用情况**：使用条形图表示的Assets Essentials环境的存储使用情况（以字节为单位），具体取决于可用性。
 
   <!--![Storage](assets/storage.png)-->
 
 
-* **投放**：该图表将资源计数描述为投放日期。
+<!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
-* **按资源类型列出的资源计数**：表示可用资源的各种MIME类型计数。 例如，application/zip、image/png、video/mp4、application/postscripte。
+<!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **热门搜索**：以表格格式查看过去 30 天或 12 个月内在 Assets Essentials 环境中搜索最多的术语以及这些术语的搜索次数。
 
-  ![见解](assets/insights1.png)
-  ![见解](assets/insights2.png)
+  <!--
+   ![Insights](assets/insights1.png)
+   ![Insights](assets/insights2.png)
+   -->
 
 ## 创建下载报告 {#create-download-report}
 
