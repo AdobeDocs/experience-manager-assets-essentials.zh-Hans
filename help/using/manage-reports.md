@@ -2,7 +2,7 @@
 title: 在 Assets Essentials 中管理报告
 description: 访问 Assets Essentials 的报告部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: cf5cba28d20d1633566881a7f651da6bcaa48c7b
+source-git-commit: 7ceeeda677e845cc7cb31964edaa687c806f3afe
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 100%
@@ -44,6 +44,8 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 单击可在左侧导航窗格中找到的&#x200B;**[!UICONTROL 见解]**&#x200B;以查看以下自动生成的图表：
 
+![见解](assets/insights.png)
+
 * **下载**：过去 30 天或 12 个月从 Assets Essentials 环境下载的资源数量，用折线图表示。
 
 * **上载**：过去 30 天或 12 个月上载到 Assets Essentials 环境中的资源数量，用折线图表示。
@@ -58,9 +60,7 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 * **热门搜索**：以表格格式查看过去 30 天或 12 个月内在 Assets Essentials 环境中搜索最多的术语以及这些术语的搜索次数。
 
-![见解](assets/insights.png)
-
-<!--
+  <!--
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
