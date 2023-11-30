@@ -3,10 +3,10 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
+source-git-commit: 2a885eb87d29be19f2e1206fe44e592137e43fe2
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1303'
+ht-degree: 76%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 **所需的权限：**`Can Edit`、`Owner` 或管理员。
 
-Assets Essentials 还可让您向用户界面添加自定义筛选条件。除了[标准筛选条件](#refine-search-results)之外，您还可以应用这些自定义筛选条件来优化您的搜索结果。
+Assets Essentials还允许您向用户界面添加自定义筛选条件。 除了[标准筛选条件](#refine-search-results)之外，您还可以应用这些自定义筛选条件来优化您的搜索结果。
 
 Assets Essentials 提供了以下自定义筛选条件：
 
@@ -123,7 +123,7 @@ Assets Essentials 提供了以下自定义筛选条件：
 
 ## 保存的搜索 {#saved-search}
 
-[!DNL Assets Essentials] 中的搜索功能非常易于使用。在搜索框中，您不仅可以输入关键词并按 Enter 来查看结果，而且只需一次单击即可快速重新搜索最近搜索过的关键词。
+[!DNL Assets Essentials] 中的搜索功能非常易于使用。从搜索框中，您不仅可以键入关键字并按Return键来查看结果，还可以通过一次单击快速再次搜索最近搜索的关键字。
 
 您还可以根据有关元数据和资源类型的特定标准来筛选搜索结果。对于经常使用的筛选条件，为了改进搜索体验，[!DNL Assets Essentials] 允许您保存搜索参数。以后，您可以选择保存的搜索来执行搜索，只需一次单击即可应用筛选条件。
 
@@ -169,6 +169,39 @@ When userA is searching and userB add an asset that matches search results, will
 * **显示文件位置**：导航到资源文件夹位置。
 
 * **固定到快速访问**：[固定资源](my-workspace.md)，以便在以后需要它时更快地访问。所有固定的项目都显示在“我的工作区”的&#x200B;**快速访问**&#x200B;部分中。
+
+## 配置搜索第一个主页 {#configuring-search-first-homepage}
+
+搜索第一个主页允许您即时浏览各种文件和文件夹。 它可让您轻松浏览资产类型、元数据、智能标记，甚至内容本身，而无需知道确切的关键字。 [!DNL Assets Essentials] 允许您通过控制登录时应该显示的内容来配置主页 [!DNL Assets Essentials].
+
+要配置搜索第一个主页，请执行以下步骤：
+
+1. 导航到 **[!UICONTROL 设置]** > **[!UICONTROL 常规设置]**.
+1. 选择 **[!UICONTROL 首先搜索]**. 它会进一步打开搜索优先相关配置。 您可以设置 [对齐方式](#setting-alignment-search-bar) 或 [设置背景和徽标图像](#setting-background-image-and-logo) 你主页的网站。
+
+### 设置搜索栏的对齐方式 {#setting-alignment-search-bar}
+
+[!DNL Assets Essentials] 允许您更改搜索栏的对齐方式。 您可以使搜索栏显示在中心或顶部。 选择适当的对齐方式，然后单击 **[!UICONTROL 保存]**.
+
+![搜索第一个主页对齐方式](assets/search-first-alignment.png)
+
+### 设置主页的背景和徽标图像 {#setting-background-image-and-logo}
+
+您可以将品牌徽标和背景图像添加到您的搜索第一个主页。 执行以下步骤：
+
+1. 导航到 **[!UICONTROL 背景和徽标图像]** 部分在 **[!UICONTROL 主页]**.
+1. 单击 **[!UICONTROL 替换]** 浏览现有资源存储库中的图像。
+1. 单击&#x200B;**[!UICONTROL 保存]**。[预览](#preview-configured-homepage) 进行修改所需的更改。
+
+### 预览配置的主页 {#preview-configured-homepage}
+
+您可以预览以检查搜索第一个主页的布局和格式。 使用 **[!UICONTROL 预览]**&#x200B;中，您可以修复布局或根据需要进行修改。 要预览配置的主页，请执行以下步骤：
+
+1. 单击 **[!UICONTROL 常规设置]** 并选择 **[!UICONTROL 首先搜索]**.
+1. 导航到 **[!UICONTROL 自定义搜索第一个主页]** 并单击 **[!UICONTROL 预览]**. 切换到 **[!UICONTROL 深色主题]** 按钮以用深色或浅色主题预览主页。
+1. 单击 **[!UICONTROL 关闭]** 以关闭预览屏幕。
+
+   ![搜索第一个主页预览](assets/search-first-preview.gif)
 
 ## 后续步骤 {#next-steps}
 
