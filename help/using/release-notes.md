@@ -4,28 +4,48 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 347ec8c64daa46f603b41dd3845503863a1ccedd
-workflow-type: ht
-source-wordcount: '2435'
-ht-degree: 100%
+source-git-commit: 7a34bf9aa740c647530306c3edde6e493f80790a
+workflow-type: tm+mt
+source-wordcount: '2548'
+ht-degree: 95%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials 的当前版本于 2023 年 10 月 26 日发布。
+Assets Essentials 的当前版本于 2023 年 11 月 30 日发布。
 
 新功能包括：
 
-**从 OneDrive 数据源批量导入资源**
+**AEM Assets中的嵌入式Adobe Express编辑器**
 
-管理员现在能够[将大量资源从 OneDrive 导入到 AEM Assets](/help/using/bulk-import-assets-view.md)。支持批量导入的数据源的更新列表包括 Azure、AWS、Google Cloud、Dropbox 和 OneDrive。
+有权访问Express的用户现在可以直接在AEM Assets中使用Adobe Express和Adobe Firefly集成的图像编辑和创建工具，以改进内容重用并加快内容速度。
 
-![将元数据表单分配给文件夹](/help/using/assets/bulk-import-source-details.png)
+![将元数据表单分配给文件夹](/help/using/assets/adobe-express-aem-assets.png)
 
-**对库支持跨组织权利**
+<!--
 
-通过 Experience Manager Assets，现在可配置对不同 IMS 组织中的 Creative Cloud Libraries 的访问权限。这样可更轻松地访问 Creative Cloud 与 Experience Manager 之间最新的跨产品工作流程，并减少创意人员花费的时间和精力。
+**Smart tags blocklist** 
+
+Assets Essentials now enables you to define a list of blocked tags. These tags are automatically removed from the auto-generated smart tags when you upload assets to the repository. This capability performs tags governance and saves a lot of time as you can add a tag to the block list and Assets Essentials automatically excludes it from the list of tags for any of the assets that are added to the repository.
+
+  ![storage usage insights](/help/using/assets/block-tags.png)
+
+-->
+
+**分析中的存储使用情况报表**：
+
+管理员现在能够查看作为Insights的一部分提供的存储使用情况报表。
+
+![存储使用情况洞察](/help/using/assets/storage-usage-insights.png)
+
+**搜索第一个主页配置**
+
+Assets Essentials现在允许您为组织配置主页体验。 如果选择先搜索作为主页，则可以为您的组织配置搜索栏对齐方式、背景图像和徽标。
+
+![搜索第一个配置](/help/using/assets/search-first-configuration.png)
+
+
 
 **基于客户反馈的改进**
 
@@ -50,6 +70,18 @@ Assets Essentials 的当前版本于 2023 年 10 月 26 日发布。
 如果您遇到任何问题，亦或有改进请求，请向团队[提供反馈](#provide-feedback)。
 
 ## 过去的版本 {#past-releases}
+
+### 2023 年 10 月版本 {#october2023-release}
+
+**从 OneDrive 数据源批量导入资源**
+
+管理员现在能够[将大量资源从 OneDrive 导入到 AEM Assets](/help/using/bulk-import-assets-view.md)。支持批量导入的数据源的更新列表包括 Azure、AWS、Google Cloud、Dropbox 和 OneDrive。
+
+![将元数据表单分配给文件夹](/help/using/assets/bulk-import-source-details.png)
+
+**对库支持跨组织权利**
+
+通过 Experience Manager Assets，现在可配置对不同 IMS 组织中的 Creative Cloud Libraries 的访问权限。这样可更轻松地访问 Creative Cloud 与 Experience Manager 之间最新的跨产品工作流程，并减少创意人员花费的时间和精力。
 
 ### 2023 年 9 月版 {#september2023-release}
 
