@@ -3,10 +3,10 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 2a885eb87d29be19f2e1206fe44e592137e43fe2
+source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 76%
+source-wordcount: '1295'
+ht-degree: 77%
 
 ---
 
@@ -172,7 +172,7 @@ When userA is searching and userB add an asset that matches search results, will
 
 ## 配置搜索第一个主页 {#configuring-search-first-homepage}
 
-搜索第一个主页允许您即时浏览各种文件和文件夹。 它可让您轻松浏览资产类型、元数据、智能标记，甚至内容本身，而无需知道确切的关键字。 [!DNL Assets Essentials] 允许您通过控制登录时应该显示的内容来配置主页 [!DNL Assets Essentials].
+Assets Essentials允许您为组织选择默认登录页面。 将“搜索优先”用作主页时，您还可以通过配置背景和徽标图像以匹配您的品牌来定制页面的品牌。
 
 要配置搜索第一个主页，请执行以下步骤：
 
@@ -191,7 +191,7 @@ When userA is searching and userB add an asset that matches search results, will
 
 1. 导航到 **[!UICONTROL 背景和徽标图像]** 部分在 **[!UICONTROL 主页]**.
 1. 单击 **[!UICONTROL 替换]** 浏览现有资源存储库中的图像。
-1. 单击&#x200B;**[!UICONTROL 保存]**。[预览](#preview-configured-homepage) 进行修改所需的更改。
+1. 单击&#x200B;**[!UICONTROL 保存]**。[预览](#preview-configured-homepage) 进行更改以审阅修改。
 
 ### 预览配置的主页 {#preview-configured-homepage}
 
