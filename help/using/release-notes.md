@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 7a34bf9aa740c647530306c3edde6e493f80790a
-workflow-type: tm+mt
-source-wordcount: '2548'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '2562'
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Assets Essentials 的当前版本于 2023 年 11 月 30 日发布。
 
 新功能包括：
 
-**AEM Assets中的嵌入式Adobe Express编辑器**
+**AEM Assets 中的嵌入式 Adobe Express 编辑器**
 
-有权访问Express的用户现在可以直接在AEM Assets中使用Adobe Express和Adobe Firefly集成的图像编辑和创建工具，以改进内容重用并加快内容速度。
+有权访问 Express 的用户现在可直接在 AEM Assets 中使用来自 Adobe Express 和 Adobe Firefly 的集成式图像编辑和创建工具，以改善内容重用率并加快内容速度。
 
 ![将元数据表单分配给文件夹](/help/using/assets/adobe-express-aem-assets.png)
 
@@ -33,17 +33,17 @@ Assets Essentials now enables you to define a list of blocked tags. These tags a
 
 -->
 
-**分析中的存储使用情况报表**：
+**Insights** 中的存储使用情况报告：
 
-管理员现在能够查看作为Insights的一部分提供的存储使用情况报表。
+管理员现在能够查看作为 Insights 一部分提供的存储使用情况报告。
 
-![存储使用情况洞察](/help/using/assets/storage-usage-insights.png)
+![存储使用情况见解](/help/using/assets/storage-usage-insights.png)
 
-**搜索第一个主页配置**
+**搜索优先主页配置**
 
-Assets Essentials现在允许您为组织配置主页体验。 如果选择先搜索作为主页，则可以为您的组织配置搜索栏对齐方式、背景图像和徽标。
+Assets Essentials 现在允许您为您的组织配置主页体验。如果您选择搜索优先作为主页，则可配置组织的搜索栏对齐方式、背景图像和徽标。
 
-![搜索第一个配置](/help/using/assets/search-first-configuration.png)
+![搜索优先配置](/help/using/assets/search-first-configuration.png)
 
 
 
