@@ -4,9 +4,9 @@ description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
-workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 77%
+workflow-type: ht
+source-wordcount: '1277'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 77%
 
 **所需的权限：**`Can Edit`、`Owner` 或管理员。
 
-Assets Essentials还允许您向用户界面添加自定义筛选条件。 除了[标准筛选条件](#refine-search-results)之外，您还可以应用这些自定义筛选条件来优化您的搜索结果。
+Assets Essentials 还可让您向用户界面添加自定义筛选条件。除了[标准筛选条件](#refine-search-results)之外，您还可以应用这些自定义筛选条件来优化您的搜索结果。
 
 Assets Essentials 提供了以下自定义筛选条件：
 
@@ -123,7 +123,7 @@ Assets Essentials 提供了以下自定义筛选条件：
 
 ## 保存的搜索 {#saved-search}
 
-[!DNL Assets Essentials] 中的搜索功能非常易于使用。从搜索框中，您不仅可以键入关键字并按Return键来查看结果，还可以通过一次单击快速再次搜索最近搜索的关键字。
+[!DNL Assets Essentials] 中的搜索功能非常易于使用。在搜索框中，您不仅可以输入关键词并按回车键来查看结果，而且只需单击一次即可快速重新搜索最近搜索过的关键词。
 
 您还可以根据有关元数据和资源类型的特定标准来筛选搜索结果。对于经常使用的筛选条件，为了改进搜索体验，[!DNL Assets Essentials] 允许您保存搜索参数。以后，您可以选择保存的搜索来执行搜索，只需一次单击即可应用筛选条件。
 
@@ -170,38 +170,38 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **固定到快速访问**：[固定资源](my-workspace.md)，以便在以后需要它时更快地访问。所有固定的项目都显示在“我的工作区”的&#x200B;**快速访问**&#x200B;部分中。
 
-## 配置搜索第一个主页 {#configuring-search-first-homepage}
+## 配置搜索优先主页 {#configuring-search-first-homepage}
 
-Assets Essentials允许您为组织选择默认登录页面。 将“搜索优先”用作主页时，您还可以通过配置背景和徽标图像以匹配您的品牌来定制页面的品牌。
+Assets Essentials 使您能够为您的组织选择默认登陆页面。使用搜索优先作为主页时，您还可以选择通过配置背景和徽标图像来匹配您的品牌，从而定制页面的品牌化。
 
-要配置搜索第一个主页，请执行以下步骤：
+要配置搜索优先主页，请执行以下步骤：
 
-1. 导航到 **[!UICONTROL 设置]** > **[!UICONTROL 常规设置]**.
-1. 选择 **[!UICONTROL 首先搜索]**. 它会进一步打开搜索优先相关配置。 您可以设置 [对齐方式](#setting-alignment-search-bar) 或 [设置背景和徽标图像](#setting-background-image-and-logo) 你主页的网站。
+1. 前往&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 常规设置]**。
+1. 选择&#x200B;**[!UICONTROL 搜索优先]**。这会进一步打开搜索优先相关配置。您可以设置主页的[对齐方式](#setting-alignment-search-bar)或[设置背景和徽标图像](#setting-background-image-and-logo)。
 
 ### 设置搜索栏的对齐方式 {#setting-alignment-search-bar}
 
-[!DNL Assets Essentials] 允许您更改搜索栏的对齐方式。 您可以使搜索栏显示在中心或顶部。 选择适当的对齐方式，然后单击 **[!UICONTROL 保存]**.
+[!DNL Assets Essentials] 允许您更改搜索栏的对齐方式。您可以使搜索栏显示在中心或顶部。选择适当的对齐方式并单击&#x200B;**[!UICONTROL 保存]**。
 
-![搜索第一个主页对齐方式](assets/search-first-alignment.png)
+![搜索优先首页对齐](assets/search-first-alignment.png)
 
-### 设置主页的背景和徽标图像 {#setting-background-image-and-logo}
+### 设置首页背景和标志图像 {#setting-background-image-and-logo}
 
-您可以将品牌徽标和背景图像添加到您的搜索第一个主页。 执行以下步骤：
+您可以将品牌徽标和背景图像添加到搜索优先首页。执行以下步骤：
 
-1. 导航到 **[!UICONTROL 背景和徽标图像]** 部分在 **[!UICONTROL 主页]**.
-1. 单击 **[!UICONTROL 替换]** 浏览现有资源存储库中的图像。
-1. 单击&#x200B;**[!UICONTROL 保存]**。[预览](#preview-configured-homepage) 进行更改以审阅修改。
+1. 前往&#x200B;**[!UICONTROL 主页]**&#x200B;下的&#x200B;**[!UICONTROL 背景和徽标图像]**&#x200B;部分。
+1. 单击&#x200B;**[!UICONTROL 替换]**&#x200B;可浏览现有资产存储库中的图像。
+1. 单击&#x200B;**[!UICONTROL 保存]**。[预览](#preview-configured-homepage)更改，以查看修改内容。
 
 ### 预览配置的主页 {#preview-configured-homepage}
 
-您可以预览以检查搜索第一个主页的布局和格式。 使用 **[!UICONTROL 预览]**&#x200B;中，您可以修复布局或根据需要进行修改。 要预览配置的主页，请执行以下步骤：
+您可以通过预览来检查搜索优先首页的布局和格式。使用&#x200B;**[!UICONTROL 预览]**，您可以修复布局或根据要求进行修改。要预览配置的主页，请执行以下步骤：
 
-1. 单击 **[!UICONTROL 常规设置]** 并选择 **[!UICONTROL 首先搜索]**.
-1. 导航到 **[!UICONTROL 自定义搜索第一个主页]** 并单击 **[!UICONTROL 预览]**. 切换到 **[!UICONTROL 深色主题]** 按钮以用深色或浅色主题预览主页。
-1. 单击 **[!UICONTROL 关闭]** 以关闭预览屏幕。
+1. 点击&#x200B;**[!UICONTROL 常规设置]**&#x200B;并选择&#x200B;**[!UICONTROL 搜索优先]**。
+1. 前往&#x200B;**[!UICONTROL 自定义搜索优先主页]**&#x200B;并点击&#x200B;**[!UICONTROL 预览]**。通过&#x200B;**[!UICONTROL 深色主题]**&#x200B;按钮来进行切换，以深色或浅色主题预览主页。
+1. 单击&#x200B;**[!UICONTROL 关闭]**&#x200B;来关闭预览屏幕。
 
-   ![搜索第一个主页预览](assets/search-first-preview.gif)
+   ![搜索优先首页预览](assets/search-first-preview.gif)
 
 ## 后续步骤 {#next-steps}
 
