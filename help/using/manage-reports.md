@@ -3,9 +3,9 @@ title: 在 Assets Essentials 中管理报告
 description: 访问 Assets Essentials 的报告部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: b24113299b5f8d32b3c4aef453923b23dc775228
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '857'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
-* **存储使用情况**：使用条形图表示的Assets Essentials环境的存储使用情况（以字节为单位）。
+* **存储用量**：使用条形图表示的 Assets Essentials 环境的存储使用率（以字节为单位）。
 
 <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
