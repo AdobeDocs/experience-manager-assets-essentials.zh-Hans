@@ -6,7 +6,7 @@ exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
 >title="Adobe Express 集成"
->abstract="可直接在 AEM Assets 中找到简单而直观的受 Adobe Express 助力的图像编辑工具以提高内容重用率并加快内容速度。"
+>abstract="可直接在 AEM Assets 中使用简单而直观的受 Adobe Express 支持的图像编辑工具，以提高内容重用率并加快内容速度。"
 
 ### 调整图像大小 {#resize-image-using-express}
 
@@ -80,35 +80,35 @@ ht-degree: 77%
 
 * 支持的最大文件大小：17 MB
 
-## 使用Adobe Express嵌入式编辑器编辑图像 {#edit-using-embedded-editor}
+## 使用 Adobe Express 嵌入式编辑器编辑图像 {#edit-using-embedded-editor}
 
-有权访问Express的用户现在可以直接在Assets Essentials中使用Adobe Express和Adobe Firefly集成的图像编辑和创建工具，以改进内容重用并加快内容速度。 您还可以使用预定义元素让您的资产外观引人注目，或执行快速操作以只需单击几下即可编辑图像。
+有权访问 Express 的用户现在可直接在 Assets Essentials 中使用来自 Adobe Express 和 Adobe Firefly 的集成式图像编辑和创建工具，以改善内容重用率并加快内容速度。您还可以使用预定义的元素使您的资源看起来令人惊叹，或者只需单击几下即可执行快速操作来编辑图像。
 
-要使用编辑图像，请执行以下操作 [!DNL Adobe Express] 嵌入式编辑器，请执行以下步骤：
+若要使用 [!DNL Adobe Express] 嵌入式编辑器编辑图像，请按照以下步骤操作：
 
-1. 从中选择图像 [!DNL Experience Manager] 资产存储库。
-1. 单击 **[!UICONTROL 在Adobe Express中打开]**.
+1. 从您的 [!DNL Experience Manager] Assets 存储库中选择一张图像。
+1. 单击&#x200B;**[!UICONTROL 在 Adobe Express 中打开]**。
 
-   ![Adobe Express嵌入式编辑器](assets/embedded-editor.png)
+   ![Adobe Express 嵌入式编辑器](assets/embedded-editor.png)
 
-   您可以利用的功能 [!DNL Adobe Express] 执行所有与图像编辑相关的操作，例如 [调整图像大小](https://helpx.adobe.com/in/express/using/resize-image.html)， [删除或更改背景颜色](https://helpx.adobe.com/in/express/using/remove-background.html)， [裁切图像](https://helpx.adobe.com/in/express/using/crop-image.html)，等等。
+   您可以利用 [!DNL Adobe Express] 功能来执行所有与图像编辑相关的操作，例如[调整图像大小](https://helpx.adobe.com/cn/express/using/resize-image.html)、[删除或更改背景颜色](https://helpx.adobe.com/cn/express/using/remove-background.html)、[裁剪图像](https://helpx.adobe.com/cn/express/using/crop-image.html)以及更多。
 
 1. 完成图像编辑后，您可以将资源下载为新资源或将资源另存为新版本。
 
-## 使用Adobe Express创建新资源 {#create-new-embedded-editor}
+## 使用 Adobe Express 创建新资源 {#create-new-embedded-editor}
 
-[!DNL Assets Essentials] 使您能够使用从头开始创建新模板 [!DNL Adobe Express] 嵌入式编辑器。 要使用创建新资源，请执行以下操作 [!DNL Adobe Express]，执行以下步骤：
+[!DNL Assets Essentials] 使您能够使用 [!DNL Adobe Express] 嵌入式编辑器从头开始创建新模板。若要使用 [!DNL Adobe Express] 创建新资源，请执行以下步骤：
 
-1. 导航到 **[!UICONTROL 我的工作区]** 并单击 **[!UICONTROL 创建]** 在顶部显示的Adobe Express横幅中 [!UICONTROL 快速访问] 部分。 [!DNL Adobe Express] 空白画布会显示在 [!DNL Assets Essentials] 用户界面。
-1. 创建内容，使用 [模板](https://helpx.adobe.com/in/express/using/work-with-templates.html). 否则，导航到 **[!UICONTROL 你的东西]** 以修改现有内容。
-1. 完成编辑后，单击 **[!UICONTROL 另存为新资源]**.
-1. 为创建的资源指定目标路径，然后单击 **[!UICONTROL 保存]**.
+1. 导航至 **[!UICONTROL My Workspace]**，然后单击显示在[!UICONTROL 快速访问]部分上方的 Adobe Express 横幅中的&#x200B;**[!UICONTROL 创建]**。[!DNL Adobe Express] 空白画布显示在 [!DNL Assets Essentials] 用户界面中。
+1. 使用[模板](https://helpx.adobe.com/cn/express/using/work-with-templates.html)创建您的内容。否则，导航至&#x200B;**[!UICONTROL 您的内容]**&#x200B;来修改现有内容。
+1. 完成编辑后，单击&#x200B;**[!UICONTROL 另存为新资源]**。
+1. 指定创建资源的目标路径，然后单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
 >
->* 您只能修改以下项的图像： `JPEG` 和 `PNG` 格式类型。
->* 资源大小必须小于14 MB。
->* 您可以将图像保存在 `PDF`， `JPEG`，或 `PNG` 格式。
+>* 您只能修改 `JPEG` 和 `PNG` 格式类型的图像。
+>* 资源大小必须小于 14 MB。
+>* 您可以将图像保存为 `PDF`, `JPEG` 或者 `PNG` 格式。
 
 ## 使用 [!DNL Adobe Photoshop Express] 编辑图像 {#edit-using-photoshop-express}
 
