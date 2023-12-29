@@ -5,27 +5,27 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 10d82a8a90e718272c9bb1c5b14db30785bb1ded
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2617'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials的当前版本于2023年12月19日发布。
+Assets Essentials 的当前版本于 2023 年 12 月 19 日发布。
 
-最近添加的一些功能包括：
+最近添加的一些特性包括以下各项：
 
-**使用Adobe Firefly创建GenAI图像**
+**用 Adobe Firefly 创建生成式 AI 图像**
 
-通过集成Adobe Firefly文本到图像功能(需要Adobe Firefly许可证)基于搜索查询创建新图像。
+通过集成 Adobe Firefly 文字生成图像功能（需要 Adobe Firefly 许可证），根据搜索查询创建新图像。
 
-![资源Firefly集成](/help/using/assets/assets-firefly-integration.png)
+![Assets Firefly 集成](/help/using/assets/assets-firefly-integration.png)
 
-**查找类似图像**
+**查找相似图像**
 
-现在，您可以通过选择图像并查看Experience Manager Assets存储库中的类似图像来轻松查找内容。
+现在只需选择一幅图像，然后在 Experience Manager Assets 存储库中查看类似的图像，即可轻松地找到内容。
 
 **AEM Assets 中的嵌入式 Adobe Express 编辑器**
 
