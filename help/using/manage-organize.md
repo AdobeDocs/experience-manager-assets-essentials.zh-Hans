@@ -4,10 +4,10 @@ description: 在  [!DNL Assets Essentials] 中移动、删除、复制、重命�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: e13e204482e480b3a66b48263e965787bd980842
+source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1152'
+ht-degree: 90%
 
 ---
 
@@ -17,19 +17,43 @@ ht-degree: 100%
 
 使用 [!DNL Assets Essentials] 完成以下资源管理任务。选择某个资源时，顶部的工具栏显示以下选项。
 
-![选中资源时的工具栏选项](assets/toolbar-image-selected.png)
+![选中资源时的工具栏选项](assets/asset-options.png)
 
 *图：所选图像在工具栏中可用的选项。*
 
+可选择在搜索结果中显示的资源并执行以下操作：
+
 * ![取消选择图标](assets/do-not-localize/close-icon.png) 取消选择选定内容。
+
+* ![查找类似图标](assets/do-not-localize/find-similar.svg) 根据元数据和智能标记，在资产UI中查找类似的图像资产。
+
 * ![详细信息图标](assets/do-not-localize/edit-in-icon.png) 单击可预览资源并查看详细的元数据。在预览时，您可以查看版本并编辑图像。
+
 * ![下载图标](assets/do-not-localize/download-icon.png) 将所选资源下载到您的本地文件系统。
+
+* ![添加收藏集图标](assets/do-not-localize/add-collection.svg) 将所选资源添加到收藏集。
+
+* ![固定资产图标](assets/do-not-localize/pin-quick-access.svg) 在以后需要时固定资源以加快访问速度。 所有固定的项目都显示在“我的工作区”的&#x200B;**快速访问**&#x200B;部分中。
+
+* ![在Express中编辑图标](assets/do-not-localize/edit-e.svg) 在Adobe Experience Manager Assets的集成Adobe Express中编辑图像。
+
+* ![编辑资产图标](assets/do-not-localize/edit-e.svg) 使用Adobe Express编辑图像。
+
+* ![共享资产链接图标](assets/do-not-localize/share-link.svg) ，以供其他用户访问和下载。
+
 * ![删除图标](assets/do-not-localize/delete-icon.png) 删除选定的资源或文件夹。
-* ![签出图标](assets/do-not-localize/checkout-icon.png) 签出选定的资源。
+
 * ![复制图标](assets/do-not-localize/copy-icon.png) 复制选定的文件或文件夹。
+
 * ![移动图标](assets/do-not-localize/move-icon.png) 将选定的资源或文件夹移动到存储库层次结构中的不同位置。
+
 * ![重命名图标](assets/do-not-localize/rename-icon.png) 重命名选定的资源或文件夹。请使用唯一名称，否则重命名将失败并出现警告。您可以使用新名称重试。
+
+* ![复制库图标](assets/do-not-localize/copy-icon.png) 将资产添加到库。
+
 * ![分配任务图标](assets/do-not-localize/review-delegate-icon.png) 分配任务给其他用户来协作处理某个资源。
+
+* ![分配任务图标](assets/do-not-localize/watch-asset.svg) 监控对资产执行的操作。
 
 在资源缩略图上可以查看相同的选项。
 
@@ -148,9 +172,3 @@ Assets Essentials 允许您为存储库中可用的资源设置状态。设置�
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
 * 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
-
-
-
-<!-- * ![find similar icon](assets/do-not-localize/find-similar-image-icon.svg) Find similar image asset in the Assets UI based on the metadata and smart tags.
-* ![Add to Collection]() Add the selected asset to a collection.
-* **Pin to Quick Access**: Pin an asset to quickly access the asset when you need it later. -->

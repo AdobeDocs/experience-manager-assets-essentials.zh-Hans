@@ -3,10 +3,10 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 608cd11dbdee46606e898fe3c79ffbad0101cebc
+source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 90%
+source-wordcount: '1442'
+ht-degree: 88%
 
 ---
 
@@ -32,11 +32,16 @@ ht-degree: 90%
 
 ## 使用Adobe Firefly搜索资源
 
-与集成 [!UICONTROL Adobe Firefly] 和 [!UICONTROL Adobe Experience Manager Assets]，您可以高效地搜索在任何资产文件夹中均不可用的资产。 <br> 例如，您可以使用关键词搜索资产 `Bugatti Type 57`. 搜索时 `Bugatti Type 57`，未找到结果。
+如果您要查找在任何资产文件夹中都不可用的资产，请使用 [!UICONTROL Adobe Firefly] 中的资源搜索功能 [!UICONTROL Adobe Experience Manager Assets]. 利用功能，可高效地搜索可能未存储在指定文件夹中的资源。  <br> 例如，您可以使用关键词搜索资产 `Bugatti Type 57`. 搜索时 `Bugatti Type 57`，未找到结果。 <br>
+在搜索栏中，输入资产名称，然后单击 **[!UICONTROL 生成]**.
 
-在搜索栏中，输入资产名称，然后单击 **[!UICONTROL 生成]**. 示例资源会显示在屏幕上。 您可以将这些资产上传到您的首选文件夹，以便轻松访问。
+![Firefly集成](firefly-integration.jpg)
+*图：在资产文件夹中未找到Bugatti Type 57的结果。*
+
+示例资源会显示在屏幕上。 您可以将这些资产上传到您的首选文件夹，以便轻松访问。
 
 ![Firefly集成](assets/bugatti-type-57.jpg)
+*图：使用Adobe Firefly资源搜索功能搜索的引用资源。*
 
 ## 筛选搜索结果 {#refine-search-results}
 
