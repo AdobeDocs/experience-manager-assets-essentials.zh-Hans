@@ -3,10 +3,10 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
-workflow-type: ht
-source-wordcount: '1277'
-ht-degree: 100%
+source-git-commit: 608cd11dbdee46606e898fe3c79ffbad0101cebc
+workflow-type: tm+mt
+source-wordcount: '1401'
+ht-degree: 90%
 
 ---
 
@@ -29,6 +29,14 @@ ht-degree: 100%
    * 使用关键词搜索并可选择更改文件夹。按 Return。
 
    * 通过直接搜索资源，开始处理最近查看过的资源。单击搜索框，从建议中选择最近查看过的资源。
+
+## 使用Adobe Firefly搜索资源
+
+与集成 [!UICONTROL Adobe Firefly] 和 [!UICONTROL Adobe Experience Manager Assets]，您可以高效地搜索在任何资产文件夹中均不可用的资产。 <br> 例如，您可以使用关键词搜索资产 `Bugatti Type 57`. 搜索时 `Bugatti Type 57`，未找到结果。
+
+在搜索栏中，输入资产名称，然后单击 **[!UICONTROL 生成]**. 示例资源会显示在屏幕上。 您可以将这些资产上传到您的首选文件夹，以便轻松访问。
+
+![Firefly集成](assets/bugatti-type-57.jpg)
 
 ## 筛选搜索结果 {#refine-search-results}
 
@@ -146,11 +154,21 @@ When userA is searching and userB add an asset that matches search results, will
 
 可选择在搜索结果中显示的资源并执行以下操作：
 
+* **查找类似图像**：根据元数据和智能标记，在资产UI中查找类似的图像资产。
+
 * **详细信息**：查看和编辑资源属性。
+
+* **下载**：下载资源。
 
 * **添加到收藏集**：将所选资源添加到收藏集。
 
-* **下载**：下载资源。
+* **固定到快速访问**：[固定资源](my-workspace.md)，以便在以后需要它时更快地访问。所有固定的项目都显示在“我的工作区”的&#x200B;**快速访问**&#x200B;部分中。
+
+* **在Adobe Express中打开**：从Adobe Experience Manager Assets屏幕编辑集成Adobe Express中的图像。
+
+* **编辑**：使用Adobe Express编辑图像。
+
+* **共享链接**：与其他用户[共享某个资源的链接](share-links-for-assets.md)，以使其可访问和下载该资源。
 
 * **删除**：删除资源。
 
@@ -160,15 +178,11 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **重命名**：重命名资源。
 
+* **复制到库**：将资产添加到库。
+
 * **分配任务**：将任务分配给资源的用户。
 
-* **共享链接**：与其他用户[共享某个资源的链接](share-links-for-assets.md)，以使其可访问和下载该资源。
-
 * **监视**：[监视对资源执行的操作](manage-notifications.md)。
-
-* **显示文件位置**：导航到资源文件夹位置。
-
-* **固定到快速访问**：[固定资源](my-workspace.md)，以便在以后需要它时更快地访问。所有固定的项目都显示在“我的工作区”的&#x200B;**快速访问**&#x200B;部分中。
 
 ## 配置搜索优先主页 {#configuring-search-first-homepage}
 
