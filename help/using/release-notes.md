@@ -4,18 +4,24 @@ description: ' [!DNL Assets Essentials] 的发行说明和已知问题'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 10d82a8a90e718272c9bb1c5b14db30785bb1ded
-workflow-type: ht
-source-wordcount: '2617'
-ht-degree: 100%
+source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
+workflow-type: tm+mt
+source-wordcount: '2666'
+ht-degree: 97%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials 的当前版本于 2023 年 12 月 19 日发布。
+Assets Essentials的当前版本于2024年1月11日发布。
 
 最近添加的一些特性包括以下各项：
+
+**智能标记阻止列表**
+
+Assets Essentials功能现在允许您定义阻止列表，其中包含不应在资源上传到存储库时作为智能标记添加到资源的单词。 此功能可帮助您维护品牌合规性，并减少审核智能标记的工作。
+
+![存储使用情况见解](/help/using/assets/block-tags.png)
 
 **用 Adobe Firefly 创建生成式 AI 图像**
 
@@ -32,16 +38,6 @@ Assets Essentials 的当前版本于 2023 年 12 月 19 日发布。
 有权访问 Express 的用户现在可直接在 AEM Assets 中使用来自 Adobe Express 和 Adobe Firefly 的集成式图像编辑和创建工具，以改善内容重用率并加快内容速度。
 
 ![将元数据表单分配给文件夹](/help/using/assets/adobe-express-aem-assets.png)
-
-<!--
-
-**Smart tags blocklist** 
-
-Assets Essentials now enables you to define a list of blocked tags. These tags are automatically removed from the auto-generated smart tags when you upload assets to the repository. This capability performs tags governance and saves a lot of time as you can add a tag to the block list and Assets Essentials automatically excludes it from the list of tags for any of the assets that are added to the repository.
-
-  ![storage usage insights](/help/using/assets/block-tags.png)
-
--->
 
 **Insights** 中的存储使用情况报告：
 
