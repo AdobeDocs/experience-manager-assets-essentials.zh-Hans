@@ -5,9 +5,9 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1152'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,27 +21,27 @@ ht-degree: 90%
 
 *图：所选图像在工具栏中可用的选项。*
 
-可选择在搜索结果中显示的资源并执行以下操作：
+选择在搜索结果中显示的资源后可执行以下操作：
 
-* ![取消选择图标](assets/do-not-localize/close-icon.png) 取消选择选定内容。
+* ![“取消选择”图标](assets/do-not-localize/close-icon.png) 取消选择所选资源。
 
-* ![查找类似图标](assets/do-not-localize/find-similar.svg) 根据元数据和智能标记，在资产UI中查找类似的图像资产。
+* ![“查找相似资源”图标](assets/do-not-localize/find-similar.svg) 根据元数据和智能标记在 Assets UI 中查找相似的图像资源。
 
 * ![详细信息图标](assets/do-not-localize/edit-in-icon.png) 单击可预览资源并查看详细的元数据。在预览时，您可以查看版本并编辑图像。
 
 * ![下载图标](assets/do-not-localize/download-icon.png) 将所选资源下载到您的本地文件系统。
 
-* ![添加收藏集图标](assets/do-not-localize/add-collection.svg) 将所选资源添加到收藏集。
+* ![“添加到收藏集”图标](assets/do-not-localize/add-collection.svg) 将所选资源添加到收藏集。
 
-* ![固定资产图标](assets/do-not-localize/pin-quick-access.svg) 在以后需要时固定资源以加快访问速度。 所有固定的项目都显示在“我的工作区”的&#x200B;**快速访问**&#x200B;部分中。
+* ![“固定资源”图标](assets/do-not-localize/pin-quick-access.svg) 固定资源，以供您在以后需要它时更快地访问它。所有固定的项目都显示在“我的工作区”的&#x200B;**快速访问**&#x200B;部分中。
 
-* ![在Express中编辑图标](assets/do-not-localize/edit-e.svg) 在Adobe Experience Manager Assets的集成Adobe Express中编辑图像。
+* ![“在 Express 中编辑”图标](assets/do-not-localize/edit-e.svg) 在 Adobe Experience Manager Assets 中集成的 Adobe Express 中编辑图像。
 
-* ![编辑资产图标](assets/do-not-localize/edit-e.svg) 使用Adobe Express编辑图像。
+* ![“编辑资源”图标](assets/do-not-localize/edit-e.svg) 使用 Adobe Express 编辑图像。
 
-* ![共享资产链接图标](assets/do-not-localize/share-link.svg) ，以供其他用户访问和下载。
+* ![“共享资源链接”图标](assets/do-not-localize/share-link.svg) 与其他用户共享某个资源的链接，以使其他用户可访问和下载该资源。
 
-* ![删除图标](assets/do-not-localize/delete-icon.png) 删除选定的资源或文件夹。
+* ![“删除”图标](assets/do-not-localize/delete-icon.png) 删除所选的资源或文件夹。
 
 * ![复制图标](assets/do-not-localize/copy-icon.png) 复制选定的文件或文件夹。
 
@@ -49,11 +49,11 @@ ht-degree: 90%
 
 * ![重命名图标](assets/do-not-localize/rename-icon.png) 重命名选定的资源或文件夹。请使用唯一名称，否则重命名将失败并出现警告。您可以使用新名称重试。
 
-* ![复制库图标](assets/do-not-localize/copy-icon.png) 将资产添加到库。
+* ![“复制到库”图标](assets/do-not-localize/copy-icon.png) 将资源添加到库。
 
-* ![分配任务图标](assets/do-not-localize/review-delegate-icon.png) 分配任务给其他用户来协作处理某个资源。
+* ![“分配任务”图标](assets/do-not-localize/review-delegate-icon.png) 将任务分配给其他用户以协作处理某个资源。
 
-* ![分配任务图标](assets/do-not-localize/watch-asset.svg) 监控对资产执行的操作。
+* ![“分配任务”图标](assets/do-not-localize/watch-asset.svg) 监控对资源执行的操作。
 
 在资源缩略图上可以查看相同的选项。
 
