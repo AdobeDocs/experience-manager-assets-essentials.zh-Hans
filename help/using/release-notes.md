@@ -5,21 +5,21 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2666'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] 的发行说明 {#release-notes}
 
-Assets Essentials的当前版本于2024年1月11日发布。
+Assets Essentials 的当前版本于 2024 年 1 月 11 日发布。
 
-最近添加的一些特性包括以下各项：
+最近添加的功能包括：
 
 **智能标记阻止列表**
 
-Assets Essentials功能现在允许您定义阻止列表，其中包含不应在资源上传到存储库时作为智能标记添加到资源的单词。 此功能可帮助您维护品牌合规性，并减少审核智能标记的工作。
+现在可在 Assets Essentials 中定义阻止列表，其中包含在将资源上传到存储库时不应作为智能标记添加到资源的字词。此功能帮助您确保品牌合规，从而减少审核智能标记的工作量。
 
 ![存储使用情况见解](/help/using/assets/block-tags.png)
 
