@@ -3,7 +3,7 @@ title: “[!DNL Assets Essentials] 用户界面”
 description: 了解  [!DNL Assets Essentials] 中的用户界面并在其中导航。
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: c56e4950e85efd671260c5235ebb54d95b13606c
+source-git-commit: 028c9fbe496e2f29f0b1d46cfcc3cdc20c3d5857
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 91%
@@ -48,7 +48,7 @@ ht-degree: 91%
 
 * [见解](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=zh-Hans#view-live-statistics)：在 [!DNL Assets Essentials] 中可以在仪表板上查看实时见解。通过 Assets Essentials 的“见解”仪表板，可查看 Assets Essentials 环境的实时数据。可查看过去 30 天或过去 12 个月的实时事件指标。
 
-* **垃圾箱**：列出从根 **[!UICONTROL Assets]** 文件夹中删除的资源。您可以选择垃圾桶文件夹中的资源以将其还原到原始位置或永久删除。 您可以指定关键字或应用过滤器，例如资源状态、文件类型、MIME类型、图像大小、资源创建、修改和到期日期，以及按当前用户放弃的资源进行过滤。 您还可以应用自定义筛选条件来搜索垃圾桶文件夹中的相应资源。 有关使用标准和自定义筛选器的更多信息，请参阅如何 [在Assets Essentials中搜索资源](search.md).
+* **垃圾箱**：列出从根 **[!UICONTROL Assets]** 文件夹中删除的资源。您可以选择垃圾桶文件夹中的资源以将其还原到原始位置或永久删除。 您可以指定关键字或应用过滤器，例如资源状态、文件类型、MIME类型、图像大小、资源创建、修改和到期日期，以及按当前用户丢弃的资源进行过滤。 您还可以应用自定义筛选条件来搜索垃圾桶文件夹中的相应资源。 有关使用标准和自定义筛选器的更多信息，请参阅如何 [在Assets Essentials中搜索资源](search.md).
 
 * **设置**：您可以使用&#x200B;**设置**&#x200B;配置 Assets Essentials 的各种选项，如元数据表单、报告和分类管理。
 
