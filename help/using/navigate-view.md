@@ -6,7 +6,7 @@ exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 3b70810a264dac062032b07dc3d8ce169b56b4cd
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 74%
+ht-degree: 77%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 74%
 
 * [见解](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=zh-Hans#view-live-statistics)：在 [!DNL Assets Essentials] 中可以在仪表板上查看实时见解。通过 Assets Essentials 的“见解”仪表板，可查看 Assets Essentials 环境的实时数据。可查看过去 30 天或过去 12 个月的实时事件指标。
 
-* **垃圾箱**：列出从根 **[!UICONTROL Assets]** 文件夹中删除的资源。您可以选择垃圾桶文件夹中的资源以将其还原到原始位置或永久删除。 您可以指定关键字或应用过滤器，例如资源状态、文件类型、MIME类型、图像大小、资源创建、修改和到期日期，以及按当前用户丢弃的资源进行过滤。 您还可以应用自定义筛选条件来搜索垃圾桶文件夹中的相应资源。 有关使用标准和自定义筛选器的更多信息，请参阅如何 [在Assets Essentials中搜索资源](search.md).
+* **垃圾箱**：列出从根 **[!UICONTROL Assets]** 文件夹中删除的资源。您可以选择垃圾桶文件夹中的资源以将其还原到原始位置或永久删除。 您可以指定关键字或应用过滤器，例如资源状态、文件类型、MIME类型、图像大小、资源创建、修改和到期日期，以及按当前用户丢弃的资源进行过滤。 还可应用自定义过滤器以在“垃圾桶”文件夹中搜索适当的资源。有关使用标准和自定义过滤器的更多信息，请参阅如何[在 Assets Essentials 中搜索资源](search.md)。
 
 * **设置**：您可以使用&#x200B;**设置**&#x200B;配置 Assets Essentials 的各种选项，如元数据表单、报告和分类管理。
 
