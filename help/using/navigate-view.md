@@ -3,8 +3,8 @@ title: “[!DNL Assets Essentials] 用户界面”
 description: 了解  [!DNL Assets Essentials] 中的用户界面并在其中导航。
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 3b70810a264dac062032b07dc3d8ce169b56b4cd
-workflow-type: ht
+source-git-commit: 8620efd0430d230338ef8005847de498a5a95a7e
+workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 100%
 
@@ -39,6 +39,7 @@ ht-degree: 100%
 * [收藏集](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=zh-Hans)：收藏集是 Adobe Experience Manager Assets Essentials 中的一组资源、文件夹或其他收藏集。使用收藏集可在用户之间共享资源。收藏集与文件夹的不同之处是可包含来自不同位置的资源。您可以与一个用户共享多个收藏集。每个收藏集都包含对资源的引用。收藏集中会保持资源的引用完整性。
 
 * [见解](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=zh-Hans#view-live-statistics)：在 [!DNL Assets Essentials] 中可以在仪表板上查看实时见解。通过 Assets Essentials 的“见解”仪表板，可查看 Assets Essentials 环境的实时数据。可查看过去 30 天或过去 12 个月的实时事件指标。
+
 
 * **垃圾箱**：列出从根 **[!UICONTROL Assets]** 文件夹中删除的资源。在“垃圾桶”文件夹中选择某个资源可将它还原到其原有位置或永久删除它。可指定关键字或应用过滤器，如资源状态、文件类型、mime 类型、图像大小、资源创建、修改和到期日期，并可按当前用户丢弃的资源进行过滤。还可应用自定义过滤器以在“垃圾桶”文件夹中搜索适当的资源。有关使用标准和自定义过滤器的更多信息，请参阅如何[在 Assets Essentials 中搜索资源](search.md)。
 
