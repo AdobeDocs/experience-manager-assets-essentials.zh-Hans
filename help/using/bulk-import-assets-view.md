@@ -2,8 +2,8 @@
 title: 使用 Assets Essentials 批量导入资源
 description: 了解如何使用新的资源 UI (Assets Essentials) 批量导入资源。管理员使用它可以将大量资源从数据源导入到 AEM Assets。
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 530880cdd7536a4370cc0315f0d485d258d40102
-workflow-type: ht
+source-git-commit: 4d4b239b0b75ac8a26a7c3001e5b28dcb6243f63
+workflow-type: tm+mt
 source-wordcount: '1812'
 ht-degree: 100%
 
@@ -25,11 +25,11 @@ ht-degree: 100%
 
 您可以从以下数据源导入资源：
 
-* Azure
 * AWS
 * Google Cloud
 * Dropbox
 * OneDrive
+* Azure
 
 ## 前提条件 {#prerequisites}
 
