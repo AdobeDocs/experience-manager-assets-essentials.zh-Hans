@@ -4,10 +4,10 @@ description: 在  [!DNL Assets Essentials] 中移动、删除、复制、重命�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
-workflow-type: ht
-source-wordcount: '1152'
-ht-degree: 100%
+source-git-commit: a49bfcdf3dbd6601ed15ae8a3309922c0483b3d7
+workflow-type: tm+mt
+source-wordcount: '1195'
+ht-degree: 95%
 
 ---
 
@@ -48,6 +48,9 @@ ht-degree: 100%
 * ![移动图标](assets/do-not-localize/move-icon.png) 将选定的资源或文件夹移动到存储库层次结构中的不同位置。
 
 * ![重命名图标](assets/do-not-localize/rename-icon.png) 重命名选定的资源或文件夹。请使用唯一名称，否则重命名将失败并出现警告。您可以使用新名称重试。
+此外，您还可以单击资源或文件夹的标题来重命名它。 请在以下位置提及新文本 **重命名资源** 文本框并单击 **保存**. 此功能在“网格”、“图库”、“瀑布”和“列表”视图中可用。
+
+* ![瀑布视图图标](assets/do-not-localize/waterfall-view.png) [!UICONTROL 瀑布视图].
 
 * ![“复制到库”图标](assets/do-not-localize/copy-icon.png) 将资源添加到库。
 
