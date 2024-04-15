@@ -3,7 +3,7 @@ title: 使用 Assets Essentials 批量导入资源
 description: 了解如何使用新的资源 UI (Assets Essentials) 批量导入资源。管理员使用它可以将大量资源从数据源导入到 AEM Assets。
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
 source-git-commit: 4d4b239b0b75ac8a26a7c3001e5b28dcb6243f63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1812'
 ht-degree: 100%
 
@@ -161,7 +161,7 @@ ht-degree: 100%
 
 批量导入期间，[!DNL Experience Manager] 查找现有文件夹以避免重复导入资源和文件夹，还验证在发生导入的父文件夹中应用的净化规则。如果在父文件夹中应用了净化规则，则将相同的规则应用于导入源。对于新导入，应用以下净化规则以管理资源的文件名和文件夹名称。
 
-有关在批量导入期间不允许使用的名称、处理资源名称和处理文件夹名称的详细信息，请参阅[批量导入期间处理文件名](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=zh-Hans#filename-handling-bulkimport)。
+有关在批量导入期间不允许使用的名称、处理资源名称和处理文件夹名称的详细信息，请参阅[批量导入期间处理文件名](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=zh-hans#filename-handling-bulkimport)。
 
 ## 查看现有的批量导入配置 {#view-import-configuration}
 
@@ -212,7 +212,7 @@ If you schedule an import, it displays in the **[!UICONTROL Scheduled Imports]**
 
 ## 停止或计划正在进行的导入 {#schedule-stop-ongoing-report}
 
-您可以使用导入期间显示在“批量导入”主页上的批量导入状态对话框来计划或停&#x200B;&#x200B;止正在进行的批量导入。
+您可以使用导入期间显示在“批量导入”主页上的批量导入状态对话框来计划或停止正在进行的批量导入。
 
 ![正在进行的导入](assets/bulk-import-progress.png)
 
