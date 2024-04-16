@@ -2,10 +2,10 @@
 title: 管理收藏集
 description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 27ac4035863924dfda1abf2593da9278a57b02a2
+source-git-commit: d0884f7c5a50d89cb8ce4166dc038814bd7fd07d
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 87%
+source-wordcount: '907'
+ht-degree: 86%
 
 ---
 
@@ -191,11 +191,11 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 ## 管理专用收藏集的权限{#manage-permissions-private-collection}
 
 您可以允许管理员管理 [访问级别](/help/using/manage-permissions.md#manage-permissions-on-folders) 适用于存储库中可用的专用收藏集。 您可以分配权限，例如 `Can View` 和 `Can Edit` 至用户组或用户。 您还可以将权限管理权限委派给用户组。 创建专用收藏集的用户是这些收藏集的所有者。 他们可以使用 [!UICONTROL 管理权限] 向其他用户授予访问权限的操作。 此外，管理员还可以在中查看和管理专用收藏集的权限 [!DNL Experience Manager] 存储库。
-
+<!--
 >[!NOTE]
 >
->Adobe 不建议向用户分配权限。
-
+>Adobe does not recommend to assign permissions to users.
+-->
 有关如何将可用权限分配给用户组的信息，请参阅 [向用户组添加权限](/help/using/manage-permissions.md#add-permissions).
 
 有关端到端工作流的详细信息，请参阅 [管理权限](/help/using/manage-permissions.md).
