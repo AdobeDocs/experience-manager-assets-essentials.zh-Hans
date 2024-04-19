@@ -4,10 +4,10 @@ description: 在 [!DNL Assets Essentials] 中管理资源的元数据
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: b14d8533854df448e2cb7b527ef5b7e69c072380
+source-git-commit: 37beb971f1e675162eb4b8e9ab008b20a241c066
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 100%
+source-wordcount: '1773'
+ht-degree: 92%
 
 ---
 
@@ -141,13 +141,29 @@ MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
 
 1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 元数据表单]**，然后选择一个元数据表单。
 
-2. 单击&#x200B;**[!UICONTROL 分配到文件夹]**。
+2. 单击 **[!UICONTROL 分配到文件夹]**.
 
-3. 选择该文件夹并单击&#x200B;**[!UICONTROL 分配]**。
+3. 选择文件夹并单击 **[!UICONTROL 分配]**. 您可以通过单击文件夹名称来选择文件夹。
 
    ![将元数据表单分配给文件夹](/help/using/assets/assign-to-folder.png)
 
    还可导航到文件夹详细信息页面，然后从可在右侧窗格中找到的文件夹属性中选择一个元数据表单以将该元数据表单分配给该文件夹。
+
+   ![元数据表单文件夹属性](/help/using/assets/folder-properties-metadata-forms.png)
+
+### 从文件夹中删除元数据表单 {#remove-metadata-form-folder}
+
+将元数据表单分配给一个或多个文件夹后，还可以使用Experience Manager Assets从所选文件夹中删除元数据表单。
+
+要从文件夹中删除元数据表单，请执行以下操作：
+
+1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 元数据表单]**，然后选择一个元数据表单。
+
+1. 单击 **[!UICONTROL 从文件夹删除]**. 元数据表单显示的已分配文件夹列表。
+
+1. 选择文件夹并单击 **[!UICONTROL 移除]**. 您还可以从列表中选择多个文件夹。
+
+您还可以导航到文件夹详细信息页面并选择 **[!UICONTROL 系统映射的元数据表单]** 从 **[!UICONTROL 元数据Forms]** 用于从文件夹中删除分配的元数据表单的字段。
 
 ## 后续步骤 {#next-steps}
 
