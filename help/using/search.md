@@ -4,7 +4,7 @@ description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 5d6cc2c27fc416d3f616a25db0e6497d9ad946c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1834'
 ht-degree: 100%
 
@@ -242,7 +242,7 @@ Assets Essentials 使您能够为您的组织选择默认登陆页面。使用�
 
 ## 上下文搜索 {#contextual-search}
 
-您还可以通过定义文本提示来搜索存储库中可用的资产。Experience Manager Assets 会自动将这些文本提示转换为搜索过滤器，并显示搜索结果。您可以使用“过滤器窗格”查看和修改自动过滤器，以进一步缩小搜索结果。
+您还可以通过定义文本提示来搜索存储库中可用的资产。Experience Manager Assets 会自动将这些文本提示转换为搜索过滤器，并显示搜索结果。您可以使用“过滤器窗格”查看和修改自动过滤器，进一步缩小搜索结果。
 
 ### 访问上下文搜索 {#access-contextual-search}
 
@@ -261,7 +261,7 @@ Assets Essentials 使您能够为您的组织选择默认登陆页面。使用�
 
 ### 支持的过滤器 {#supported-filters}
 
-上下文搜索支持以下现成的过滤器。根据这些过滤器设置文本提示，以查看适当的搜索结果。
+上下文搜索支持以下现成的过滤器。根据这些过滤器设置文本提示，查看适当的搜索结果。
 
 * 图像高度
 
@@ -323,7 +323,7 @@ Administrators also have the option to disable Contextual Search for users in yo
 
 ### “上下文搜索”反馈 {#contextual-search-feedback}
 
-如果您需要对“上下文搜索”功能提供反馈，请点击![“上下文搜索”图标](assets/do-not-localize/Smock_Help_18_N.svg)，然后点击“反馈”图标。选择反馈类型，指定主题和描述，然后单击&#x200B;**[!UICONTROL “提交”]**。
+如果您需要对“上下文搜索”功能提供反馈，请单击![“上下文搜索”图标](assets/do-not-localize/Smock_Help_18_N.svg)，然后单击“反馈”图标。选择反馈类型，指定主题和描述，然后单击&#x200B;**[!UICONTROL “提交”]**。
 
 ![“上下文搜索”反馈](/help/using/assets/contextual-search-feedback.png)
 
