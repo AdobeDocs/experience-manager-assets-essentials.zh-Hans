@@ -2,10 +2,10 @@
 title: 如何共享资产链接？
 description: 生成链接并与无权访问该 [!DNL Assets Essentials] 应用程序的其他人共享资产。
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+source-git-commit: 0ce79167583178f2b81b7ac9f91dd518455cc49f
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 76%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 
 1. 如果要对其进行调整，请单击“日程表”图标以使用&#x200B;**[!UICONTROL 到期日期]**&#x200B;字段定义链接的到期日期。您也可以直接在`yyyy-mm-dd`格式中指定日期。默认情况下，链接的到期日期设置为自共享之日起 2 周。
 
+>[!NOTE]
+> 日期格式会根据所选的区域设置而更改。
+> 例如， `de-DE` 用途 `dd-mm-yyyy`， `ja-JA` 用途 `yyyy-mm-dd`，而， `en-EN` 用途 `mm-dd-yyyy`.
+>
+
 1. 从&#x200B;**[!UICONTROL 共享链接]**&#x200B;字段复制链接。
 
    ![裁切和拉直图像的选项](assets/share-asset-link.png)
@@ -29,7 +34,7 @@ ht-degree: 100%
 
 ## 访问共享资产 {#access-shared-assets}
 
-分享资产的公共链接后，接收者无需登录到 [!DNL Assets Essentials] 即可在网页浏览器中点击链接预览或下载分享的资产。
+共享资产的公共链接后，收件人可以单击该链接以在Web浏览器中预览或下载共享资产，而无需登录到 [!DNL Assets Essentials].
 
 单击链接，单击文件夹以导航到资产，然后单击资产进行预览。您可以选择在“列表视图”或“卡片视图”中查看共享资产。
 
@@ -43,10 +48,10 @@ ht-degree: 100%
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，了解如何在 Assets Essentials 中共享资源链接](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html)
+* [观看视频，了解如何在Assets Essentials中共享资源链接](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html).
 
-* 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
+* 使用提供产品反馈 [!UICONTROL 反馈] 选项，该选项可在Assets Essentials用户界面中使用。
 
-* 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
+* 使用以下方式提供文档反馈 [!UICONTROL 编辑此页面] ![编辑页面](assets/do-not-localize/edit-page.png) 或 [!UICONTROL 记录问题] ![创建GitHub问题](assets/do-not-localize/github-issue.png) 可在右侧边栏中找到。
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
+* 联系人 [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support).
