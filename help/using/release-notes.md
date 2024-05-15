@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: eac31e102b9e26241cd513b1aeb8774802120a9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2903'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Assets Essentials 的当前版本于 2024 年 4 月 18 日发布。
 
 **上下文搜索**
 
-您现在还可以通过定义文本提示来搜索存储库中可用的资产。Experience Manager Assets 会自动将这些文本提示转换为搜索过滤器，并显示搜索结果。您可以使用“过滤器窗格”查看和修改自动过滤器，进一步缩小搜索结果。
+您现在还可以通过定义文本提示来搜索存储库中可用的资源。Experience Manager Assets 会自动将这些文本提示转换为搜索过滤器，并显示搜索结果。您可以使用“过滤器窗格”查看和修改自动过滤器，进一步缩小搜索结果。
 
 ![存储使用情况见解](/help/using/assets/contextual-search-text-prompt1.png)
 
@@ -33,9 +33,9 @@ You can now view and download dynamic renditions (including smart crops) in Expe
 
 -->
 
-**就地重命名资产和文件夹**
+**就地重命名资源和文件夹**
 
-Experience Manager Assets 现在提供通过单击来重命名资产或文件夹的功能，从而简化用户体验。
+Experience Manager Assets 现在提供通过单击来重命名资源或文件夹的功能，从而简化用户体验。
 
 **Express 视频快速操作**
 
@@ -44,15 +44,15 @@ Experience Manager Assets 现在包括由 Adobe Express 支持的简单而直观
 ![使用 Adobe Express 裁切视频](/help/using/assets/adobe-express-crop-video.png)
 
 >[!NOTE]
-> 访问权 [!DNL Adobe Express] AEM Assets中需要并且至少需要一个环境。 该环境可以是中的任意存储库 [!DNL Assets as a Cloud Service] 或 [!DNL Assets Essentials].
+> 需要访问 [!DNL Adobe Express] 的权限，并且需要 AEM Assets 中的至少一个环境。环境可以是 [!DNL Assets as a Cloud Service] 或 [!DNL Assets Essentials] 内的任何存储库。
 
 **将元数据表单分配或移除到多个文件夹**
 
-现在可以将元数据表单分配到多个文件夹或从多个文件夹中删除该表单。
+现在可以将元数据表单分配到多个文件夹或从多个文件夹中移除。
 
 **管理私人收藏集的权限**
 
-您可以允许管理员或非管理员（其他用户）管理存储库中可用专用收藏集的访问级别。 您可以向用户组或用户分配诸如 `Can View` 和 `Can Edit` 等权限。您还可以将权限管理权限委派给用户组。
+您可以允许管理员或非管理员（其他用户）管理存储库中专用收藏集的访问级别。您可以向用户组或用户分配诸如 `Can View` 和 `Can Edit` 等权限。您还可以将权限管理权限委派给用户组。
 
 
 **基于客户反馈的改进**
@@ -62,7 +62,7 @@ Experience Manager Assets 现在包括由 Adobe Express 支持的简单而直观
 
 ## 已知问题 {#known-issues}
 
-的已知问题列表 [!DNL Assets Essentials] 产品将持续修订和更新。
+[!DNL Assets Essentials] 产品的已知问题列表将持续修订和更新。
 
 <!--
 
@@ -109,7 +109,7 @@ Experience Manager Assets 现在包括由 Adobe Express 支持的简单而直观
 
 **搜索优先主页配置**
 
-Assets Essentials 现在允许您为您的组织配置主页体验。如果选择先搜索作为主页，则可以为您的组织配置搜索栏对齐方式、背景图像和徽标。 选择 [!UICONTROL 常规设置] 覆盖默认登陆页面。 例如，默认登录为 [!UICONTROL 我的工作区] 适用于管理员和 [!UICONTROL 首先搜索] 对于非管理员，选择“常规设置”下的任何选项将适用于所有用户
+Assets Essentials 现在允许您为您的组织配置主页体验。如果您选择搜索优先作为主页，则可配置组织的搜索栏对齐方式、背景图像和徽标。选择[!UICONTROL 常规设置]将会覆盖默认登录页面。例如，管理员的默认登录界面为[!UICONTROL 我的工作区]，非管理员的默认登录界面为[!UICONTROL 搜索优先]，选择“常规设置”下的任何选项都会将其应用于所有用户
 
 ![搜索优先配置](/help/using/assets/search-first-configuration.png)
 
@@ -212,7 +212,7 @@ Assets Essentials 现在允许您向元数据表单添加多值文本和下拉�
 
 **批量更新资源元数据**
 
-通过批量元数据更新，可同时在多个资源上执行共同元数据更新。您无需单独更新记录，并且可以快速将属性应用于通过搜索访问的资源或文件夹。 此外，批量元数据更新会覆盖任何现有值，这意味着批量元数据更新会覆盖现有关键字。
+通过批量元数据更新，可同时在多个资源上执行共同元数据更新。您无需逐一更新记录，而是可快速地将属性应用于通过搜索访问的资源或文件夹。此外，元数据批量更新会覆盖任何现有值，这意味着现有关键字会被批量元数据更新覆盖。
 
 **带有可配置的小部件的“我的工作区”**
 
