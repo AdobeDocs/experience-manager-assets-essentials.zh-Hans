@@ -1,18 +1,18 @@
 ---
 title: 编辑图像
-description: 使用由 [!DNL Adobe Photoshop Express] 提供支持的选项编辑图像并将更新后的图像另存为版本。
+description: 使用由 [!DNL Adobe Express] 提供支持的选项编辑图像并将更新后的图像另存为版本。
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: a4195938dbd220f6b9419e5ce7a0ad1ff1982d7c
+source-git-commit: f65e4eb7e0877e8b8d7ba4d5dd88c64b4423f152
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 100%
+source-wordcount: '796'
+ht-degree: 97%
 
 ---
 
 # 在 [!DNL Assets Essentials] 中编辑图像 {#edit-images}
 
-[!DNL Assets Essentials] 提供了简单易用的编辑选项，并由 [!DNL Adobe Express] 和 [!DNL Adobe Photoshop Express] 提供支持。使用 [!DNL Adobe Express] 可进行的编辑操作包括调整图像大小、删除背景、裁切图像和将 JPEG 转换为 PNG。
+[!DNL Assets Essentials] 提供了简单易用的编辑选项，由 [!DNL Adobe Express] 支持。使用 [!DNL Adobe Express] 可进行的编辑操作包括调整图像大小、删除背景、裁切图像和将 JPEG 转换为 PNG。
 
 在编辑图像之后，您可以将新图像另存为新版本。版本控制可帮助您以后在需要时还原为原始资源。若要编辑图像，请[打开其预览](/help/using/navigate-view.md#preview-assets)，然后单击&#x200B;**[!UICONTROL “编辑图像”。]**
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
-## 使用 Adob&#x200B;&#x200B;e Express 编辑图像 {#edit-using-express}
+## 使用 Adobe Express 编辑图像 {#edit-using-express}
 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
@@ -38,10 +38,10 @@ ht-degree: 100%
 3. 从&#x200B;**[!UICONTROL “调整大小对象”]**&#x200B;下拉列表中选择适当的社交媒体平台，并从显示的选项中选择图像大小。
 4. 如果需要，使用&#x200B;**[!UICONTROL “图像比例”]**&#x200B;字段缩放图像。
 5. 单击&#x200B;**[!UICONTROL 应用]**以应用您的更改。
-   ![使用 Adob&#x200B;&#x200B;e Express 进行图像编辑](/help/using/assets/adobe-express-resize-image.png)
+   ![使用 Adobe Express 进行图像编辑](/help/using/assets/adobe-express-resize-image.png)
 
    您编辑的图像可供下载。您可以将编辑后的资源另存为同一资源的新版本，也可以将其另存为新资源。
-   ![使用 Adob&#x200B;&#x200B;e Express 保存图像](/help/using/assets/adobe-express-resize-save.png)
+   ![使用 Adobe Express 保存图像](/help/using/assets/adobe-express-resize-save.png)
 
 ### 删除背景 {#remove-background-using-express}
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 1. 选择图像并单击&#x200B;**“编辑”。**
 2. 从可在左侧窗格中找到的快速操作中单击&#x200B;**[!UICONTROL 去除背景]**。Experience Manager Assets 不含背景地显示该图像。
 3. 单击&#x200B;**[!UICONTROL 应用]**以应用您的更改。
-   ![使用 Adob&#x200B;&#x200B;e Express 保存图像](/help/using/assets/adobe-express-remove-background.png)
+   ![使用 Adobe Express 保存图像](/help/using/assets/adobe-express-remove-background.png)
 
    您编辑的图像可供下载。您可以将编辑后的资源另存为同一资源的新版本，也可以将其另存为新资源。
 
@@ -62,23 +62,23 @@ ht-degree: 100%
 2. 从可在左侧窗格中找到的快速操作中单击&#x200B;**[!UICONTROL 裁切图像]**。
 3. 拖动该图像四角的手柄以创建您想要的裁切效果。
 4. 单击&#x200B;**[!UICONTROL 应用]**。
-   ![使用 Adob&#x200B;&#x200B;e Express 保存图像](/help/using/assets/adobe-express-crop-image.png)
+   ![使用 Adobe Express 保存图像](/help/using/assets/adobe-express-crop-image.png)
 裁剪后的图像可供下载。您可以将编辑后的资源另存为同一资源的新版本，也可以将其另存为新资源。
 
 ### 将 JPEG 转化为 PNG {#convert-jpeg-to-png-using-express}
 
-您可以使用 Adob&#x200B;&#x200B;e Express 将 JPEG 图像快速转换为 PNG 格式。执行以下步骤：
+您可以使用 Adobe Express 将 JPEG 图像快速转换为 PNG 格式。执行以下步骤：
 
 1. 选择图像并单击&#x200B;**“编辑”。**
 2. 从可在左侧窗格中找到的快速操作中单击&#x200B;**[!UICONTROL 将 JPEG 转化为 PNG]**。
-   ![使用 Adob&#x200B;&#x200B;e Express 转换为 PNG](/help/using/assets/adobe-express-convert-image.png)
+   ![使用 Adobe Express 转换为 PNG](/help/using/assets/adobe-express-convert-image.png)
 3. 单击&#x200B;**[!UICONTROL “下载”。]**
 
 ### 限制 {#limitations-adobe-express}
 
-* 支持的图像分辨率：最小 - 50 像素，最大 - 每维 6000 像素
+* 支持的图像分辨率：最小 — 50像素，最大 — 6000像素/维度。
 
-* 支持的最大文件大小：17 MB
+* 支持的最大文件大小：17 MB。
 
 ## 使用 Adobe Express 嵌入式编辑器编辑图像 {#edit-using-embedded-editor}
 
@@ -110,8 +110,8 @@ ht-degree: 100%
 >* 资源大小必须小于 14 MB。
 >* 您可以将图像保存为 `PDF`, `JPEG` 或者 `PNG` 格式。
 
-
-## 使用 [!DNL Adobe Photoshop Express] 编辑图像 {#edit-using-photoshop-express}
+<!--
+## Edit images using [!DNL Adobe Photoshop Express] {#edit-using-photoshop-express}
 
 <!--
 After editing an image, you can save the new image as a new version. Versioning helps you to revert to the original asset later, if needed. To edit an image, [open its preview](/help/using/navigate-view.md#preview-assets) and click **[!UICONTROL Edit Image]** ![edit icon](assets/do-not-localize/edit-icon.png) from the rail on the right.
@@ -120,49 +120,49 @@ After editing an image, you can save the new image as a new version. Versioning 
 
 *Figure: The options to edit images are powered by [!DNL Adobe Photoshop Express].*
 -->
+<!--
+### Spot heal images {#spot-heal-images-using-photoshop-express}
 
-### 对图像进行污点修复 {#spot-heal-images-using-photoshop-express}
+If there are minor spots or small objects on an image, you can edit and remove the spots using the spot healing feature provided by Adobe Photoshop.
 
-如果某个图像上有小污点或者小物体，您可以使用 Adobe Photoshop 提供的污点修复功能编辑和移除污点。
+The brush samples the retouched area and makes the repaired pixels blend seamlessly into the rest of the image. Use a brush size that is only slightly larger than the spot you want to fix.
 
-画笔在修饰后的区域中取样，并使修复的像素无缝地混入图像的其余部分。使用仅略大于所要修复污点的画笔大小。
-
-![污点修复编辑选项](assets/edit-spot-healing.png)
+![Spot healing edit option](assets/edit-spot-healing.png)
 
 <!-- 
 TBD: See if we should give backlinks to PS docs for these concepts.
 For more information about how Spot Healing works in Photoshop, see [retouching and repairing photos](https://helpx.adobe.com/photoshop/using/retouching-repairing-images.html). 
 -->
+<!--
+### Crop and straighten images {#crop-straighten-images-using-photoshop-express}
 
-### 裁切和拉直图像 {#crop-straighten-images-using-photoshop-express}
+Using the crop and straighten option that you can do basic cropping, rotate image, flip it horizontally or vertically, and crop it to dimensions suitable for popular social media websites.
 
-使用裁切和拉直选项，您可以执行基本的裁切、旋转图像、在水平或垂直方向上翻转图像，以及将其裁切为适合流行社交媒体网站的尺寸。
+To save your edits, click **[!UICONTROL Crop Image]**. After editing, you can save the new image as a version.
 
-要保存您的编辑，请单击&#x200B;**[!UICONTROL 裁切图像]**。在编辑之后，您可以将新图像另存为版本。
+![Option to crop and straighten](assets/edit-crop-straighten.png)
 
-![裁切和拉直图像的选项](assets/edit-crop-straighten.png)
+Many default options let you crop your image to the best proportions that fit various social media profiles and posts.
 
-许多默认选项可以让您将图像裁切为最佳比例，以适合各种社交媒体配置文件和帖子。
+### Resize image {#resize-image-using-photoshop-express}
 
-### 调整图像大小 {#resize-image-using-photoshop-express}
+You can view the common photo sizes in centimeters or inches to know the dimensions. By default, the resizing method retains the aspect ratio. To manually override the aspect ratio, click ![](assets/do-not-localize/lock-closed-icon.png).
 
-您可以按厘米或英寸查看常见照片大小来了解具体的尺寸。默认情况下，调整大小方法保留纵横比。要手动覆盖纵横比，请单击 ![](assets/do-not-localize/lock-closed-icon.png)。
+Enter the dimensions and click **[!UICONTROL Resize Image]** to resize the image. Before you save the changes as a version, you can either undo all the changes done before saving by clicking [!UICONTROL Undo] or you can change the specific step in the editing process by clicking [!UICONTROL Revert].
 
-输入尺寸，单击&#x200B;**[!UICONTROL 调整图像大小]**&#x200B;来调整图像大小。在将更改另存为版本之前，您可以在保存之前通过单击[!UICONTROL 还原]以撤销进行的所有更改，或者单击[!UICONTROL 恢复]来更改编辑过程中的特定步骤。
+![Options when resizing an image](assets/resize-image.png)
 
-![调整图像大小时的选项](assets/resize-image.png)
+### Adjust image {#adjust-image-using-photoshop-express}
 
-### 调整图像 {#adjust-image-using-photoshop-express}
+[!DNL Assets Essentials] lets you adjust the color, tone, contrast, and more, with just a few clicks. Click **[!UICONTROL Adjust image]** in the edit window. The following options are available in the right sidebar:
 
-使用 [!DNL Assets Essentials] 只需几次单击即可调整颜色、色调、对比度等等。在编辑窗口中单击&#x200B;**[!UICONTROL 调整图像]**。右侧边栏中提供了以下选项：
+* **Popular**: [!UICONTROL High Contrast & Detail], [!UICONTROL Desaturated Contrast], [!UICONTROL Aged Photo], [!UICONTROL B&W Soft], and [!UICONTROL B&W Sepia Tone].
+* **Color**: [!UICONTROL Natural], [!UICONTROL Bright], [!UICONTROL High Contrast], [!UICONTROL High Contrast & Detail], [!UICONTROL Vivid], and [!UICONTROL Matte].
+* **Creative**: [!UICONTROL Desaturated Contrast], [!UICONTROL Cool Light], [!UICONTROL Turquoise & Red], [!UICONTROL Soft Mist], [!UICONTROL Vintage Instant], [!UICONTROL Warm Contrast], [!UICONTROL Flat & Green], [!UICONTROL Red Lift Matte], [!UICONTROL Warm Shadows], and [!UICONTROL Aged Photo].
+* **B&W**: [!UICONTROL B&W Landscape], [!UICONTROL B&W High Contrast], [!UICONTROL B&W Punch], [!UICONTROL B&W Low Contrast], [!UICONTROL B&W Flat], [!UICONTROL B&W Soft], [!UICONTROL B&W Infrared], [!UICONTROL B&W Selenium Tone], [!UICONTROL B&W Sepia Tone], and [!UICONTROL B&W Split Tone].
+* **Vignetting**: [!UICONTROL None], [!UICONTROL Light], [!UICONTROL Medium], and [!UICONTROL Heavy].
 
-* **流行**：[!UICONTROL 高对比度和细节]、[!UICONTROL 去饱和对比度]、[!UICONTROL 老照片]、[!UICONTROL 黑白柔和]和[!UICONTROL 黑白棕褐色调]。 
-* **颜色**：[!UICONTROL 自然]、[!UICONTROL 明亮]、[!UICONTROL 高对比度]、[!UICONTROL 高对比度和细节]、[!UICONTROL 鲜艳]和[!UICONTROL 哑光]。
-* **创意**：[!UICONTROL 去饱和对比度]、[!UICONTROL 冷光]、[!UICONTROL 绿松石色和红色]、[!UICONTROL 柔和薄雾]、[!UICONTROL 复古瞬间]、[!UICONTROL 暖调对比度]、[!UICONTROL 平坦和绿色]、[!UICONTROL 红色提升哑光]、[!UICONTROL 暖调阴影]和[!UICONTROL 老照片]。
-* **黑白**：[!UICONTROL 黑白风景]、[!UICONTROL 黑白高对比度]、[!UICONTROL 黑白打孔]、[!UICONTROL 黑白低对比度]、[!UICONTROL 黑白平坦]、[!UICONTROL 黑白柔和]、[!UICONTROL 黑白红外线]、[!UICONTROL 黑白硒色调]、[!UICONTROL 黑白棕褐色]和[!UICONTROL 黑白分离色调]。
-* **渐晕**：[!UICONTROL 无]、[!UICONTROL 轻]、[!UICONTROL 中]和[!UICONTROL 重]。
-
-![通过编辑调整图像](assets/adjust-image.png)
+![Adjust image by editing](assets/adjust-image.png)
 
 <!--
 TBD: Insert a video of the available social media options.
