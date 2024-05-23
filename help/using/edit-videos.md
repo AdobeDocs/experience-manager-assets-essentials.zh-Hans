@@ -2,10 +2,11 @@
 title: 编辑视频
 description: 使用编辑视频 [!DNL Adobe Express] 功能选项，并将更新的视频另存为版本。
 role: User
-source-git-commit: 5bcec500ff6bf67426f532a98eec5d351cc1ad03
+exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
+source-git-commit: 2b27cf67be1cc0466a41b29f04a96adddedd1977
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 16%
 
 ## 先决条件 {#prerequisites}
 
-访问权 [!DNL Adobe Express] AEM Assets中至少有一个环境。 该环境可以是中的任意存储库 [!DNL Assets as a Cloud Service] 或 [!DNL Assets Essentials].
+访问权 [!DNL Adobe Express] AEM Assets中至少有一个环境。 环境可以是 [!DNL Assets as a Cloud Service] 或 [!DNL Assets Essentials] 内的任何存储库。
 
 ## 使用Adobe Express编辑视频 {#edit-video-using-express}
 
@@ -34,7 +35,7 @@ ht-degree: 16%
 3. 拖动视频角上的手柄以创建所需的裁切；或根据需要从现有屏幕大小中进行选择。
 4. 您可以选择将视频静音或取消静音。
 5. 单击&#x200B;**[!UICONTROL 应用]**。
-   ![使用Adobe Express裁切视频](/help/using/assets/adobe-express-crop-video.png)
+   ![使用 Adobe Express 裁切视频](/help/using/assets/adobe-express-crop-video.png)
 
    裁剪的视频可供下载。 您可以将编辑后的资源另存为同一资源的新版本或另存为新资源。 ![使用Adobe Express保存视频](/help/using/assets/adobe-express-save-video.png)
 
@@ -84,7 +85,7 @@ DAM中的最终视频内容通常需要调整大小才能分发到特定渠道�
 
 * 仅支持MP4格式的视频进行编辑。
 
-* 支持的最大源文件大小为200 MB
+* 支持的最大源文件大小为1GB
 
 * 支持的视频在任何一侧都大于46像素且小于3840像素
 
