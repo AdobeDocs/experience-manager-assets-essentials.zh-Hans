@@ -3,7 +3,7 @@ title: 编辑视频
 description: 使用编辑视频 [!DNL Adobe Express] 功能选项，并将更新的视频另存为版本。
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: eede4280258595b7c74061786a8c173afaeee058
+source-git-commit: e775f6ebeda48ff01082c471a9f997c57e0dedb3
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 18%
@@ -95,7 +95,7 @@ DAM中的最终视频内容通常需要调整大小才能分发到特定渠道�
 
 ### 后续步骤 {#next-steps}
 
-* 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
+* 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈。
 
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
