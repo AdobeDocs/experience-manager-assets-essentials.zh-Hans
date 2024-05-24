@@ -3,7 +3,7 @@ title: 编辑视频
 description: 使用编辑视频 [!DNL Adobe Express] 功能选项，并将更新的视频另存为版本。
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: 2b27cf67be1cc0466a41b29f04a96adddedd1977
+source-git-commit: eede4280258595b7c74061786a8c173afaeee058
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 18%
@@ -85,7 +85,7 @@ DAM中的最终视频内容通常需要调整大小才能分发到特定渠道�
 
 * 仅支持MP4格式的视频进行编辑。
 
-* 支持的最大源文件大小为1GB
+* 支持的最大源文件大小为200 MB。
 
 * 支持的视频在任何一侧都大于46像素且小于3840像素
 

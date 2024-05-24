@@ -2,10 +2,10 @@
 title: 在 Assets Essentials 中管理报告
 description: 访问 Assets Essentials 的报告部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: b24113299b5f8d32b3c4aef453923b23dc775228
-workflow-type: ht
-source-wordcount: '857'
-ht-degree: 100%
+source-git-commit: eede4280258595b7c74061786a8c173afaeee058
+workflow-type: tm+mt
+source-wordcount: '930'
+ht-degree: 92%
 
 ---
 
@@ -44,26 +44,32 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 单击可在左侧导航窗格中找到的&#x200B;**[!UICONTROL 见解]**&#x200B;以查看以下自动生成的图表：
 
-![见解](assets/insights.png)
-
 * **下载**：过去 30 天或 12 个月从 Assets Essentials 环境下载的资源数量，用折线图表示。
+  ![下载](/help/using/assets/insights-downloads2341.svg)
 
 * **上载**：过去 30 天或 12 个月上载到 Assets Essentials 环境中的资源数量，用折线图表示。
+  ![上传](/help/using/assets/insights-uplods2.svg)
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **存储用量**：使用条形图表示的 Assets Essentials 环境的存储使用率（以字节为单位）。
-
-<!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
+  ![存储使用情况](/help/using/assets/insights-storage-usage1.svg)
+  <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **热门搜索**：以表格格式查看过去 30 天或 12 个月内在 Assets Essentials 环境中搜索最多的术语以及这些术语的搜索次数。
+  ![存储使用情况](/help/using/assets/insights-top-search.svg)
 
   <!--
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
+
+* **按大小划分的资源计数：** 对Assets Essentials环境中的资源总数进行分段，根据资源文件类型突出显示资源的计数和百分比，用圆环图表示。
+  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
+* **按资源类型列出的资源计数：** 将Assets Essentials环境中的资源总数划分为不同的大小范围，并突出显示每个大小范围内的资源计数和百分比，使用圆环图表示。
+  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
 ## 创建下载报告 {#create-download-report}
 
