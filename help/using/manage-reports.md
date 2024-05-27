@@ -2,10 +2,10 @@
 title: 在 Assets Essentials 中管理报告
 description: 访问 Assets Essentials 的报告部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: eede4280258595b7c74061786a8c173afaeee058
+source-git-commit: 8f91cd833712363e09b81a5f59b08e2f41237d90
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 92%
+source-wordcount: '862'
+ht-degree: 99%
 
 ---
 
@@ -65,11 +65,6 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
-
-* **按大小划分的资源计数：** 对Assets Essentials环境中的资源总数进行分段，根据资源文件类型突出显示资源的计数和百分比，用圆环图表示。
-  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
-* **按资源类型列出的资源计数：** 将Assets Essentials环境中的资源总数划分为不同的大小范围，并突出显示每个大小范围内的资源计数和百分比，使用圆环图表示。
-  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
 ## 创建下载报告 {#create-download-report}
 
