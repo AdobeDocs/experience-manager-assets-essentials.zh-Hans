@@ -4,9 +4,9 @@ description: 使用由 [!DNL Adobe Express] 提供支持的选项编辑图像并
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: f65e4eb7e0877e8b8d7ba4d5dd88c64b4423f152
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 97%
 
 ### 限制 {#limitations-adobe-express}
 
-* 支持的图像分辨率：最小 — 50像素，最大 — 6000像素/维度。
+* 支持的图像分辨率：最小 - 50 像素，最大 - 每维 6000 像素。
 
 * 支持的最大文件大小：17 MB。
 
