@@ -3,7 +3,7 @@ title: 编辑视频
 description: 使用编辑视频 [!DNL Adobe Express] 功能选项，并将更新的视频另存为版本。
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: 456ffec077617909f98b66bed711921c0b7b3925
+source-git-commit: a9a6c36f655fcc33f3e8ef1b584fa7b4dce869c3
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 18%
@@ -85,7 +85,7 @@ DAM中的最终视频内容通常需要调整大小才能分发到特定渠道�
 
 * 仅支持MP4格式的视频进行编辑。
 
-* 支持的最大源文件大小为200 MB。
+* 支持的最大源文件大小为1GB。
 
 * 支持的视频在任何一侧都大于46像素且小于3840像素。
 
@@ -97,9 +97,9 @@ DAM中的最终视频内容通常需要调整大小才能分发到特定渠道�
 
 * 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈。
 
-* 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
+* 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈。
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
+* 联系[客户关怀](https://experienceleague.adobe.com/?support-solution=General#support)。
 
 >[!MORELIKETHIS]
 >
