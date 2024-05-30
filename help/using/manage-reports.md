@@ -3,9 +3,9 @@ title: 在 Assets Essentials 中管理报告
 description: 访问 Assets Essentials 的报告部分中的数据，即可评估产品和功能使用情况并了解关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 8f91cd833712363e09b81a5f59b08e2f41237d90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '862'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
