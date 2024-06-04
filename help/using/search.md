@@ -3,9 +3,9 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 5d6cc2c27fc416d3f616a25db0e6497d9ad946c1
+source-git-commit: 34e710243a77647c50c2057c54f68dbe23d3997a
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1890'
 ht-degree: 100%
 
 ---
@@ -311,15 +311,13 @@ Assets Essentials 使您能够为您的组织选择默认登陆页面。使用�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428407)
 
-<!--
-### Disable Contextual Search {#disable-contextual-search}
+### 禁用上下文搜索 {#disable-contextual-search}
 
-Administrators also have the option to disable Contextual Search for users in your organization. To do so, execute the following steps:
+管理员还可以选择为组织中的用户禁用“上下文搜索”功能。若要禁用，请执行以下步骤：
 
-1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL General Settings]**.
+1. 前往“**[!UICONTROL 设置]**”>“**[!UICONTROL 常规设置]**”。
 
-1. In the [!UICONTROL Contextual Search] section, turn off the **[!UICONTROL Enable Contextual Search for your organization]** toggle to disable the Contextual Search feature for all users in your organization.  
--->
+1. 在[!UICONTROL 上下文搜索]部分中，关闭&#x200B;**[!UICONTROL 为您的组织启用上下文搜索]**&#x200B;切换按钮，可为您组织中的所有用户停用“上下文搜索”功能。
 
 ### “上下文搜索”反馈 {#contextual-search-feedback}
 
