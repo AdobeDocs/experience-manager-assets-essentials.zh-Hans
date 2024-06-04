@@ -3,7 +3,7 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 34e710243a77647c50c2057c54f68dbe23d3997a
+source-git-commit: a471074ec0eee8487222cc344046715ed5d90d0b
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 100%
@@ -332,6 +332,6 @@ Assets Essentials 使您能够为您的组织选择默认登陆页面。使用�
 
 * 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 
-* 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
+* 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈。
 
 * 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
