@@ -3,16 +3,16 @@ title: 编辑图像
 description: 使用由 [!DNL Adobe Express] 提供支持的选项编辑图像并将更新后的图像另存为版本。
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 35f92dfe66fa2cae6a512b6b59bfe2bacc87511c
+source-git-commit: 5947e7db586b691f1db3bf734481de8438e5a3b5
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 30%
 
 ---
 
-# 在 [!DNL Assets Essentials] 中编辑图像 {#edit-images-in-asset-essentials}
+# 在 [!DNL Assets Essentials] 中编辑图像 {#edit-images-in-assets-essentials}
 
-Asset Essentials UI支持基本的图像编辑，包括调整大小、删除背景、裁剪以及在JPEG格式和PNG格式之间进行转换。 此外，它还允许通过与Adobe Express集成进行高级编辑。 在编辑图像之后，您可以将新图像另存为新版本。版本控制可帮助您以后在需要时还原为原始资源。 若要编辑图像，请[打开其预览](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets)，然后单击&#x200B;**“编辑图像”。**
+Assets Essentials UI支持基本的图像编辑，包括调整大小、删除背景、裁剪以及JPEG格式和PNG格式之间的转换。 此外，它还允许通过与Adobe Express集成进行高级编辑。 在编辑图像之后，您可以将新图像另存为新版本。版本控制可帮助您以后在需要时还原为原始资源。 若要编辑图像，请[打开其预览](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets)，然后单击&#x200B;**“编辑图像”。**
 
 >[!NOTE]
 >
@@ -22,8 +22,8 @@ Asset Essentials UI支持基本的图像编辑，包括调整大小、删除背�
 
 ## 编辑图像 {#edit-images}
 
-登录到Asset Essentials UI，使用以下链接 —  [Asset Essentials UI](https://experience.adobe.com/#/assets) 并选择正确的存储库。 要获得访问权限，请联系贵组织的管理员。
-有关任何其他参考信息，请参阅 —  [开始使用Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started)， [了解用户界面](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view)， [Asset Essentials用例](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) 和 [已知问题](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
+登陆到Assets EssentialsUI，使用以下链接 —  [ASSETS ESSENTIALSUI](https://experience.adobe.com/#/assets) 并选择正确的存储库。 要获得访问权限，请联系贵组织的管理员。
+有关任何其他参考信息，请参阅 —  [开始使用Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started)， [了解用户界面](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view)， [Assets essentials用例](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) 和 [已知问题](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
 <!--
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
@@ -86,11 +86,11 @@ Asset Essentials UI支持基本的图像编辑，包括调整大小、删除背�
 ![在Essentials UI中表达](/help/using/assets/express-in-essentials-ui.jpg)
 要使用Adobe Express嵌入式编辑器编辑图像，请执行以下步骤：
 
-1. 使用以下链接登录到AEM Asset Essentials UI - [AEM Asset Essentials UI](https://experience.adobe.com/#/assets) 并选择正确的存储库。
+1. 使用以下链接登录到AEM Assets Essentials UI - [AEM Assets Essentials UI](https://experience.adobe.com/#/assets) 并选择正确的存储库。
 1. 单击 **Assets**，输入文件夹，然后选择图像。
 1. 单击 **在Adobe Express中打开**. 图像在快速画布上打开。
 1. 对图像进行所需的编辑。
-1. 如果您的项目要求您添加更多页面，请单击 **添加**，选择Assets，输入文件夹，选择要放到画布页面上的图像，然后对图像执行所需的编辑。
+1. 如果您的项目要求您添加更多页面，请单击 **添加**，选择资源，输入文件夹，选择要放到画布页面上的图像，然后对图像执行所需的编辑。
 1. 要保存图像，请单击 **保存**. 此时将显示保存对话框。
 
    >[!NOTE]
