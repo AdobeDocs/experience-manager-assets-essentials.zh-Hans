@@ -6,40 +6,40 @@ exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: 5947e7db586b691f1db3bf734481de8438e5a3b5
 workflow-type: tm+mt
 source-wordcount: '1116'
-ht-degree: 30%
+ht-degree: 89%
 
 ---
 
 # 在 [!DNL Assets Essentials] 中编辑图像 {#edit-images-in-assets-essentials}
 
-Assets Essentials UI支持基本的图像编辑，包括调整大小、删除背景、裁剪以及JPEG格式和PNG格式之间的转换。 此外，它还允许通过与Adobe Express集成进行高级编辑。 在编辑图像之后，您可以将新图像另存为新版本。版本控制可帮助您以后在需要时还原为原始资源。 若要编辑图像，请[打开其预览](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets)，然后单击&#x200B;**“编辑图像”。**
+Assets Essentials UI支持基本的图像编辑，包括调整大小、删除背景、裁剪以及JPEG格式和PNG格式之间的转换。 此外，它还允许通过与 Adobe Express 集成进行高级编辑。在编辑图像之后，您可以将新图像另存为新版本。版本控制可帮助您在需要时还原为原始资源。若要编辑图像，请[打开其预览](https://experienceleague.adobe.com/cn/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets)，然后单击&#x200B;**“编辑图像”。**
 
 >[!NOTE]
 >
->您可以使用Adobe Express编辑PNG和JPEG文件类型的图像。
+>您可以使用 Adobe Express 编辑 PNG 和 JPEG 文件类型的图像。
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
 ## 编辑图像 {#edit-images}
 
-登陆到Assets EssentialsUI，使用以下链接 —  [ASSETS ESSENTIALSUI](https://experience.adobe.com/#/assets) 并选择正确的存储库。 要获得访问权限，请联系贵组织的管理员。
-有关任何其他参考信息，请参阅 —  [开始使用Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started)， [了解用户界面](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view)， [Assets essentials用例](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) 和 [已知问题](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
+登陆到Assets EssentialsUI，使用以下链接 —  [ASSETS ESSENTIALSUI](https://experience.adobe.com/#/assets) 并选择正确的存储库。 要获得访问权限，请联系您组织的管理员。
+有关任何其他参考信息，请参阅 —  [开始使用Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/cn/docs/experience-manager-assets-essentials/help/get-started)， [了解用户界面](https://experienceleague.adobe.com/cn/docs/experience-manager-assets-essentials/help/navigate-view)， [Assets essentials用例](https://experienceleague.adobe.com/cn/docs/experience-manager-assets-essentials/help/get-started#use-cases) 和 [已知问题](https://experienceleague.adobe.com/cn/docs/experience-manager-assets-essentials/help/release-notes).
 <!--
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
 >title="Adobe Express Integration"
 >abstract="Easy and intuitive image-editing tools powered by Adobe Express available directly within AEM Assets to increase content reuse and accelerate content velocity."-->
 
-### 在Essentials UI上使用Adobe Express编辑图像 {#edit-image-on-essentials-ui-using-adobe-express}
+### 使用 Adobe Express 在 Essentials UI 上编辑图像 {#edit-image-on-essentials-ui-using-adobe-express}
 
-登录Essentials UI后，单击 **Assets**，选择图像，然后单击 **编辑** 从顶部边栏上。 新屏幕显示了可用的编辑选项，包括调整大小、删除背景、裁剪以及在JPEG格式和PNG格式之间进行转换。
+进入 Essentials UI 后，点击 **资产**，选择一张图像，然后点击顶部栏中的 **编辑**。新屏幕显示可用的编辑选项，包括调整大小、背景去除、裁剪以及 JPEG 与 PNG 格式之间的转换。
 
 #### 调整图像大小 {#resize-image-using-express}
 
-将图像大小调整为热门用例中的特定大小。Assets Essentials通过提供针对特定照片大小预先计算的新分辨率，可让您快速调整图像大小以适合常见的照片大小。 要使用Assets Essentials调整图像大小，请执行以下步骤：
+将图像大小调整为热门用例中的特定大小。Assets Essentials 提供针对特定照片大小预先计算的新分辨率，让您可以快速地调整图像大小以适合常见的照片尺寸。要使用 Assets Essentials 调整图像大小，请按照以下步骤操作：
 
-1. 单击 **调整图像大小** 左窗格中的。
-2. 从调整大小下拉列表中选择相应的社交媒体平台，然后从显示的选项中选择图像大小。
+1. 单击左侧窗格中的 **调整图像大小**。
+2. 从“调整大小对象”下拉列表中选择适当的社交媒体平台，并从显示的选项中选择图像的大小。
 3. 如果需要，使用&#x200B;**“图像比例”**&#x200B;字段缩放图像。
 4. 单击&#x200B;**应用**以应用您的更改。
    ![使用 Adobe Express 进行图像编辑](/help/using/assets/adobe-express-resize-image.png)
@@ -49,9 +49,9 @@ Assets Essentials UI支持基本的图像编辑，包括调整大小、删除背
 
 #### 删除背景 {#remove-background-using-express}
 
-您可以按照以下所述步骤从图像中删除背景：
+您可以按照以下步骤从图像中删除背景：
 
-1. 单击 **删除背景** 左窗格中的。 Experience Manager Assets 不含背景地显示该图像。
+1. 单击左侧窗格中的 **删除背景**。Experience Manager Assets 不含背景地显示该图像。
 2. 单击&#x200B;**[!UICONTROL 应用]**以应用您的更改。
    ![使用 Adobe Express 保存图像](/help/using/assets/adobe-express-remove-background.png)
 
@@ -59,9 +59,9 @@ Assets Essentials UI支持基本的图像编辑，包括调整大小、删除背
 
 #### 裁切图像 {#crop-image-using-express}
 
-将图像转换为完美大小非常简单，只需使用嵌入即可 [!DNL Adobe Express] 快速操作。
+使用嵌入的 [!DNL Adobe Express] 快速操作可以简单地将图像转换为完美尺寸。
 
-1. 单击 **[!UICONTROL 裁切图像]** 左窗格中的。
+1. 单击左侧窗格中的 **[!UICONTROL 剪裁图像]**。
 2. 拖动该图像四角的手柄以创建您想要的裁切效果。
 3. 单击&#x200B;**[!UICONTROL 应用]**。
    ![使用 Adobe Express 保存图像](/help/using/assets/adobe-express-crop-image.png)
@@ -69,9 +69,9 @@ Assets Essentials UI支持基本的图像编辑，包括调整大小、删除背
 
 #### 在图像文件类型之间转换 {#convert-image-types-using-express}
 
-您可以使用Adobe Express在JPEG和PNG图像格式之间快速转换。 执行以下步骤：
+您可以使用 Adobe Express 在 JPEG 和 PNG 图像格式之间快速转换。执行以下步骤：
 
-1. 单击 **JPEG到PNG** 或 **PNG到JPEG** 左窗格中的。
+1. 在左侧窗格中单击 **JPEG 转 PNG** 或 **PNG 转 JPEG**。
    ![使用 Adobe Express 转换为 PNG](/help/using/assets/adobe-express-convert-image.png)
 2. 单击&#x200B;**[!UICONTROL “下载”。]**
 
@@ -80,52 +80,52 @@ Assets Essentials UI支持基本的图像编辑，包括调整大小、删除背
 * 支持的图像分辨率：最小 - 50 像素，最大 - 每维 6000 像素。
 * 支持的最大文件大小：17 MB。
 
-### 在Adobe Express嵌入式编辑器中编辑图像 {#edit-images-in-adobe-express-embedded-editor}
+### 在 Adobe Express 嵌入式编辑器中编辑图像 {#edit-images-in-adobe-express-embedded-editor}
 
-拥有Express权利的用户可以从Assets EssentialsUI中使用嵌入的Express编辑器，轻松地在Adobe Firefly中使用GenAI编辑内容和创建新内容。 这提高了内容重用率并加快了内容速度。 您还可以使用预定义元素让您的资产外观引人注目，或执行快速操作以只需单击几下即可编辑图像。
-![在Essentials UI中表达](/help/using/assets/express-in-essentials-ui.jpg)
-要使用Adobe Express嵌入式编辑器编辑图像，请执行以下步骤：
+具有 Express 权利的用户可以使用 Assets Essentials UI 中嵌入的 Express 编辑器轻松编辑内容，并使用 Adobe Firefly 的 GenAI 创建新内容。这提高了内容重用性并加快了内容速度。您还可以使用预定义的元素使您的资源看起来令人惊叹，或者只需单击几下即可执行快速操作来编辑图像。
+![express in essentials UI](/help/using/assets/express-in-essentials-ui.jpg)
+要使用 Adobe Express 嵌入式编辑器编辑图像，请按照以下步骤操作：
 
 1. 使用以下链接登录到AEM Assets Essentials UI - [AEM Assets Essentials UI](https://experience.adobe.com/#/assets) 并选择正确的存储库。
-1. 单击 **Assets**，输入文件夹，然后选择图像。
-1. 单击 **在Adobe Express中打开**. 图像在快速画布上打开。
-1. 对图像进行所需的编辑。
+1. 点击 **资产**，进入文件夹，然后选择一张图像。
+1. 单击&#x200B;**在 Adobe Express 中打开**。图像在快捷画布上打开。
+1. 对图像进行必要的编辑。
 1. 如果您的项目要求您添加更多页面，请单击 **添加**，选择资源，输入文件夹，选择要放到画布页面上的图像，然后对图像执行所需的编辑。
-1. 要保存图像，请单击 **保存**. 此时将显示保存对话框。
+1. 单击&#x200B;**“保存”**，以保存图像。此时将显示保存对话框。
 
    >[!NOTE]
    >
-   > **1. 对于单页**
+   > **1. 对于单页面**
    >
-   > **另存为版本：** 此功能仅支持保存单个资源。 选择此选项可将图像导出为新版本（保留原始格式），并将其保存在同一文件夹中。
-   > **另存为新资产：** 选择此选项可将资源以与原始资源不同的格式导出，并将其另存到任意文件夹中作为新资源。
+   > **另存为版本：** 此功能仅支持保存单个资产。选择此选项可以将图像导出为新版本（保留原始格式），并将其保存在同一文件夹中。
+   > **另存为新资产：** 选择此选项可以以与原始格式不同的格式导出资产，并将其作为新资产保存到任何文件夹。
    >  
-   > **2. 对于多页**
+   > **2。对于多页**
    >
-   > **另存为版本：** 此功能仅支持保存单个资源。 如果要从多个页面中保存单个页面，请选择此选项，以原始格式和位置保存资产。\
-   > **另存为新资产：** 利用此选项，您可以将多个资源或单个资源导出到任意文件夹，并将它们另存为新资源，其文件格式为原始文件或其他文件。
+   > **另存为版本：** 此功能仅支持保存单个资产。如果您想从多个页面中保存单个页面，请选择此选项以将资产保存为其原始格式和位置。\
+   > **另存为新资产：** 使用此选项，您可以将多个资产或单个资产导出到任何文件夹，并将它们另存为新资产，其文件格式与原始格式相同或不同。
 
-1. 在“保存”对话框中：
-   1. 在中输入文件的名称 **另存为** 字段。
+1. 在保存对话框中：
+   1. 在 **另存为** 字段中输入文件的名称。
    1. 选择目标文件夹。
-   1. 可选：提供项目或营销策划名称、关键字、渠道、时间范围和区域等详细信息。
-1. 单击 **另存为版本** 或 **另存为新资源** 以保存资产。
+   1. 可选：提供详细信息，例如 项目或活动名称、关键字、渠道、时间范围和地区。
+1. 点击 **另存为版本** 或 **另存为新资产** 以保存资产。
 
-#### 在Express编辑器中编辑图像的限制 {#limitations-of-editing-images-in-the-express-editor}
+#### 在 Express Editor 中编辑图像的限制 {#limitations-of-editing-images-in-the-express-editor}
 
-* 支持的文件类型：JPEG或PNG。
+* 支持的文件类型：JPEG or PNG。
 * 支持的最大文件大小：40 MB。
-* 支持的宽度和高度范围：介于50到8000像素之间。
-* 重新加载页面以查看源文件夹中最新保存的新资源。
+* 支持的宽度和高度范围：50 到 8000 像素之间。
+* 重新加载页面以查看源文件夹中最新保存的新资产。
 
 ### 使用 Adobe Express 创建新资源 {#create-new-assets-using-embedded-editor}
 
-通过Assets Essentials，您可以使用Adobe Express嵌入编辑器从头开始创建新模板。 要使用Adobe Express创建新资源，请执行以下步骤：
+Assets Essentials 使您能够使用 Adobe Express 嵌入式编辑器从头开始创建新模板。若要使用 Adobe Express 创建新资源，请执行以下步骤：
 
-1. 导航到 **我的Workspace** 并单击 **创建** 在顶部的Adobe Express中显示的Adobe Express横幅中显示。 Adobe Express空白画布显示在Assets Essentials用户界面中。
-1. 使用[模板](https://helpx.adobe.com/cn/express/using/work-with-templates.html)创建您的内容。否则，请导航到您的资料以修改现有内容。
-1. 完成编辑后，单击 **保存**.
-1. 为创建的资源指定目标路径，然后单击 **另存为新资源**.
+1. 导航至 **My Workspace**，然后单击显示在快速访问部分上方的&#x200B;**Adobe Express 横幅中的**&#x200B;创建。Adobe Express 空白画布显示在 Assets Essentials 用户界面内。
+1. 使用[模板](https://helpx.adobe.com/cn/express/using/work-with-templates.html)创建您的内容。否则，导航至您的内容来修改现有内容。
+1. 完成编辑后，点击 **保存**。
+1. 指定创建资源的目标路径，然后单击&#x200B;**另存为新资产**。
 
 #### 限制 {#limitations}
 
