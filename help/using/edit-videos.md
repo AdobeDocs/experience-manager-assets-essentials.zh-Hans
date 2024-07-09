@@ -3,16 +3,16 @@ title: 编辑视频
 description: 使用编辑视频 [!DNL Adobe Express] 功能选项，并将更新的视频另存为版本。
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: 78187929a6baa0f1ab5d8675287408a24e1ada98
+source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 18%
+source-wordcount: '833'
+ht-degree: 22%
 
 ---
 
 # 在中编辑视频 [!DNL Assets Essentials] {#edit-videos}
 
-对于嵌入了视频内容的Assets用户，可轻松创建这些变体 [!DNL Adobe Express] 视频的快速操作。 中的快速操作 [!DNL Assets Essentials] 提供者 [!DNL Adobe Express] 提供用户友好的视频编辑选项，包括裁切视频、调整视频大小、修剪视频以及将视频转换为GIF。
+对于嵌入了以下内容的Assets用户而言，创建视频内容的变体非常简单： [!DNL Adobe Express] 视频的快速操作。 中的快速操作 [!DNL Assets Essentials] 提供者 [!DNL Adobe Express] 提供用户友好的视频编辑选项，包括裁切视频、调整视频大小、修剪视频以及将视频转换为GIF。
 
 要编辑视频，请转到视频详细信息，然后单击 [!UICONTROL 编辑视频]. 或者，选择资产并单击详细信息，然后单击 ![剪刀](assets/do-not-localize/cut.svg) 图标在右侧窗格中可用。 编辑视频后，您可以将新视频另存为新版本或新资源。
 
@@ -23,6 +23,11 @@ ht-degree: 18%
 访问权 [!DNL Adobe Express] AEM Assets中至少有一个环境。 环境可以是 [!DNL Assets as a Cloud Service] 或 [!DNL Assets Essentials] 内的任何存储库。
 
 ## 使用Adobe Express编辑视频 {#edit-video-using-express}
+
+>[!CONTEXTUALHELP]
+>id="assets_express_integration_videos"
+>title="用于视频编辑的Adobe Express集成"
+>abstract="Experience Manager Assets 现在包括由 Adobe Express 支持的简单而直观的视频编辑工具，可提高内容重用率，并加快内容创建速度。编辑选项包括修剪、裁剪、调整视频大小以及将 MP4 转换为 GIF 文件。"
 
 使用嵌入式技术，可以轻松地将视频转换为理想的大小和方向 [!DNL Adobe Express] 快速操作。
 
