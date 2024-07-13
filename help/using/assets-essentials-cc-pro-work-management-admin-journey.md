@@ -3,8 +3,8 @@ title: 为带有工作管理解决方案的 Creative Cloud Pro 设置 Assets Ess
 description: 本教程介绍的管理员历程使 Assets Essentials 应用程序能够与 Creative Cloud 桌面应用程序和 Adobe Workfront 应用程序集成。Creative Cloud 桌面应用程序包括 Adobe Photoshop、Adobe Illustrator、Adobe InDesign 和 Adobe XD。
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '941'
+workflow-type: tm+mt
+source-wordcount: '870'
 ht-degree: 100%
 
 ---

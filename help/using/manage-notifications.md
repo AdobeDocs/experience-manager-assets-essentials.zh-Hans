@@ -3,7 +3,7 @@ title: 管理通知
 description: 使用 Assets Essentials 通知监视对于可在存储库中找到的资源或文件夹执行的操作。
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
 source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 100%
 

@@ -4,9 +4,9 @@ description: 管理用例，例如  [!DNL Assets Essentials] 中的部署和用�
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '1342'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1304'
+ht-degree: 99%
 
 ---
 
@@ -131,7 +131,7 @@ Assets Essentials 允许管理员管理存储库中可用文件夹的访问级�
 
 有关详细信息，请参阅[管理文件夹权限](manage-permissions.md)。
 
-### 设置元数据表单（可选） {#metadata-forms}
+### 设置元数据Forms（可选） {#metadata-forms}
 
 默认情况下，Assets Essentials 提供了多个标准元数据字段。组织有额外的元数据需求，就需要更多元数据字段以添加业务特有的元数据。通过元数据表单，可将自定义元数据字段添加到资源的[!UICONTROL 详细信息]页面。业务特有的元数据改善对其资源的治理和发现。您可以从头开始创建表单，也可以重新利用现有表单。
 

@@ -3,7 +3,7 @@ title: AEM Assets 中用于 Creative Cloud 集成的跨组织权利
 description: 了解如何在 AEM Assets 中配置用于 Creative Cloud 集成的跨组织权利。连接到预配给其他 IMS 组织的 Creative Cloud 权利，以轻松地使用 AEM Assets 中最新的 Creative Cloud 集成，其中包括 Express 和 Creative Cloud Libraries。
 exl-id: 5a39b640-4195-4149-9757-2733ed70e616
 source-git-commit: ebc49d5c29118cd09cf1f97e8f71f63df76b3779
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
