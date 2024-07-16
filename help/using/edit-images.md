@@ -4,9 +4,9 @@ description: 使用由 [!DNL Adobe Express] 提供支持的选项编辑图像并
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1138'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ Asset Essentials UI 支持基本的图像编辑，包括调整大小、去除背
 进入 Asset Essentials UI，使用链接 - [Asset Essentials UI](https://experience.adobe.com/#/assets) 并选择正确的存储库。要获得访问权限，请联系您组织的管理员。
 如需任何其他参考信息，请参阅 [开始使用 Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/get-started)、[了解用户界面](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/navigate-view)、 [Asset Essentials 用例](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/get-started#use-cases) 和 [已知问题](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/release-notes)。
 
-### 使用Adobe Express编辑图像 {#edit-images-using-adobe-express}
+### 使用 Adobe Express 编辑图像 {#edit-images-using-adobe-express}
 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
 >title="Adobe Express 集成"
 >abstract="可直接在 AEM Assets 中使用简单而直观的受 Adobe Express 支持的图像编辑工具，以提高内容重用率并加快内容速度。"
 
-进入 Essentials UI 后，点击 **资产**，选择一张图像，然后点击顶部栏中的 **编辑**。新屏幕显示可用的编辑选项，包括调整大小、背景去除、裁剪以及 JPEG 与 PNG 格式之间的转换。
+进入 Essentials UI 后，点击 **资源**，选择一张图像，然后点击顶部栏中的 **编辑**。新屏幕显示可用的编辑选项，包括调整大小、背景去除、裁剪以及 JPEG 与 PNG 格式之间的转换。
 
 #### 调整图像大小 {#resize-image-using-express}
 
@@ -47,9 +47,9 @@ Asset Essentials UI 支持基本的图像编辑，包括调整大小、去除背
    您编辑的图像可供下载。您可以将编辑后的资源另存为同一资源的新版本，也可以将其另存为新资源。
    ![使用 Adobe Express 保存图像](/help/using/assets/adobe-express-resize-save.png)
 
-#### 删除背景 {#remove-background-using-express}
+#### 移除背景 {#remove-background-using-express}
 
-您可以按照以下步骤从图像中删除背景：
+您可以按照以下步骤从图像中移除背景：
 
 1. 单击左侧窗格中的 **删除背景**。Experience Manager Assets 不含背景地显示该图像。
 2. 单击&#x200B;**[!UICONTROL 应用]**以应用您的更改。
@@ -71,7 +71,7 @@ Asset Essentials UI 支持基本的图像编辑，包括调整大小、去除背
 
 您可以使用 Adobe Express 在 JPEG 和 PNG 图像格式之间快速转换。执行以下步骤：
 
-1. 在左侧窗格中单击 **JPEG 转 PNG** 或 **PNG 转 JPEG**。
+1. 在左侧窗格中单击将 **JPEG 转换为 PNG** 或将 **PNG 转换为 JPEG**。
    ![使用 Adobe Express 转换为 PNG](/help/using/assets/adobe-express-convert-image.png)
 2. 单击&#x200B;**[!UICONTROL “下载”。]**
 
@@ -87,36 +87,36 @@ Asset Essentials UI 支持基本的图像编辑，包括调整大小、去除背
 要使用 Adobe Express 嵌入式编辑器编辑图像，请按照以下步骤操作：
 
 1. 使用链接 - [AEM Asset Essentials UI](https://experience.adobe.com/#/assets) 进入 AEM Asset Essentials UI 并选择正确的存储库。
-1. 点击 **资产**，进入文件夹，然后选择一张图像。
+1. 点击 **资源**，进入文件夹，然后选择一张图像。
 1. 单击&#x200B;**在 Adobe Express 中打开**。图像在快捷画布上打开。
 1. 对图像进行必要的编辑。
-1. 如果你的项目需要你添加更多页面，请单击 **添加**，选择资产，进入文件夹，选择要带到画布页面的图像，然后对图像执行所需的编辑。
+1. 如果你的项目需要你添加更多页面，请单击 **添加**，选择资源，进入文件夹，选择要带到画布页面的图像，然后对图像执行所需的编辑。
 1. 单击&#x200B;**“保存”**，以保存图像。此时将显示保存对话框。
 
    >[!NOTE]
    >
    > **1. 对于单页面**
    >
-   > **另存为版本：** 此功能仅支持保存单个资产。选择此选项可以将图像导出为新版本（保留原始格式），并将其保存在同一文件夹中。
-   > **另存为新资产：** 选择此选项可以以与原始格式不同的格式导出资产，并将其作为新资产保存到任何文件夹。
+   > **另存为版本：** 此功能仅支持保存单个资源。选择此选项可以将图像导出为新版本（保留原始格式），并将其保存在同一文件夹中。
+   > **另存为新资源：** 选择此选项可以以与原始格式不同的格式导出资源，并将其作为新资源保存到任何文件夹。
    >  
    > **2。对于多页**
    >
-   > **另存为版本：** 此功能仅支持保存单个资产。如果您想从多个页面中保存单个页面，请选择此选项以将资产保存为其原始格式和位置。\
-   > **另存为新资产：** 使用此选项，您可以将多个资产或单个资产导出到任何文件夹，并将它们另存为新资产，其文件格式与原始格式相同或不同。
+   > **另存为版本：** 此功能仅支持保存单个资源。如果您想从多个页面中保存单个页面，请选择此选项以将资源保存为其原始格式和位置。\
+   > **另存为新资源：** 使用此选项，您可以将多个资源或单个资源导出到任何文件夹，并将它们另存为新资源，其文件格式与原始格式相同或不同。
 
 1. 在保存对话框中：
    1. 在 **另存为** 字段中输入文件的名称。
    1. 选择目标文件夹。
    1. 可选：提供详细信息，例如 项目或活动名称、关键字、渠道、时间范围和地区。
-1. 点击 **另存为版本** 或 **另存为新资产** 以保存资产。
+1. 点击 **另存为版本** 或 **另存为新资源** 以保存资源。
 
 #### 在 Express Editor 中编辑图像的限制 {#limitations-of-editing-images-in-the-express-editor}
 
 * 支持的文件类型：JPEG or PNG。
 * 支持的最大文件大小：40 MB。
 * 支持的宽度和高度范围：50 到 8000 像素之间。
-* 重新加载页面以查看源文件夹中最新保存的新资产。
+* 重新加载页面以查看源文件夹中最新保存的新资源。
 
 ### 使用 Adobe Express 创建新资源 {#create-new-assets-using-embedded-editor}
 
@@ -125,7 +125,7 @@ Assets Essentials 使您能够使用 Adobe Express 嵌入式编辑器从头开�
 1. 导航至 **My Workspace**，然后单击显示在快速访问部分上方的&#x200B;**Adobe Express 横幅中的**&#x200B;创建。Adobe Express 空白画布显示在 Assets Essentials 用户界面内。
 1. 使用[模板](https://helpx.adobe.com/cn/express/using/work-with-templates.html)创建您的内容。否则，导航至您的内容来修改现有内容。
 1. 完成编辑后，点击 **保存**。
-1. 指定创建资源的目标路径，然后单击&#x200B;**另存为新资产**。
+1. 指定创建资源的目标路径，然后单击&#x200B;**另存为新资源**。
 
 #### 限制 {#limitations}
 
