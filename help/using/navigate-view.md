@@ -3,10 +3,10 @@ title: “[!DNL Assets Essentials] 用户界面”
 description: 了解  [!DNL Assets Essentials] 中的用户界面并在其中导航。
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: c6b04d1882347a4647a690939353856844b2a27a
+source-git-commit: 8debab75bb335d4a81279c9c0e84229c3b3ca2cd
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 90%
 
 您可以打开或隐藏左侧边栏，以增加可用于查看资源的区域。
 
-在 [!DNL Assets Essentials] 中，您可以在四种不同的版面类型中查看资源、文件夹和搜索结果。
+在[!DNL Assets Essentials]中，您可以在四种不同的布局类型中查看资源、文件夹和搜索结果：
 
 * ![列表视图图标](assets/do-not-localize/list-view.png) [!UICONTROL 列表视图]
 * ![网格视图图标](assets/do-not-localize/grid-view.png) [!UICONTROL 网格视图]
