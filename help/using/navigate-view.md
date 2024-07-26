@@ -3,10 +3,10 @@ title: “[!DNL Assets Essentials] 用户界面”
 description: 了解  [!DNL Assets Essentials] 中的用户界面并在其中导航。
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 8620efd0430d230338ef8005847de498a5a95a7e
+source-git-commit: c6b04d1882347a4647a690939353856844b2a27a
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 100%
+source-wordcount: '1036'
+ht-degree: 90%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 100%
 
 ## 浏览并查看资源和文件夹 {#browse-repository}
 
-您可以从主用户界面或者从左侧边栏浏览文件夹。在浏览时，您可以使用界面来查看资源缩略图，从而直观地浏览存储库或者查看资源详细信息，来快速查找所需的资源。左侧边栏中提供的选项包括：
+您可以从主用户界面或者从左侧边栏浏览文件夹。现在，在浏览或搜索内容时，Experience Manager Assets会在文件夹缩略图上显示文件夹内容的可视预览，这改进了AEM Assets存储库中可用资源的可发现性。 此文件夹缩略图可节省您在搜索AEM Assets存储库中文件夹内的特定资源时花费的时间。
+浏览文件夹中的资产时，您可以使用界面查看资产缩略图，以直观地浏览存储库或查看资产详细信息，从而快速找到所需的资产。 左侧边栏中提供的选项包括：
 
 * [我的工作区](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=zh-Hans)：Assets 现在包括一个可自定义的工作区，此工作区提供各种小部件，以方便访问 Assets 用户界面的关键区域以及与您密切相关的信息。此页面充当一个综合解决方案以提供您工作项的概述，并且通过它可快速地访问关键工作流。由于能够更方便地访问这些选项，因此可以提高您的效率和内容速度。
 * [任务](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=zh-Hans)：您可以在&#x200B;**我的任务**&#x200B;选项卡中查看分配给您的任务。而您创建的任务可以在&#x200B;**分配的任务**&#x200B;选项卡中查看。此外，您完成的任务位于&#x200B;**完成的任务**&#x200B;选项卡中。
@@ -63,7 +64,7 @@ ht-degree: 100%
 
 要查找某个资源，您可以按照 `Name`、`Relevancy`、`Size`、`Modified` 和 `Created` 的升序或降序对资源排序。
 
-要浏览到文件夹中，请双击该文件夹的缩略图或者从左侧边栏中选择文件夹。要查看文件夹的详细信息，请选择该文件夹并单击顶部工具栏中的“详细信息”。要在层级中向上和向下浏览，请使用左侧边栏或者使用顶部痕迹导航。
+要在文件夹中导航，请双击文件夹的缩略图或者从左侧边栏中选择文件夹。 要查看文件夹的详细信息，请选择该文件夹并单击顶部工具栏中的“详细信息”。要在层级中向上和向下浏览，请使用左侧边栏或者使用顶部痕迹导航。
 
 ![浏览文件夹](assets/browsing-folders.png)
 
