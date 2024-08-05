@@ -4,9 +4,9 @@ description: 了解  [!DNL Assets Essentials] 中的用户界面并在其中导�
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 5abb9a2ca6136c08479f9a48855522f4fd982e95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1036'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,16 +30,16 @@ ht-degree: 88%
 
 ## 浏览并查看资源和文件夹 {#browse-repository}
 
-您可以从主用户界面或者从左侧边栏浏览文件夹。现在，在浏览或搜索内容时，Experience Manager Assets会在文件夹缩略图上显示文件夹内容的可视预览，这改进了AEM Assets存储库中可用资源的可发现性。 此文件夹缩略图可节省您在搜索AEM Assets存储库中文件夹内的特定资源时花费的时间。
-浏览文件夹中的资产时，您可以使用界面查看资产缩略图，以直观地浏览存储库或查看资产详细信息，从而快速找到所需的资产。 左侧边栏中提供的选项包括：
+您可以从主用户界面或者从左侧边栏浏览文件夹。现在，在浏览或搜索内容时，Experience Manager Assets 会在文件夹缩略图上显示文件夹内容的视觉预览，从而提高了 AEM Assets 存储库中可用资产的可发现性。此文件夹缩略图可节省您在 AEM Assets 存储库中的文件夹中搜索特定资产所花费的时间。
+浏览文件夹中的资产时，您可以使用界面来查看资源缩略图，从而直观地浏览存储库或者查看资源详细信息，来快速查找所需的资源。左侧边栏中提供的选项包括：
 
-* [我的工作区](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=zh-Hans)：Assets 现在包括一个可自定义的工作区，此工作区提供各种小部件，以方便访问 Assets 用户界面的关键区域以及与您密切相关的信息。此页面充当一个综合解决方案以提供您工作项的概述，并且通过它可快速地访问关键工作流。由于能够更方便地访问这些选项，因此可以提高您的效率和内容速度。
-* [任务](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=zh-Hans)：您可以在&#x200B;**我的任务**&#x200B;选项卡中查看分配给您的任务。而您创建的任务可以在&#x200B;**分配的任务**&#x200B;选项卡中查看。此外，您完成的任务位于&#x200B;**完成的任务**&#x200B;选项卡中。
-* [资源](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=zh-Hans)：以树视图列出您有权访问的所有文件夹。
+* [我的工作区](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=zh-hans)：Assets 现在包括一个可自定义的工作区，此工作区提供各种小部件，以方便访问 Assets 用户界面的关键区域以及与您密切相关的信息。此页面充当一个综合解决方案以提供您工作项的概述，并且通过它可快速地访问关键工作流。由于能够更方便地访问这些选项，因此可以提高您的效率和内容速度。
+* [任务](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=zh-hans)：您可以在&#x200B;**我的任务**&#x200B;选项卡中查看分配给您的任务。而您创建的任务可以在&#x200B;**分配的任务**&#x200B;选项卡中查看。此外，您完成的任务位于&#x200B;**完成的任务**&#x200B;选项卡中。
+* [资源](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=zh-hans)：以树视图列出您有权访问的所有文件夹。
 * **最近查看过的项目**：您最近查看过的资源列表。[!DNL Assets Essentials] 仅显示您预览过的资源。它不显示您在浏览存储库文件或文件夹时滚动浏览的资源。
-* [收藏集](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=zh-Hans)：收藏集是 Adobe Experience Manager Assets Essentials 中的一组资源、文件夹或其他收藏集。使用收藏集可在用户之间共享资源。收藏集与文件夹的不同之处是可包含来自不同位置的资源。您可以与一个用户共享多个收藏集。每个收藏集都包含对资源的引用。收藏集中会保持资源的引用完整性。
+* [收藏集](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=zh-hans)：收藏集是 Adobe Experience Manager Assets Essentials 中的一组资源、文件夹或其他收藏集。使用收藏集可在用户之间共享资源。收藏集与文件夹的不同之处是可包含来自不同位置的资源。您可以与一个用户共享多个收藏集。每个收藏集都包含对资源的引用。收藏集中会保持资源的引用完整性。
 
-* [见解](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=zh-Hans#view-live-statistics)：在 [!DNL Assets Essentials] 中可以在仪表板上查看实时见解。通过 Assets Essentials 的“见解”仪表板，可查看 Assets Essentials 环境的实时数据。可查看过去 30 天或过去 12 个月的实时事件指标。
+* [见解](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=zh-hans#view-live-statistics)：在 [!DNL Assets Essentials] 中可以在仪表板上查看实时见解。通过 Assets Essentials 的“见解”仪表板，可查看 Assets Essentials 环境的实时数据。可查看过去 30 天或过去 12 个月的实时事件指标。
 
 
 * **垃圾箱**：列出从根 **[!UICONTROL Assets]** 文件夹中删除的资源。在“垃圾桶”文件夹中选择某个资源可将它还原到其原有位置或永久删除它。可指定关键字或应用过滤器，如资源状态、文件类型、mime 类型、图像大小、资源创建、修改和到期日期，并可按当前用户丢弃的资源进行过滤。还可应用自定义过滤器以在“垃圾桶”文件夹中搜索适当的资源。有关使用标准和自定义过滤器的更多信息，请参阅如何[在 Assets Essentials 中搜索资源](search.md)。
@@ -55,7 +55,7 @@ ht-degree: 88%
 
 您可以打开或隐藏左侧边栏，以增加可用于查看资源的区域。
 
-在[!DNL Assets Essentials]中，您可以在四种不同的布局类型中查看资源、文件夹和搜索结果：
+在 [!DNL Assets Essentials] 中，您可以在四种不同的版面类型中查看资源、文件夹和搜索结果：
 
 * ![列表视图图标](assets/do-not-localize/list-view.png) [!UICONTROL 列表视图]
 * ![网格视图图标](assets/do-not-localize/grid-view.png) [!UICONTROL 网格视图]
@@ -64,7 +64,7 @@ ht-degree: 88%
 
 要查找某个资源，您可以按照 `Name`、`Relevancy`、`Size`、`Modified` 和 `Created` 的升序或降序对资源排序。
 
-要在文件夹中导航，请双击文件夹的缩略图或者从左侧边栏中选择文件夹。 要查看文件夹的详细信息，请选择该文件夹并单击顶部工具栏中的“详细信息”。要在层级中向上和向下浏览，请使用左侧边栏或者使用顶部痕迹导航。
+要在文件夹中导航，请双击该文件夹的缩略图或者从左侧边栏中选择文件夹。要查看文件夹的详细信息，请选择该文件夹并单击顶部工具栏中的“详细信息”。要在层级中向上和向下浏览，请使用左侧边栏或者使用顶部痕迹导航。
 
 ![浏览文件夹](assets/browsing-folders.png)
 
