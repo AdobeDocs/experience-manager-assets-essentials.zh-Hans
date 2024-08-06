@@ -3,7 +3,7 @@ title: 编辑图像
 description: 使用由 [!DNL Adobe Express] 提供支持的选项编辑图像并将更新后的图像另存为版本。
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 56a2af8467f3e44855f26bd86a394c76e9f7ccf3
+source-git-commit: 53f638e0dc934f2a4134acb89713b5d4828c8d1f
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 63%
@@ -85,6 +85,7 @@ Assets Essentials UI支持由Adobe Express提供的基础图像编辑，该功�
 ### 在 Adobe Express 嵌入式编辑器中编辑图像 {#edit-images-in-adobe-express-embedded-editor}
 
 拥有Express权利的用户可以从Assets EssentialsUI中使用嵌入的Express编辑器，轻松地在Adobe Firefly中使用GenAI编辑内容和新内容。 此功能改进了内容重用并加快了内容速度。 您还可以使用预定义的元素使您的资源看起来令人惊叹，或者只需单击几下即可执行快速操作来编辑图像。
+
 ![在Essentials UI中表达](/help/using/assets/express-in-essentials-ui.jpg)
 要在Adobe Express嵌入式编辑器中编辑图像，请执行以下步骤：
 
