@@ -4,10 +4,10 @@ description: 在  [!DNL Assets Essentials] 中移动、删除、复制、重命�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: a49bfcdf3dbd6601ed15ae8a3309922c0483b3d7
+source-git-commit: ce92eb58ede5d1ebbe88a98bfa7629532396f3be
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 100%
+source-wordcount: '1222'
+ht-degree: 96%
 
 ---
 
@@ -131,7 +131,8 @@ Assets Essentials 允许您为存储库中可用的资源设置状态。设置�
 
 1. 选择资源并单击工具栏中的&#x200B;**[!UICONTROL 详细信息]**。
 
-1. 在&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡中，从&#x200B;**[!UICONTROL 状态]**&#x200B;下拉列表中选择资源状态。可能的值包括“已批准”、“已拒绝”和“无状态”（默认值）。
+1. 在&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡中，从&#x200B;**[!UICONTROL 状态]**下拉列表中选择资源状态。可能的值包括“已批准”、“已拒绝”和“无状态”（默认值）。
+如果您的Dynamic Media为您的环境配置了OpenAPI功能，那么Experience Manager Assets会在您将资产标记为`Approved`后立即生成公共URL。
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
