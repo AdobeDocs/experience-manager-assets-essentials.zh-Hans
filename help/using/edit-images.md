@@ -3,10 +3,10 @@ title: 编辑图像
 description: 使用由 [!DNL Adobe Express] 提供支持的选项编辑图像并将更新后的图像另存为版本。
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 65e9f9414fe71d9e9add9b794856d77f87aed086
+source-git-commit: 56a2af8467f3e44855f26bd86a394c76e9f7ccf3
 workflow-type: tm+mt
 source-wordcount: '1182'
-ht-degree: 65%
+ht-degree: 63%
 
 ---
 
@@ -34,7 +34,7 @@ Assets Essentials UI支持由Adobe Express提供的基础图像编辑，该功�
 >title="Adobe Express 集成"
 >abstract="可直接在 AEM Assets 中使用简单而直观的受 Adobe Express 支持的图像编辑工具，以提高内容重用率并加快内容速度。"
 
-进入 Essentials UI 后，点击 **资源**，选择一张图像，然后点击顶部栏中的 **编辑**。新屏幕显示了由Adobe Express提供支持的可用编辑选项，包括调整大小、删除背景、裁剪以及在JPEG格式和PNG格式之间进行转换。
+导航到Essentials UI后，单击&#x200B;**Assets**，选择一个图像，然后单击顶部边栏中的&#x200B;**编辑**。 新屏幕显示了由Adobe Express提供支持的可用编辑选项，包括调整大小、删除背景、裁剪以及在JPEG格式和PNG格式之间进行转换。
 
 #### 调整图像大小 {#resize-image-using-express}
 
