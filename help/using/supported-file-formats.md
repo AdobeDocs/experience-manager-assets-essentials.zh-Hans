@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
 source-git-commit: 243a41aef81cd1fdcbad8f4355fe2d888db394d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 [!DNL Assets Essentials] 支持广泛的文件格式，各种功能支持的文件类型也各不相同。
 
 * ![图像文件类型图标](assets/image-icon.svg) 图像：JPG、PNG、GIF、TIFF 等
-* ![creative cloudtype图标](assets/creative-cloud-files.svg)Creative Cloud文件：PSD、PSB、AI和INDD
+* ![Creative Cloud 类型图标](assets/creative-cloud-files.svg) Creative Cloud 文件：PSD、PSB、AI 和 INDD
 * ![相机类型图标](assets/camera-icon.svg) Camera RAW 文件：CR2/CR3、NEF、SRW/SRF 等
 * ![文档文件类型图标](assets/document-icon.svg) 文档：DOCX、PDF、PPTX 和 XLSX
 * ![视频文件类型图标](assets/video-icon.svg) 视频：MP4
@@ -45,7 +45,7 @@ ht-degree: 94%
 | 文件夹 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | − | − |
 | MP4 视频 | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
 | PDF | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
-| PSD、AI、PSB和INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
+| PSD、AI、PSB和 INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
 | 其他二进制文件 | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
 
 <!-- Hiding CC Libraries (considered beta) as per PM feedback.
@@ -62,7 +62,7 @@ ht-degree: 94%
 | 视频 | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | CC Libraries | − | − | − | − | − | ✓ | ✓ |
 | PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| PSD和PSB | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| PSD 和 PSB | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | AI 和 INDD | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 | 其他二进制文件 | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 
@@ -77,7 +77,7 @@ ht-degree: 94%
 | 视频 | − | ✓ | ✓ |
 | CC Libraries | − | − | − |
 | PDF | − | ✓ | ✓ |
-| PSD、PSB、AI和INDD | − | ✓ | ✓ |
+| PSD、PSB、AI 和 INDD | − | ✓ | ✓ |
 | 其他二进制文件 | − | ✓ | ✓ |
 | DOC | − | ✓ | ✓ |
 | DOCX | − | ✓ | ✓ |
@@ -99,7 +99,7 @@ ht-degree: 94%
 | CC Libraries | ✓ | − | − | − | − |
 | PDF | ✓ | − | ✓ | ✓ | ✓ |
 | AI 和 INDD | ✓ | − | ✓ | ✓ | ✓ |
-| PSD和PSB | ✓ | ✓ | ✓ | ✓ | ✓ |
+| PSD 和 PSB | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 其他二进制文件 | ✓ | − | ✓ | ✓ | ✓ |
 
 [!DNL Adobe Asset Link] 的用户可以从支持的 [!DNL Adobe Creative Cloud] 桌面应用程序上传文件，并将其签入（上传新版本）[!DNL Assets Essentials] 存储库中。

@@ -4,15 +4,15 @@ description: 使用由 [!DNL Adobe Express] 提供支持的选项编辑图像并
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: 53f638e0dc934f2a4134acb89713b5d4828c8d1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1182'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 # 在 [!DNL Assets Essentials] 中编辑图像 {#edit-images-in-assets-essentials}
 
-Assets Essentials UI支持由Adobe Express提供的基础图像编辑，该功能已集成到UI中。 此编辑包括调整大小、删除背景、裁剪以及在JPEG格式和PNG格式之间进行转换。 此外，它还允许通过Essentials UI中嵌入的Adobe Express界面进行高级编辑。
+Assets Essentials UI 支持由 Adobe Express 提供支持的基本图像编辑功能，并集成到 UI 中。编辑包括调整大小、去除背景、裁剪以及 JPEG 与 PNG 格式之间的转换。此外，它还允许通过 Essentials UI 中嵌入的 Adobe Express 界面进行高级编辑。
 
 在编辑图像之后，您可以将新图像另存为新版本。版本控制可帮助您在需要时还原为原始资源。若要编辑图像，请[打开其预览](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets)，然后单击&#x200B;**“编辑图像”。**
 
@@ -24,8 +24,8 @@ Assets Essentials UI支持由Adobe Express提供的基础图像编辑，该功�
 
 ## 编辑图像 {#edit-images}
 
-使用链接 — [Assets EssentialsUI](https://experience.adobe.com/#/assets)并选择正确的Assets Essentials库转到Repository UI。 要获得访问权限，请联系您组织的管理员。
-有关任何其他参考信息，请参阅 — [开始使用Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/get-started)、[了解用户界面](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/navigate-view)、[Assets Essentials用例](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/get-started#use-cases)和[已知问题](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/release-notes)。
+转到 Asset Essentials UI，使用链接 - [Asset Essentials UI](https://experience.adobe.com/#/assets) 并选择正确的存储库。要获得访问权限，请联系您组织的管理员。
+如需任何其他参考信息，请参阅 [开始使用 Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/get-started)、[了解用户界面](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/navigate-view)、[Asset Essentials 用例](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/get-started#use-cases) 和 [已知问题](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/release-notes)。
 
 ### 使用 Adobe Express 在 Essentials UI 上编辑图像{#edit-images-using-adobe-express}
 
@@ -34,13 +34,13 @@ Assets Essentials UI支持由Adobe Express提供的基础图像编辑，该功�
 >title="Adobe Express 集成"
 >abstract="可直接在 AEM Assets 中使用简单而直观的受 Adobe Express 支持的图像编辑工具，以提高内容重用率并加快内容速度。"
 
-导航到Essentials UI后，单击&#x200B;**Assets**，选择一个图像，然后单击顶部边栏中的&#x200B;**编辑**。 新屏幕显示了由Adobe Express提供支持的可用编辑选项，包括调整大小、删除背景、裁剪以及在JPEG格式和PNG格式之间进行转换。
+导航到 Essentials UI 后，点击 **资源**，选择一张图像，然后点击顶部栏中的 **编辑**。新屏幕显示了由 Adobe Express 提供支持的可用编辑选项，包括调整大小、背景去除、裁剪以及在 JPEG 和 PNG 格式之间转换。
 
 #### 调整图像大小 {#resize-image-using-express}
 
-将图像大小调整为热门用例中的特定大小。Assets Essentials 提供针对特定照片大小预先计算的新分辨率，让您可以快速地调整图像大小以适合常见的照片尺寸。要在Assets Essentials界面中调整图像大小，请执行以下步骤：
+将图像大小调整为热门用例中的特定大小。Assets Essentials 提供针对特定照片大小预先计算的新分辨率，让您可以快速地调整图像大小以适合常见的照片尺寸。要在 Assets Essentials 界面中调整图像大小，请按照以下步骤操作：
 
-1. 从左窗格中单击&#x200B;**调整图像大小**。 此时会显示一个对话框，其中显示了由Adobe Express提供支持的调整图像大小功能。
+1. 单击左侧窗格中的 **调整图像大小**。对话框显示由 Adobe Express 提供支持的调整图像大小功能。
 2. 从“调整大小对象”下拉列表中选择适当的社交媒体平台，并从显示的选项中选择图像的大小。
 3. 如果需要，使用&#x200B;**“图像比例”**&#x200B;字段缩放图像。
 4. 单击&#x200B;**应用**以应用您的更改。
@@ -84,30 +84,30 @@ Assets Essentials UI支持由Adobe Express提供的基础图像编辑，该功�
 
 ### 在 Adobe Express 嵌入式编辑器中编辑图像 {#edit-images-in-adobe-express-embedded-editor}
 
-拥有Express权利的用户可以从Assets EssentialsUI中使用嵌入的Express编辑器，轻松地在Adobe Firefly中使用GenAI编辑内容和新内容。 此功能改进了内容重用并加快了内容速度。 您还可以使用预定义的元素使您的资源看起来令人惊叹，或者只需单击几下即可执行快速操作来编辑图像。
+具有 Express 权限的用户可以使用 Assets Essentials UI 中嵌入的 Express 编辑器轻松编辑内容，并使用 Adobe Firefly 的 GenAI 创建新内容。此功能提高了内容重用性并加快了内容速度。您还可以使用预定义的元素使您的资源看起来令人惊叹，或者只需单击几下即可执行快速操作来编辑图像。
 
-![在Essentials UI中表达](/help/using/assets/express-in-essentials-ui.jpg)
-要在Adobe Express嵌入式编辑器中编辑图像，请执行以下步骤：
+![express in essentials UI](/help/using/assets/express-in-essentials-ui.jpg)
+要在 Adobe Express 嵌入式编辑器中编辑图像，请按照以下步骤操作：
 
-1. 使用链接 — [AEM Assets Essentials UI](https://experience.adobe.com/#/assets)转到AEM Assets Essentials UI，然后选择正确的存储库。
+1. 使用链接 - [AEM Asset Essentials UI](https://experience.adobe.com/#/assets) 转到 AEM Asset Essentials UI 并选择正确的存储库。
 1. 点击 **资源**，进入文件夹，然后选择一张图像。
 1. 单击&#x200B;**在 Adobe Express 中打开**。图像在快捷画布上打开。
 1. 对图像进行必要的编辑。
 1. 如果你的项目需要你添加更多页面，请单击 **添加**，选择资源，进入文件夹，选择要带到画布页面的图像，然后对图像执行所需的编辑。
-1. 要保存一个或多个资源，请单击&#x200B;**保存**。 保存对话框显示保存选项。 要在保存选项之间进行选择，请按照以下说明之一操作，以符合您的要求：
-   1. 若要保存单个页面，请单击&#x200B;**另存为版本**&#x200B;以将图像导出为新版本（保留原始格式），并将其保存在同一文件夹中。
+1. 要保存一个或多个资产，请点击 **保存**。保存对话框显示保存选项。要选择保存选项，请按照以下符合您要求的说明进行操作：
+   1. 如需保存单个页面，请点击 **另存为版本** 将图像导出为新版本（保留原始格式），并将其保存在同一文件夹中。
 
-   1. 要保存单个页面，请单击&#x200B;**另存为新资产**&#x200B;以将资产导出为其他格式，并将其另存到任意文件夹中作为新资产。
+   1. 要保存单个页面，请点击 **另存为新资产** 将资产导出为其他格式，并将其作为新资产保存到任何文件夹。
 
-   1. 若要从多个页面中保存单个页面，请单击&#x200B;**另存为版本**，以原始格式和位置保存资产。
+   1. 要从多个页面中保存单个页面，请单击&#x200B;**另存为版本** 以将资产保存为其原始格式和位置。
 
-   1. 要保存多个页面或多个页面中的单个页面，请单击&#x200B;**另存为新资产**。 此操作将单个或多个资产导出到任意文件夹，并以原始格式或不同格式将它们另存为新资产。
+   1. 要保存多个页面或多个页面中的单个页面，请点击 **另存为新资产**。此操作将单个或多个资产导出到任意文件夹，并以原始格式或其他格式将其保存为新资产。
 
 1. 在保存对话框中：
    1. 在 **另存为** 字段中输入文件的名称。
    1. 选择目标文件夹。
    1. 可选：提供详细信息，例如 项目或活动名称、关键字、渠道、时间范围和地区。
-1. 单击&#x200B;**另存为新版本**&#x200B;或&#x200B;**另存为新资源**&#x200B;以保存一个或多个资源。
+1. 点击 **另存为版本** 或 **另存为新资源** 以保存一个或多个资源。
 
 #### 在 Express Editor 中编辑图像的限制 {#limitations-of-editing-images-in-the-express-editor}
 
@@ -118,11 +118,11 @@ Assets Essentials UI支持由Adobe Express提供的基础图像编辑，该功�
 
 ### 使用 Adobe Express 创建新资源 {#create-new-assets-using-embedded-editor}
 
-通过Assets Essentials，您可以使用Adobe Express嵌入编辑器从头开始创建新模板。 若要使用 Adobe Express 创建新资源，请执行以下步骤：
+Assets Essentials 使您能够使用 Adobe Express 嵌入式编辑器从头开始创建新模板。若要使用 Adobe Express 创建新资源，请执行以下步骤：
 
 1. 导航至 **My Workspace**，然后单击显示在快速访问部分上方的&#x200B;**Adobe Express 横幅中的**&#x200B;创建。Adobe Express 空白画布显示在 Assets Essentials 用户界面内。
 1. 使用[模板](https://helpx.adobe.com/cn/express/using/work-with-templates.html)创建您的内容。否则，导航至您的内容来修改现有内容。
-1. 完成编辑后，单击&#x200B;**保存**。
+1. 完成编辑后，点击 **保存**。
 1. 指定创建资源的目标路径，然后单击&#x200B;**另存为新资源**。
 
 #### 限制 {#limitations}
