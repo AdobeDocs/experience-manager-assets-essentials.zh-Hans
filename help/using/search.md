@@ -3,7 +3,7 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: a471074ec0eee8487222cc344046715ed5d90d0b
+source-git-commit: 6b6f898f2232a03c69a517c3d315d565253b37b7
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 100%
@@ -254,7 +254,7 @@ Assets Essentials 使您能够为您的组织选择默认登陆页面。使用�
 
 1. 在“搜索”文本框中定义文本提示，然后单击&#x200B;**[!UICONTROL 上下文搜索]**。
 
-   ![上下文搜索文本提示](/help/using/assets/contextual-search-text-prompt.png)
+   ![上下文搜索文本提示](/help/using/assets/wknd-contextual-search.png)
 
    [!DNL Experience Manager Assets]显示搜索结果。
 
