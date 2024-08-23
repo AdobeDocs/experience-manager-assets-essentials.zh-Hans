@@ -3,7 +3,7 @@ title: 在  [!DNL Assets Essentials] 中搜索和发现资源
 description: 在  [!DNL Assets Essentials] 中搜索和发现资源。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 332a4842f6ae017b802fbd0edd75e74d6f2e8c97
+source-git-commit: 84695c5a2b6423b0a5863b088ac8507f0de0e80d
 workflow-type: tm+mt
 source-wordcount: '1967'
 ht-degree: 80%
@@ -146,7 +146,7 @@ Assets Essentials 提供了以下自定义筛选条件：
 
    * 在 **另存为** 字段中输入文件的名称。
    * 选择目标文件夹。
-   * 提供项目或营销策划名称、关键字、渠道、时间范围和区域等详细信息。
+   * 输入详细信息，如项目或营销策划名称、关键字、渠道、时间范围和区域。
 
    ![Firefly 集成](assets/save-generated-asset.png)
 
