@@ -4,10 +4,10 @@ description: 在 [!DNL Assets Essentials] 中管理资源的元数据
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 37beb971f1e675162eb4b8e9ab008b20a241c066
+source-git-commit: 09040ef6dc777aa631b00bb37108f86b83bdf583
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 100%
+source-wordcount: '1884'
+ht-degree: 94%
 
 ---
 
@@ -129,9 +129,11 @@ MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
 | 下拉面板 | 添加一个下拉列表。 |
 | 状态 | 添加存储库状态属性（映射到 repo:state） |
 | 资源状态 | 添加默认的资源状态属性（映射到 dam:assetStatus） |
+| 批准用于 | |
 | 标记 | 从分类管理中存储的值添加标记（映射到 xcm:tags）。 |
 | 关键字 | 添加自由格式关键字（映射到 dc:subject）。 |
 | 智能标记 | 通过自动添加元数据标记来增强搜索功能。 |
+| 链接 | 添加以启用外部URL。 |
 
 ### 将元数据表单分配给文件夹 {#assign-metadata-form-folder}
 
@@ -164,6 +166,19 @@ MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
 1. 选择该文件夹并单击&#x200B;**[!UICONTROL 移除]**。您还可以从列表中选择多个文件夹。
 
 您还可以导航到文件夹详细信息页面，然后从&#x200B;**[!UICONTROL 元数据表单]**&#x200B;字段中选择&#x200B;**[!UICONTROL 系统映射的元数据表单]**，以从文件夹中移除分配的元数据表单。
+
+### 在元数据表单中使用链接组件 {#link-component-metadata-form}
+
+链接组件用于启用外部URL，包括存储链接、版权信息、联系表单等。 要在元数据表单上使用链接组件，您需要[配置元数据表单](#metadata-forms)。
+
+请按照以下步骤在元数据表单上使用链接组件：
+
+1. 转到资产详细信息页面并导航到&#x200B;**[!UICONTROL 链接URL]**。
+1. 添加一个要用于重定向选定资源的URL。
+1. 单击&#x200B;**[!UICONTROL 添加链接]**。 执行以下操作之一：
+   * 单击![复制图标](assets/do-not-localize/copy.svg)以复制URL。
+   * 单击![编辑图标](assets/do-not-localize/edit.svg)以编辑URL。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改。
 
 ## 后续步骤 {#next-steps}
 
