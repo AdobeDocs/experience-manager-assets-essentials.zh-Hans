@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: bb7a86c737f862411e2f06997d8b4d720d55a3c5
-workflow-type: ht
-source-wordcount: '140'
-ht-degree: 100%
+source-git-commit: c84b647f1575013bf17ab143c64d27f04909f9ee
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 97%
 
 ---
 
@@ -39,12 +39,13 @@ ht-degree: 100%
 + [编辑图像](edit-images.md)
 + [编辑视频](edit-videos.md)
 + [管理资源元数据](metadata.md)
++ [批量元数据编辑](/help/using/bulk-metadata-edit.md)
 + [共享资源](share-links-for-assets.md)
 + [管理收藏集](manage-collections.md)
 + [监视资源、文件夹和收藏集](manage-notifications.md)
 + [管理报表](manage-reports.md)
 + [管理标记](tagging-management.md)
-+ [内容凭据](/help/using/content-credentials.md)
++ [Content Credentials](/help/using/content-credentials.md)
 + 与其他解决方案集成 {#integration-with-other-solutions}
    + [概述](integration.md)
    + [与 Adobe Asset Link 集成](integrate-with-creative-cloud.md)
