@@ -2,7 +2,8 @@
 title: 重命名和批量资源在 [!DNL Assets Essentials]中重命名
 description: 了解如何使用新的Assets UI(Assets Essentials)批量重命名资源。 它提供一次重命名多个资源的功能。
 role: User
-source-git-commit: 9232f1ccb1d71057c909330d7e4861d048310b7b
+exl-id: 5d18950f-1863-46c0-83d7-079ae95a6320
+source-git-commit: 0526340ed0491d33a5084ea3538fa872ec2899e5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 17%
@@ -67,3 +68,4 @@ ht-degree: 17%
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
 * 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
+
