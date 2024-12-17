@@ -4,10 +4,10 @@ description: 在 [!DNL Assets Essentials] 中管理资源的元数据
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 0526340ed0491d33a5084ea3538fa872ec2899e5
+source-git-commit: f922e9191cc3bf6beef66665dec49fd3876bf33b
 workflow-type: tm+mt
-source-wordcount: '1884'
-ht-degree: 94%
+source-wordcount: '1964'
+ht-degree: 90%
 
 ---
 
@@ -129,11 +129,10 @@ MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
 | 下拉面板 | 添加一个下拉列表。 |
 | 状态 | 添加存储库状态属性（映射到 repo:state） |
 | 资源状态 | 添加默认的资源状态属性（映射到 dam:assetStatus） |
-| 批准用于 | |
 | 标记 | 从分类管理中存储的值添加标记（映射到 xcm:tags）。 |
 | 关键字 | 添加自由格式关键字（映射到 dc:subject）。 |
 | 智能标记 | 通过自动添加元数据标记来增强搜索功能。 |
-| 链接 | 添加以启用外部URL。 |
+| 链接 | 添加以启用外部URL。 在元数据表单上配置后，URL组件可以在元数据编辑器页面中映射到特定的元数据属性。 此[元数据表单可分配给文件夹](#assign-metadata-form-folder)。 |
 
 ### 将元数据表单分配给文件夹 {#assign-metadata-form-folder}
 
@@ -169,9 +168,9 @@ MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
 
 ### 在元数据表单中使用链接组件 {#link-component-metadata-form}
 
-链接组件用于启用外部URL，包括存储链接、版权信息、联系表单等。 要在元数据表单上使用链接组件，您需要[配置元数据表单](#metadata-forms)。
+链接组件用于启用外部URL，包括存储链接、版权信息、联系表单等。 要在元数据表单上使用链接组件，您需要[配置元数据表单](#metadata-forms)。 URL组件可以映射到元数据编辑器页面中的特定元数据属性，其工作方式与其他元数据组件相同。 可以将此元数据表单分配给文件夹。 因此，在分配的文件夹资产的详细信息页面中，您可以看到资产链接元数据值。
 
-请按照以下步骤在元数据表单上使用链接组件：
+请按照以下步骤使用资产详细信息页面上的链接组件：
 
 1. 转到资产详细信息页面并导航到&#x200B;**[!UICONTROL 链接URL]**。
 1. 添加一个要用于重定向选定资源的URL。
