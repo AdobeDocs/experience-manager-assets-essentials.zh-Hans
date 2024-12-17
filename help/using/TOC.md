@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Experience Manager Assets Essentials 指南
 breadcrumb-title: Assets Essentials 指南
-user-guide-description: Assets Essentials 是一种轻量级资源管理解决方案，可从其他 Experience Cloud 应用程序中使用。
+user-guide-description: Assets Essentials 是一种轻量级资产管理解决方案，可从其他 Experience Cloud 应用程序中使用。
 feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
@@ -12,7 +12,7 @@ solution: Experience Manager
 source-git-commit: e6a83309f974736d30ee40de5b6bf857f8e7fde1
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -31,19 +31,19 @@ ht-degree: 96%
    + [Creative Cloud Pro 工作管理解决方案 Assets Essentials 管理员历程](assets-essentials-cc-pro-work-management-admin-journey.md)
 + [开始使用 [!DNL Assets Essentials]](get-started.md)
 + [支持的文件类型和用例](supported-file-formats.md)
-+ [查看资源](navigate-view.md)
-+ [上传和添加资源](add-delete.md)
-+ [批量导入资源](bulk-import-assets-view.md)
-+ [搜索和发现资源](search.md)
-+ [资源管理任务](manage-organize.md)
++ [查看资产](navigate-view.md)
++ [上传和添加资产](add-delete.md)
++ [批量导入资产](bulk-import-assets-view.md)
++ [搜索和发现资产](search.md)
++ [资产管理任务](manage-organize.md)
 + [编辑图像](edit-images.md)
 + [编辑视频](edit-videos.md)
-+ [管理资源元数据](metadata.md)
++ [管理资产元数据](metadata.md)
 + [批量重命名](bulk-rename.md)
 + [批量元数据编辑](/help/using/bulk-metadata-edit.md)
-+ [共享资源](share-links-for-assets.md)
++ [共享资产](share-links-for-assets.md)
 + [管理收藏集](manage-collections.md)
-+ [监视资源、文件夹和收藏集](manage-notifications.md)
++ [监视资产、文件夹和收藏集](manage-notifications.md)
 + [管理报表](manage-reports.md)
 + [管理标记](tagging-management.md)
 + [Content Credentials](/help/using/content-credentials.md)
