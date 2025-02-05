@@ -2,10 +2,10 @@
 title: 为带有工作管理解决方案的 Creative Cloud Pro 设置 Assets Essentials
 description: 本教程介绍的管理员历程使 Assets Essentials 应用程序能够与 Creative Cloud 桌面应用程序和 Adobe Workfront 应用程序集成。Creative Cloud 桌面应用程序包括 Adobe Photoshop、Adobe Illustrator、Adobe InDesign 和 Adobe XD。
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: b1ae487b4b4e9a88e0d9c39889d3893d92a766c9
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '867'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为
 
 * 设置元数据表单
 
-[![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](deploy-administer.md)
+[![查看指南](assets/see-the-guide-sm.png)](deploy-administer.md)
 
 您现在已经配置并管理 Assets Essentials 应用程序，请[将 Creative Cloud 应用程序与 Experience Manager Assets Essentials 应用程序集成](integrate-with-creative-cloud.md)。
 
@@ -99,7 +99,7 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为
 
 * 使用 Adobe Asset Link
 
-[![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
+[![查看指南](assets/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
 
 您现在已将 Creative Cloud 应用程序与 Assets Essentials 集成，请[将 Adobe Workfront 与 Experience Manager Assets Essentials 集成](integrate-with-workfront.md)。
 
@@ -119,4 +119,4 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为
 
 * 配置 Experience Manager Assets Essentials 集成
 
-[![参阅指南](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-workfront.md)
+[![查看指南](assets/see-the-guide-sm.png)](integrate-with-workfront.md)
