@@ -4,9 +4,9 @@ description: 了解如何使用Dynamic Media模板编辑器创建WYSIWYG模板�
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: a06bdadcd2194e1ffce23c672e605cfb95f14bcf
+source-git-commit: 85b8fc64c6bb0243803df3d8e18c00d1b17b1868
 workflow-type: tm+mt
-source-wordcount: '2800'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,6 @@ Dynamic Media模板的一些主要优势包括：
 **左窗格中的菜单选项：**&#x200B;请将这些选项用于下面提到的常用编辑器操作。
 
 * ![DM模板](/help/using/assets/layer-selector.svg)：选择层。
-* ![支持自定义的模板](/help/using/assets/bring-forward.svg)：单击以转发选定的图层，或按&#x200B;**Ctrl** + **]** (Windows)或&#x200B;**Cmd** + **]** (Mac)。
-* ![如何创建可轻松自定义的模板](/help/using/assets/send-backward.svg)：单击以向后发送选定的图层，或按&#x200B;**Ctrl** + **[** (Windows)或&#x200B;**Cmd** + **[** (Mac)。
 * ![创建可立即自定义的模板](/help/using/assets/undo.svg)：单击可撤消上一个操作，或按&#x200B;**Ctrl** + **Z** (Windows)或&#x200B;**Cmd** + **Z** (Mac)。
 * ![用于快速创建横幅的模板](/help/using/assets/redo.svg)：单击以重做上一个操作或按&#x200B;**Ctrl** + **Y** (Windows)或&#x200B;**Cmd** + **Y** (Mac)。
 * ![用于快速创建传单的模板](/help/using/assets/zoomin.svg)：单击以放大画布或按&#x200B;**Ctrl** + **+** (Windows)或Cmd + **+** (Mac)。
