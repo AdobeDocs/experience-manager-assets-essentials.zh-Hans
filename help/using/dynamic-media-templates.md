@@ -4,14 +4,14 @@ description: 了解如何使用Dynamic Media模板编辑器创建WYSIWYG模板�
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: e09573fb64567b2975d5e7e08c2cf2db62b72202
+source-git-commit: 64123ef9b8f669da24b296a5c1ea6bd514778c32
 workflow-type: tm+mt
 source-wordcount: '2766'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Dynamic Media模板{#dynamic-media-templates}
+# Dynamic Media 模板{#dynamic-media-templates}
 
 | [搜索最佳实践](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [元数据最佳实践](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets 开发人员文档](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
