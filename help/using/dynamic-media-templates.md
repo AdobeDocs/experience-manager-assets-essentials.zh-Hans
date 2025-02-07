@@ -4,16 +4,16 @@ description: 了解如何使用Dynamic Media模板编辑器创建WYSIWYG模板�
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 85b8fc64c6bb0243803df3d8e18c00d1b17b1868
+source-git-commit: e09573fb64567b2975d5e7e08c2cf2db62b72202
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2766'
 ht-degree: 0%
 
 ---
 
 # Dynamic Media模板{#dynamic-media-templates}
 
-| [搜索最佳实践](/help/assets/search-best-practices.md) | [元数据最佳实践](/help/assets/metadata-best-practices.md) | [Content Hub](/help/assets/product-overview.md) | [AEM Assets 开发人员文档](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
+| [搜索最佳实践](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [元数据最佳实践](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets 开发人员文档](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
 
 使用Dynamic Media模板编辑器创建WYSIWYG模板，并包含多个图像和文本图层，以快速创建横幅和活页并在下游应用程序中使用它们。 您还可以向模板中包含的图像和文本图层添加参数，并使用[Dynamic Media URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)实时更新这些图层的值。
@@ -44,10 +44,10 @@ Dynamic Media模板的一些主要优势包括：
 要创建Dynamic Media模板，您必须具有：
 
 1. 访问Dynamic Media。
-1. [已将AEM Assets实例中可用的图像与Dynamic Media同步，以将其用于创建模板](/help/assets/dynamic-media/config-dm.md)。
+1. [已将AEM Assets实例中可用的图像与Dynamic Media同步，以将其用于创建模板](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
 1. 已在触屏UI中验证以下内容：
-   * 在&#x200B;**[!UICONTROL 编辑Dynamic Media配置页面]**&#x200B;上，默认设置为&#x200B;**[!UICONTROL 禁用的**[!UICONTROL  Dynamic Media同步模式&#x200B;]**未应用于所有AEM文件夹（**[!UICONTROL &#x200B;同步所有内容&#x200B;]**未选中）。]**&#x200B;有关详细信息，请参阅[配置Dynamic MediaCloud Service](/help/assets/dynamic-media/config-dm.md)。
-   * **[!UICONTROL Dynamic Media同步模式]**&#x200B;设置为目标文件夹或子文件夹的&#x200B;**[!UICONTROL 启用子文件夹]**，创建后您将在该文件夹中保存模板。 有关详细信息，请参阅[配置Dynamic MediaCloud Service](/help/assets/dynamic-media/config-dm.md)。
+   * 在&#x200B;**[!UICONTROL 编辑Dynamic Media配置页面]**&#x200B;上，默认设置为&#x200B;**[!UICONTROL 禁用的**[!UICONTROL  Dynamic Media同步模式&#x200B;]**未应用于所有AEM文件夹（**[!UICONTROL &#x200B;同步所有内容&#x200B;]**未选中）。]**&#x200B;有关详细信息，请参阅[配置Dynamic MediaCloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
+   * **[!UICONTROL Dynamic Media同步模式]**&#x200B;设置为目标文件夹或子文件夹的&#x200B;**[!UICONTROL 启用子文件夹]**，创建后您将在该文件夹中保存模板。 有关详细信息，请参阅[配置Dynamic MediaCloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
 
 ## 创建Dynamic Media WYSIWYG模板{#how-to-create-dynamic-media-wysiwyg-template}
 
@@ -69,7 +69,7 @@ Dynamic Media模板的一些主要优势包括：
 
 1. 单击&#x200B;**[!UICONTROL 创建模板]**&#x200B;以将模板保存在Dynamic Media Assets下，或者导航到某个文件夹，然后单击&#x200B;**[!UICONTROL 创建模板]**&#x200B;以将模板保存在该文件夹中。 此时将显示&#x200B;**[!UICONTROL 新模板]**对话框。
    ![如何创建可实时自定义的动态模板](/help/using/assets/new-template.png)
-要在**[!UICONTROL Dynamic Media Assets]**&#x200B;下[创建文件夹](/help/assets/add-delete-assets-view.md)，请在&#x200B;**[!UICONTROL Assets]**&#x200B;下创建文件夹。 **[!UICONTROL Assets]**&#x200B;下的文件夹树将在&#x200B;**[!UICONTROL Dynamic Media Assets]**&#x200B;下复制。
+要在**[!UICONTROL Dynamic Media Assets]**&#x200B;下[创建文件夹](/help/using/add-delete.md)，请在&#x200B;**[!UICONTROL Assets]**&#x200B;下创建文件夹。 **[!UICONTROL Assets]**&#x200B;下的文件夹树将在&#x200B;**[!UICONTROL Dynamic Media Assets]**&#x200B;下复制。
 1. 指定模板名称，定义画布宽度和高度，然后单击&#x200B;**[!UICONTROL 创建]**。 屏幕上会显示一个空白画布，画布的两侧都有用于创建模板的菜单选项。 将鼠标悬停在菜单选项上可查看其工具提示。
    ![实时可自定义模板](/help/using/assets/blank-canvas-page.png)
 
@@ -89,7 +89,7 @@ Dynamic Media模板的一些主要优势包括：
 * ![创建可立即自定义的模板](/help/using/assets/undo.svg)：单击可撤消上一个操作，或按&#x200B;**Ctrl** + **Z** (Windows)或&#x200B;**Cmd** + **Z** (Mac)。
 * ![用于快速创建横幅的模板](/help/using/assets/redo.svg)：单击以重做上一个操作或按&#x200B;**Ctrl** + **Y** (Windows)或&#x200B;**Cmd** + **Y** (Mac)。
 * ![用于快速创建传单的模板](/help/using/assets/zoomin.svg)：单击以放大画布或按&#x200B;**Ctrl** + **+** (Windows)或Cmd + **+** (Mac)。
-* ![用于快速创建横幅的模板](/help/using/assets/zoomout.svg)：单击以缩小画布或按&#x200B;**Ctrl** + **-** (Windows)或&#x200B;**Cmd** + **-** (Mac)。
+* ![用于快速创建横幅的模板](/help/using/assets/ZoomOut-1.svg)：单击以缩小画布或按&#x200B;**Ctrl** + **-** (Windows)或&#x200B;**Cmd** + **-** (Mac)。
 * 如果没有编辑文本或属性，请按&#x200B;**Backspace**&#x200B;或&#x200B;**delete**&#x200B;删除选定的图层。
 
 单击![模板可快速创建传单](/help/using/assets/show-layers-list.svg) **>**&#x200B;画布层上的更多选项(![](/help/using/assets/three-dots.svg))，以便在创建模板时随时编辑画布维度。
@@ -121,7 +121,7 @@ Dynamic Media模板的一些主要优势包括：
 
 >[!NOTE]
 >
-> 要使用默认AdobeSans F2字体系列以外的字体，您需要将该字体文件上载并发布到AEM Assets和Dynamic Media。 如果您的实例中有一些旧字体，请确保[重新处理](/help/assets/reprocessing-assets-view.md)以在模板编辑器中查看它们。
+> 要使用默认AdobeSans F2字体系列以外的字体，您需要将该字体文件上载并发布到AEM Assets和Dynamic Media。 如果您的实例中有一些旧字体，请确保[重新处理](/help/using/reprocessing.md)以在模板编辑器中查看它们。
 
 ### 编辑或删除图层 {#edit-or-delete-a-layer}
 
@@ -281,5 +281,5 @@ Dynamic Media模板的一些主要优势包括：
 
 ## 另请参阅
 
-1. 探索[Dynamic Media及其功能](/help/assets/dynamic-media/dynamic-media.md)
-1. 探索具有OpenAPI功能的[Dynamic Media](/help/assets/dynamic-media-open-apis-overview.md)
+1. 探索[Dynamic Media及其功能](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. 探索具有OpenAPI功能的[Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
