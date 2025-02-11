@@ -4,9 +4,9 @@ description: 了解如何使用Dynamic Media模板编辑器创建WYSIWYG模板�
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 64123ef9b8f669da24b296a5c1ea6bd514778c32
+source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
 workflow-type: tm+mt
-source-wordcount: '2766'
+source-wordcount: '2810'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 1%
 
 | [搜索最佳实践](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [元数据最佳实践](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets 开发人员文档](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
+
+>[!CONTEXTUALHELP]
+>id="assets_dm_templates"
+>title="管理Dynamic Media模板"
+>abstract="使用简单易用的WYSIWYG界面快速创建并个性化图像和文本横幅，并将Dynamic Media URL嵌入到任何第一方或第三方应用程序中，以打造极具吸引力的体验。 试试看！"
+>additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="观看视频"
 
 使用Dynamic Media模板编辑器创建WYSIWYG模板，并包含多个图像和文本图层，以快速创建横幅和活页并在下游应用程序中使用它们。 您还可以向模板中包含的图像和文本图层添加参数，并使用[Dynamic Media URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)实时更新这些图层的值。
 
@@ -65,7 +71,7 @@ Dynamic Media模板的一些主要优势包括：
 
 1. 导航到Assets Essentials，然后单击左侧面板中提供的&#x200B;**[!UICONTROL Dynamic Media Assets]**。
 
-   ![Dynamic Media模板](/help/using/assets/DM-Assets1.png)
+   ![Dynamic Media 模板](/help/using/assets/DM-Assets1.png)
 
 1. 单击&#x200B;**[!UICONTROL 创建模板]**&#x200B;以将模板保存在Dynamic Media Assets下，或者导航到某个文件夹，然后单击&#x200B;**[!UICONTROL 创建模板]**&#x200B;以将模板保存在该文件夹中。 此时将显示&#x200B;**[!UICONTROL 新模板]**对话框。
    ![如何创建可实时自定义的动态模板](/help/using/assets/new-template.png)
