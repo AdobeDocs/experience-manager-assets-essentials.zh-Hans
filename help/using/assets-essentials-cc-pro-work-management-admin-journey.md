@@ -5,7 +5,7 @@ exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
 source-git-commit: b1ae487b4b4e9a88e0d9c39889d3893d92a766c9
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 
 如果部署在 Admin Console 中，则需要额外的配置步骤：
 
-* Creative Cloud 服务和应用程序（Creative Cloud Pro 企业版和可选模块）在[ Adobe Admin Console 中进行管理，用于 Creative Cloud 部署](https://helpx.adobe.com/content/help/en/enterprise/admin-guide.html)。
+* Creative Cloud 服务和应用程序（Creative Cloud Pro 企业版和可选模块）在[ Adobe Admin Console 中进行管理，用于 Creative Cloud 部署](https://helpx.adobe.com/content/help/cn/enterprise/admin-guide.html)。
 
 * Adobe Workfront 和 Adobe Experience Manager Assets Essentials 在 [Adobe Admin Console 中管理，以使用 Experience Cloud solutions 解决方案](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)。
 
@@ -77,7 +77,7 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为
 
 * 设置元数据表单
 
-[![查看指南](assets/see-the-guide-sm.png)](deploy-administer.md)
+[![请参阅指南](assets/see-the-guide-sm.png)](deploy-administer.md)
 
 您现在已经配置并管理 Assets Essentials 应用程序，请[将 Creative Cloud 应用程序与 Experience Manager Assets Essentials 应用程序集成](integrate-with-creative-cloud.md)。
 
@@ -99,7 +99,7 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为
 
 * 使用 Adobe Asset Link
 
-[![查看指南](assets/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
+[![请参阅指南](assets/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
 
 您现在已将 Creative Cloud 应用程序与 Assets Essentials 集成，请[将 Adobe Workfront 与 Experience Manager Assets Essentials 集成](integrate-with-workfront.md)。
 
@@ -119,4 +119,4 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。作为
 
 * 配置 Experience Manager Assets Essentials 集成
 
-[![查看指南](assets/see-the-guide-sm.png)](integrate-with-workfront.md)
+[![请参阅指南](assets/see-the-guide-sm.png)](integrate-with-workfront.md)
