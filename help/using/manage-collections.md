@@ -2,7 +2,7 @@
 title: 管理收藏集
 description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: d0884f7c5a50d89cb8ce4166dc038814bd7fd07d
+source-git-commit: 441136b23281185b82a5767aefc2c382512501a7
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 100%
@@ -48,7 +48,7 @@ You can share collections with various users that are assigned different levels 
 
 * [删除收藏集](#delete-collection)
 
-* [管理专用收藏集的权限](#manage-permissions-to-a-private-collection)
+* [管理专用收藏集的权限](#manage-permissions-private-collection)
 
 ## 创建收藏集 {#create-collection}
 
@@ -160,7 +160,7 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 ## 共享收藏集的链接 {#share-collection-links}
 
-[!DNL Assets Essentials] 使您能够生成链接并与无权访问 [!DNL Assets Essentials] 应用程序的外部利益相关者共享收藏集及其资源。您可以定义链接的到期日期，然后使用您喜欢的通信方式（如电子邮件或消息服务）与他人共享。链接的接收者可以预览并下载资源。
+[!DNL Assets Essentials] 使您能够生成链接并与无权访问 [!DNL Assets Essentials] 应用程序的外部利益相关者共享收藏集及其资源。您可以定义链接的过期日期，然后使用您喜欢的通信方式（如电子邮件或消息服务）与他人共享。链接的接收者可以预览并下载资源。
 
 ![共享资源链接](assets/share-link-collections.png)
 
