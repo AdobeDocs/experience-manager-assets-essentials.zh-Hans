@@ -1,13 +1,13 @@
 ---
 title: 如何管理Dynamic Media模板？
-description: 了解如何使用Dynamic Media模板编辑器创建WYSIWYG模板，并包含多个图像和文本图层，以快速创建横幅和活页并在下游应用程序中使用它们。
+description: 了解如何使用WYSIWYG模板编辑器创建Dynamic Media模板，并包含多个图像和文本图层，以快速创建横幅和活页并在下游应用程序中使用它们。
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
 source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
 workflow-type: tm+mt
 source-wordcount: '2810'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="assets_dm_templates"
->title="管理Dynamic Media模板"
->abstract="使用简单易用的WYSIWYG界面快速创建并个性化图像和文本横幅，并将Dynamic Media URL嵌入到任何第一方或第三方应用程序中，以打造极具吸引力的体验。 试试看！"
+>title="管理 Dynamic Media 模板"
+>abstract="通过易于使用的所见即所得界面，即时创建并个性化设置图像和文本横幅，并将 Dynamic Media URL 嵌入任何第一方或第三方应用程序中，以打造极具吸引力的体验。尝试一下！"
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="观看视频"
 
-使用Dynamic Media模板编辑器创建WYSIWYG模板，并包含多个图像和文本图层，以快速创建横幅和活页并在下游应用程序中使用它们。 您还可以向模板中包含的图像和文本图层添加参数，并使用[Dynamic Media URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)实时更新这些图层的值。
+使用WYSIWYG模板编辑器创建Dynamic Media模板，并包含多个图像和文本图层，以快速创建横幅和活页并在下游应用程序中使用它们。 您还可以向模板中包含的图像和文本图层添加参数，并使用[Dynamic Media URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)实时更新这些图层的值。
 
 一些主要功能包括：
 
@@ -43,7 +43,7 @@ Dynamic Media模板的一些主要优势包括：
 
 >[!NOTE]
 >
->订阅增强安全性SKU的客户无法在该Cloud Service计划上使用任何Dynamic Media功能，包括Dynamic Media模板。
+>订阅增强安全性SKU的客户无法在该云服务项目上使用任何Dynamic Media功能，包括Dynamic Media模板。
 
 ## 开始之前{#prerequisites-for-dynamic-media-wysiwyg-template}
 
@@ -52,8 +52,8 @@ Dynamic Media模板的一些主要优势包括：
 1. 访问Dynamic Media。
 1. [已将AEM Assets实例中可用的图像与Dynamic Media同步，以将其用于创建模板](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
 1. 已在触屏UI中验证以下内容：
-   * 在&#x200B;**[!UICONTROL 编辑Dynamic Media配置页面]**&#x200B;上，默认设置为&#x200B;**[!UICONTROL 禁用的**[!UICONTROL  Dynamic Media同步模式&#x200B;]**未应用于所有AEM文件夹（**[!UICONTROL &#x200B;同步所有内容&#x200B;]**未选中）。]**&#x200B;有关详细信息，请参阅[配置Dynamic MediaCloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
-   * **[!UICONTROL Dynamic Media同步模式]**&#x200B;设置为目标文件夹或子文件夹的&#x200B;**[!UICONTROL 启用子文件夹]**，创建后您将在该文件夹中保存模板。 有关详细信息，请参阅[配置Dynamic MediaCloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
+   * 在&#x200B;**[!UICONTROL 编辑Dynamic Media配置页面]**&#x200B;上，默认情况下设置为&#x200B;**[!UICONTROL 禁用的**[!UICONTROL  Dynamic Media同步模式&#x200B;]**未应用于所有AEM文件夹（**[!UICONTROL &#x200B;同步所有内容&#x200B;]**未选中）。]**&#x200B;有关详细信息，请参阅[配置Dynamic Media Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
+   * **[!UICONTROL Dynamic Media同步模式]**&#x200B;设置为目标文件夹或子文件夹的&#x200B;**[!UICONTROL 启用子文件夹]**，创建后将在其中保存模板。 有关详细信息，请参阅[配置Dynamic Media Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
 
 ## 创建Dynamic Media WYSIWYG模板{#how-to-create-dynamic-media-wysiwyg-template}
 
@@ -69,7 +69,7 @@ Dynamic Media模板的一些主要优势包括：
 
 执行以下步骤可创建空白画布：
 
-1. 导航到Assets Essentials，然后单击左侧面板中提供的&#x200B;**[!UICONTROL Dynamic Media Assets]**。
+1. 导航到Assets Essentials并单击左侧面板中提供的&#x200B;**[!UICONTROL Dynamic Media Assets]**。
 
    ![Dynamic Media 模板](/help/using/assets/DM-Assets1.png)
 
@@ -109,7 +109,7 @@ Dynamic Media模板的一些主要优势包括：
 
 执行以下步骤以将图像添加到画布：
 
-1. 单击![立即创建横幅](/help/using/assets/add-image.svg)以显示[资产选择器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector)面板。 该面板会显示您的AEM Assets实例中已同步到Dynamic Media的图像。
+1. 单击![立即创建横幅](/help/using/assets/add-image.svg)以显示[资产选择器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector)面板。 面板会显示您的AEM Assets实例中同步到Dynamic Media的图像。
 1. 浏览面板或使用搜索栏中的关键字查找特定图像。
 1. 将图像拖放到画布上以使用。 查看[**[!UICONTROL 属性面板]**](#reposition-resize-delete-a-layer)以调整画布上的图层大小或重新定位图层。
    ![在秒内创建横幅](/help/using/assets/add-image-to-canvas.png)
@@ -127,7 +127,7 @@ Dynamic Media模板的一些主要优势包括：
 
 >[!NOTE]
 >
-> 要使用默认AdobeSans F2字体系列以外的字体，您需要将该字体文件上载并发布到AEM Assets和Dynamic Media。 如果您的实例中有一些旧字体，请确保[重新处理](/help/using/reprocessing.md)以在模板编辑器中查看它们。
+> 要使用默认Adobe Sans F2字体系列以外的字体，您需要将该字体文件上传并发布到AEM Assets和Dynamic Media。 如果您的实例中有一些旧字体，请确保[重新处理](/help/using/reprocessing.md)以在模板编辑器中查看它们。
 
 ### 编辑或删除图层 {#edit-or-delete-a-layer}
 
@@ -217,13 +217,13 @@ Dynamic Media模板的一些主要优势包括：
 1. 从画布中选择其他图层以转到这些图层的“参数”面板，并切换其&#x200B;**[!UICONTROL 隐藏]**&#x200B;参数（如果未设置参数）。
 1. 将他们的&#x200B;**[!UICONTROL 隐藏参数]**&#x200B;名称替换为复制的名称。
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;将图层分组。
-1. 在[**[!UICONTROL 预览和Publish]**](#preview-and-publish-template-and-copy-template-deliver-url)部分中执行步骤3，然后执行步骤4，以查看所做的更改。
+1. 在[**[!UICONTROL 预览和发布]**](#preview-and-publish-template-and-copy-template-deliver-url)分区中执行步骤3，然后执行步骤4，以查看所做的更改。
 
 ## 预览并发布模板以复制投放URL{#preview-and-publish-template-and-copy-template-deliver-url}
 
 执行以下步骤以预览和发布模板并复制投放URL：
 
-1. 在画布页面上，单击&#x200B;**[!UICONTROL 预览]**。 您还可以导航到&#x200B;**[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media Assets]** **>**&#x200B;查找并选择您的模板&#x200B;**>**&#x200B;单击&#x200B;**[!UICONTROL 编辑模板]** **>**&#x200B;单击&#x200B;**[!UICONTROL 预览]**。 预览页显示模板、其参数（参数化层和属性）、发布状态以及&#x200B;**[!UICONTROL Publish]**&#x200B;选项。
+1. 在画布页面上，单击&#x200B;**[!UICONTROL 预览]**。 您还可以导航到&#x200B;**[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media Assets]** **>**&#x200B;查找并选择您的模板&#x200B;**>**&#x200B;单击&#x200B;**[!UICONTROL 编辑模板]** **>**&#x200B;单击&#x200B;**[!UICONTROL 预览]**。 预览页面显示模板、其参数（参数化层和属性）、发布状态以及&#x200B;**[!UICONTROL 发布]**&#x200B;选项。
 1. 从&#x200B;**[!UICONTROL 模板参数]**&#x200B;面板中选择参数以编辑其值，并立即更新预览中相应模板图层的内容、大小、位置或文本格式。 例如：
    1. 选择文本图层并编辑其文本或
    1. 选择图像图层，单击![即时创建内容](/help/using/assets/add-image.svg)，从资产选择器中选择图像，然后单击&#x200B;**[!UICONTROL 刷新]**。
@@ -235,7 +235,7 @@ Dynamic Media模板的一些主要优势包括：
    ![即时创建内容](/help/using/assets/dm-templates-publish-status.png)
 您还可以切换**[!UICONTROL 包含所有参数]**以编辑所有显示的参数值，并在模板预览中查看更新。
    <br>
-1. 要在预览页面上发布模板，请单击&#x200B;**[!UICONTROL Publish]**&#x200B;并确认发布。 此时会显示Publish结束消息，并且发布状态会更新为“已发布”。
+1. 要在预览页面上发布模板，请单击&#x200B;**[!UICONTROL 发布]**&#x200B;并确认发布。 此时会显示“发布完成”消息，并且发布状态会更新为“已发布”。
 
 >[!NOTE]
 >
@@ -248,10 +248,10 @@ Dynamic Media模板的一些主要优势包括：
 要复制预览中显示的已发布模板的URL，请执行以下操作：
 
 1. 单击&#x200B;**[!UICONTROL 复制URL]**。 将显示&#x200B;**[!UICONTROL 复制URL]**&#x200B;对话框。 选择并复制显示的URL。 请注意，URL中的第一个参数在问号&#x200B;**(？)之后开始**&#x200B;和一个键值对以&#x200B;**$**&#x200B;开头，以&#x200B;**&amp;**&#x200B;结尾。 键和值用等号&#x200B;**(=)**&#x200B;分隔，键在左侧，值在右侧。
-1. 将此URL粘贴到浏览器选项卡中，并查看您的实时模板。 通过直接更新URL中所需参数的值（键值）实时自定义模板，如&#x200B;**预览和Publish**&#x200B;部分的[步骤2](#preview-and-publish-template-and-copy-template-deliver-url)所示。
+1. 将此URL粘贴到浏览器选项卡中，并查看您的实时模板。 通过直接更新URL中所需参数的值（键值）实时自定义模板，如&#x200B;**预览和发布**&#x200B;部分的[步骤2](#preview-and-publish-template-and-copy-template-deliver-url)所示。
 1. 使用此URL快速推销您的产品或服务。 您可以与客户共享此URL，或将其集成到您的网站或任何下游第三方应用程序，以显示横幅并实时更新以反映持续优惠。
 
-在本视频中了解如何分步创建Dynamic Media模板。
+在此视频中了解如何分步创建Dynamic Media模板。
 >[!VIDEO](https://video.tv.adobe.com/v/3443281)
 
 ## 从URL实时更新模板{#update-the-template-from-the-url}
@@ -281,9 +281,9 @@ Dynamic Media模板的一些主要优势包括：
 * 在创建具有用于动态更新的参数化图像层的模板后，请确保打算用于将来更新的图像共享与参数化图像相同的尺寸。 这确保图像完全适合在层内，而不会溢出或留下空隙。 目前，模板不支持自动调整尺寸以将图像适合图层。
 * 文本图层不支持子字符串。 用户无法对文本图层的子字符串应用不同的字体属性。
 * Dynamic Media模板当前不支持多个Dynamic Media公司。
-* 在复制或移动时，目标选择器会显示所有文件夹(包括非Dynamic Media同步文件夹)。 此外，当前它不会显示Dynamic Media模板资源（两者都是目标选择器的限制）。
-* 从Assets部分对文件夹执行的任何更新操作(例如，Publish或删除)都会影响该文件夹中可用的Dynamic Media模板。
-* 垃圾桶不适用于Dynamic Media模板。 如果某个资源被移至垃圾桶并恢复，则该资源将在AEM中恢复，但在Dynamic Media中无法恢复。 这同样适用于Dynamic Media模板。
+* 在复制或移动时，目标选择器会显示所有文件夹（包括非Dynamic Media同步文件夹）。 此外，目前它不显示Dynamic Media模板资产（两者都是目标选择器的限制）。
+* 从Assets部分对文件夹执行的任何更新操作（例如，发布或删除）都会影响该文件夹中可用的Dynamic Media模板。
+* Dynamic Media模板无法使用垃圾桶。 如果某个资源被移至垃圾桶并恢复，则该资源将在AEM中恢复，而不会在Dynamic Media中恢复。 这同样适用于Dynamic Media模板。
 
 ## 另请参阅
 
