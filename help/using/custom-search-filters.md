@@ -2,7 +2,8 @@
 title: 自定义搜索筛选器
 description: 了解自定义搜索筛选器表单
 role: User, Leader, Developer
-source-git-commit: 2a71e6e18bc0c08a2daf5e4a76c042c41a9f9e64
+exl-id: 8c579d5b-6bfc-44bb-a381-ca5716bd20cb
+source-git-commit: 7d87b25b25d866af741a8aef22ec52abdaa7b974
 workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 13%
@@ -375,7 +376,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
         <ul>
         <li>单击<b>添加</b>以添加新值。 
         <li>单击<span>✎</span>编辑标签。 
-        <li>单击<img src="assets/do-not-localize/delete.svg">以删除选项值。 
+        <li>单击<img src="assets/do-not-localize/delete-icon.png">以删除选项值。 
         <li>单击<b>编辑</b>以修改编辑选项。 
         <li>您也可以通过保存选项来更改选项的顺序。
         </td>
