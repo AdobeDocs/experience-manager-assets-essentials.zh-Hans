@@ -3,12 +3,55 @@ title: 自定义搜索过滤器
 description: 了解自定义搜索筛选器表单
 role: User, Leader, Developer
 exl-id: 8c579d5b-6bfc-44bb-a381-ca5716bd20cb
-source-git-commit: 0bc6e92668badf4cda0cbf274ab568e3aca37c99
+source-git-commit: 9574d173debd720a2e2dfffc407a32325c5f544f
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 13%
+source-wordcount: '1349'
+ht-degree: 14%
 
 ---
+
+
+<table>
+    <tr>
+        <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="新建">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime和Ultimate</b></a>
+        </td>
+        <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="新建">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
+        </td>
+        <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="新建">
+            <a href="http://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>AEM Assets与Edge Delivery Services的集成</b></a>
+        </td>
+        <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="新建">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>UI可扩展性</b></a>
+        </td>
+          <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="新建">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>启用Dynamic Media Prime和Ultimate</b></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>搜索最佳实践</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>元数据最佳实践</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>Content Hub</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>具有 OpenAPI 功能的 Dynamic Media</b></a>
+        </td>
+        <td>
+            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>AEM Assets 开发人员文档</b></a>
+        </td>
+    </tr>
+</table>
 
 # 自定义搜索筛选器 {#customize-search-filters}
 
