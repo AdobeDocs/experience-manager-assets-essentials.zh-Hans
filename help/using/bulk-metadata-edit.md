@@ -1,13 +1,56 @@
 ---
 title: 在Assets Essentials中批量编辑元数据
-description: 了解如何为Assets Essentials上同时可用的多个资源更新预定义的标准元数据字段集。
+description: 了解如何为Assets Essentials上的多个资源同时更新预定义的标准元数据字段集。
 exl-id: 17185160-6c51-4581-a716-77b365ef3dd9
-source-git-commit: f417b1e542c838d21a9af3a7fc923acc6c157633
+source-git-commit: 461773235cb2d27d334b5ceb23f959dc9a848716
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 0%
+source-wordcount: '508'
+ht-degree: 4%
 
 ---
+
+
+<table>
+    <tr>
+        <td>
+            <img src="assets/new2.gif" width="20px" height="25px" alt="新建">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime和Ultimate</b></a>
+        </td>
+        <td>
+            <img src="assets/new2.gif" width="20px" height="25px" alt="新建">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
+        </td>
+        <td>
+            <img src="assets/new2.gif" width="20px" height="25px" alt="新建">
+            <a href="http://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>AEM Assets与Edge Delivery Services的集成</b></a>
+        </td>
+        <td>
+            <img src="assets/new2.gif" width="20px" height="25px" alt="新建">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>UI可扩展性</b></a>
+        </td>
+          <td>
+            <img src="assets/new2.gif" width="20px" height="25px" alt="新建">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>自定义搜索筛选器</b></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>搜索最佳实践</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>元数据最佳实践</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>Content Hub</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>具有 OpenAPI 功能的 Dynamic Media</b></a>
+        </td>
+        <td>
+            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>AEM Assets 开发人员文档</b></a>
+        </td>
+    </tr>
+</table>
 
 # 在Assets Essentials中批量编辑元数据{#how-to-edit-the-metadata-of-multiple-assets-simultaneously}
 
@@ -38,4 +81,4 @@ Assets Essentials中的&#x200B;**批量元数据编辑**&#x200B;功能允许用�
 
 >[!NOTE]
 >
->**状态**、**到期日期**、**作者**、**关键字**&#x200B;和&#x200B;**标记**&#x200B;是可用于批量元数据编辑的标准元数据属性，而不考虑文件夹特定的元数据。 仅当这些元数据属性包含在应用于资源文件夹的元数据表单中时，它们才会显示在资源详细信息页面上。 如果在资源详细信息页面上找不到这些标准元数据属性，请编辑资源文件夹的元数据表单以包含它们。 请参阅Assets Essentials](/help/using/metadata.md)中的[元数据，了解如何创建或编辑元数据表单并将其应用到文件夹。
+>**状态**、**到期日期**、**作者**、**关键字**&#x200B;和&#x200B;**标记**&#x200B;是可用于批量元数据编辑的标准元数据属性，而不考虑文件夹特定的元数据。 仅当这些元数据属性包含在应用于资源文件夹的元数据表单中时，它们才会显示在资源详细信息页面上。 如果在资源详细信息页面上找不到这些标准元数据属性，请编辑资源文件夹的元数据表单以包含它们。 请参阅Assets Essentials中的[元数据](/help/using/metadata.md)，了解如何创建或编辑元数据表单并将其应用到文件夹。
