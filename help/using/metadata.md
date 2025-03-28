@@ -4,10 +4,10 @@ description: 在 [!DNL Assets Essentials] 中管理资产的元数据
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: f922e9191cc3bf6beef66665dec49fd3876bf33b
+source-git-commit: 1cda73b6ddc573d2736fdaa45b582198420ed5b1
 workflow-type: tm+mt
-source-wordcount: '1964'
-ht-degree: 100%
+source-wordcount: '2159'
+ht-degree: 89%
 
 ---
 
@@ -168,16 +168,47 @@ MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
 
 ### 使用元数据表单中的链接组件 {#link-component-metadata-form}
 
-链接组件用于启用外部 URL，包括存储链接、版权信息、联系表单等。要在元数据表单上使用链接组件，您需要[配置元数据表单](#metadata-forms)。URL 组件可以映射到元数据编辑器页面中的特定元数据属性，其工作方式与其他元数据组件相同。此元数据表单可分配给文件夹。因此，在分配的文件夹资产的详细信息页面中，您可以看到资产链接元数据值。
+链接组件用于启用外部 URL，包括存储链接、版权信息、联系表单等。要在元数据表单上使用链接组件，您需要[配置元数据表单](#metadata-forms)。URL 组件可以映射到元数据编辑器页面中的特定元数据属性，其工作方式与其他元数据组件相同。此元数据表单可分配给文件夹。因此，在分配的文件夹资产的详细信息页面中，您可能会看到资产链接元数据值。
 
-按照以下步骤在资产详细信息页面使用链接组件：
+请按照以下步骤使用资产详细信息页面上的链接组件：
 
-1. 转到资产详细信息页面并导航到&#x200B;**[!UICONTROL 链接 URL]**。
+1. 转到资产详细信息页面并导航到&#x200B;**[!UICONTROL 链接URL]**。
 1. 添加您想要用于重定向所选资产的 URL。
 1. 点击&#x200B;**[!UICONTROL 添加链接]**。执行以下操作之一：
    * 点击![复制图标](assets/do-not-localize/copy.svg)即可复制 URL。
    * 点击![编辑图标](assets/do-not-localize/edit.svg)即可编辑 URL。
 1. 点击&#x200B;**[!UICONTROL 保存]**&#x200B;即可保存更改。
+
+### 使用元数据表单中的标记组件 {#tag-component-metadata-form}
+
+根元素表示可与资产关联的标记的树结构，有助于根据分配给资产的标记识别资产。 此外，在元数据编辑器中配置元数据表单时，您可以限制特定分类的访问。
+
+#### 标记组件配置 {#tags-component-configuration}
+
+通过执行以下步骤来配置标记组件：
+
+1. 转到元数据编辑器并导航到&#x200B;**[!UICONTROL 标记]**，然后将其放在画布上。
+1. 重命名画布上的组件。 为此，请转到“设置”面板中[!UICONTROL 元数据属性]下的&#x200B;**[!UICONTROL 标签]**，然后添加用于标识的文本。
+1. 在设置面板的[!UICONTROL 元数据属性]下，搜索要分配给该组件的元数据属性。
+1. 单击&#x200B;**[!UICONTROL 限制为特定分类]**&#x200B;以限制分类的根路径。 为此，请浏览标记并选择特定路径的分类。
+1. 点击&#x200B;**[!UICONTROL 保存]**&#x200B;即可保存更改。
+
+   ![根标记配置](assets/root-tag-config.png)
+1. [将元数据表单分配给文件夹](#assign-metadata-form-folder)。
+
+<!--
+#### Mapping between assets and taxonomy {#asset-taxonomy-mapping}
+
+See [Assign metadata form to folders](#assign-metadata-form-folder). Follow the steps below to perform mapping between folder and taxonomy:
+
+1. Go back to the Settings and click **[!UICONTROL Metadata forms]**.
+1. Select a Metadata form that needs mapping. 
+1. Click **[!UICONTROL Assign to folder(s)]**. **[!UICONTROL Select Folder(s)]** screen appears. 
+1. Navigate to the folder that you want to assign to the metadata form. You can select multiple folders.
+1. Click **[!UICONTROL Assign]**.
+-->
+
+要查看配置的根标记，请转到资产的详细信息页面，其中执行元数据表单和根标记之间的映射。
 
 ## 后续步骤 {#next-steps}
 
