@@ -10,7 +10,7 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: bbc08d7762f1f8f87e5874977b65136522ba8a4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
 ht-degree: 100%
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 + [发行说明](release-notes.md)
 + [安全性](security-overview.md)
 + [我的工作区](my-workspace.md)
-+ 适用于管理员的 Assets Essentials 入门{#get-started-admins}
++ 适用于管理员的 Assets Essentials 入门 {#get-started-admins}
    + [管理和添加用户](deploy-administer.md)
-   + 管理文件夹访问权限：{#folder-access}
+   + 管理文件夹访问权限{#folder-access}
       + [管理文件夹权限](manage-permissions.md)
       + [权限管理的最佳实践](permission-management-best-practices.md)
    + [Creative Cloud Pro 工作管理解决方案 Assets Essentials 管理员历程](assets-essentials-cc-pro-work-management-admin-journey.md)
@@ -54,7 +54,7 @@ ht-degree: 100%
    + [概述](integration.md)
    + [与 Adobe Asset Link 集成](integrate-with-creative-cloud.md)
    + [与 Adobe Workfront 集成](integrate-with-workfront.md)
-+ 与 Creative Cloud 集成{#integration-with-creative-cloud}
++ 与 Creative Cloud 集成 {#integration-with-creative-cloud}
    + [将 AEM Assets 连接到 Creative Cloud](connect-assets-with-creative-cloud.md)
 + [视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=zh-Hans)
 + [Dynamic Media 模板](dynamic-media-templates.md)
