@@ -37,7 +37,7 @@ ht-degree: 100%
 
 欢迎您对改进[!DNL Experience Manager]文档的任何想法作为投稿。但是，批注、问题和拉取请求仅适用于&#x200B;*投稿*。它们不是用来回答您关于如何使用[!DNL Experience Manager]、实施您的[!DNL Experience Manager]项目或解决技术问题。
 
-如果您对 [!DNL Experience Manager] 的使用有任何疑问或遇到任何技术问题，可按照常规支持流程通过 [[!DNL Experience Manager]  支持门户](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support)报告，或在 [Experience Manager 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)中讨论。
+如果您对 [!DNL Experience Manager] 的使用有任何疑问或遇到任何技术问题，可按照常规支持流程通过 [[!DNL Experience Manager]  支持门户](https://experienceleague.adobe.com/zh-hans?support-solution=Experience+Manager#support)报告，或在 [Experience Manager 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)中讨论。
 
 ***[!DNL Experience Manager]文档投稿无法替代 Adobe 客户支持，***&#x200B;任何试图获取支持相关问题答案的此类投稿都将被拒绝。
 

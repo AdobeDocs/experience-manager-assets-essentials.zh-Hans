@@ -169,10 +169,10 @@ Assets Essentials 允许您为存储库中可用的资源设置状态。设置�
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，了解如何在 Assets Essentials 中管理资源](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html)
+* [观看视频，了解如何在 Assets Essentials 中管理资源](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html?lang=zh-Hans)
 
 * 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)

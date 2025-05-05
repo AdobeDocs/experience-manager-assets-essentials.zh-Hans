@@ -33,7 +33,7 @@ ht-degree: 100%
 
 * Creative Cloud 服务和应用程序（Creative Cloud Pro 企业版和可选模块）在[ Adobe Admin Console 中进行管理，用于 Creative Cloud 部署](https://helpx.adobe.com/content/help/cn/enterprise/admin-guide.html)。
 
-* Adobe Workfront 和 Adobe Experience Manager Assets Essentials 在 [Adobe Admin Console 中管理，以使用 Experience Cloud solutions 解决方案](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)。
+* Adobe Workfront 和 Adobe Experience Manager Assets Essentials 在 [Adobe Admin Console 中管理，以使用 Experience Cloud solutions 解决方案](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hans)。
 
 要集成 Creative Cloud 和 Assets Essentials 应用程序，Creative Cloud 的 Admin Console 中可用的用户必须在 Experience Cloud 的 Admin Console 中可用。要使用户在 Experience Cloud Admin Console 中可用，请创建一个目录，以在这两个 Admin Console 之间建立[目录信任](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html#directory-trusting)关系。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## 前提条件
 
-* [访问 Adobe Admin Console 以获得 Experience Cloud 解决方案](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)
+* [访问 Adobe Admin Console 以获得 Experience Cloud 解决方案](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hans)
 
 * [访问 Adobe Admin Console，以进行 Creative Cloud 企业版部署](https://helpx.adobe.com/cn/enterprise/admin-guide.html)
 

@@ -65,7 +65,7 @@ Creative Cloud 管理员在 Admin Console 中&#x200B;**安装 Creative Cloud 软
 
 >[!NOTE]
 >
->在使用 Apple Silicon/M1 硬件时，需要使用 Rosetta 兼容模式启动 Adobe Photoshop，以确保创意用户能够访问 Adobe Asset Link 面板，这是因为它是使用 CEP 扩展技术构建的。如需更多信息，请参阅[在 Apple Silicon 中使用 Photoshop](https://helpx.adobe.com/photoshop/kb/photoshop-for-apple-silicon.html)。
+>在使用 Apple Silicon/M1 硬件时，需要使用 Rosetta 兼容模式启动 Adobe Photoshop，以确保创意用户能够访问 Adobe Asset Link 面板，这是因为它是使用 CEP 扩展技术构建的。如需更多信息，请参阅[在 Apple Silicon 中使用 Photoshop](https://helpx.adobe.com/cn/photoshop/kb/photoshop-for-apple-silicon.html)。
 
 
 通过 Adobe Asset Link 使用和修改存储在 Assets Essentials 存储库中的资源。您可以执行各种任务，例如：

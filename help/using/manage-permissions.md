@@ -210,8 +210,8 @@ Assets Essentials 使用权限继承，这使您可以在子文件夹中继承�
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，了解如何在 Assets Essentials 中管理权限](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
+* [观看视频，了解如何在 Assets Essentials 中管理权限](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html?lang=zh-Hans)
 
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
