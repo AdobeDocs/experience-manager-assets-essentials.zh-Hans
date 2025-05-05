@@ -36,9 +36,12 @@ Adobe Experience Manager Assets现在支持Content credentials，可让用户直
 1. 导航到文件夹，然后选择所需的资产。
 1. 单击&#x200B;**详细信息**&#x200B;并从最右边的窗格中选择`Cr pin`。 “Content credentials”选项卡显示有关资源的以下信息。
    1. **生成的图像：**&#x200B;应用Content credentials的日期和时间。
-   1. **内容摘要：**指示资源是部分还是完全由AI生成，或者是如何编辑的。
+   1. **内容摘要：**&#x200B;指示资源是部分还是完全由AI生成，或者是如何编辑的。
+
       ![内容摘要](/help/using/assets/content-credentials1.png)
-   1. **进程：**详细说明用于生成资源的应用程序、设备和AI工具(如Adobe Firefly)，以及随后进行的更改。
+   1. **进程：**&#x200B;详细说明用于生成资源的应用程序、设备和AI工具(如Adobe Firefly)，以及随后进行的更改。
+
       ![进程](/help/using/assets/CR-Process.png)
-   1. **关于此Content credentials：**颁发者的名称以及颁发的日期和时间。
+   1. **关于此Content credentials：**&#x200B;颁发者的名称以及颁发的日期和时间。
+
       ![颁发者](/help/using/assets/CR-issuer.png)

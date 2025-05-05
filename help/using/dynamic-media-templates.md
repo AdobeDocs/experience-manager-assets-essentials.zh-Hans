@@ -52,7 +52,7 @@ Dynamic Media模板的一些主要优势包括：
 1. 访问Dynamic Media。
 1. [已将AEM Assets实例中可用的图像与Dynamic Media同步，以将其用于创建模板](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
 1. 已在触屏UI中验证以下内容：
-   * 在&#x200B;**[!UICONTROL 编辑Dynamic Media配置页面]**&#x200B;上，默认情况下设置为&#x200B;**[!UICONTROL 禁用的**[!UICONTROL  Dynamic Media同步模式&#x200B;]**未应用于所有AEM文件夹（**[!UICONTROL &#x200B;同步所有内容&#x200B;]**未选中）。]**&#x200B;有关详细信息，请参阅[配置Dynamic Media Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
+   * 在&#x200B;**[!UICONTROL 编辑Dynamic Media配置页面]**&#x200B;上，默认情况下设置为&#x200B;**[!UICONTROL 禁用的**&#x200B;[!UICONTROL &#x200B; Dynamic Media同步模式&#x200B;]&#x200B;**未应用于所有AEM文件夹（**&#x200B;[!UICONTROL &#x200B;同步所有内容&#x200B;]&#x200B;**未选中）。]**&#x200B;有关详细信息，请参阅[配置Dynamic Media Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
    * **[!UICONTROL Dynamic Media同步模式]**&#x200B;设置为目标文件夹或子文件夹的&#x200B;**[!UICONTROL 启用子文件夹]**，创建后将在其中保存模板。 有关详细信息，请参阅[配置Dynamic Media Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
 
 ## 创建Dynamic Media WYSIWYG模板{#how-to-create-dynamic-media-wysiwyg-template}
@@ -73,9 +73,9 @@ Dynamic Media模板的一些主要优势包括：
 
    ![Dynamic Media 模板](/help/using/assets/DM-Assets1.png)
 
-1. 单击&#x200B;**[!UICONTROL 创建模板]**&#x200B;以将模板保存在Dynamic Media Assets下，或者导航到某个文件夹，然后单击&#x200B;**[!UICONTROL 创建模板]**&#x200B;以将模板保存在该文件夹中。 此时将显示&#x200B;**[!UICONTROL 新模板]**对话框。
+1. 单击&#x200B;**[!UICONTROL 创建模板]**&#x200B;以将模板保存在Dynamic Media Assets下，或者导航到某个文件夹，然后单击&#x200B;**[!UICONTROL 创建模板]**&#x200B;以将模板保存在该文件夹中。 此时将显示&#x200B;**[!UICONTROL 新模板]**&#x200B;对话框。
    ![如何创建可实时自定义的动态模板](/help/using/assets/new-template.png)
-要在**[!UICONTROL Dynamic Media Assets]**&#x200B;下[创建文件夹](/help/using/add-delete.md)，请在&#x200B;**[!UICONTROL Assets]**&#x200B;下创建文件夹。 **[!UICONTROL Assets]**&#x200B;下的文件夹树将在&#x200B;**[!UICONTROL Dynamic Media Assets]**&#x200B;下复制。
+要在&#x200B;**[!UICONTROL Dynamic Media Assets]**&#x200B;下[创建文件夹](/help/using/add-delete.md)，请在&#x200B;**[!UICONTROL Assets]**&#x200B;下创建文件夹。 **[!UICONTROL Assets]**&#x200B;下的文件夹树将在&#x200B;**[!UICONTROL Dynamic Media Assets]**&#x200B;下复制。
 1. 指定模板名称，定义画布宽度和高度，然后单击&#x200B;**[!UICONTROL 创建]**。 屏幕上会显示一个空白画布，画布的两侧都有用于创建模板的菜单选项。 将鼠标悬停在菜单选项上可查看其工具提示。
    ![实时可自定义模板](/help/using/assets/blank-canvas-page.png)
 
@@ -120,7 +120,7 @@ Dynamic Media模板的一些主要优势包括：
 
 1. 单击![创建新横幅fastly](/help/using/assets/add-text.svg)以将文本图层添加到画布并打开“属性”面板。
 1. 选择图层并单击文本进行更新。
-1. 在“属性”面板中启用&#x200B;**[!UICONTROL 智能文本大小调整]**以自动调整文本长度和字体大小以最佳方式适应指定区域。
+1. 在“属性”面板中启用&#x200B;**[!UICONTROL 智能文本大小调整]**&#x200B;以自动调整文本长度和字体大小以最佳方式适应指定区域。
    ![最佳可自定义横幅](/help/using/assets/add-text-layer.png)
 
 查看[**[!UICONTROL 属性面板]**](#reposition-resize-delete-a-layer)以重新定位、调整大小、旋转或删除图层。 通过更改面板&#x200B;**[!UICONTROL 文本]**&#x200B;部分下相应字段中的值，将文本格式设置为所需的字体、大小、颜色、样式、对齐方式（在图层中）。
@@ -180,7 +180,7 @@ Dynamic Media模板的一些主要优势包括：
 1. **可选：**&#x200B;重命名参数名称。 参数名称具有层名称后跟一个后缀。 对于选定层，其所有参数化属性共享相同的层名称，后跟一个变化的后缀。 按照语义命名约定重命名层名称，以便在URL中包含参数时，参数名称本身可以说明层的内容或其用途。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
    ![即时内容创建](/help/using/assets/parameterise-a-layer.png)
-若要在图像和文本图层的“参数”面板之间进行切换，请选择画布上的图层，然后单击**[!UICONTROL 参数]**。
+若要在图像和文本图层的“参数”面板之间进行切换，请选择画布上的图层，然后单击&#x200B;**[!UICONTROL 参数]**。
 
 #### “参数”面板选项 {#parameterisation-options-or-allowed-parameters}
 
@@ -189,19 +189,19 @@ Dynamic Media模板的一些主要优势包括：
 **图像参数：**
 
 **X：** Include可通过更改URL中的参数值，沿图层中心线水平移动图层，平行于模板平面的X轴。
-**Y：**包含以通过更改URL中的参数值沿图层中心线垂直移动图层，平行于模板平面的Y轴。
-**宽度：**包含可通过更改URL中的参数值来调整图层的宽度。
-**高度：**包含可通过更改URL中的参数值来调整图层的高度。
-**隐藏：**包含以使用0（显示）和1（隐藏）来隐藏或显示模板中的图层。
+**Y：**&#x200B;包含以通过更改URL中的参数值沿图层中心线垂直移动图层，平行于模板平面的Y轴。
+**宽度：**&#x200B;包含可通过更改URL中的参数值来调整图层的宽度。
+**高度：**&#x200B;包含可通过更改URL中的参数值来调整图层的高度。
+**隐藏：**&#x200B;包含以使用0（显示）和1（隐藏）来隐藏或显示模板中的图层。
 **Source：**&#x200B;包含以通过更改URL中参数值中的图像路径来用新图像替换图层的图像。
 
 **文本格式参数：**
 
 包括以下参数，以便通过更新URL中的参数值从URL中编辑文本、其字体、颜色和大小。
 
-**文本：**包含以从URL更新文本。
-**字体系列：**包含以从URL更新文本的字体。
-**字体大小：**包含以从URL更新文本的字体大小。
+**文本：**&#x200B;包含以从URL更新文本。
+**字体系列：**&#x200B;包含以从URL更新文本的字体。
+**字体大小：**&#x200B;包含以从URL更新文本的字体大小。
 **文本颜色：**&#x200B;包含以从URL更新文本的字体颜色。
 
 ### 将层分组以同时控制其可见性{#group-layers}
@@ -233,7 +233,7 @@ Dynamic Media模板的一些主要优势包括：
 1. **可选：**&#x200B;将&#x200B;**[!UICONTROL 隐藏]**&#x200B;参数值在0和1之间更改，然后单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以查看更改内容。 具有相同隐藏参数的图层会一起隐藏或显示。 同样，您可以从URL控制图层的可见性。
 
    ![即时创建内容](/help/using/assets/dm-templates-publish-status.png)
-您还可以切换**[!UICONTROL 包含所有参数]**以编辑所有显示的参数值，并在模板预览中查看更新。
+您还可以切换&#x200B;**[!UICONTROL 包含所有参数]**&#x200B;以编辑所有显示的参数值，并在模板预览中查看更新。
    <br>
 1. 要在预览页面上发布模板，请单击&#x200B;**[!UICONTROL 发布]**&#x200B;并确认发布。 此时会显示“发布完成”消息，并且发布状态会更新为“已发布”。
 
