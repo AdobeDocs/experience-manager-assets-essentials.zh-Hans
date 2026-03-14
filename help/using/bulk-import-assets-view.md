@@ -1,11 +1,11 @@
 ---
 title: 使用 Assets Essentials 批量导入资源
-description: 了解如何使用新的资源 UI (Assets Essentials) 批量导入资源。管理员使用它可以将大量资源从数据源导入到 AEM Assets。
+description: 了解如何使用新的资源 UI (Assets Essentials) 批量导入资源。 管理员使用它可以将大量资源从数据源导入到 AEM Assets。
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 4d4b239b0b75ac8a26a7c3001e5b28dcb6243f63
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 100%
+source-wordcount: '1849'
+ht-degree: 92%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="批量导入资源"
->abstract="管理员能够使用 Assets Essentials 将大量资源从数据源导入到 Experience Manager Assets。管理员不再需要逐个将资源或文件夹上传到 Experience Manager Assets。批量导入支持的云存储提供商包括 Azure、AWS、Google Cloud 和 Dropbox。"
+>abstract="管理员能够使用 Assets Essentials 将大量资源从数据源导入到 Experience Manager Assets。 管理员不再需要逐个将资源或文件夹上传到 Experience Manager Assets。 批量导入支持的云存储提供商包括 Azure、AWS、Google Cloud 和 Dropbox。"
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/98bce651-721c-442e-98b8-c43e7708e44c_1698834577.854x480at800_h264.mp4" text="观看视频"
 
-通过 AEM Assets Essentials 中的批量导入，管理员可将大量资源从数据源导入到 AEM Assets。管理员不再需要将单独的资源或文件夹上传到 AEM Assets。
+通过 AEM Assets Essentials 中的批量导入，管理员可将大量资源从数据源导入到 AEM Assets。 管理员不再需要将单独的资源或文件夹上传到 AEM Assets。
 
 >[!NOTE]
 >
->Assets Essentials 批量导入器与 Assets as a Cloud Service 批量导入器使用相同的后端。但是，Assets Essentials 提供更多可从其导入的数据源和更简化的用户体验。
+>Assets Essentials 批量导入器与 Assets as a Cloud Service 批量导入器使用相同的后端。 但是，Assets Essentials 提供更多可从其导入的数据源和更简化的用户体验。
 
 您可以从以下数据源导入资源：
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 | 数据源 | 前提条件 |
 |-----|------|
 | Azure | <ul> <li>Azure 存储帐户 </li> <li> Azure Blob 容器 <li> 基于身份验证模式的 Azure 访问密钥或 SAS 令牌 </li></ul> |
-| AWS | <ul> <li>AWS 区域 </li> <li> AWS 分段 <li> AWS 访问密钥 </li><li> AWS 访问机密 </li></ul> |
+| AWS | <ul> <li>AWS 区域 </li> <li> AWS 存储桶 <li> AWS 访问密钥 </li><li> AWS 访问机密 </li></ul> |
 | Google Cloud | <ul> <li>GCP 桶 </li> <li> GCP 服务帐户电子邮件 <li> GCP 服务帐户私钥</li></ul> |
 | Dropbox | <ul> <li>Dropbox 客户端 ID </li> <li> Dropbox 客户端机密</li></ul> |
 | OneDrive | <ul> <li>OneDrive 租户 ID </li> <li> OneDrive 客户端 ID</li><li> OneDrive 客户端机密</li></ul> |
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 执行以下步骤：
 
-1. 登录您的 [Dropbox 帐户](https://www.dropbox.com/developers)，然后单击&#x200B;**[!UICONTROL 创建应用程序]**。<br>如果您使用的是 Enterprise Dropbox 帐户，则需要具有内容管理员角色的访问权限。
+1. 登录到您的[Dropbox帐户](https://www.dropbox.com/developers)，然后单击&#x200B;**[!UICONTROL 创建应用]**。<br>如果您使用的是企业Dropbox帐户，则需要具有内容管理员角色的访问权限。
 
 1. 在&#x200B;**[!UICONTROL 选择 API]** 部分中，选择唯一可用的单选按钮。
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 1. 在您的应用程序的&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，将 https://experience.adobe.com 添加到&#x200B;**[!UICONTROL 重定向 URI]**&#x200B;部分。
 
-1. 复制&#x200B;**[!UICONTROL 应用程序密钥]**&#x200B;和&#x200B;**[!UICONTROL 应用程序机密]**&#x200B;字段的值。在 AEM Assets 中配置批量导入工具时需要这些值。
+1. 复制&#x200B;**[!UICONTROL 应用程序密钥]**&#x200B;和&#x200B;**[!UICONTROL 应用程序机密]**&#x200B;字段的值。 在 AEM Assets 中配置批量导入工具时需要这些值。
 
 1. 在&#x200B;**[!UICONTROL 权限]**&#x200B;选项卡上的&#x200B;**[!UICONTROL 单独作用域]**&#x200B;部分中添加以下权限。
 
@@ -96,22 +96,22 @@ ht-degree: 100%
    1. 将 https://experience.adobe.com 添加到&#x200B;**[!UICONTROL 重定向 URI]**&#x200B;部分。
    <!-- Add the first URI and click **[!UICONTROL Configure]** to add it. You can add more by clicking **[!UICONTROL Add URI]** option available in the **[!UICONTROL Web]** section on the **[!UICONTROL Authentication]** page. -->
 
-1. 单击&#x200B;**[!UICONTROL 注册]**。随后即成功创建该应用程序。
+1. 单击&#x200B;**[!UICONTROL 注册]**。 随后即成功创建该应用程序。
 
-1. 复制&#x200B;**[!UICONTROL 应用程序（客户端）ID]**&#x200B;和&#x200B;**[!UICONTROL 目录（租户）ID]**&#x200B;字段的值。在 AEM Assets 中配置批量导入工具时需要这些值。
+1. 复制&#x200B;**[!UICONTROL 应用程序（客户端）ID]**&#x200B;和&#x200B;**[!UICONTROL 目录（租户）ID]**&#x200B;字段的值。 在 AEM Assets 中配置批量导入工具时需要这些值。
 
 1. 单击与&#x200B;**[!UICONTROL 客户端凭据]**&#x200B;选项相对应的&#x200B;**[!UICONTROL 添加证书或密钥]**。
 
 1. 单击&#x200B;**[!UICONTROL 新建客户端密钥]**，提供客户端密钥描述、有效期限，然后单击&#x200B;**[!UICONTROL 添加]**。
 
-1. 创建客户端机密后，复制&#x200B;**[!UICONTROL 值]**&#x200B;字段（请勿复制机密 ID 字段）。在 AEM Assets 中配置批量导入时需要它。
+1. 创建客户端机密后，复制&#x200B;**[!UICONTROL 值]**&#x200B;字段（请勿复制机密 ID 字段）。 在 AEM Assets 中配置批量导入时需要它。
 
 ### 添加 API 许可
 
 执行以下步骤以添加应用程序的 API 权限：
 
 1. 在左窗格中单击 **[!UICONTROL API 权限]**，然后单击&#x200B;**[!UICONTROL 添加权限]**。
-1. 单击 **[!UICONTROL Microsoft Graph]** > **[!UICONTROL 委派的权限]**。随后&#x200B;**[!UICONTROL 选择权限]**&#x200B;部分显示可用的权限。
+1. 单击 **[!UICONTROL Microsoft Graph]** > **[!UICONTROL 委派的权限]**。 随后&#x200B;**[!UICONTROL 选择权限]**&#x200B;部分显示可用的权限。
 1. 从 `OpenId permissions` 选择 `offline_access` 权限，从 `Files` 选择 `Files.ReadWrite.All` 权限。
 1. 单击&#x200B;**[!UICONTROL 添加权限]**&#x200B;以保存更新。
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 执行以下步骤，已在 [!DNL Experience Manager Assets] 中创建批量导入配置：
 
 1. 单击左侧窗格中的&#x200B;**[!UICONTROL 批量导入]**，然后单击&#x200B;**[!UICONTROL 创建导入]**。
-1. 选择数据源。可用选项包括 **[!UICONTROL Azure]**、**[!UICONTROL AWS]**、**[!UICONTROL Google Cloud]**、**[!UICONTROL Dropbox]** 和 **[!UICONTROL OneDrive]**。
+1. 选择数据源。 可用选项包括 **[!UICONTROL Azure]**、**[!UICONTROL AWS]**、**[!UICONTROL Google Cloud]**、**[!UICONTROL Dropbox]** 和 **[!UICONTROL OneDrive]**。
 1. 在&#x200B;**[!UICONTROL “名称”]**&#x200B;字段中指定批量导入配置的名称。
 1. 指定数据源特定的凭据，如[“先决条件”](#prerequisites)中所述。
 1. 在&#x200B;**[!UICONTROL 源文件夹]**&#x200B;字段中提供包含数据源中资源的根文件夹的名称。
@@ -129,27 +129,27 @@ ht-degree: 100%
    >
    >如果您使用 Dropbox 作为数据源，请根据以下规则指定源文件夹路径：
    >* 如果在创建 Dropbox 应用程序时选择&#x200B;**整个 Dropbox**，并且包含资源的文件夹存在于 `https://www.dropbox.com/home/bulkimport-assets`，则在&#x200B;**[!UICONTROL 源文件夹]**&#x200B;字段中指定 `bulkimport-assets`。
-   >* 如果在创建 Dropbox 应用程序时选择&#x200B;**应用程序文件夹**，并且包含资源的文件夹存在于 `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`，则在&#x200B;**[!UICONTROL 源文件夹]**&#x200B;字段中指定 `bulkimport-assets`，其中 `BulkImportAppFolderScope` 表示应用程序的名称。这种情况下，自动在 `home` 之后添加 `Apps`。
+   >* 如果您在创建Dropbox应用程序时选择&#x200B;**应用程序文件夹**，并且包含资源的文件夹存在于`https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`，请在&#x200B;**[!UICONTROL Source文件夹]**&#x200B;字段中指定`bulkimport-assets`，其中`BulkImportAppFolderScope`引用应用程序的名称。`Apps` 在此例中是在`home`之后自动添加的。
 
 1. （可选）选择&#x200B;**[!UICONTROL 导入后删除源文件]**&#x200B;选项，以在文件导入到 [!DNL Experience Manager Assets] 后，从源数据存储中删除原始文件。
-1. 选择&#x200B;**[!UICONTROL “导入模式”。]**&#x200B;选择&#x200B;**[!UICONTROL “跳过”]**、**[!UICONTROL “代替”]**，或者&#x200B;**[!UICONTROL 创建版本。]**跳过模式是默认模式，在该模式下，如果资源已经存在，则摄取器会跳过导入该资源。
+1. 选择&#x200B;**[!UICONTROL “导入模式”。]** 选择&#x200B;**[!UICONTROL “跳过”]**、**[!UICONTROL “代替”]**，或者&#x200B;**[!UICONTROL 创建版本。]** 跳过模式是默认模式，在该模式下，如果资源已经存在，则摄取器会跳过导入该资源。
    ![导入源详细信息](assets/bulk-import-source-details.png)
 
-1. （可选）在&#x200B;**[!UICONTROL 元数据文件]**&#x200B;字段中指定要导入的元数据文件（以 CSV 格式提供）。元数据源文件必须位于源文件夹中。单击&#x200B;**[!UICONTROL 下一步]**，导航至&#x200B;**[!UICONTROL 位置和过滤器]**。
-1. 要使用&#x200B;**[!UICONTROL 资源目标文件夹]**&#x200B;字段在 DAM 中定义要导入资源的位置，请指定路径。例如：`/content/dam/imported_assets`。
+1. （可选）在&#x200B;**[!UICONTROL 元数据文件]**&#x200B;字段中指定要导入的元数据文件（以 CSV 格式提供）。 元数据源文件必须位于源文件夹中。 单击&#x200B;**[!UICONTROL 下一步]**，导航至&#x200B;**[!UICONTROL 位置和过滤器]**。
+1. 要使用&#x200B;**[!UICONTROL 资源目标文件夹]**&#x200B;字段在 DAM 中定义要导入资源的位置，请指定路径。 例如：`/content/dam/imported_assets`。
 1. （可选）在&#x200B;**[!UICONTROL “选择筛选器”]**&#x200B;部分，在&#x200B;**[!UICONTROL 按最小尺寸过滤]**&#x200B;字段中提供资源的最小文件大小（MB），以将其包括在摄取过程中。
 1. （可选）在&#x200B;**[!UICONTROL 按最大尺寸过滤]**&#x200B;字段中，以 MB 为单位提供资源的最大文件大小，以将其包括在摄取过程中。
-1. （可选）使用&#x200B;**[!UICONTROL 包括 MIME 类型]**&#x200B;字段选择要包含在摄取过程中的 MIME 类型。您可以在此字段中选择多种 MIME 类型。如果您未定义值，则所有 MIME 类型都会包含在摄取过程中。
+1. （可选）使用&#x200B;**[!UICONTROL 包括 MIME 类型]**&#x200B;字段选择要包含在摄取过程中的 MIME 类型。 您可以在此字段中选择多种 MIME 类型。 如果您未定义值，则所有 MIME 类型都会包含在摄取过程中。
 
-1. （可选）使用&#x200B;**[!UICONTROL 排除 MIME 类型]**&#x200B;字段选择要排除在摄取过程中的 MIME 类型。您可以在此字段中选择多种 MIME 类型。如果您未定义值，则所有 MIME 类型都会包含在摄取过程中。
+1. （可选）使用&#x200B;**[!UICONTROL 排除 MIME 类型]**&#x200B;字段选择要排除在摄取过程中的 MIME 类型。 您可以在此字段中选择多种 MIME 类型。 如果您未定义值，则所有 MIME 类型都会包含在摄取过程中。
 
    ![批量导入过滤器](assets/bulk-import-location.png)
 
-1. 单击&#x200B;**[!UICONTROL “下一个”。]**&#x200B;根据您的喜好选择以下选项之一：
+1. 单击&#x200B;**[!UICONTROL “下一个”。]** 根据您的喜好选择以下选项之一：
 
    * **[!UICONTROL 保存导入]**，暂时保存配置，以便稍后运行。
    * **[!UICONTROL 保存和运行导入]**，以保存配置并运行批量导入。
-   * **[!UICONTROL 保存并计划导入]**，以保存配置并计划稍后进行批量导入。您可以选择批量导入的频率，并设置导入的日期和时间。批量导入将根据所设置的日期和时间以选定的频率运行。
+   * **[!UICONTROL 保存并计划导入]**，以保存配置并计划稍后进行批量导入。 您可以选择批量导入的频率，并设置导入的日期和时间。 批量导入将根据所设置的日期和时间以选定的频率运行。
 
    ![执行批量导入](assets/save-run.png)
 
@@ -157,28 +157,30 @@ ht-degree: 100%
 
 ### 批量导入期间处理文件名 {#filename-handling-bulkimport-assets-view}
 
-当您批量导入资源或文件夹时，[!DNL Experience Manager Assets] 导入在导入源中存在的内容的完整结构。[!DNL Experience Manager] 遵循针对关资源和文件夹名称中特殊字符的内置规则，因此需要净化这些文件名。对于文件夹名称和资源名称，用户定义的标题保持不变并存储在 `jcr:title` 中。
+当您批量导入资源或文件夹时，[!DNL Experience Manager Assets]会导入导入源中存在的全部结构。[!DNL Experience Manager] 遵循资产和文件夹名称中特殊字符的内置规则，因此需要清理这些文件名。 对于文件夹名称和资源名称，用户定义的标题保持不变并存储在 `jcr:title` 中。
 
-批量导入期间，[!DNL Experience Manager] 查找现有文件夹以避免重复导入资源和文件夹，还验证在发生导入的父文件夹中应用的净化规则。如果在父文件夹中应用了净化规则，则将相同的规则应用于导入源。对于新导入，应用以下净化规则以管理资源的文件名和文件夹名称。
+批量导入期间，[!DNL Experience Manager] 查找现有文件夹以避免重复导入资源和文件夹，还验证在发生导入的父文件夹中应用的净化规则。 如果在父文件夹中应用了净化规则，则将相同的规则应用于导入源。 对于新导入，应用以下净化规则以管理资源的文件名和文件夹名称。
 
 有关在批量导入期间不允许使用的名称、处理资源名称和处理文件夹名称的详细信息，请参阅[批量导入期间处理文件名](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=zh-hans#filename-handling-bulkimport)。
 
 ## 查看现有的批量导入配置 {#view-import-configuration}
 
-若要查看现有的批量导入内容，请选择左侧窗格中的&#x200B;**[!UICONTROL 批量导入]**&#x200B;选项。批量导入页面会显示，其中包含&#x200B;**[!UICONTROL 已执行导入]**&#x200B;列表。<br>
-您还可以从下拉选项中查看**[!UICONTROL 已保存的导入]**&#x200B;和&#x200B;**[!UICONTROL 计划的导入]**。
+若要查看现有的批量导入内容，请选择左侧窗格中的&#x200B;**[!UICONTROL 批量导入]**&#x200B;选项。 此时将显示批量导入页面，其中包含&#x200B;**[!UICONTROL 已执行的导入]**&#x200B;的列表。<br>
+您还可以从下拉选项中查看**[!UICONTROL 保存的导入]**&#x200B;和&#x200B;**[!UICONTROL 计划的导入]**。
 
 ![保存批量导入配置](assets/bulk-import-options.png)
 
-<!-- If you select to save and run the import, the import configuration displays in the **[!UICONTROL Executed Imports]** tab.
+<!-- 
+If you select to save and run the import, the import configuration displays in the **[!UICONTROL Executed Imports]** tab.
 
 ![Save bulk import configuration](assets/bulk-import-executed.png)
 
-If you schedule an import, it displays in the **[!UICONTROL Scheduled Imports]** tab.  -->
+If you schedule an import, it displays in the **[!UICONTROL Scheduled Imports]** tab.  
+-->
 
 ## 编辑批量导入配置 {#edit-import-configuration}
 
-要编辑配置详情，请单击与配置名称相对应的![“更多”图标](assets/do-not-localize/more-icon.svg)，然后单击&#x200B;**[!UICONTROL 编辑]**。执行编辑操作时无法编辑配置的标题和导入数据源。您可以使用“已执行”、“已计划”或“已保存的导入”选项卡编辑配置。
+要编辑配置详情，请单击与配置名称相对应的![“更多”图标](assets/do-not-localize/more-icon.svg)，然后单击&#x200B;**[!UICONTROL 编辑]**。 执行编辑操作时无法编辑配置的标题和导入数据源。 您可以使用“已执行”、“已计划”或“已保存的导入”选项卡编辑配置。
 
 ![编辑批量导入配置](assets/edit-bulk-import.png)
 
@@ -186,21 +188,21 @@ If you schedule an import, it displays in the **[!UICONTROL Scheduled Imports]**
 
 要计划一次性或定期批量导入，请执行以下步骤：
 
-1. 单击对应于&#x200B;**[!UICONTROL 已执行的导入]**&#x200B;或&#x200B;**[!UICONTROL 已保存的导入]**&#x200B;选项卡中可用的配置名称的![“更多”图标](assets/do-not-localize/more-icon.svg)，然后单击&#x200B;**[!UICONTROL 计划]**。您也可以通过导航到&#x200B;**[!UICONTROL ”已计划的导入“]**&#x200B;选项卡，并单击&#x200B;**[!UICONTROL ”计划“]**&#x200B;来重新计划当前计划的导入。
+1. 单击对应于&#x200B;**[!UICONTROL 已执行的导入]**&#x200B;或&#x200B;**[!UICONTROL 已保存的导入]**&#x200B;选项卡中可用的配置名称的![“更多”图标](assets/do-not-localize/more-icon.svg)，然后单击&#x200B;**[!UICONTROL 计划]**。 您也可以通过导航到&#x200B;**[!UICONTROL ”已计划的导入“]**&#x200B;选项卡，并单击&#x200B;**[!UICONTROL ”计划“]**&#x200B;来重新计划当前计划的导入。
 
-1. 设置一次性摄取或安排每小时、每天或每周的摄取计划。单击&#x200B;**[!UICONTROL “提交”。]**
+1. 设置一次性摄取或安排每小时、每天或每周的摄取计划。 单击&#x200B;**[!UICONTROL “提交”。]**
 
    ![计划批量导入配置](assets/bulk-import-schedule.png)
 
 ## 执行导入健康检查 {#import-health-check}
 
-要验证与数据源的连接，请单击与配置名称相对应的![“更多”图标](assets/do-not-localize/more-icon.svg)，然后单击&#x200B;**[!UICONTROL 检查]**。如果连接成功，Experience Manager Assets 将会显示以下消息：
+要验证与数据源的连接，请单击与配置名称相对应的![“更多”图标](assets/do-not-localize/more-icon.svg)，然后单击&#x200B;**[!UICONTROL 检查]**。 如果连接成功，Experience Manager Assets 将会显示以下消息：
 
 ![批量导入健康检查](assets/bulk-import-health-check.png)
 
 ## 在执行导入之前执行练习 {#dry-run-bulk-import}
 
-单击与配置名称对应的![“更多”图标](assets/do-not-localize/more-icon.svg)，然后单击&#x200B;**[!UICONTROL 练习]**，以为“批量导入”任务调用测试运行。Experience Manager Assets 显示有关“批量导入”作业的以下详细信息：
+单击与配置名称对应的![“更多”图标](assets/do-not-localize/more-icon.svg)，然后单击&#x200B;**[!UICONTROL 练习]**，以为“批量导入”任务调用测试运行。 Experience Manager Assets 显示有关“批量导入”作业的以下详细信息：
 
 ![批量导入健康检查](assets/bulk-import-dry-run.png)
 

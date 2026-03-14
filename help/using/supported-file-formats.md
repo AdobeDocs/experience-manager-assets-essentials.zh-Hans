@@ -1,12 +1,12 @@
 ---
 title: 支持的文件格式
 description: ' [!DNL Assets Essentials] 的各种用例支持的文件格式'
-role: User,Leader,Admin,Architect,Developer
+role: User,Leader,Admin,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: 243a41aef81cd1fdcbad8f4355fe2d888db394d1
-workflow-type: ht
-source-wordcount: '527'
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
+workflow-type: tm+mt
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
@@ -25,17 +25,18 @@ ht-degree: 100%
 
 [!DNL Assets Essentials] 还支持各大领先相机制造商的各种 Camera Raw 文件，包括 Canon (CR2/CR3)、Nikon (NEF)、Sony (SRW/SRF)、Fujifilm (RAF)、Olympus (ORF) 等，此功能由 Adobe Camera Raw 提供支持。
 
-根据用例和功能，对各种文件类型的支持程度不同，如下所述：使用图例了解支持级别。
+根据用例和功能，对各种文件类型的支持程度不同，如下所述： 使用图例了解支持级别。
 
 | 支持级别 | 描述 |
 |-------------------|-------------------------|
 | ✓ | 支持 |
-| ✓ ‡ | 有条件支持 |
+| ✓‡ | 有条件支持 |
 | − | 不适用 |
 
 ## 添加、上传和查看资源 {#support-to-upload-view}
 
-<!-- TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
+<!-- 
+TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
 -->
 
 | 资源类型 | [浏览](/help/using/navigate-view.md) | 复制 | [上传](/help/using/add-delete.md) | 创建 | [删除](/help/using/add-delete.md#delete-assets) | 详细信息 | 图像缩放 | [最近查看的项目](/help/using/navigate-view.md) |
@@ -43,12 +44,13 @@ ht-degree: 100%
 | 栅格图像 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | RAW 文件 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | 文件夹 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | − | − |
-| MP4 视频 | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
+| MP4 视频 | ✓ | ✓ | ✓ | − | ✓ | ✓‡ | − | ✓ |
 | PDF | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
-| PSD、AI、PSB和 INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
+| PSD、AI、PSB和 INDD | ✓ | ✓ | ✓ | − | ✓ | ✓‡ | − | ✓ |
 | 其他二进制文件 | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
 
-<!-- Hiding CC Libraries (considered beta) as per PM feedback.
+<!-- 
+Hiding CC Libraries (considered beta) as per PM feedback.
 | CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
 -->
 
@@ -57,7 +59,7 @@ ht-degree: 100%
 | 资源类型 | [下载](/help/using/manage-organize.md#download) | 拖放 | [图像编辑器](/help/using/edit-images.md) | [搜索](/help/using/search.md) | [智能标记](/help/using/metadata.md#tags) | [重命名](/help/using/manage-organize.md) | [版本](/help/using/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
 | 栅格图像 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| RAW 文件 | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ | ✓ |
+| RAW 文件 | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | 文件夹 | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 | 视频 | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | CC Libraries | − | − | − | − | − | ✓ | ✓ |
@@ -104,7 +106,8 @@ ht-degree: 100%
 
 [!DNL Adobe Asset Link] 的用户可以从支持的 [!DNL Adobe Creative Cloud] 桌面应用程序上传文件，并将其签入（上传新版本）[!DNL Assets Essentials] 存储库中。
 
-<!-- TBD: Saving the template table separately for later use.
+<!-- 
+TBD: Saving the template table separately for later use.
 | Asset type    | Features |
 |---------------|----------|
 | Raster images |          |
@@ -127,4 +130,4 @@ ht-degree: 100%
 
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
