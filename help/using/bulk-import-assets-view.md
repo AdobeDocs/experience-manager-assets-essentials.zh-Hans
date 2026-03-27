@@ -166,7 +166,7 @@ ht-degree: 92%
 ## 查看现有的批量导入配置 {#view-import-configuration}
 
 若要查看现有的批量导入内容，请选择左侧窗格中的&#x200B;**[!UICONTROL 批量导入]**&#x200B;选项。 此时将显示批量导入页面，其中包含&#x200B;**[!UICONTROL 已执行的导入]**&#x200B;的列表。<br>
-您还可以从下拉选项中查看**[!UICONTROL 保存的导入]**&#x200B;和&#x200B;**[!UICONTROL 计划的导入]**。
+您还可以从下拉选项中查看&#x200B;**[!UICONTROL 保存的导入]**&#x200B;和&#x200B;**[!UICONTROL 计划的导入]**。
 
 ![保存批量导入配置](assets/bulk-import-options.png)
 
