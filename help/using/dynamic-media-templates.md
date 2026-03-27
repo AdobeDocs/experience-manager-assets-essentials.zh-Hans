@@ -6,8 +6,8 @@ role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
 source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
 workflow-type: tm+mt
-source-wordcount: '2810'
-ht-degree: 2%
+source-wordcount: '3000'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="assets_dm_templates"
 >title="管理 Dynamic Media 模板"
->abstract="通过易于使用的所见即所得界面，即时创建并个性化设置图像和文本横幅，并将 Dynamic Media URL 嵌入任何第一方或第三方应用程序中，以打造极具吸引力的体验。尝试一下！"
+>abstract="通过易于使用的所见即所得界面，即时创建并个性化设置图像和文本横幅，并将 Dynamic Media URL 嵌入任何第一方或第三方应用程序中，以打造极具吸引力的体验。 尝试一下！"
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="观看视频"
 
 使用WYSIWYG模板编辑器创建Dynamic Media模板，并包含多个图像和文本图层，以快速创建横幅和活页并在下游应用程序中使用它们。 您还可以向模板中包含的图像和文本图层添加参数，并使用[Dynamic Media URL](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)实时更新这些图层的值。
@@ -167,7 +167,7 @@ Dynamic Media模板的一些主要优势包括：
 通过更改面板&#x200B;**[!UICONTROL 文本]**&#x200B;部分下相应字段中的值，将文本格式设置为所需的字体、大小、颜色、样式、对齐方式（在图层中）。
 
 **[!UICONTROL 智能文本大小调整]**&#x200B;确保包含&#x200B;**[!UICONTROL 智能文本大小调整]** ([Copyfitting](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting))以通过智能调整其字体大小和长度来优化适应指定区域中的任何文本。 此功能可防止文本溢出，或最大限度地减少文本底部的额外空格。
-![立即创建内容](/help/using/assets/smart-text-resize.png)
+![内容创建时间](/help/using/assets/smart-text-resize.png)
 
 ### 参数化图层 {#parameterise-a-layer}
 
@@ -191,7 +191,7 @@ Dynamic Media模板的一些主要优势包括：
 **X：** Include可通过更改URL中的参数值，沿图层中心线水平移动图层，平行于模板平面的X轴。
 **Y：**&#x200B;包含以通过更改URL中的参数值沿图层中心线垂直移动图层，平行于模板平面的Y轴。
 **宽度：**&#x200B;包含可通过更改URL中的参数值来调整图层的宽度。
-**高度：**&#x200B;包含可通过更改URL中的参数值来调整图层的高度。
+**高度：**&#x200B;包含以通过更改URL中的参数值来调整图层的高度。
 **隐藏：**&#x200B;包含以使用0（显示）和1（隐藏）来隐藏或显示模板中的图层。
 **Source：**&#x200B;包含以通过更改URL中参数值中的图像路径来用新图像替换图层的图像。
 
@@ -200,8 +200,8 @@ Dynamic Media模板的一些主要优势包括：
 包括以下参数，以便通过更新URL中的参数值从URL中编辑文本、其字体、颜色和大小。
 
 **文本：**&#x200B;包含以从URL更新文本。
-**字体系列：**&#x200B;包含以从URL更新文本的字体。
-**字体大小：**&#x200B;包含以从URL更新文本的字体大小。
+**字体系列：** Include可从URL更新文本的字体。
+**字体大小：** Include用于从URL更新文本的字体大小。
 **文本颜色：**&#x200B;包含以从URL更新文本的字体颜色。
 
 ### 将层分组以同时控制其可见性{#group-layers}
@@ -247,7 +247,7 @@ Dynamic Media模板的一些主要优势包括：
 
 要复制预览中显示的已发布模板的URL，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 复制URL]**。 将显示&#x200B;**[!UICONTROL 复制URL]**&#x200B;对话框。 选择并复制显示的URL。 请注意，URL中的第一个参数在问号&#x200B;**(？)之后开始**&#x200B;和一个键值对以&#x200B;**$**&#x200B;开头，以&#x200B;**&amp;**&#x200B;结尾。 键和值用等号&#x200B;**(=)**&#x200B;分隔，键在左侧，值在右侧。
+1. 单击&#x200B;**[!UICONTROL 复制URL]**。 将显示&#x200B;**[!UICONTROL 复制URL]**&#x200B;对话框。 选择并复制显示的URL。 请注意，URL中的第一个参数在问号&#x200B;**(？)**&#x200B;之后开始 键值对以&#x200B;**$**&#x200B;开头，以&#x200B;**&amp;**&#x200B;结尾。 键和值用等号&#x200B;**(=)**&#x200B;分隔，键在左侧，值在右侧。
 1. 将此URL粘贴到浏览器选项卡中，并查看您的实时模板。 通过直接更新URL中所需参数的值（键值）实时自定义模板，如&#x200B;**预览和发布**&#x200B;部分的[步骤2](#preview-and-publish-template-and-copy-template-deliver-url)所示。
 1. 使用此URL快速推销您的产品或服务。 您可以与客户共享此URL，或将其集成到您的网站或任何下游第三方应用程序，以显示横幅并实时更新以反映持续优惠。
 
