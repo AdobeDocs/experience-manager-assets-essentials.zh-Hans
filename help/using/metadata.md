@@ -31,7 +31,7 @@ ht-degree: 96%
 
 ![查看资产的元数据](assets/metadata-view1.png)
 
-*图：要查看资产及其元数据，请在工具栏中单击&#x200B;**[!UICONTROL 详情]**&#x200B;或者双击该资产。*
+*图：要查看资产及其元数据，请在工具栏中单击&#x200B;**[!UICONTROL 详情]**或者双击该资产。*
 
 标题、描述和上传日期等基本元数据在[!UICONTROL 基本]选项卡中提供。 [!UICONTROL 高级]选项卡包含更多高级元数据，例如相机型号、镜头详细信息和地理位置标记。 [!UICONTROL 标记]选项卡包含根据图像的内容自动应用的标记。
 
@@ -47,7 +47,7 @@ ht-degree: 96%
 
 ![查看资产的智能标记](assets/metadata-view-tags.png)
 
-*图：要查看资产的智能标记，请在工具栏中单击&#x200B;**[!UICONTROL 详情]**&#x200B;或者双击该资产。*
+*图：要查看资产的智能标记，请在工具栏中单击&#x200B;**[!UICONTROL 详情]**或者双击该资产。*
 
 智能标记还包含以百分比显示的置信度分数。 它指示与所应用标记对应的置信度。 您可以审核自动应用的智能标记。
 
@@ -68,7 +68,7 @@ ht-degree: 96%
 >title="元数据表单"
 >abstract="[!DNL Experience Manager Assets] 默认提供许多标准元数据字段。 组织有其他元数据需求时，就需要更多元数据字段来添加业务特有的元数据。 通过元数据表单，可将自定义元数据字段添加到资产的“详细信息”页面。 业务特有的元数据改善对其资产的治理和发现。"
 
-默认情况下，Assets Essentials 提供了多个标准元数据字段。 组织有额外的元数据需求，就需要更多元数据字段以添加业务特有的元数据。 企业可以利用元数据表单，将自定义元数据字段添加到资源的[!UICONTROL 详情]页面。 业务特有的元数据改善对其资产的治理和发现。 您可以从头开始创建表单，也可以重新利用现有表单。
+默认情况下，Assets Essentials 提供了多个标准元数据字段。 组织有额外的元数据需求，就需要更多元数据字段以添加业务特有的元数据。 企业可以利用元数据表单，将自定义元数据字段添加到资源的[!UICONTROL 详情]页面。 特定于业务的元数据可以改进其资源的管理和发现。 您可以从头开始创建表单，也可以重新利用现有表单。
 
 您可以为不同的资产类型（不同的 MIME 类型）配置元数据表单。 使用与文件的 MIME 类型相同的表单名称。 Assets Essentials 会自动将上载的资产 MIME 类型与表单名称相匹配，并根据表单字段更新上载资产的元数据。
 
@@ -213,13 +213,13 @@ See [Assign metadata form to folders](#assign-metadata-form-folder). Follow the 
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，了解如何在Assets Essentials中管理元数据表单](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=zh-Hans)
+* [观看视频，了解如何在Assets Essentials中管理元数据表单](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html)
 
 * 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
 
 <!-- 
 TBD: Cannot create a form using the second option. Documenting only the first option for now.

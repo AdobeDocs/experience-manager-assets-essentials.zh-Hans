@@ -1,10 +1,10 @@
 ---
 title: 管理收藏集
-description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。使用收藏集可在用户之间共享资源。
+description: 收藏集是 Experience Manager Assets Essentials 中的一组资源。 使用收藏集可在用户之间共享资源。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 441136b23281185b82a5767aefc2c382512501a7
-workflow-type: ht
-source-wordcount: '907'
+workflow-type: tm+mt
+source-wordcount: '915'
 ht-degree: 100%
 
 ---
@@ -14,17 +14,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="assets_collections"
 >title="管理收藏集"
->abstract="收藏集是 Assets Essentials 中的一组资源、文件夹或其他收藏集。使用收藏集可在用户之间共享资源。收藏集与文件夹的不同之处是可包含来自不同位置的资源。您可以与一个用户共享多个收藏集。每个收藏集都包含对资源的引用。收藏集中会保持资源的引用完整性。"
+>abstract="收藏集是 Assets Essentials 中的一组资源、文件夹或其他收藏集。 使用收藏集可在用户之间共享资产。 收藏集与文件夹的不同之处是可包含来自不同位置的资产。 您可以与一个用户共享多个收藏集。 每个收藏集都包含对资产的引用。 收藏集中会保持资产的引用完整性。"
 
-收藏集是 Adobe Experience Manager Assets Essentials 中的一组资源、文件夹或其他收藏集。使用收藏集可在用户之间共享资源。
+收藏集是 Adobe Experience Manager Assets Essentials 中的一组资源、文件夹或其他收藏集。 使用收藏集可在用户之间共享资源。
 
-与文件夹不同，一个收藏集可以包含来自不同位置的资源。
+收藏集与文件夹的不同之处是可包含来自不同位置的资产。
 
 <!--
 You can share collections with various users that are assigned different levels of privileges, including viewing, editing, and so on.
 -->
 
-您可以与一个用户共享多个收藏集。每个收藏集都包含对资源的引用。收藏集中会保持资源的引用完整性。
+您可以与一个用户共享多个收藏集。 每个收藏集都包含对资产的引用。 收藏集中会保持资产的引用完整性。
 
 ![收藏集](assets/collections.png)
 
@@ -58,7 +58,7 @@ You can share collections with various users that are assigned different levels 
 
 1. 指定收藏集的标题和可选描述。
 
-1. 选择需要创建专用收藏集还是公共收藏集。公共收藏集可供所有用户查看和编辑。但是，专用收藏集仅供创建者和具有管理员权限的用户使用。
+1. 选择需要创建专用收藏集还是公共收藏集。 公共收藏集可供所有用户查看和编辑。 但是，专用收藏集仅供创建者和具有管理员权限的用户使用。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以创建收藏集。
 
@@ -94,7 +94,7 @@ You can share collections with various users that are assigned different levels 
 
 ## 管理智能收藏集 {#manage-smart-collection}
 
-将搜索结果保存为智能收藏集以动态更新收藏集内容。如果有添加到 Assets Essentials 存储库的资源符合在创建智能收藏集时定义的搜索条件，则将在打开智能收藏集时自动更新智能收藏集的内容。
+将搜索结果保存为智能收藏集以动态更新收藏集内容。 如果有添加到 Assets Essentials 存储库的资源符合在创建智能收藏集时定义的搜索条件，则将在打开智能收藏集时自动更新智能收藏集的内容。
 
 ### 创建智能收藏集 {#create-smart-collection}
 
@@ -108,7 +108,7 @@ You can share collections with various users that are assigned different levels 
 
 1. 在[!UICONTROL 创建智能收藏集]对话框上，指定智能收藏集的标题和描述。
 
-1. 如果需要所有用户均可访问该收藏集，请选择&#x200B;**[!UICONTROL 公共收藏集]**。如果需要一组数量有限的用户访问该收藏集，请选择&#x200B;**[!UICONTROL 专用收藏集]**。
+1. 如果需要所有用户均可访问该收藏集，请选择&#x200B;**[!UICONTROL 公共收藏集]**。 如果需要一组数量有限的用户访问该收藏集，请选择&#x200B;**[!UICONTROL 专用收藏集]**。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以创建该智能收藏集。
 
@@ -154,13 +154,13 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 1. 单击左边栏中的&#x200B;**[!UICONTROL 收藏集]**，选择一个收藏集，然后单击&#x200B;**[!UICONTROL 详细信息]**。
 1. 使用&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡查看收藏集元数据。
-1. 根据需要修改元数据字段。您可以修改[!UICONTROL 标题]和[!UICONTROL 描述]字段。
+1. 根据需要修改元数据字段。 您可以修改[!UICONTROL 标题]和[!UICONTROL 描述]字段。
 
    ![收藏集元数据](assets/collection-metadata.png)
 
 ## 共享收藏集的链接 {#share-collection-links}
 
-[!DNL Assets Essentials] 使您能够生成链接并与无权访问 [!DNL Assets Essentials] 应用程序的外部利益相关者共享收藏集及其资源。您可以定义链接的过期日期，然后使用您喜欢的通信方式（如电子邮件或消息服务）与他人共享。链接的接收者可以预览并下载资源。
+[!DNL Assets Essentials] 使您能够生成链接并与无权访问 [!DNL Assets Essentials] 应用程序的外部利益相关者共享收藏集及其资源。 您可以定义链接的过期日期，然后使用您喜欢的通信方式（如电子邮件或消息服务）与他人共享。 链接的接收者可以预览并下载资源。
 
 ![共享资源链接](assets/share-link-collections.png)
 
@@ -190,7 +190,7 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 ## 管理私人收藏集的权限{#manage-permissions-private-collection}
 
-您可以允许管理员管理存储库中专用收藏集的[访问级别](/help/using/manage-permissions.md#manage-permissions-on-folders)。您可以向用户组或用户分配诸如 `Can View` 和 `Can Edit` 等权限。您还可以将权限管理权限委派给用户组。创建专用收藏集的用户是这些收藏的所有者。他们可以使用“[!UICONTROL 管理权限]”操作向其他用户授予访问权限。此外，管理员可以查看和管理 [!DNL Experience Manager] 存储库中专用收藏集的权限。
+您可以允许管理员管理存储库中专用收藏集的[访问级别](/help/using/manage-permissions.md#manage-permissions-on-folders)。 您可以向用户组或用户分配诸如 `Can View` 和 `Can Edit` 等权限。 您还可以将权限管理权限委派给用户组。 创建专用收藏集的用户是这些收藏的所有者。 他们可以使用“[!UICONTROL 管理权限]”操作向其他用户授予访问权限。 此外，管理员可以查看和管理 [!DNL Experience Manager] 存储库中专用收藏集的权限。
 <!--
 >[!NOTE]
 >
@@ -206,4 +206,4 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
