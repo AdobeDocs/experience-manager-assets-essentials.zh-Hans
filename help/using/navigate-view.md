@@ -1,12 +1,16 @@
 ---
-title: '[!DNL Assets Essentials]用户界面'
+title: '[!DNL Assets Essentials] 用户界面'
 description: 了解  [!DNL Assets Essentials] 中的用户界面并在其中导航。
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+TQID: https://experienceleague.adobe.com/W1zIfwgI5yZzAqjES-EZZOe7qKnB15huoHvfi--Xi2o
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 98%
+source-wordcount: 1107
+ht-degree: 100%
 
 ---
 
@@ -36,8 +40,8 @@ ht-degree: 98%
 * [我的工作区](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=zh-hans)：Assets 现在包括一个可自定义的工作区，此工作区提供各种小组件，以方便访问 Assets 用户界面的关键区域以及与您密切相关的信息。 此页面充当一个综合解决方案以提供您工作项的概述，并且通过它可快速地访问关键工作流。 由于能够更方便地访问这些选项，因此可以提高您的效率和内容速度。
 * [任务](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=zh-hans)：您可以在&#x200B;**我的任务**&#x200B;选项卡中查看分配给您的任务。 而您创建的任务可以在&#x200B;**分配的任务**&#x200B;选项卡中查看。 此外，您完成的任务位于&#x200B;**完成的任务**&#x200B;选项卡中。
 * [资源](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=zh-hans)：以树视图列出您有权访问的所有文件夹。
-* **最近查看过的项目**：您最近查看过的资源列表。[!DNL Assets Essentials] 仅显示您预览过的资源。 它不显示您在浏览存储库文件或文件夹时滚动浏览的资源。
-* [收藏集](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=zh-hans)：收藏集是 Adobe Experience Manager Assets Essentials 中的一组资源、文件夹或其他收藏集。 使用收藏集可在用户之间共享资产。 与文件夹不同，一个收藏集可以包含来自不同位置的资源。 您可以与一个用户共享多个收藏集。 每个收藏集都包含对资产的引用。 收藏集中会保持资产的引用完整性。
+* **最近查看过的项目**：您最近查看过的资源列表。 [!DNL Assets Essentials] 仅显示您预览过的资源。 它不显示您在浏览存储库文件或文件夹时滚动浏览的资源。
+* [收藏集](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=zh-hans)：收藏集是 Adobe Experience Manager Assets Essentials 中的一组资源、文件夹或其他收藏集。 使用收藏集可在用户之间共享资产。 收藏集与文件夹的不同之处是可包含来自不同位置的资产。 您可以与一个用户共享多个收藏集。 每个收藏集都包含对资产的引用。 收藏集中会保持资产的引用完整性。
 
 * [洞察](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=zh-hans#view-live-statistics)：在 [!DNL Assets Essentials] 中可以在仪表板上查看实时洞察。 通过 Assets Essentials 的“洞察”仪表板，可查看 Assets Essentials 环境的实时数据。 可查看过去 30 天或过去 12 个月的实时事件指标。
 
@@ -109,7 +113,7 @@ Other use cases after previewing.
 
 * 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >

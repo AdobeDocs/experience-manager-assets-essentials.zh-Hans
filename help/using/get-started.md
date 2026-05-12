@@ -3,10 +3,15 @@ title: 开始使用 [!DNL Assets Essentials]
 description: 如何访问  [!DNL Assets Essentials]，其登录体验，支持的用例以及已知问题
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
+TQID: https://experienceleague.adobe.com/jZWd3neYHmifmT7YVTMymgAfMK88N-9220D4Ek-7rjY
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 97%
+source-wordcount: 445
+ht-degree: 100%
 
 ---
 
@@ -46,24 +51,24 @@ Adobe 配置解决方案并将您的组织中的指定人员添加作为管理�
 
 | 用户任务 | 功能和操作方法信息 |
 |-----|------|
-| 浏览和查看资源 | <ul> <li>[浏览存储库](/help/using/navigate-view.md#view-assets-and-details) </li> <li> [预览资源](/help/using/navigate-view.md#preview-assets) <li> [查看资源的演绎版](/help/using/add-delete.md#renditions) </li> <li>[查看资源的版本](/help/using/manage-organize.md#view-versions)</li></ul> |
-| 添加新资源 | <ul> <li>[上传新资源和文件夹](/help/using/add-delete.md#add-assets)</li> <li>[监控上传进度和管理上传](/help/using/add-delete.md#upload-progress)</li> <li>[解决重复资源](/help/using/add-delete.md#resolve-upload-fails)</li> </ul> |
+| 浏览和查看资源 | <ul> <li>[浏览存储库](/help/using/navigate-view.md#view-assets-and-details) </li> <li> [预览资产](/help/using/navigate-view.md#preview-assets) <li> [查看资产的演绎版](/help/using/add-delete.md#renditions) </li> <li>[查看资源的版本](/help/using/manage-organize.md#view-versions)</li></ul> |
+| 添加新资源 | <ul> <li>[上传新资产和文件夹](/help/using/add-delete.md#add-assets)</li> <li>[监控上传进度和管理上传](/help/using/add-delete.md#upload-progress)</li> <li>[解决重复资源](/help/using/add-delete.md#resolve-upload-fails)</li> </ul> |
 | 更新资源或相关信息 | <ul> <li>[编辑图像](/help/using/edit-images.md)</li> <li>[创建版本](/help/using/manage-organize.md#create-versions)和[查看版本](/help/using/manage-organize.md#view-versions)</li> <li>[编辑图像](/help/using/edit-images.md)</li> </ul> |
-| 编辑资源 | <ul> <li>[使用 Adobe Photoshop Express 的浏览器中编辑](/help/using/edit-images.md)</li> <li>[针对社交媒体配置文件裁切](/help/using/edit-images.md#crop-straighten-images)</li> <li>[查看和管理版本](/help/using/manage-organize.md#view-versions)</li> <li>[使用 [!DNL Adobe Asset Link]](/help/using/integration.md#integrations)</ul></ul> |
-| 在存储库中搜索资源 | <ul> <li>[在特定文件夹中搜索](/help/using/search.md#refine-search-results)</li> <li>[保存的搜索](/help/using/search.md#saved-search)</li> <li>[搜索最近查看的资源](/help/using/search.md)</li> <li>[全文搜索](/help/using/search.md) |
-| 下载资源 | <ul> <li> [预览资源](/help/using/navigate-view.md#preview-assets) </li> <li> [下载资源](/help/using/manage-organize.md#download) <li> [下载演绎版](/help/using/add-delete.md#renditions) </li></ul> |
+| 编辑资源 | <ul> <li>[使用 Adobe Photoshop Express 在浏览器中编辑](/help/using/edit-images.md)</li> <li>[针对社交媒体配置文件裁切](/help/using/edit-images.md#crop-straighten-images)</li> <li>[查看和管理版本](/help/using/manage-organize.md#view-versions)</li> <li>[使用 [!DNL Adobe Asset Link]](/help/using/integration.md#integrations)</ul></ul> |
+| 在存储库中搜索资源 | <ul> <li>[在特定文件夹中搜索](/help/using/search.md#refine-search-results)</li> <li>[保存的搜索](/help/using/search.md#saved-search)</li> <li>[搜索最近查看的资产](/help/using/search.md)</li> <li>[全文搜索](/help/using/search.md) |
+| 下载资源 | <ul> <li> [预览资产](/help/using/navigate-view.md#preview-assets) </li> <li> [下载资产](/help/using/manage-organize.md#download) <li> [下载演绎版](/help/using/add-delete.md#renditions) </li></ul> |
 | 元数据操作 | <ul> <li>[查看详细的元数据](/help/using/metadata.md) </li> <li> [更新元数据](/help/using/metadata.md#update-metadata)</li> <li> [创建新元数据表单](/help/using/metadata.md#metadata-forms) </li> </ul> |
-| 与其他解决方案集成 | <ul> <li>[在  [!DNL Adobe Journey Optimizer]](/help/using/integration.md) 中使用资源选择器</li> <li> [!DNL Creative Cloud][&#128279;](/help/using/integration.md) 的 [!DNL Adobe Asset Link] </li> <li>[与 [!DNL Adobe Workfront]](/help/using/integration.md) 集成</li> </ul> |
+| 与其他解决方案集成 | <ul> <li>[在  [!DNL Adobe Journey Optimizer]](/help/using/integration.md) 中使用资产选择器</li> <li> [!DNL Creative Cloud]](/help/using/integration.md) 的 [[!DNL Adobe Asset Link] </li> <li>[与 [!DNL Adobe Workfront]](/help/using/integration.md) 集成</li> </ul> |
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，了解如何开始使用Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html?lang=zh-Hans)
+* [观看视频，了解如何开始使用 Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html)
 
 * 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
 
 
 <!--

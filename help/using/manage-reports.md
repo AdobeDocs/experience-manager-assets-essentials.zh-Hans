@@ -2,10 +2,14 @@
 title: 在 Assets Essentials 中管理报告
 description: 访问 Assets Essentials 的报告部分中的数据，即可评估产品和功能使用情况并洞察关键成功指标。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 810bb62cd5eb664e36a6ea267050dd025828e900
+TQID: https://experienceleague.adobe.com/fTzTJd0JhjMbexn1ffynNQM7wx-nX-8Os1Y-c79FKdo
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 96%
+source-wordcount: 1243
+ht-degree: 100%
 
 ---
 
@@ -37,7 +41,7 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
 
 **要创建报告，请执行以下操作：**
 
-1. 导航到&#x200B;**报告**&#x200B;并点击&#x200B;**创建报告**（在右上角）。 **创建报告**&#x200B;对话框会显示以下字段：
+1. 导航到&#x200B;**报告**&#x200B;并点击&#x200B;**创建报告**（在右上角）。 **创建报告**对话框会显示以下字段：
    ![创建报告](/help/using/assets/executed-reports1.svg)
 
    **在“配置”选项卡中：**
@@ -124,8 +128,8 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
 
 ## 查看和下载现有报告 {#View-and-download-existing-report}
 
-现有报告显示在&#x200B;**已执行报告** 选项卡下。 点击&#x200B;**报告**&#x200B;并选择&#x200B;**已执行报告**&#x200B;可查看所有已创建的报告，其状态为&#x200B;**已完成**，表示这些报告可随时下载。 要以CSV格式下载报告或删除报告，请选择报告行并选择&#x200B;**下载CSV**&#x200B;或&#x200B;**删除**。
-![查看和下载现有报表](/help/using/assets/view-download-existing-report.png)
+现有报告显示在&#x200B;**已执行报告** 选项卡下。 点击&#x200B;**报告**&#x200B;并选择&#x200B;**已执行报告**&#x200B;可查看所有已创建的报告，其状态为&#x200B;**已完成**，表示这些报告可随时下载。 要以 CSV 格式下载报告或删除报告，请选择报告行并选择&#x200B;**下载 CSV** 或&#x200B;**删除**。
+![查看和下载现有报告](/help/using/assets/view-download-existing-report.png)
 
 ## 计划一份报告 {#schedule-report}
 
@@ -139,7 +143,7 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
    1. **标题：**&#x200B;为报告添加标题。
    1. **描述**：为报告添加可选描述。
    1. **选择文件夹路径：**&#x200B;选择一个文件夹路径，为将来上传到该特定文件夹或从该文件夹下载的资产生成报告。
-   1. 切换&#x200B;**计划报告：**&#x200B;切换以将报告安排到稍后时间或重复出现。
+   1. 切换&#x200B;**计划报告：**切换以将报告安排到稍后时间或重复出现。
       ![计划报告](/help/using/assets/schedule-reports1.svg)
 
    1. **选择频率：**&#x200B;指定生成报告的时间间隔（例如，每天、每周、每月、每年或一次），并设置运行报告的日期和时间以及重复出现的结束日期。 对于一次性报告，请选择 AEM 环境中所选活动类型的报告的日期范围。 例如，如果需要某月 10 日至 29 日（未来日期）的下载资产报告，请在&#x200B;**选择日期间隔**&#x200B;字段中选择这些日期。
@@ -150,7 +154,7 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
 
 ## 查看计划报告 {#view-scheduled-reports}
 
-计划报告以系统组织的方式在&#x200B;**计划报告**&#x200B;选项卡下显示。 每个计划报告的所有已完成报告都存储在一个报告文件夹中。 点击![展开/折叠](/help/using/assets/expand-icon1.svg)即可查看已完成的报告。 例如，如果您安排了每日报告，所有已完成的报告都会分组放在一个文件夹中。 这种组织方式简化了报告的导航和查找。 要查看计划报告，请点击&#x200B;**报告**，然后点击&#x200B;**计划报告**。 所有的计划报告状态都会显示为进行中或已完成。 已完成的报告可供下载。
+计划报告以系统组织的方式在&#x200B;**计划报告**&#x200B;选项卡下显示。 每个计划报告的所有已完成报告都存储在一个报告文件夹中。 点击![展开/折叠](/help/using/assets/expand-icon1.svg)即可查看已完成的报告。 例如，如果您安排了每日报告，所有已完成的报告都会分组放在一个文件夹中。 这种组织方式简化了报告的导航和查找。 要查看计划报告，请点击&#x200B;**报告**，然后点击&#x200B;**计划报告**。 所有的计划报告状态都会显示为进行中或已完成。 已完成的报告可随时下载。
 ![计划报告](/help/using/assets/scheduled-reports-tab.png)
 
 ## 编辑和取消计划报告 {#edit-cancel-scheduled-reports}
@@ -163,7 +167,7 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
 
 ### 恢复计划 {#resume-schedule}
 
-要恢复已取消的计划，请选择报告行并点击&#x200B;**恢复计划**。 恢复后，将再次显示下一个运行时条目，状态将显示为正在进行。
+要恢复已取消的计划，请选择报告行并点击&#x200B;**恢复计划**。 恢复后，将再次显示下一个运行时间条目，状态显示为进行中。
 ![恢复计划](/help/using/assets/resume-schedule.png)
 
 >[!NOTE]
@@ -197,7 +201,7 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
-* **热门搜索**：以表格格式查看过去 30 天或 12 个月内在 Assets Essentials 环境中搜索最多的术语以及这些术语的搜索次数。
+* **热门搜索**：以表格格式查看过去 30 天或 12 个月内在 Assets Essentials 环境中搜索最多的词语以及这些词语的搜索次数。
   ![存储使用情况](/help/using/assets/insights-top-search.svg)
 
   <!--
@@ -205,9 +209,9 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
    ![Insights](assets/insights2.png)
    -->
 
-* **按规模统计资产数量：**&#x200B;将 Assets Essentials 环境中的总资产数量细分为不同的规模范围，突出显示每个规模范围内的资产数量和百分比，用圆环图表示。
-  ![洞察资源按大小计数](/help/using/assets/insights-assets-count-by-size.svg)
+* **按规模统计资产数量：**将 Assets Essentials 环境中的总资产数量细分为不同的规模范围，突出显示每个规模范围内的资产数量和百分比，用圆环图表示。
+  ![洞察按规模统计资产数量](/help/using/assets/insights-assets-count-by-size.svg)
 
-* **按资产类型统计资产数量：**&#x200B;将 Assets Essentials 环境中的总资产数量进行细分，根据文件类型突出显示资产数量和百分比，用圆环图表示。
+* **按资产类型统计资产数量：**将 Assets Essentials 环境中的总资产数量进行细分，根据文件类型突出显示资产数量和百分比，用圆环图表示。
   ![洞察按规模统计资产数量](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 

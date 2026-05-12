@@ -4,9 +4,13 @@ description: ' [!DNL Assets Essentials] 的各种用例支持的文件格式'
 role: User,Leader,Admin,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
+TQID: https://experienceleague.adobe.com/0hWe6e61MkYR2MMF-AWn-ywVZXCIetXer5Mlq3B98jI
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 372
 ht-degree: 100%
 
 ---
@@ -30,7 +34,7 @@ ht-degree: 100%
 | 支持级别 | 描述 |
 |-------------------|-------------------------|
 | ✓ | 支持 |
-| ✓‡ | 有条件支持 |
+| ✓ ‡ | 有条件支持 |
 | − | 不适用 |
 
 ## 添加、上传和查看资源 {#support-to-upload-view}
@@ -44,9 +48,9 @@ TBD: For AEM, AI files require the PDF option to be selected when saving the AI 
 | 栅格图像 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | RAW 文件 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | 文件夹 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | − | − |
-| MP4 视频 | ✓ | ✓ | ✓ | − | ✓ | ✓‡ | − | ✓ |
+| MP4 视频 | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
 | PDF | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
-| PSD、AI、PSB和 INDD | ✓ | ✓ | ✓ | − | ✓ | ✓‡ | − | ✓ |
+| PSD、AI、PSB 和 INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
 | 其他二进制文件 | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
 
 <!-- 
@@ -130,4 +134,4 @@ TBD: Saving the template table separately for later use.
 
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)

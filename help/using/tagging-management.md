@@ -2,10 +2,14 @@
 title: 如何在 Assets Essentials 中管理标记？
 description: 了解如何在 Assets Essentials 中管理标记。 标记帮助您将资源分类，这样可更高效地浏览和搜索资源。
 exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
-source-git-commit: eef4aec6f67700d0a5b096577b9637d96949b488
+TQID: https://experienceleague.adobe.com/JD076an4fdBxdo-6mqqmX-k2FVcAGSARn1CIX-emVLc
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1770'
-ht-degree: 97%
+source-wordcount: 1770
+ht-degree: 100%
 
 ---
 
@@ -129,7 +133,7 @@ ht-degree: 97%
 
 ## 将标记组件添加到元数据表单 {#add-tags-to-metadata-form}
 
-标记组件会自动添加到 `default` 元数据表单中。 您可以使用模板或从头开始设计[元数据表单](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=zh-Hans#metadata-forms)。 如果您使用的不是现有的元数据表单模板，则可以修改您的元数据表单并添加标记组件。 元数据属性映射会自动填充，此时无法修改。[!DNL Assets as a Cloud Service] 用户可以更新映射以使用自定义命名空间存储标记值，并使用根路径仅公开层次结构的子集。
+标记组件会自动添加到 `default` 元数据表单中。 您可以使用模板或从头开始设计[元数据表单](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=en#metadata-forms)。 如果您使用的不是现有的元数据表单模板，则可以修改您的元数据表单并添加标记组件。 元数据属性映射是自动填充的，因此此时无法修改。 [!DNL Assets as a Cloud Service] 用户可以更新映射以使用自定义命名空间存储标记值，并使用根路径仅公开层次结构的子集。
 
 观看这段简短的视频以了解如何将标记组件添加到元数据表单：
 
