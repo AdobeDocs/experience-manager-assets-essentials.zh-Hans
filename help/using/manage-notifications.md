@@ -2,20 +2,26 @@
 title: 管理通知
 description: 使用 Assets Essentials 通知监视对于可在存储库中找到的资源或文件夹执行的操作。
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
+TQID: https://experienceleague.adobe.com/oof4Q5dEhhExX-pBZMbxqm5WV43wij2GJ4LxEcUQV7Q
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 617
 ht-degree: 100%
 
 ---
 
 # 监视资产、文件夹和收藏集 {#watch-assets-folders}
 
-通过 Assets Essentials 通知，您能够监视对存储库中可用资产、文件夹或收藏集执行的操作。 需要选择并订阅将向您发送其通知的内容。还可配置向您发送其通知的类别。
+通过 Assets Essentials 通知，您能够监视对存储库中可用资产、文件夹或收藏集执行的操作。 需要选择并订阅将向您发送其通知的内容。 还可配置向您发送其通知的类别。
 
 ## 订阅通知类别 {#subscribe-to-notification-categories}
 
-可从要接收通知的类别的列表中选择并订阅。Assets Essentials 仅为从可用选项中选择的类别向您发送通知：
+可从要接收通知的类别的列表中选择并订阅。 Assets Essentials 仅为从可用选项中选择的类别向您发送通知：
 
 <table>
     <tbody>
@@ -81,16 +87,16 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->* 对于&#x200B;**[!UICONTROL 请求]**&#x200B;和&#x200B;**[!UICONTROL 分配给我]**&#x200B;通知类别，在订阅通知类别之后，无需订阅内容。对于您创建的请求以及在有任务分配给您时，自动向您发送通知。
->* 仅在其他用户对订阅的内容执行操作时，Assets Essentials 才发送通知。您不会收到您对订阅的内容执行的操作的通知。
+>* 对于&#x200B;**[!UICONTROL 请求]**&#x200B;和&#x200B;**[!UICONTROL 分配给我]**&#x200B;通知类别，在订阅通知类别之后，无需订阅内容。 对于您创建的请求以及在有任务分配给您时，自动向您发送通知。
+>* 仅在其他用户对订阅的内容执行操作时，Assets Essentials 才发送通知。 您不会收到您对订阅的内容执行的操作的通知。
 
 要订阅内容，请选择需要订阅的文件夹、资产或收藏集，然后单击&#x200B;**[!UICONTROL “关注”]**。
 
-Assets Essentials 显示一条成功消息。可单击可在成功消息上找到的&#x200B;**[!UICONTROL 转到通知首选项]**&#x200B;以编辑您[对通知类别的订阅](#subscribe-to-notification-categories)。
+Assets Essentials 显示一条成功消息。 可单击可在成功消息上找到的&#x200B;**[!UICONTROL 转到通知首选项]**&#x200B;以编辑您[对通知类别的订阅](#subscribe-to-notification-categories)。
 
 ![Assets Essentials 中的通知](assets/watch-assets.png)
 
-Assets Essentials 现在为订阅的类别发送通知。您还可以选择多个资产、文件夹或收藏集，然后单击&#x200B;**[!UICONTROL “关注”]**&#x200B;以节省时间。但是，如果选择多个实体，并且其中有实体已订阅某些资源或文件夹，则不显示&#x200B;**[!UICONTROL 关注]**&#x200B;选项。
+Assets Essentials 现在为订阅的类别发送通知。 您还可以选择多个资产、文件夹或收藏集，然后单击&#x200B;**[!UICONTROL “关注”]**&#x200B;以节省时间。 但是，如果选择多个实体，并且其中有实体已订阅某些资源或文件夹，则不显示&#x200B;**[!UICONTROL 关注]**&#x200B;选项。
 
 同样，要取消订阅，请选择已订阅的资产或文件夹，然后单击&#x200B;**[!UICONTROL “取消关注]**。
 

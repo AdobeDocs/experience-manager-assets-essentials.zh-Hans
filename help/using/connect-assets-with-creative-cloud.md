@@ -1,10 +1,18 @@
 ---
 title: 将 AEM Assets 连接到 Creative Cloud
-description: 了解如何配置 AEM Assets 并将其连接到 Creative Cloud。连接到预配给其他 IMS 组织的 Creative Cloud 权利，以轻松地使用 AEM Assets 中最新的 Creative Cloud 集成，其中包括 Express 和 Creative Cloud Libraries。
+description: 了解如何配置 AEM Assets 并将其连接到 Creative Cloud。 连接到预配给其他 IMS 组织的 Creative Cloud 权利，以轻松地使用 AEM Assets 中最新的 Creative Cloud 集成，其中包括 Express 和 Creative Cloud Libraries。
 exl-id: 3d8d7429-ddf6-44cd-a6e7-ba2afcbaf52b
-source-git-commit: 36f13972e7dc7b1546cdba0713a60f95f2bbc415
+TQID: https://experienceleague.adobe.com/jNPNmqvjsK-A6LD-Mk02ffYM15aO2zudSfhJrST-gVA
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 287
 ht-degree: 100%
 
 ---
@@ -19,7 +27,7 @@ Experience Manager Assets 可连接到预配给其他 IMS 组织的 Creative Clo
 
 * 具有 Experience Manager Assets 的管理员权限
 
-* 在 Creative Cloud 和 Experience Manager 中使用的同一用户 ID 具有对 Creative Cloud 的有效权利。对具有相同电子邮件地址的个人 ID 和 Federated ID 的权利被视为不同的用户 ID。
+* 在 Creative Cloud 和 Experience Manager 中使用的同一用户 ID 具有对 Creative Cloud 的有效权利。 对具有相同电子邮件地址的个人 ID 和 Federated ID 的权利被视为不同的用户 ID。
 
 ## 连接到新的 Creative Cloud 组织 {#connect-to-creative-cloud-org}
 
@@ -27,7 +35,7 @@ Experience Manager Assets 可连接到预配给其他 IMS 组织的 Creative Clo
 
 1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Creative Cloud]**。
 
-1. 使用&#x200B;**[!UICONTROL 选择新的 Creative Cloud 组织 ID]** 下拉列表选择新的 Creative Cloud 组织。该列表显示所有您有权访问其的组织。选择具有有效 Creative Cloud 权利的组织。
+1. 使用&#x200B;**[!UICONTROL 选择新的 Creative Cloud 组织 ID]** 下拉列表选择新的 Creative Cloud 组织。 该列表显示所有您有权访问其的组织。 选择具有有效 Creative Cloud 权利的组织。
 
 1. 单击&#x200B;**[!UICONTROL 切换组织]**&#x200B;以切换到该新组织。
 
@@ -35,6 +43,6 @@ Experience Manager Assets 可连接到预配给其他 IMS 组织的 Creative Clo
 
 ## 限制 {#limitations}
 
-* 您一次可以将 AEM Assets 连接到一个 Creative Cloud 组织。不支持一次连接到多个 Creative Cloud 组织。
+* 您一次可以将 AEM Assets 连接到一个 Creative Cloud 组织。 不支持一次连接到多个 Creative Cloud 组织。
 
 * 您在 AEM Assets 中连接到的 Creative Cloud 组织适用于您组织内的所有用户。

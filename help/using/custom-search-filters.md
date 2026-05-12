@@ -1,21 +1,32 @@
 ---
 title: 自定义搜索过滤器
-description: 了解自定义搜索筛选器表单
+description: 了解自定义搜索过滤器表单
 role: User, Leader, Developer
 exl-id: 8c579d5b-6bfc-44bb-a381-ca5716bd20cb
-source-git-commit: 461773235cb2d27d334b5ceb23f959dc9a848716
+TQID: https://experienceleague.adobe.com/h5wa-Umxw-KIYoicGOIEccNf4dBYe0a7zTkdtCi4-Ak
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 14%
+source-wordcount: 1475
+ht-degree: 100%
 
 ---
-
 
 <table>
     <tr>
         <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="新建">
-            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime和Ultimate</b></a>
+            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime 和 Ultimate</b></a>
         </td>
         <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="新建">
@@ -23,15 +34,15 @@ ht-degree: 14%
         </td>
         <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="新建">
-            <a href="http://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>AEM Assets与Edge Delivery Services的集成</b></a>
+            <a href="http://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>AEM Assets 与 Edge Delivery Services 集成</b></a>
         </td>
         <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="新建">
-            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>UI可扩展性</b></a>
+            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>UI 可扩展性</b></a>
         </td>
           <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="新建">
-            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>启用Dynamic Media Prime和Ultimate</b></a>
+            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>启用 Dynamic Media Prime 和 Ultimate</b></a>
         </td>
     </tr>
     <tr>
@@ -53,36 +64,36 @@ ht-degree: 14%
     </tr>
 </table>
 
-# 自定义搜索筛选器 {#customize-search-filters}
+# 自定义搜索过滤器 {#customize-search-filters}
 
-通过搜索过滤器，您可以根据各种参数（如日期、文件类型、标记和相关性）来优化搜索结果，从而提高搜索查询的精度。 通过应用过滤器，您可以高效地快速筛选最相关的结果。 这不仅可以节省时间，还可以根据特定偏好和需求定制结果，从而改善整体搜索体验。
-查看有关[搜索](search.md)的详细信息。
+通过搜索过滤器，您可以根据日期、文件类型、标记和相关性等各种参数来优化搜索结果，从而提高搜索查询的准确度。 通过应用过滤器，您可以高效地快速筛选相关性最高的结果。 这不仅可以节省时间，还可以根据特定的偏好和需求定制结果，从而改善整体搜索体验。
+查看有关[搜索](search.md)的更多信息。
 
-自定义搜索筛选器AEM Assets只能映射到可搜索属性索引中的条目。 在配置自定义筛选器体验之前，请确保包含任何自定义元数据。 [!DNL Assets Essentials]帮助自定义搜索筛选器以简化搜索过程。 要自定义AEM Assets自定义搜索过滤器，请执行以下步骤：
+自定义搜索过滤器 AEM Assets 只能映射到您的可搜索属性索引中的条目。 在配置您的自定义过滤器体验之前，请确保包含了任何自定义元数据。 [!DNL Assets Essentials] 有助于自定义搜索过滤器，简化搜索过程。 要自定义 AEM Assets 自定义搜索过滤器，请执行以下步骤：
 
 1. 前往&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 常规设置]**。
-1. 转到&#x200B;**[!UICONTROL 搜索]**&#x200B;选项卡。 单击&#x200B;**[!UICONTROL 自定义]**&#x200B;以配置您的搜索表单。
+1. 前往&#x200B;**[!UICONTROL 搜索]**&#x200B;选项卡。 点击&#x200B;**[!UICONTROL 自定义]**，配置您的搜索表单。
 
-   ![自定义搜索筛选器设置](assets/custom-search-filter.png)
+   ![自定义搜索过滤器设置](assets/custom-search-filter.png)
 
-1. 出现[!UICONTROL 配置筛选器]表单。 确保您处于编辑模式，以便能够在模板中进行修改。 您可以切换到[!UICONTROL 预览模式]以查看现有搜索表单的预览。
-1. 将[自定义筛选器](#available-custom-filters)中的筛选器元素拖放到画布上。 如果需要，您可以拖放组件以重新排序。
+1. 现在会显示[!UICONTROL 配置过滤器]表单。 确保您处于编辑模式，以便您能在模板中进行更改。 您可以切换到[!UICONTROL 预览模式]，查看现有搜索表单的预览。
+1. 将[自定义过滤器](#available-custom-filters)中的筛选元素拖放到画布上。 如果需要，您可以拖放组件，重新排序。
 
    >[!VIDEO](https://video.tv.adobe.com/v/3443080)
 
-1. 单击&#x200B;**[!UICONTROL 预览模式]**&#x200B;以查看更改。
-1. 单击&#x200B;**[!UICONTROL 确认]**&#x200B;以进行保存。
+1. 点击&#x200B;**[!UICONTROL 预览模式]**，审阅所做的更改。
+1. 点击&#x200B;**[!UICONTROL 确认]**，将其保存。
 
-## 可用的自定义筛选条件 {#available-custom-filters}
+## 可用的自定义过滤器 {#available-custom-filters}
 
-Assets Essentials提供了以下自定义筛选器，可根据要求重新配置：
+Assets Essentials 提供以下自定义过滤器，可根据要求将其重新配置：
 
 * [筛选元素](#filter-elements)
 * [预配置的过滤器](#preconfigured-filters)
 
 ### 筛选元素 {#filter-elements}
 
-自定义筛选条件AEM Assets允许您在自定义搜索筛选条件画布上使用筛选条件元素集合。 这些元素是基于搜索属性属性的可用性进行重构的。 但是，您可以根据需要自定义[筛选器属性](#filter-properties)。 [!DNL Assets Essentials]中有以下筛选器元素：
+自定义过滤器 AEM Assets 允许您在自定义搜索过滤器画布上使用一个筛选元素收藏集。 这些元素可根据搜索属性的可用性进行重新配置。 但是，您可以根据需要自定义[过滤器属性](#filter-properties)。 [!DNL Assets Essentials] 中提供以下筛选元素：
 
 <table>
     <tr>
@@ -92,7 +103,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>文本</td>
-        <td>文本字段是一个输入区域，您可以在其中键入与过滤器相关的信息。</td>
+        <td>文本字段是一个输入区域，您可以在其中输入与过滤器相关的信息。</td>
         <td>
             <ul>
                 <li>标签
@@ -104,7 +115,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>选项</td>
-        <td>选项是指从列表中选择首选项目的可用替代项。</td>
+        <td>选项是指从列表中选择一个首选项时可用的替代项。</td>
         <td>
             <ul>
                 <li>标签
@@ -117,7 +128,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>布尔值</td>
-        <td>Boolean表示一个true值。 您可以在希望特定地选择其中一个选项的位置使用该选项。</td>
+        <td>布尔值表示一个真值。 如果您想在多个选项中选择一个特定选项时，可以使用它。</td>
         <td>
             <ul>
                 <li>标签
@@ -128,7 +139,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>数字</td>
-        <td>使用此过滤元素表示数字值。</td>
+        <td>使用这个筛选元素表示一个数值。</td>
         <td>
             <ul>
                 <li>标签
@@ -142,7 +153,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>下拉列表</td>
-        <td>在选项列表中显示的各种选项中进行选择。</td>
+        <td>从一个选项列表中显示的各种选项中进行选择。</td>
         <td>
             <ul>
                 <li>标签
@@ -167,7 +178,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>路径浏览器</td>
-        <td>用于浏览Experience Manager存储库中的文件或文件夹。</td>
+        <td>用于在 Experience Manager 存储库中的文件或文件夹中导航。</td>
         <td>
             <ul>
                 <li>标签
@@ -179,7 +190,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>标记</td>
-        <td>用于从可用选项中选择标记。 标记提供了有关资产的更具体信息并增强了它们的可发现性。 已应用于所选资源的标记会显示在<b>属性</b>面板中。 如果您将标记存储在自定义元数据属性上，并使用根路径将其限制为层次结构，则可以在搜索筛选器中利用相同的配置。 如果找不到相关标记，请创建这些标记并将其分配给选定的资源。 有关创建标记并将其分配给资源的详细信息，请参阅<a href = "/help/using/tagging-management.md">管理Assets Essentials </a>中的标记。</td>
+        <td>用于从可用的选项中选择标记。 标记提供了关于资产的更具体的信息，增强它们的可发现性。 标记应用于选定资产后，会显示在<b>属性</b>面板中。 如果您将标记存储在一个自定义元数据属性中，并使用根路径将其限制为一个层级结构，就可以在搜索过滤器中利用相同的配置。 如果找不到相关的标记，请创建标记，然后将其分配给选定的资产。 有关创建标记并将其分配给资产的详细信息，请参阅<a href = "/help/using/tagging-management.md">在 Assets Essentials 中管理标记</a>。</td>
         <td>
             <ul>
                 <li>标签
@@ -191,7 +202,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>用户</td>
-        <td>用于指定管理员、常规用户和使用者用户之间的用户类型。</td>
+        <td>用于指定管理员、常规用户和消费者用户这几个用户类型。</td>
         <td>
             <ul>
                 <li>标签
@@ -204,7 +215,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
 
 ### 预配置的过滤器 {#preconfigured-filters}
 
-预配置的筛选器是预设设置，允许您直接在画布上使用它们。 但是，您可以根据需要自定义[筛选器属性](#filter-properties)。 已在[!DNL Assets Essentials]中预配置以下筛选器：
+预配置的过滤器是预设的设置，您可以直接在画布上使用它们。 但是，您可以根据需要自定义[过滤器属性](#filter-properties)。 以下过滤器已在 [!DNL Assets Essentials] 中进行了预配置：
 
 <table>
     <tr>
@@ -214,7 +225,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>文件类型</td>
-        <td>按照支持的文件类型筛选搜索结果，即“图像”、“文档”和“视频”。</td>
+        <td>按照受支持的文件类型，即“图像”、“文档”和“视频”，筛选搜索结果。</td>
         <td>
             <ul>
                 <li>标签
@@ -228,7 +239,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>文件格式</td>
-        <td>Assets Essentials支持任何二进制文件格式并提供基本服务，例如存储、上传、复制、移动、删除和添加元数据。</td>
+        <td>Assets Essentials 支持任何二进制文件格式并提供基本服务，例如存储、上传、复制、移动、删除和添加元数据。</td>
         <td>
             <ul>
                 <li>标签
@@ -240,7 +251,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>图像大小</td>
-        <td>提供一个或多个最小和最大尺寸来筛选图像。 大小按照以像素为单位的尺寸提供，而不是图像的文件大小。</td>
+        <td>提供一个或多个最小尺寸和最大尺寸来筛选图像。 大小按照以像素为单位的尺寸提供，而不是图像的文件大小。</td>
         <td>
             <ul>
                 <li>标签
@@ -282,7 +293,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>创建日期</td>
-        <td>创建资源的日期范围。</td>
+        <td>创建资产的日期范围。</td>
         <td>
             <ul>
                 <li>标签
@@ -294,7 +305,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>修改日期</td>
-        <td>修改资源的日期范围。</td>
+        <td>更改资产的日期范围。</td>
         <td>
             <ul>
                 <li>标签
@@ -305,8 +316,8 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
         </td>
     </tr>
     <tr>
-        <td>资源状态</td>
-        <td>Assets Essentials允许您为存储库中可用的资源设置状态。 设置资源状态以更好地治理和管理下游对数字资源的使用。 从<b>批准、拒绝或无状态</b>中进行选择。</td>
+        <td>资产状态</td>
+        <td>Assets Essentials 允许您为存储库中可用的资产设置状态。 设置资产状态，以更好地治理和管理下游对数字资产的消耗。 从<b>已批准、已拒绝或无状态</b>中进行选择。</td>
         <td>
             <ul>
                 <li>标签
@@ -318,20 +329,20 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>智能标记</td>
-        <td>使用Experience Manager存储库中添加的智能标记筛选资源。</td>
+        <td>使用 Experience Manager 存储库中添加的智能标记筛选资产。</td>
         <td>
             <ul>
                 <li>标签
                 <li>元数据
                 <li>选择类型
-                <li>Delimeter支持
+                <li>分隔符支持
                 <li>描述
             </ul>
         </td>
     </tr>
     <tr>
-        <td>Dynamic media状态</td>
-        <td>选择已发布或未发布之间的资源状态。</td>
+        <td>Dynamic Media 状态</td>
+        <td>选择已发布或未发布的资产状态。</td>
         <td>
             <ul>
                 <li>标签
@@ -345,7 +356,7 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
     <tr>
         <td>过期日期</td>
-        <td>筛选资源，指定在哪个日期范围之后资源不再有效或不再需要。 </td>
+        <td>筛选资产，指定在哪个日期范围过去后资产不再有效或不再需要。 </td>
         <td>
             <ul>
                 <li>标签
@@ -356,8 +367,8 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
         </td>
     </tr>
     <tr>
-        <td>标记（分类）</td>
-        <td>它是一个使用标记来组织和分类数字资源的系统，本质上创建关键字的分层结构，该结构允许用户通过将特定标记应用于每个资源来轻松搜索和查找相关内容， </td>
+        <td>标记（分类法）</td>
+        <td>这是一个使用标记来组织和分类数字资产的系统，主要是创建关键词的层级结构，允许用户将特定的标记应用于每一个资产，由此轻松地搜索和查找相关内容， </td>
         <td>
             <ul>
                 <li>标签
@@ -369,9 +380,9 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     </tr>
 </table>
 
-#### 筛选器属性 {#filter-properties}
+#### 过滤器属性 {#filter-properties}
 
-每个过滤器元素都与一组属性相关联。 AEM Assets自定义搜索筛选器在筛选器和预配置的元素中使用以下属性：
+每一个筛选元素都与一组属性相关联。 AEM Assets 自定义搜索过滤器在过滤器和预配置的元素中使用以下属性：
 
 <table>
     <tr>
@@ -382,33 +393,33 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
     <tr>
         <td>标签</td>
         <td>文本</td>
-        <td>它是您所使用的过滤器的标识符。</td>
+        <td>这是您使用的过滤器的标识符。</td>
     </tr>
     <tr>
         <td>元数据</td>
         <td>下拉面板</td>
-        <td>元数据属性用于映射来自Adobe Experience Manager Assets存储库的已批准元数据。 您可以从下拉菜单中选择需要使用过滤器元素映射的元数据值。 </td>
+        <td>元数据属性用于映射来自 Adobe Experience Manager Assets 存储库的已批准的元数据。 您可以从下拉菜单中选择需要通过筛选元素进行映射的元数据值。 </td>
     </tr>
     <tr>
         <td>选择类型</td> 
-        <td>单个、多个、精确或范围 </td>
+        <td>单个、多个、准确或范围 </td>
         <td>
             <ul>
-                <li><b>单个选择</b>允许一次选择一个项目，非常适合不同的选择。
-                <li><b>多项选择</b>允许同时选择多个项目，这对于选择多个选项很有用。 
-                <li><b>精确选择</b>允许从各种选项中选择精确的单项。
-                <li><b>范围选择</b>允许选择定义范围内的连续值集，这有助于选择日期范围或数值。
+                <li><b>单选</b>允许一次选择一项，非常适合不同的选择。
+                <li><b>多选</b>允许同时选择多项，这对于选择多个选项很有用。 
+                <li><b>准确选择</b>允许从不同的选项中选择准确的一项。
+                <li><b>范围选择</b>允许在一个确定的范围内选择一组连续的值，在选择日期范围或数值时很有用。
             </ul>
         </td>   
     </tr>
     <tr>
         <td>选项</td>
-        <td>手动、JSON路径或CSV上传</td>
+        <td>手动、JSON 路径或 CSV 上传</td>
         <td>
             <ul>
-                <li>如果要手动添加选项，请选择<b>手动</b>。 
-                <li>选择<b>JSON路径</b>以从JSON文件添加选项。 
-                <li>选择<b>CSV上传</b>以导入包含要添加到选项中的值的CSV文件。
+                <li>如果您想手动添加选项，请选择<b>手动</b>。 
+                <li>选择 <b>JSON 路径</b>可从 JSON 文件添加选项。 
+                <li>选择 <b>CSV 上传</b>可导入一个包含了要添加到选项中的值的 CSV 文件。
             </ul>
         </td>
     </tr>
@@ -417,52 +428,52 @@ Assets Essentials提供了以下自定义筛选器，可根据要求重新配置
         <td>添加或编辑</td>
         <td>
         <ul>
-        <li>单击<b>添加</b>以添加新值。 
-        <li>单击<span>✎</span>编辑标签。 
-        <li>单击<span>??</span>以删除选项值。 
-        <li>单击<b>编辑</b>以修改编辑选项。 
-        <li>您也可以通过保存选项来更改选项的顺序。
+        <li>点击<b>添加</b>可添加一个新值。 
+        <li>点击 <span>✎</span> 可编辑标签。 
+        <li>点击 <span>??</span> 可删除选项值。 
+        <li>点击<b>编辑</b>可更改编辑选项。 
+        <li>您也可以按住选项来改变选项的顺序。
         </td>
     </tr>
     <tr>
-        <td>Delimeter支持</td>
+        <td>分隔符支持</td>
         <td>启用或禁用</td>
         <td>分隔符是用于分隔文本中不同元素的符号。 例如逗号、空格或分号。</td>
     </tr>
     <tr>
         <td>步进器</td>
-        <td>价值</td>
-        <td>启用“数字”字段的“步进器”按钮以在每次单击时增加或减少值。 </td>
+        <td>值</td>
+        <td>启用数字字段的步进器按钮，这样每次点击就可以增加或减少此值。 </td>
     </tr>
     <tr>
         <td>步进值 </td>
         <td>数字</td>
-        <td>它指示使用步进器按钮时的增量/减量值。 启用步进器时出现。</td>
+        <td>表示使用步进器按钮时增加/减少的值。 步进器启用后就会出现。</td>
     </tr>
     <tr>
         <td>描述</td>
         <td>文本</td>
-        <td>添加详细说明以提供有关筛选条件元素的其他信息。</td>
+        <td>添加详细说明，提供有关筛选元素的附加信息。</td>
     </tr>
 </table>
 
 
-## 删除过滤器元素 {#delete-a-filter-element}
+## 删除一个筛选元素 {#delete-a-filter-element}
 
 要删除搜索过滤器，请执行以下步骤：
 
 1. 前往&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 常规设置]**。
-1. 转到&#x200B;**[!UICONTROL 搜索]**&#x200B;选项卡。 单击&#x200B;**[!UICONTROL 自定义]**&#x200B;以配置您的搜索表单。
-1. 出现[!UICONTROL 配置筛选器]表单。 确保您处于编辑模式，以便能够在模板中进行修改。
-1. 选择要删除的过滤器元素。 例如，选择&#x200B;**[!UICONTROL 图像高度]**。
-1. 单击&#x200B;**[!UICONTROL 删除类别]**&#x200B;以删除筛选器元素。 已从画布中删除&#x200B;**[!UICONTROL 图像高度]**&#x200B;元素。
-1. 单击&#x200B;**[!UICONTROL 确认]**&#x200B;以保存表单。
+1. 前往&#x200B;**[!UICONTROL 搜索]**&#x200B;选项卡。 点击&#x200B;**[!UICONTROL 自定义]**，配置您的搜索表单。
+1. 现在会显示[!UICONTROL 配置过滤器]表单。 确保您处于编辑模式，以便您能在模板中进行更改。
+1. 选择您想删除的筛选元素。 例如，选择&#x200B;**[!UICONTROL 图像高度]**。
+1. 点击&#x200B;**[!UICONTROL 删除类别]**，删除这个筛选元素。 **[!UICONTROL 图像高度]**&#x200B;元素就从画布中移除。
+1. 点击&#x200B;**[!UICONTROL 确认]**，保存表单。
 
 ## 使用自定义搜索过滤器{#using-custom-search-filters}
 
-配置搜索筛选器后，您可以使用这些筛选器在存储库中搜索资源。
+配置搜索过滤器后，您就可以使用这些过滤器在存储库中搜索资产。
 
-![使用自定义搜索筛选器](assets/using-custom-search-filters.png)
+![使用自定义搜索过滤器](assets/using-custom-search-filters.png)
 
 >[!MORELIKETHIS]
 >

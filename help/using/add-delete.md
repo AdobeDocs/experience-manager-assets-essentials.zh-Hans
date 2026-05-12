@@ -3,10 +3,17 @@ title: 上传资产到存储库
 description: 上传资产到 [!DNL Assets Essentials]，查看上传状态，以及解决上传问题。
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
-source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
+TQID: https://experienceleague.adobe.com/aEqz-LzeQEOrAurYW3Y-6xdONbA6WoRxA-0hHX5A99o
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 98%
+source-wordcount: 846
+ht-degree: 100%
 
 ---
 
@@ -100,7 +107,7 @@ TBD: Update this GIF
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，了解如何在Assets Essentials中上传资源](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html?lang=zh-Hans)
+* [观看视频，了解如何在 Assets Essentials 中上传资产](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html?lang=zh-Hans)
 
 * 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 

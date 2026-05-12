@@ -2,10 +2,18 @@
 title: 使用 Assets Essentials 批量导入资源
 description: 了解如何使用新的资源 UI (Assets Essentials) 批量导入资源。 管理员使用它可以将大量资源从数据源导入到 AEM Assets。
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+TQID: https://experienceleague.adobe.com/6Fq368rg7WeWVL4E098y0skHagS8y1kTbEcvgVn9l94
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 92%
+source-wordcount: 1849
+ht-degree: 100%
 
 ---
 
@@ -49,7 +57,7 @@ ht-degree: 92%
 
 执行以下步骤：
 
-1. 登录到您的[Dropbox帐户](https://www.dropbox.com/developers)，然后单击&#x200B;**[!UICONTROL 创建应用]**。<br>如果您使用的是企业Dropbox帐户，则需要具有内容管理员角色的访问权限。
+1. 登录您的 [Dropbox 帐户](https://www.dropbox.com/developers)，然后单击&#x200B;**[!UICONTROL 创建应用程序]**。 <br>如果您使用的是 Enterprise Dropbox 帐户，则需要具有内容管理员角色的访问权限。
 
 1. 在&#x200B;**[!UICONTROL 选择 API]** 部分中，选择唯一可用的单选按钮。
 
@@ -129,7 +137,7 @@ ht-degree: 92%
    >
    >如果您使用 Dropbox 作为数据源，请根据以下规则指定源文件夹路径：
    >* 如果在创建 Dropbox 应用程序时选择&#x200B;**整个 Dropbox**，并且包含资源的文件夹存在于 `https://www.dropbox.com/home/bulkimport-assets`，则在&#x200B;**[!UICONTROL 源文件夹]**&#x200B;字段中指定 `bulkimport-assets`。
-   >* 如果您在创建Dropbox应用程序时选择&#x200B;**应用程序文件夹**，并且包含资源的文件夹存在于`https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`，请在&#x200B;**[!UICONTROL Source文件夹]**&#x200B;字段中指定`bulkimport-assets`，其中`BulkImportAppFolderScope`引用应用程序的名称。`Apps` 在此例中是在`home`之后自动添加的。
+   >* 如果在创建 Dropbox 应用程序时选择&#x200B;**应用程序文件夹**，并且包含资源的文件夹存在于 `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`，则在&#x200B;**[!UICONTROL 源文件夹]**&#x200B;字段中指定 `bulkimport-assets`，其中 `BulkImportAppFolderScope` 表示应用程序的名称。 这种情况下，自动在 `home` 之后添加 `Apps`。
 
 1. （可选）选择&#x200B;**[!UICONTROL 导入后删除源文件]**&#x200B;选项，以在文件导入到 [!DNL Experience Manager Assets] 后，从源数据存储中删除原始文件。
 1. 选择&#x200B;**[!UICONTROL “导入模式”。]** 选择&#x200B;**[!UICONTROL “跳过”]**、**[!UICONTROL “代替”]**，或者&#x200B;**[!UICONTROL 创建版本。]** 跳过模式是默认模式，在该模式下，如果资源已经存在，则摄取器会跳过导入该资源。
@@ -157,7 +165,7 @@ ht-degree: 92%
 
 ### 批量导入期间处理文件名 {#filename-handling-bulkimport-assets-view}
 
-当您批量导入资源或文件夹时，[!DNL Experience Manager Assets]会导入导入源中存在的全部结构。[!DNL Experience Manager] 遵循资产和文件夹名称中特殊字符的内置规则，因此需要清理这些文件名。 对于文件夹名称和资源名称，用户定义的标题保持不变并存储在 `jcr:title` 中。
+当您批量导入资源或文件夹时，[!DNL Experience Manager Assets] 导入在导入源中存在的内容的完整结构。 [!DNL Experience Manager] 遵循针对关资源和文件夹名称中特殊字符的内置规则，因此需要净化这些文件名。 对于文件夹名称和资源名称，用户定义的标题保持不变并存储在 `jcr:title` 中。
 
 批量导入期间，[!DNL Experience Manager] 查找现有文件夹以避免重复导入资源和文件夹，还验证在发生导入的父文件夹中应用的净化规则。 如果在父文件夹中应用了净化规则，则将相同的规则应用于导入源。 对于新导入，应用以下净化规则以管理资源的文件名和文件夹名称。
 
@@ -165,8 +173,8 @@ ht-degree: 92%
 
 ## 查看现有的批量导入配置 {#view-import-configuration}
 
-若要查看现有的批量导入内容，请选择左侧窗格中的&#x200B;**[!UICONTROL 批量导入]**&#x200B;选项。 此时将显示批量导入页面，其中包含&#x200B;**[!UICONTROL 已执行的导入]**&#x200B;的列表。<br>
-您还可以从下拉选项中查看&#x200B;**[!UICONTROL 保存的导入]**&#x200B;和&#x200B;**[!UICONTROL 计划的导入]**。
+若要查看现有的批量导入内容，请选择左侧窗格中的&#x200B;**[!UICONTROL 批量导入]**&#x200B;选项。 批量导入页面会显示，其中包含&#x200B;**[!UICONTROL 已执行导入]**&#x200B;列表。 <br>
+您还可以从下拉选项中查看**[!UICONTROL 已保存的导入]**&#x200B;和&#x200B;**[!UICONTROL 计划的导入]**。
 
 ![保存批量导入配置](assets/bulk-import-options.png)
 
