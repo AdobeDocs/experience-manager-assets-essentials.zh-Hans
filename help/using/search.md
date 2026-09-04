@@ -4,63 +4,17 @@ description: 在  [!DNL Assets Essentials] 中搜索和发现资产。
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 TQID: https://experienceleague.adobe.com/V--WXU30ed6P-HWqE1rquXPupmJwImyYfARZ006RpDg
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: a292d5bf73e5c366cbc3d5e9695fecdcc930d31b
 workflow-type: tm+mt
-source-wordcount: 2217
+source-wordcount: 1662
 ht-degree: 100%
 
 ---
 
-<table>
-    <tr>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="新建">
-            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime 和 Ultimate</b></a>
-        </td>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="新建">
-            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
-        </td>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="新建">
-            <a href="http://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>AEM Assets 与 Edge Delivery Services 集成</b></a>
-        </td>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="新建">
-            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>UI 可扩展性</b></a>
-        </td>
-          <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="新建">
-            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>自定义搜索过滤器</b></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>搜索最佳实践</b></a>
-        </td>
-        <td>
-            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>元数据最佳实践</b></a>
-        </td>
-        <td>
-            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>Content Hub</b></a>
-        </td>
-        <td>
-            <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>具有 OpenAPI 功能的 Dynamic Media</b></a>
-        </td>
-        <td>
-            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>AEM Assets 开发人员文档</b></a>
-        </td>
-    </tr>
-</table>
 
 # 在 [!DNL Assets Essentials] 中搜索资产 {#search-assets}
 
@@ -78,9 +32,9 @@ ht-degree: 100%
 
   ![搜索框](assets/search-box.png)
 
-   * 使用关键词搜索并可选择更改文件夹。 按 Return。
+  * 使用关键词搜索并可选择更改文件夹。 按 Return。
 
-   * 通过直接搜索资产，开始处理最近查看过的资产。 单击搜索框，从建议中选择最近查看过的资产。
+  * 通过直接搜索最近查看过的资产，开始处理该资产。 单击搜索框，从建议中选择最近查看过的资产。
 
 ## 筛选搜索结果 {#refine-search-results}
 
@@ -92,8 +46,8 @@ ht-degree: 100%
 
 * 文件类型：按照支持的文件类型筛选搜索结果，即 `Images`、`Documents` 和 `Videos`。
 * MIME 类型：筛选一种或多种支持的文件格式。<!-- TBD:  [supported file formats](/help/using/supported-file-formats.md). -->
-* 图像大小：提供一个或多个最小尺寸和最大尺寸来筛选图像。 大小按照以像素为单位的尺寸提供，而不是图像的文件大小。
-* 创建日期：在元数据中提供的创建资产的日期。 使用的标准日期格式为 `yyyy-mm-dd`。
+* 图像大小：提供一个或多个最小尺寸和最大尺寸来筛选图像。 大小以像素尺寸表示，而不是图像的文件大小。
+* 创建日期：元数据中提供的资产创建日期。 使用的标准日期格式为 `yyyy-mm-dd`。
 * 修改日期：资产的最后修改日期。 使用的标准日期格式为 `yyyy-mm-dd`。
 
 * 过期日期：根据 `Expired` 资产状态筛选搜索结果。 此外，还可指定资产的有效期限日期范围以进一步筛选搜索结果。
@@ -198,7 +152,7 @@ Assets Essentials 提供了以下自定义筛选条件：
 
    * 在 **另存为** 字段中输入文件的名称。
    * 选择目标文件夹。
-   * 输入详细信息，如项目或活动名称、关键字、渠道、时间范围和地区。
+   * 输入详细信息，如项目或活动名称、关键字、渠道、时间范围和区域。
 
    ![Firefly 集成](assets/save-generated-asset.png)
 
@@ -216,7 +170,7 @@ Assets Essentials 提供了以下自定义筛选条件：
 
 [!DNL Assets Essentials] 中的搜索功能非常易于使用。 在搜索框中，您不仅可以输入关键词并按回车键来查看结果，而且只需单击一次即可快速重新搜索最近搜索过的关键词。
 
-您还可以根据有关元数据和资产类型的特定标准来筛选搜索结果。 对于经常使用的筛选条件，为了改进搜索体验，[!DNL Assets Essentials] 允许您保存搜索参数。 以后，您可以选择保存的搜索来执行搜索，只需一次单击即可应用筛选条件。
+您还可以根据有关元数据和资产类型的特定标准来筛选搜索结果。 对于经常使用的筛选条件，为了改进搜索体验，[!DNL Assets Essentials] 允许您保存搜索参数。 然后，您可以选择保存的搜索，只需单击一次即可执行搜索并应用筛选条件。
 
 要创建保存的搜索，请搜索一些资产，应用一个或多个筛选条件，然后在[!UICONTROL 筛选条件]面板中单击&#x200B;**[!UICONTROL 保存为]** > **[!UICONTROL 保存的搜索]**。 还可单击&#x200B;**[!UICONTROL 另存为]**&#x200B;并选择&#x200B;**[!UICONTROL 智能收藏集]**&#x200B;以将结果另存为智能收藏集。 有关详细信息，请参阅[创建智能收藏集](manage-collections.md#create-a-smart-collection)。
 
@@ -301,92 +255,6 @@ Assets Essentials 使您能够为您的组织选择默认登陆页面。 使用�
 
    ![搜索优先首页预览](assets/search-first-preview.gif)
 
-## 上下文搜索 {#contextual-search}
-
-您还可以通过定义文本提示来搜索存储库中可用的资产。 Experience Manager Assets 会自动将这些文本提示转换为搜索过滤器，并显示搜索结果。 您可以使用“过滤器窗格”查看和修改自动过滤器，进一步缩小搜索结果。
-
-### 访问上下文搜索 {#access-contextual-search}
-
-要访问 Experience Manager Assets 中的上下文搜索，请执行以下操作：
-
-1. 点击左侧窗格中的&#x200B;**[!UICONTROL 搜索]** 。
-
-   ![上下文搜索](/help/using/assets/access-contextual-search.png)
-
-1. 在“搜索”文本框中定义文本提示，然后单击&#x200B;**[!UICONTROL 上下文搜索]**。
-
-   ![上下文搜索文本提示](/help/using/assets/wknd-contextual-search.png)
-
-   [!DNL Experience Manager Assets]显示搜索结果。
-
-
-### 支持的过滤器 {#supported-filters}
-
-上下文搜索支持以下现成的过滤器。 根据这些过滤器设置文本提示，查看适当的搜索结果。
-
-* 图像高度
-
-* 图像宽度
-
-* 文件类型：图像、文档、视频或文件夹。
-
-* MIME 类型：JPG、PNG、TIFF、GIF、MP4、PDF、PPTX、DOCX 或 XLSX
-
-* 创建日期
-
-* 修改日期
-
-* 过期日期
-
-* 资产状态：已批准、已拒绝或全部
-
-* 过期资产
-
-### 文本提示示例 {#text-prompts-examples}
-
-**示例 1**
-
-**文字提示**：本月创建的图像。
-
-[!DNL Experience Manager Assets] 自动应用以下过滤器并显示搜索结果：
-
-![上下文搜索示例 1](/help/using/assets/contextual-search-example1.png)
-
-**示例 2**
-
-**文本提示**：图像高度至少为 200 像素，宽度至少为 100 像素，且包含海滩和晴朗的天空。
-
-[!DNL Experience Manager Assets] 自动应用以下过滤器并显示搜索结果：
-
-![上下文搜索示例 2](/help/using/assets/contextual-search-example2.png)
-
-**示例 3**
-
-**文本提示**：我需要上个月创建的高度为 1500 至 2500 像素的蓝天图像，并且图像未过期且已经获得批准。
-
-[!DNL Experience Manager Assets] 自动应用以下过滤器并显示搜索结果：
-
-![上下文搜索示例 3](/help/using/assets/contextual-search-example3.png)
-
-以下视频说明了从访问“上下文搜索用户界面”到定义文本提示以及查看搜索结果的端到端过程。
-
->[!VIDEO](https://video.tv.adobe.com/v/3428407)
-
-### 禁用上下文搜索 {#disable-contextual-search}
-
-管理员还可以选择为组织中的用户禁用“上下文搜索”功能。 若要禁用，请执行以下步骤：
-
-1. 前往“**[!UICONTROL 设置]**”>“**[!UICONTROL 常规设置]**”。
-
-1. 在[!UICONTROL 上下文搜索]部分中，关闭&#x200B;**[!UICONTROL 为您的组织启用上下文搜索]**&#x200B;切换按钮，可为您组织中的所有用户停用“上下文搜索”功能。
-
-### “上下文搜索”反馈 {#contextual-search-feedback}
-
-如果您需要对“上下文搜索”功能提供反馈，请单击![“上下文搜索”图标](assets/do-not-localize/Smock_Help_18_N.svg)，然后单击“反馈”图标。 选择反馈类型，指定主题和描述，然后单击&#x200B;**[!UICONTROL “提交”]**。
-
-![“上下文搜索”反馈](/help/using/assets/contextual-search-feedback.png)
-
-
 ## 后续步骤 {#next-steps}
 
 * [观看视频，了解如何在 Assets Essentials 中搜索资产](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html?lang=zh-Hans)
@@ -395,5 +263,5 @@ Assets Essentials 使您能够为您的组织选择默认登陆页面。 使用�
 
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈。
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
 
