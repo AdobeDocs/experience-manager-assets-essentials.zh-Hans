@@ -164,7 +164,7 @@ Assets Essentials 允许管理员管理存储库中可用文件夹的访问级�
 
 ## 后续步骤 {#next-steps}
 
-<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en) -->
+<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=zh-Hans) -->
 
 * 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 
