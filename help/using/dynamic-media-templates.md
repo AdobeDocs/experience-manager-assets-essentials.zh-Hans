@@ -5,13 +5,11 @@ hide: true
 hidefromtoc: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 4c176db86c9f3219f2cb63edda71435a2aa76850
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '3017'
 ht-degree: 99%
-
 ---
-
 # Dynamic Media 模板{#dynamic-media-templates}
 
 | [搜索最佳实践](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [元数据最佳实践](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets 开发人员文档](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
@@ -35,7 +33,7 @@ ht-degree: 99%
 
 Dynamic Media 模板的一些主要优势包括：
 
-* **优化 1:1个性化：**&#x200B;根据实时客户信号定制内容。
+* **优化1:1 Personalization：**&#x200B;根据实时客户信号定制内容。
 * **减少手动工作：**&#x200B;自动进行并加快内容创建和管理。
 * **确保一致的全渠道体验：**&#x200B;保持跨渠道的品牌一致性。
 * **有效地重复使用内容：**&#x200B;避免一次性使用内容，通过动态的参数化模板进行扩展。
@@ -76,7 +74,7 @@ Dynamic Media 模板的一些主要优势包括：
 
 1. 点击&#x200B;**[!UICONTROL 创建模板]**，将模板保存在 Dynamic Media Assets 下，或者导航到一个文件夹，然后点击&#x200B;**[!UICONTROL 创建模板]**，将模板保存在这个文件夹中。 现在会显示&#x200B;**[!UICONTROL 新模板]**&#x200B;对话框。
    ![如何创建可实时自定义的动态模板](/help/using/assets/new-template.png)
-要在 **[!UICONTROL Dynamic Media Assets]** 下[创建文件夹](/help/using/add-delete.md)，请在 **[!UICONTROL Assets]** 中创建文件夹。 **[!UICONTROL Assets]** 下面的文件夹树会复制在 **[!UICONTROL Dynamic Media Assets]** 下面。
+   要在 **[!UICONTROL Dynamic Media Assets]** 下[创建文件夹](/help/using/add-delete.md)，请在 **[!UICONTROL Assets]** 中创建文件夹。 **[!UICONTROL Assets]** 下面的文件夹树会复制在 **[!UICONTROL Dynamic Media Assets]** 下面。
 1. 指定模板名称，定义画布宽度和高度，然后点击&#x200B;**[!UICONTROL 创建]**。 屏幕上会显示一个空白画布，画布的两侧有用于创建模板的菜单选项。 将鼠标悬停在菜单选项上，可查看相应的工具提示。
    ![实时可自定义模板](/help/using/assets/blank-canvas-page.png)
 
@@ -88,7 +86,7 @@ Dynamic Media 模板的一些主要优势包括：
 
 * ![DM 模板](/help/using/assets/add-image.svg)：点击将图像添加到画布中。
 * ![可自定义的模板](/help/using/assets/add-text.svg)：点击将文本添加到画布中。
-* ![可自定义的模板](/help/using/assets/show-layers-list.svg)：点击查看画布上所有图层（图像和文本）的列表。 添加到画布中的每个图像和文本都展示为一个单独的图层。
+* ![可自定义的模板](/help/using/assets/show-layers-list.svg)：点击查看画布上所有图层（图像和文本）的列表。 添加到画布中的每个图像和文本都显示为一个单独的图层。
 
 **左窗格中的菜单选项：**&#x200B;将这些选项用于下面提到的常用编辑器操作。
 
@@ -178,10 +176,10 @@ Dynamic Media 模板的一些主要优势包括：
 
 1. 点击![即时创建内容](/help/using/assets/show-layers-list.svg)，选择一个图层，然后点击&#x200B;**[!UICONTROL 参数]**。 现在显示&#x200B;**[!UICONTROL 参数]**&#x200B;面板。
 1. 切换&#x200B;**[!UICONTROL 包含参数]**，将一个属性参数化。 请参阅[这里](#parameterisation-options-or-allowed-parameters)，了解该属性参数化以后的行为。
-1. **可选：**&#x200B;重命名参数名称。 参数名称由图层名称后加一个后缀组成。 对于选定的图层，其所有参数化属性具有相同的图层名称，后面加一个不同的后缀。 按照语义命名惯例重命名图层名称，这样您在 URL 中包含参数时，参数名称本身可以表示出图层的内容或其用途。
+1. **可选：**&#x200B;重命名参数名称。 参数名称由图层名称后加一个后缀组成。 对于选定的图层，其所有参数化属性具有相同的图层名称，后面加一个不同的后缀。 按照语义命名惯例重命名图层，这样您在 URL 中包含参数时，参数名称本身可以表示出图层的内容或其用途。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
    ![即时创建内容](/help/using/assets/parameterise-a-layer.png)
-如要在图像和文本图层的参数面板之间进行切换，请选择画布上的图层，然后点击&#x200B;**[!UICONTROL 参数]**。
+   如要在图像和文本图层的参数面板之间进行切换，请选择画布上的图层，然后点击&#x200B;**[!UICONTROL 参数]**。
 
 #### 参数面板选项 {#parameterisation-options-or-allowed-parameters}
 
@@ -250,7 +248,7 @@ Dynamic Media 模板的一些主要优势包括：
 
 1. 点击&#x200B;**[!UICONTROL 复制 URL]**。 现在会显示&#x200B;**[!UICONTROL 复制 URL]** 对话框。 选择并复制显示的 URL。 请注意，URL 中的第一个参数在问号 **(?)** 的后面开始 键值对以 **$** 开头，以 **&amp;** 结尾。 键和值通过等号 **(=)** 分隔，键在左侧，值在右侧。
 1. 将这个 URL 粘贴到您的浏览器选项卡中，查看您的实时模板。 通过直接更新 URL 中必需参数的值（键的值）可实时自定义模板，如&#x200B;**预览和发布**&#x200B;部分的[步骤 2](#preview-and-publish-template-and-copy-template-deliver-url) 中所述。
-1. 使用这个 URL 快速促销您的产品或服务。 您可以与客户共享这个 URL，或者将其集成到您的网站或任何下游第三方应用程序，以显示横幅，实时更新，以反映正在进行的优惠活动。
+1. 使用这个 URL 快速促销您的产品或服务。 您可以与客户共享这个 URL，或者将其集成到您的网站或任何下游第三方应用程序中，以显示横幅并对其进行实时更新，从而反映正在进行的优惠活动。
 
 在这个视频中了解如何分步创建一个 Dynamic Media 模板。
 >[!VIDEO](https://video.tv.adobe.com/v/3443281)
@@ -266,7 +264,7 @@ Dynamic Media 模板的一些主要优势包括：
    * 编辑文本图层的文本、字体、颜色、大小或对齐方式。
    * 将可见性的值在 0 和 1 之间改变。
 
-将这个更新的 URL 粘贴到浏览器中，查看更改的结果。
+将这个更新的 URL 粘贴到浏览器中，以查看更改。
 
 ## 编辑模板{#edit-the-template}
 
@@ -275,16 +273,16 @@ Dynamic Media 模板的一些主要优势包括：
 1. 在 Assets Essentials 上点击 **[!UICONTROL Dynamic Media Assets]**。
 2. 导航到模板位置。
 3. 选择模板。
-4. 点击&#x200B;**[!UICONTROL 编辑模板]**。 模板画布在图层面板中显示此模板及其所有图层的列表。 根据您的要求开始编辑模板。
+4. 点击&#x200B;**[!UICONTROL 编辑模板]**。 模板画布显示模板，图层面板显示其所有图层的列表。 根据您的要求开始编辑模板。
 
 ## 要注意的重要事项 {#important-points-to-note}
 
-* 创建了模板并将其中的图像图层为动态更新进行参数化以后，请确保计划用于未来更新的图像具有与参数化的图像相同的尺寸。 这样可以确保图像最佳放在图层内，不会溢出，也不会留下空白区域。 目前，模板不支持按照图层自动调整适合的图像尺寸。
-* 文本图层不支持子字符串。 用户无法在文本图层的子字符串上应用不同的字体属性。
+* 创建了模板并将其中的图像图层为动态更新进行参数化以后，请确保计划用于未来更新的图像具有与参数化的图像相同的尺寸。 这样可以确保图像完美贴合图层，不会溢出，也不会留下空白区域。 目前，模板不支持自动调整维度以使图像适合图层。
+* 文本图层不支持子字符串。 用户无法对文本图层中的子字符串应用不同的字体属性。
 * Dynamic Media 模板目前不支持多个 Dynamic Media 公司。
 * 在复制或移动时，目标选择器会显示所有文件夹（包括非 Dynamic Media 同步的文件夹）。 目前它也不显示 Dynamic Media 模板资产（两者都是目标选择器的限制）。
-* 在 Assets 部分中对文件夹执行的任何更新操作（例如发布或删除）都会影响这个文件夹中提供可用的 Dynamic Media 模板。
-* Dynamic Media 模板没有垃圾箱功能。 如果某个资产被移至垃圾箱后又被恢复，这个资产就会在 AEM 中，而不是在 Dynamic Media 中恢复。 这同样适用于 Dynamic Media 模板。
+* 在资产部分中对文件夹执行的任何更新操作（例如发布或删除）都会影响该文件夹中可用的 Dynamic Media 模板。
+* Dynamic Media 模板没有垃圾箱功能。 如果某个资产被移至垃圾箱后又被恢复，则该资产会在 AEM 中恢复，但不会在 Dynamic Media 中恢复。 这同样适用于 Dynamic Media 模板。
 
 ## 另请参阅
 

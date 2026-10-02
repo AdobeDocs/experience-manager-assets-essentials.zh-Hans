@@ -5,19 +5,22 @@ exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 TQID: https://experienceleague.adobe.com/fTzTJd0JhjMbexn1ffynNQM7wx-nX-8Os1Y-c79FKdo
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Insights
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: 1243
+source-wordcount: '1261'
 ht-degree: 100%
-
 ---
-
 # 管理报告 {#manage-reports}
 
 通过资产报告，管理员可了解 Adobe Experience Manager Assets Essentials 环境的活动。 这些数据可提供有关用户如何与内容及产品交互的有价值信息。 所有用户都可以访问 Insights 仪表板，分配给管理员产品配置文件的用户可以创建用户定义的报告。
@@ -159,7 +162,7 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
 
 ## 查看计划报告 {#view-scheduled-reports}
 
-计划报告以系统组织的方式在&#x200B;**计划报告**&#x200B;选项卡下显示。 每个计划报告的所有已完成报告都存储在一个报告文件夹中。 点击![展开/折叠](/help/using/assets/expand-icon1.svg)即可查看已完成的报告。 例如，如果您安排了每日报告，所有已完成的报告都会分组放在一个文件夹中。 这种组织方式简化了报告的导航和查找。 要查看计划报告，请点击&#x200B;**报告**，然后点击&#x200B;**计划报告**。 所有的计划报告状态都会显示为进行中或已完成。 已完成的报告可随时下载。
+计划报告以系统组织的方式在&#x200B;**计划报告**&#x200B;选项卡下显示。 每个计划报告的所有已完成报告都存储在一个报告文件夹中。 点击![展开/折叠](/help/using/assets/expand-icon1.svg)即可查看已完成的报告。 例如，如果您安排了每日报告，所有已完成的报告都会分组放在一个文件夹中。 这种组织方式简化了报告的导航和查找。 要查看计划报告，请点击&#x200B;**报告**，然后点击&#x200B;**计划报告**。 所有计划报告都会显示，其状态为进行中或已完成。 已完成的报告可随时下载。
 ![计划报告](/help/using/assets/scheduled-reports-tab.png)
 
 ## 编辑和取消计划报告 {#edit-cancel-scheduled-reports}
@@ -206,7 +209,7 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
-* **热门搜索**：以表格格式查看过去 30 天或 12 个月内在 Assets Essentials 环境中搜索最多的词语以及这些词语的搜索次数。
+* **热门搜索**：以表格格式查看过去 30 天或 12 个月内在 Assets Essentials 环境中搜索最多的术语以及这些术语的搜索次数。
   ![存储使用情况](/help/using/assets/insights-top-search.svg)
 
   <!--
