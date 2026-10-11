@@ -2,23 +2,28 @@
 title: 在 Assets Essentials 中进行批量元数据编辑
 description: 了解如何为 Assets Essentials 上提供的多个资产同时更新一个预定义的标准元数据字段集。
 exl-id: 17185160-6c51-4581-a716-77b365ef3dd9
-TQID: https://experienceleague.adobe.com/zfRAzwQWEhdCwSVuWKDz-ndudFtv-mIhmjzyNkg8sOQ
+TQID: 'https://experienceleague.adobe.com/zfRAzwQWEhdCwSVuWKDz-ndudFtv-mIhmjzyNkg8sOQ'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Metadata
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '679'
 ht-degree: 100%
-
 ---
-
 <table>
     <tr>
         <td>
@@ -90,4 +95,4 @@ Assets Essentials 中的&#x200B;**批量元数据编辑**&#x200B;功能允许用
 
 >[!NOTE]
 >
->**状态**、**有效期限**、**作者**、**关键词**&#x200B;和&#x200B;**标记**&#x200B;是可用于批量元数据编辑的标准元数据属性，无论有哪些文件夹特有的元数据。 只有当这些元数据属性包含在元数据表单中并应用于资产文件夹时，它们才会显示在资产详细信息页面上。 如果在资产详细信息页面上找不到这些标准元数据属性，请编辑资产文件夹的元数据表单，将这些属性包含进去。 请参阅 [Assets Essentials 中的元数据](/help/using/metadata.md)，了解如何创建或编辑元数据表单以及将其应用到文件夹上。
+>**状态**、**有效期限**、**作者**、**关键词**&#x200B;和&#x200B;**标记**&#x200B;是可用于批量元数据编辑的标准元数据属性，无论有哪些文件夹特有的元数据。 只有当这些元数据属性包含在应用于资产所在文件夹的元数据表单中时，它们才会显示在资产详细信息页面上。 如果在资产详细信息页面上找不到这些标准元数据属性，请编辑资产文件夹的元数据表单，将这些属性包含进去。 请参阅 [Assets Essentials 中的元数据](/help/using/metadata.md)，了解如何创建或编辑元数据表单以及将其应用到文件夹上。

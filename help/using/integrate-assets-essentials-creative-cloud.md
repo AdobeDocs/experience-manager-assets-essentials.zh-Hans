@@ -1,14 +1,17 @@
 ---
 title: 将 Assets Essentials 与 Creative Cloud 应用程序集成
-description: 将 Assets Essentials 与 Creative Cloud 应用程序集成，以使您可使用 Adobe Asset Link 应用程序内置面板从支持的 [!DNL Adobe Creative Cloud] 桌面应用程序中连接到 [!DNL Assets Essentials] 存储库。
+description: 将Assets Essentials与Creative Cloud应用程序集成，以使您可使用Adobe Asset Link应用程序内置面板从支持的[!DNL Adobe Creative Cloud]桌面应用程序中连接到[!DNL Assets Essentials]存储库。
 exl-id: 611fd958-3fd3-4c46-bee9-8b866b7dc208
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '879'
-ht-degree: 100%
-
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 96%
 ---
-
 # 将 Assets Essentials 与 Creative Cloud 应用程序集成 {#integrate-assets-essentials-creative-cloud-applications}
 
 ![用于切换深色和浅色主题的首选项](assets/cce-creative-cloud.png)
@@ -60,9 +63,9 @@ ht-degree: 100%
 [!DNL Adobe Asset Link] 插件可以通过两种方式安装并提供给创意用户：
 
 * 创意用户可以从其 [!DNL Creative Cloud Desktop] 应用程序安装插件
-* Creative Cloud 管理员可以在 Admin Console 中将 Asset Link 插件添加到 Creative Cloud 程序包中
+* Creative Cloud 管理员可以在 Admin Console 中将 Asset Link 插件添加到 Creative Cloud 包中
 
-是否选择添加取决于组织的 IT 政策。
+选择取决于组织的 IT 政策。
 
 [此处](https://helpx.adobe.com/cn/creative-cloud/kb/installingextensionsandaddons.html)解释了&#x200B;**使用[!DNL Creative Cloud Desktop]应用程序**&#x200B;进行的安装。 在 [Adobe Exchange](https://exchange.adobe.com/) Marketplace 上托管的有两个可用插件，具体取决于 Creative Cloud 应用程序的情况：
 
@@ -79,10 +82,10 @@ Creative Cloud 管理员在 Admin Console 中&#x200B;**安装 Creative Cloud 软
 
 >[!NOTE]
 >
->在使用 Apple Silicon/M1 硬件时，需要使用 Rosetta 兼容模式启动 Adobe Photoshop，以确保创意用户能够访问 Adobe Asset Link 面板，这是因为它是使用 CEP 扩展技术构建的。 如需更多信息，请参阅[在 Apple Silicon 中使用 Photoshop](https://helpx.adobe.com/cn/photoshop/kb/photoshop-for-apple-silicon.html)。
+>在使用 Apple Silicon/M1 硬件时，需要使用 Rosetta 兼容模式启动 Adobe Photoshop，以确保创意用户能够访问 Adobe Asset Link 面板，这是因为它是使用 CEP 扩展技术构建的。 如需更多信息，请参阅[在 Apple Silicon 中使用 Photoshop](https://helpx.adobe.com/photoshop/kb/photoshop-for-apple-silicon.html)。
 
 
-通过 Adobe Asset Link 使用和修改存储在 Assets Essentials 存储库中的资源。 您可以执行各种任务，例如：
+通过 Adobe Asset Link 使用和修改存储在 Assets Essentials 存储库中的资产。 您可以执行各种任务，例如：
 
 * 搜索和浏览资源
 

@@ -1,23 +1,32 @@
 ---
 title: 资产关系
-description: 了解如何关联那些共享某些共用属性的数字资产。 此外，使用资产关系创建数字资产之间的来源派生的关系。
+description: 了解如何关联那些共享某些共用属性的数字资产。 此外，还可以使用资产关系创建数字资产之间的来源/派生关系。
 role: User
 feature: Collaboration,Asset Management
 solution: Experience Manager, Experience Manager Assets
 exl-id: db3c30e4-a0c2-4686-a291-36a959fc3d05
-TQID: https://experienceleague.adobe.com/BIGrPj6x-EjokkE23Kg4gYU-2QA1PAUikAA1tvMZv1k
+TQID: 'https://experienceleague.adobe.com/BIGrPj6x-EjokkE23Kg4gYU-2QA1PAUikAA1tvMZv1k'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: ac365bec-0634-4744-9473-c42f47320593
+    internal-label: Asset management and governance
+subfeature_v2:
+  - id: f7212149-7f65-4e43-89c2-1f075f45be16
+    internal-label: Collaboration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: User
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 100%
-
 ---
-
 # 资产关系 {#related-assets}
 
 [!DNL Adobe Experience Manager Assets] 允许您使用相关的资产功能，根据您组织的需求手动关联资产。 例如，您可以将一个许可证文件与类似主题的一个资产或图像/视频相关联。 您可以关联那些共享某些共用属性的资产。 您还可以使用此功能创建资产之间的来源/派生关系。 例如，如果您有一个从 INDD 文件生成的 PDF 文件，就可以将这个 PDF 文件与其 INDD 源文件相关联。
@@ -38,8 +47,8 @@ ht-degree: 100%
 1. 执行下列操作之一：
 
    * 要关联资产的源文件，请从列表中选择&#x200B;**[!UICONTROL 添加来源]**。 您只能关联一个资产作为来源。
-   * 要关联一个派生文件，请从列表中选择&#x200B;**[!UICONTROL 添加派生]**。 您可以关联这个类别中的多个资产。
-   * 要在资产之间创建双向关系，请从列表中选择&#x200B;**[!UICONTROL 添加其他]**。 您可以关联这个类别中的多个资产。
+   * 要关联一个派生文件，请从列表中选择&#x200B;**[!UICONTROL 添加派生]**。 您可以在此类别中关联多个资产。
+   * 要在资产之间创建双向关系，请从列表中选择&#x200B;**[!UICONTROL 添加其他]**。 您可以在此类别中关联多个资产。
 
 1. 在&#x200B;**[!UICONTROL 选择资产]**&#x200B;屏幕中，导航到您想关联的资产的位置，然后选择该资产。 您可以一次选择一个资产，或者在点击的同时按住 Shift 键选择多个资产，其中可以包含 [Assets 视图中任何受支持的文件格式](supported-file-formats.md)。
 
@@ -63,7 +72,7 @@ ht-degree: 100%
 
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
