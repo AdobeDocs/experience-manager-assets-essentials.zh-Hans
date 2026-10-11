@@ -18,7 +18,7 @@ ht-degree: 96%
 
 ## 迄今为止的故事
 
-在本教程中[配置 Experience Manager Assets Essentials ](adminster-aem-assets-essentials.md)后，您可以在此体验的基础上将 Creative Cloud 应用程序与 Assets Essentials 集成。
+在本教程中[配置 Experience Manager Assets Essentials &#x200B;](adminster-aem-assets-essentials.md)后，您可以在此体验的基础上将 Creative Cloud 应用程序与 Assets Essentials 集成。
 
 ## 目标
 
