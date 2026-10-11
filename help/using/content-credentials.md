@@ -3,22 +3,26 @@ title: Content Credentials 集成
 description: Content Credentials 与 AEM Assets 集成，是 AEM Assets Essentials UI 中的重要功能，可以提供关于资产历史的背景信息，包括资产的制造方式以及参与制造的人员。 Content Credentials 就像为数字内容提供的一种营养成分标签，有助于提高透明度，建立受众的信任。
 role: User
 exl-id: 703f74a6-24d4-4181-8174-9ff4a90ee7aa
-TQID: https://experienceleague.adobe.com/witCqgAh8EKfD-hdn8efjZ-M4sypX44KB2ELs3ECInI
+TQID: 'https://experienceleague.adobe.com/witCqgAh8EKfD-hdn8efjZ-M4sypX44KB2ELs3ECInI'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+    internal-label: Generative AI
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Metadata
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 100%
-
 ---
-
 # Content Credentials {#content-credentials}
 
 品牌对内容透明度、AI 来源披露以及防止资产被篡改的关注程度空前提高。 Adobe 的 Content Authenticity Initiative (CAI) 构建了符合[内容来源和真实性联盟](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA) 技术标准的工具。 Content Credentials 是一种全新的加密且可防篡改的元数据，有助于帮助查看者了解内容的来源与演变，并保障品牌资产的完整性。 Content Credentials 可包含多种溯源数据，深入呈现数字资产的历史信息。
@@ -35,7 +39,7 @@ ht-degree: 100%
 
 要获得完整的视图，[验证](https://contentcredentials.org/verify)可以在资产历史记录中提供更全面的洞察。
 
-Adobe Experience Manager Assets 现在支持 Content Credentials，允许用户直接在 AEM 的 Assets Essentials UI 中查看 Content Credentials。 查看资产详细信息时，Content Credentials 的任何图像（例如使用生成式 AI 服务创建的图像）都会在一个专门的面板中显示清单细节。 如果下载、发布或共享资产，凭据会与此资产一起保持完整。
+Adobe Experience Manager Assets 现在支持 Content Credentials，允许用户直接在 AEM 的 Assets Essentials UI 中查看 Content Credentials。 查看资产详细信息时，任何带有 Content Credentials 的图像（例如使用生成式 AI 服务创建的图像）都会在专门的面板中显示清单详细信息。 如果下载、发布或共享资产，凭据会与此资产一起保持完整。
 
 ![资产](/help/using/assets/content-credentials.png)
 

@@ -2,13 +2,16 @@
 title: AEM Assets 中用于 Creative Cloud 集成的跨组织权利
 description: 了解如何在 AEM Assets 中配置用于 Creative Cloud 集成的跨组织权利。 连接到预配给其他 IMS 组织的 Creative Cloud 权利，以轻松地使用 AEM Assets 中最新的 Creative Cloud 集成，其中包括 Express 和 Creative Cloud Libraries。
 exl-id: 5a39b640-4195-4149-9757-2733ed70e616
-source-git-commit: ebc49d5c29118cd09cf1f97e8f71f63df76b3779
-workflow-type: ht
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
-
 ---
-
 # 用于 Creative Cloud 集成的跨组织权利  {#cross-org-entitlements}
 
 Experience Manager Assets 可连接到预配给其他 IMS 组织的 Creative Cloud 权利，以轻松地使用 AEM Assets 中最新的 Creative Cloud 集成，其中包括 Express 和 Creative Cloud Libraries。
@@ -17,9 +20,9 @@ Experience Manager Assets 可连接到预配给其他 IMS 组织的 Creative Clo
 
 ## 前提条件 {#prerequisites}
 
-* 具有 Experience Manager Assets 的管理员权限
+* Experience Manager Assets 的管理员权限
 
-* 在 Creative Cloud 和 Experience Manager 中使用的同一用户 ID 具有对 Creative Cloud 的有效权利。 对具有相同电子邮件地址的个人 ID 和 Federated ID 的权利被视为不同的用户 ID。
+* 在 Creative Cloud 和 Experience Manager 中使用的同一用户 ID 具有对 Creative Cloud 的有效授权。 对具有相同电子邮件地址的个人 ID 和 Federated ID 的权利被视为不同的用户 ID。
 
 ## 连接到新的 Creative Cloud 组织 {#connect-to-creative-cloud-org}
 
@@ -27,7 +30,7 @@ Experience Manager Assets 可连接到预配给其他 IMS 组织的 Creative Clo
 
 1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Creative Cloud]**。
 
-1. 使用&#x200B;**[!UICONTROL 选择新的 Creative Cloud 组织 ID]** 下拉列表选择新的 Creative Cloud 组织。 该列表显示所有您有权访问其的组织。 选择具有有效 Creative Cloud 权利的组织。
+1. 使用&#x200B;**[!UICONTROL 选择新的 Creative Cloud 组织 ID]** 下拉列表选择新的 Creative Cloud 组织。 该列表显示您有权访问的所有组织。 选择具有有效 Creative Cloud 权利的组织。
 
 1. 单击&#x200B;**[!UICONTROL 切换组织]**&#x200B;以切换到该新组织。
 

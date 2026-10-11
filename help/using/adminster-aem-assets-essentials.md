@@ -1,14 +1,17 @@
 ---
-title: 管理员 Experience Manager Assets Essentials
+title: 管理 Experience Manager Assets Essentials
 description: 使用 Admin Console 配置对 Assets Essentials 应用程序的访问权限，然后管理登录到 Assets Essentials 应用程序后可以执行的任务。
 exl-id: ffd65741-21b7-47cd-9779-63a7903879e6
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 100%
-
 ---
-
 # 管理员 Experience Manager Assets Essentials {#administer-assets-essentials}
 
 ![切换深色和浅色主题的偏好](assets/cce-assets.png)
@@ -30,7 +33,7 @@ ht-degree: 100%
 
 ## 访问 Admin Console {#access-admin-console}
 
-配置 Assets Essentials 解决方案之后，管理员会收到来自 Adobe 的电子邮件。 该电子邮件包含欢迎消息以及开始使用链接。 此外，Adobe 启动流程来自动部署 Assets Essentials。 部署流程需要一个小时来完成。
+在 Assets Essentials 解决方案完成预配后，管理员会收到来自 Adobe 的电子邮件。 该电子邮件包含欢迎消息以及用于开始使用的链接。 此外，Adobe 启动流程来自动部署 Assets Essentials。 部署流程需要一个小时来完成。
 
 通过电子邮件中的链接，访问并登录 [Admin Console](https://adminconsole.adobe.com)。 如果您有多个组织帐户的管理员访问权限，请使用[组织选择器](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)选择适当的组织或切换到该组织。 自动部署过程完毕后，即可在 [!DNL Admin Console] 中看到 [!DNL AEM Assets Essentials] 的产品卡。
 
@@ -127,7 +130,7 @@ ht-degree: 100%
 
 * 可扩展：文件夹结构应符合您组织的未来需求，并且应易于扩展。
 
-* 大小：一个文件夹不能包含太多资产。 它可能会导致可用性问题并且可能变得难以管理。
+* 大小：一个文件夹不能包含太多资产。 这可能会导致可用性问题，并且可能变得难以管理。
 
 * 直观：文件夹结构应该易于浏览，并且对于最终用户来说是直观的。 用户应该能够轻松识别在文件夹结构中上传新资产的位置。
 
@@ -137,7 +140,7 @@ ht-degree: 100%
 
 ### 管理文件夹的权限 {#manage-permissions-for-folders}
 
-Assets Essentials 允许管理员管理存储库中可用文件夹的访问级别。 作为管理员，您可以创建用户组并向这些组分配权限以管理访问级别。 您还可以将权限管理权限委派给文件夹级别的用户组。
+Assets Essentials 允许管理员管理存储库中可用文件夹的访问级别。 作为管理员，您可以创建用户组并向这些组分配权限以管理访问级别。 您还可以在文件夹级别将权限管理权限委派给用户组。
 
 >[!VIDEO](https://video.tv.adobe.com/v/341104)
 
@@ -147,7 +150,7 @@ Assets Essentials 允许管理员管理存储库中可用文件夹的访问级�
 
 默认情况下，Assets Essentials 提供了多个标准元数据字段。 组织有额外的元数据需求，就需要更多元数据字段以添加业务特有的元数据。 企业可以利用元数据表单，将自定义元数据字段添加到资源的[!UICONTROL 详情]页面。 特定于业务的元数据可以改进其资源的管理和发现。 您可以从头开始创建表单，也可以重新利用现有表单。
 
-您可以为不同的资产类型（不同的 MIME 类型）配置元数据表单。 使用与文件的 MIME 类型相同的表单名称。 Essentials 会自动将上载的资源 MIME 类型与表单名称相匹配，并根据表单字段更新上载资源的元数据。
+您可以为不同的资产类型（不同的 MIME 类型）配置元数据表单。 使用与文件的 MIME 类型相同的表单名称。 Essentials 会自动将已上传资源的 MIME 类型与表单名称相匹配，并根据表单字段更新已上传资源的元数据。
 
 例如，如果存在名为 `PDF` 或 `pdf` 的元数据表单，则上载的 PDF 文档包含表单中定义的元数据字段。
 
@@ -155,7 +158,7 @@ Assets Essentials 使用以下顺序搜索现有元数据表单名称，以将�
 
 MIME 子类型 > MIME 类型 > `default`表单 > 现成表单
 
-例如，如果存在名为 `PDF` 或 `pdf` 的元数据表单，则上传的 PDF 文档将包含该表单中定义的元数据字段。 如果不存在名为 `PDF` 或 `pdf` 的元数据表单，但存在名为 `application` 的元数据表单，则 Assets Essentials 匹配。 如果存在名为 `application` 的元数据表单，则上传的 PDF 文档将包含该表单中定义的元数据字段。 如果 Assets Essentials 仍然找不到匹配的元数据表单，它将搜索`default` 元数据表单，以将表单中定义的元数据字段应用于上载的 PDF 文档。 如果这些步骤都不起作用，Assets Essentials 会将现成表单中定义的元数据字段应用于所有上载的 PDF 文档。
+例如，如果存在名为 `PDF` 或 `pdf` 的元数据表单，则上传的 PDF 文档将包含该表单中定义的元数据字段。 如果不存在名为 `PDF` 或 `pdf` 的元数据表单，但存在名为 `application` 的元数据表单，则 Assets Essentials 匹配。 如果存在名为 `application` 的元数据表单，则上传的 PDF 文档将包含该表单中定义的元数据字段。 如果 Assets Essentials 仍然找不到匹配的元数据表单，它将搜索`default` 元数据表单，以将表单中定义的元数据字段应用于上载的 PDF 文档。 如果这些步骤都不起作用，Assets Essentials 会将开箱即用表单中定义的元数据字段应用于所有上载的 PDF 文档。
 
 >[!IMPORTANT]
 >
