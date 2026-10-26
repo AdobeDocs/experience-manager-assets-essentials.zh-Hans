@@ -5,22 +5,23 @@ exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
 TQID: https://experienceleague.adobe.com/fWLQ3XI2WVIbouGb7QXznoGhEoB-pHiHw-8P-Fo4128
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Leader
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
-source-wordcount: 1700
+source-wordcount: '1700'
 ht-degree: 100%
-
 ---
-
 # 管理文件夹的权限 {#manage-permissions}
 
 >[!CONTEXTUALHELP]
 >id="assets_permissions_folders"
 >title="管理权限"
->abstract="[!DNL Assets Essentials] 允许管理员管理存储库中可用文件夹的访问级别。 作为管理员，您可以创建用户组并向这些组分配权限以管理访问级别。 您还可以将权限管理权委派给文件夹级别的用户组。"
+>abstract="[!DNL Assets Essentials] 允许管理员管理存储库中可用文件夹的访问级别。 作为管理员，您可以创建用户组并向这些组分配权限以管理访问级别。 您还可以在文件夹级别将权限管理权委派给用户组。"
 
 Assets Essentials 允许管理员管理存储库中可用文件夹的访问级别。 作为管理员，您可以创建用户组并向这些组分配权限以管理访问级别。 您还可以将权限管理权委派给文件夹级别的用户组。
 
@@ -54,7 +55,7 @@ Assets Essentials 允许管理员管理存储库中可用文件夹的访问级�
 
 创建用户组并向这些组分配权限以管理 Assets Essentials 存储库中的文件夹访问级别。 然后，您可以将您的用户分配到用户组。
 
-![将用户添加到组和产品配置文件](assets/user-groups-product-profiles.svg)
+![将用户添加到组和产品配置文件](assets/user-group-product-profiles.png)
 
 您可以将用户添加到用户组 (1) 并[将用户添加到 Assets Essentials 产品配置文件 (2)](#add-admin-users)。 但是，您不能将用户组直接添加到 Assets Essentials 产品配置文件 (3)。
 
@@ -87,8 +88,8 @@ Assets Essentials 允许管理员管理存储库中可用文件夹的访问级�
 
 | 权限名称 | 描述 |
 |-----|------|
-| 可以查看 | <ul><li>具有查看和导航文件夹的读取权限 </li><li>预览资产</li><li>下载资源</li><li>复制资产</li><li>分享资产链接</li><ul> |
-| 可以编辑 | <ul><li>“可以查看”权限的所有可用权限 </li><li>创建文件夹</li><li>删除文件夹</li><li>重命名文件夹</li><li>创建资产</li><li>更新资产</li><li>删除资产</li><li>移动资产</li><li>重命名资产</li><ul> |
+| 可以查看 | <ul><li>具有查看和导航文件夹的读取权限 </li><li>预览资源</li><li>下载资源</li><li>复制资产</li><ul> |
+| 可以编辑 | <ul><li>“可以查看”权限的所有可用权限 </li><li>创建文件夹</li><li>删除文件夹</li><li>重命名文件夹</li><li>创建资产</li><li>更新资产</li><li>删除资产</li><li>移动资产</li><li>重命名资产</li><li>分享资产链接</li><ul> |
 | 所有者 | <ul><li>“可以编辑”权限的所有可用权限</li><li>管理文件夹及其子文件夹的权限</li>此权限允许管理员将文件夹及其子文件夹的管理员权限委派给其他人。<ul> |
 | 拒绝访问 | 删除文件夹及其子文件夹的“可以查看”、“可以编辑”和“所有者”权限。 |
 
@@ -104,13 +105,13 @@ Assets Essentials 允许管理员管理存储库中可用文件夹的访问级�
 
 如果您需要仅向您组织的营销部门提供对 `Marketing` 文件夹的编辑权限并为其他人提供查看权限，请将 `Can View` 权限分配给超级组 `All Authenticated Users`，将 `Can Edit` 权限分配给其子组 `Marketing`。
 
-![分配权限](assets/permissions-management-groups.svg)
+![分配权限](assets/permissions-management-group.png)
 
 **权限继承**
 
 Assets Essentials 使用权限继承，这使您可以在子文件夹中继承为父文件夹设置的权限。 例如，如果父文件夹对 `All Authenticated Users` 组具有 `Can View` 权限，而子文件夹对 `Marketing` 用户组具有 `Can Edit` 权限，则它使所有经过身份验证的用户都具有查看子文件夹的权限，并且 `Marketing` 用户组拥有子文件夹的编辑权限。 `Marketing` 用户组对子文件夹 (Marketing) 下的其他级别的文件夹具有编辑权限。
 
-![分配权限](assets/permissions-inheritance.svg)
+![分配权限](assets/permission-inheritance.png)
 
 >[!NOTE]
 >
@@ -146,7 +147,7 @@ Assets Essentials 使用权限继承，这使您可以在子文件夹中继承�
 
 ### 编辑分配给用户组的权限 {#edit-permissions}
 
-要编辑分配给文件夹用户组的权限：
+要编辑分配给文件夹上的用户组的权限：
 
 1. 选择文件夹并点击&#x200B;**[!UICONTROL 管理权限]**。
 
@@ -196,7 +197,7 @@ Assets Essentials 使用权限继承，这使您可以在子文件夹中继承�
 下图表示了文件夹层级结构和分配给每个用户组的权限：
 ![分配权限](assets/use-case-permissions-management.png)
 
-以下是文件夹层次结构中所有用户组的访问级别：
+以下是文件夹层级中所有用户组的访问级别：
 
 * /All Assets：管理员将根级别的权限从默认的 `Can Edit` 修改为 `Can View`。 所有用户都可以查看文件夹和资产，但不能对其进行编辑。
 
@@ -206,9 +207,9 @@ Assets Essentials 使用权限继承，这使您可以在子文件夹中继承�
 
 * /projects：所有用户都可以根据权限继承查看文件夹及其子文件夹。 “项目经理团队”用户组具有：
 
-   * 编辑权限
+  * 编辑权限
 
-   * “所有者”权限：管理文件夹及其子文件夹的权限。
+  * “所有者”权限：管理文件夹及其子文件夹的权限。
 
 * /projects/project-x：所有用户都可以查看文件夹及其子文件夹。 “项目经理团队”用户组具有编辑权限，可以管理文件夹及其子文件夹的权限（“所有者”权限）。 “X 项目团队”用户组具有编辑权限。
 
@@ -216,8 +217,8 @@ Assets Essentials 使用权限继承，这使您可以在子文件夹中继承�
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，了解如何在 Assets Essentials 中管理权限](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html?lang=zh-Hans)
+* [观看视频，了解如何在 Assets Essentials 中管理权限](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
 
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)

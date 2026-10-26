@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 100%
@@ -50,7 +50,7 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
 **要创建报告，请执行以下操作：**
 
 1. 导航到&#x200B;**报告**&#x200B;并点击&#x200B;**创建报告**（在右上角）。 **创建报告**对话框会显示以下字段：
-   ![创建报告](/help/using/assets/executed-reports1.svg)
+   ![创建报告](/help/using/assets/executed-reports1.png)
 
    **在“配置”选项卡中：**
 
@@ -152,7 +152,7 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
    1. **描述**：为报告添加可选描述。
    1. **选择文件夹路径：**&#x200B;选择一个文件夹路径，为将来上传到该特定文件夹或从该文件夹下载的资产生成报告。
    1. 切换&#x200B;**计划报告：**切换以将报告安排到稍后时间或重复出现。
-      ![计划报告](/help/using/assets/schedule-reports1.svg)
+      ![计划报告](/help/using/assets/schedule-reports1.png)
 
    1. **选择频率：**&#x200B;指定生成报告的时间间隔（例如，每天、每周、每月、每年或一次），并设置运行报告的日期和时间以及重复出现的结束日期。 对于一次性报告，请选择 AEM 环境中所选活动类型的报告的日期范围。 例如，如果需要某月 10 日至 29 日（未来日期）的下载资产报告，请在&#x200B;**选择日期间隔**&#x200B;字段中选择这些日期。
 
@@ -196,21 +196,21 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
 单击可在左侧导航窗格中找到的&#x200B;**[!UICONTROL 洞察]**&#x200B;以查看以下自动生成的图表：
 
 * **下载**：过去 30 天或 12 个月从 Assets Essentials 环境下载的资产数量，用折线图表示。
-  ![下载](/help/using/assets/insights-downloads2341.svg)
+  ![下载](/help/using/assets/insights-downloads2341.png)
 
 * **上载**：过去 30 天或 12 个月上载到 Assets Essentials 环境中的资产数量，用折线图表示。
-  ![上传](/help/using/assets/insights-uplods2.svg)
+  ![上传](/help/using/assets/insights-uplods2.png)
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **存储用量**：使用条形图表示的 Assets Essentials 环境的存储使用率（以字节为单位）。
-  ![存储使用情况](/help/using/assets/insights-storage-usage1.svg)
+  ![存储使用情况](/help/using/assets/insights-storage-usage1.png)
   <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **热门搜索**：以表格格式查看过去 30 天或 12 个月内在 Assets Essentials 环境中搜索最多的术语以及这些术语的搜索次数。
-  ![存储使用情况](/help/using/assets/insights-top-search.svg)
+  ![存储使用情况](/help/using/assets/insights-top-search.png)
 
   <!--
    ![Insights](assets/insights1.png)
@@ -218,8 +218,8 @@ AEM Assets Essentials 环境通过报告仪表板提供全面的报告功能。 
    -->
 
 * **按规模统计资产数量：**将 Assets Essentials 环境中的总资产数量细分为不同的规模范围，突出显示每个规模范围内的资产数量和百分比，用圆环图表示。
-  ![洞察按规模统计资产数量](/help/using/assets/insights-assets-count-by-size.svg)
+  ![洞察按规模统计资产数量](/help/using/assets/insights-assets-count-by-size.png)
 
 * **按资产类型统计资产数量：**将 Assets Essentials 环境中的总资产数量进行细分，根据文件类型突出显示资产数量和百分比，用圆环图表示。
-  ![洞察按规模统计资产数量](/help/using/assets/insights-assest-count-by-asset-type1.svg)
+  ![洞察按规模统计资产数量](/help/using/assets/insights-assest-count-by-asset-type1.png)
 

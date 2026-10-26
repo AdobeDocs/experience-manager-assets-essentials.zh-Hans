@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 99%
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 以下数据流图说明了管理员必须执行的配置和管理 Assets Essentials 的任务序列：
 
-![部署 Assets Essentials](assets/deploy-assets-essentials.svg)
+![部署 Assets Essentials](assets/deploy-assets-essentials.png)
 
 ## 访问 Admin Console {#access-admin-console}
 
@@ -82,7 +82,7 @@ Admin Console 管理员必须将 Assets Essentials 管理员产品配置文件�
 
    * **[!DNL Assets Essentials]用户**&#x200B;具有完整用户界面的访问权限。 这些用户可以上传、组织、标记和查找数字资源。
 
-   * **[!DNL Assets Essentials]消费者用户**&#x200B;可以在 Assets Essentials 中执行查找、预览和下载操作。 他们还可以在 Adobe Journey Optimizer 中查找和选择资产，以及查找和选择要在 Workfront 中使用的资产。
+   * **[!DNL Assets Essentials]消费者用户**可以在 Assets Essentials 中执行查找、预览和下载操作。 他们还可以在 Adobe Journey Optimizer 中查找和选择资产，以及查找和选择要在 Workfront 中使用的资产。
      有关更多信息，请参阅[与其他解决方案集成](integration.md)。
 
    ![Admin Console 管理员配置文件](assets/admin-console-admin-profile.png)
@@ -123,7 +123,7 @@ Admin Console 管理员必须将 Assets Essentials 管理员产品配置文件�
 
 您可以为您的组织使用多种可能的文件夹结构类型。 以下是一些典型文件夹结构的示例：
 
-![典型文件夹结构](assets/folder-structure.svg)
+![典型文件夹结构](assets/folder-structure-new.png)
 
 >[!NOTE]
 >
@@ -167,13 +167,13 @@ Assets Essentials 允许管理员管理存储库中可用文件夹的访问级�
 
 ## 后续步骤 {#next-steps}
 
-<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=zh-Hans) -->
+<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en) -->
 
 * 利用 Assets Essentials 用户界面上的[!UICONTROL 反馈]选项提供产品反馈
 
 * 通过右侧边栏中的[!UICONTROL 编辑此页面]![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL 记录问题]![创建 GitHub 问题](assets/do-not-localize/github-issue.png)来提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
 
 
 
