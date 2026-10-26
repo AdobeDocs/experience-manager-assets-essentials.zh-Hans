@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 99%
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 以下数据流图说明了管理员必须执行的配置和管理 Assets Essentials 的任务序列：
 
-![部署 Assets Essentials](assets/deploy-assets-essentials.svg)
+![部署 Assets Essentials](assets/deploy-assets-essentials.png)
 
 ## 访问 Admin Console {#access-admin-console}
 
@@ -123,7 +123,7 @@ Admin Console 管理员必须将 Assets Essentials 管理员产品配置文件�
 
 您可以为您的组织使用多种可能的文件夹结构类型。 以下是一些典型文件夹结构的示例：
 
-![典型文件夹结构](assets/folder-structure.svg)
+![典型文件夹结构](assets/folder-structure-new.png)
 
 >[!NOTE]
 >

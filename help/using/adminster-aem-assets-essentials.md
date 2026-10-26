@@ -7,7 +7,7 @@ product_v2:
     internal-label: Experience Manager
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
-source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+source-git-commit: f15fe91faf6a1f1341e4f4cda45bbe10bcd19544
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 以下数据流图说明了管理员必须执行的配置和管理 Assets Essentials 的任务序列：
 
-![Assets Essentials 管理流程](assets/permissions-management-cce-next.svg)
+![Assets Essentials 管理流程](assets/permission-management-cce-next.png)
 
 ## 访问 Admin Console {#access-admin-console}
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 
 您可以将用户添加到用户组 (1) 并[将用户添加到 Assets Essentials 产品配置文件 (2)](#add-admin-users)。 但是，您不能将用户组直接添加到 Assets Essentials 产品配置文件 (3)。
 
-![将用户添加到组和产品配置文件](assets/user-groups-product-profiles.svg)
+![将用户添加到组和产品配置文件](assets/user-group-product-profiles.png)
 
 有关如何管理用户组的信息，请参阅[管理用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)中的 `Create user groups` 和 `Edit user groups`。
 
@@ -136,7 +136,7 @@ ht-degree: 100%
 
 您可以为您的组织使用多种可能的文件夹结构类型。 以下是一些典型文件夹结构的示例：
 
-![典型文件夹结构](assets/folder-structure.svg)
+![典型文件夹结构](assets/folder-structure-new.png)
 
 ### 管理文件夹的权限 {#manage-permissions-for-folders}
 

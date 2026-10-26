@@ -1,24 +1,28 @@
 ---
 title: 为带有工作管理解决方案的 Creative Cloud Pro 设置 Assets Essentials
-description: 本教程介绍的管理员历程使 Assets Essentials 应用程序能够与 Creative Cloud 桌面应用程序和 Adobe Workfront 应用程序集成。 Creative Cloud 桌面应用程序包括 Adobe Photoshop、Adobe Illustrator、Adobe InDesign 和 Adobe XD。
+description: 本教程介绍了一个管理员历程，用于启用 Assets Essentials 应用程序与 Creative Cloud 桌面应用程序和 Adobe Workfront 应用程序的集成。 Creative Cloud 桌面应用程序包括 Adobe Photoshop、Adobe Illustrator、Adobe InDesign 和 Adobe XD。
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
 TQID: https://experienceleague.adobe.com/nYLF2t3wzkhjKS-cdR1dhW-CZ8YwQcJS4FxS2FAYXzg
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Administration
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: '917'
 ht-degree: 100%
-
 ---
-
 # 带有工作管理解决方案的 Creative Cloud Pro 的 Assets Essentials {#creative-cloud-enterprise-user-journeys}
 
 ![切换深色和浅色主题的偏好](assets/cce-next-banner-landing-page.png)
@@ -39,7 +43,7 @@ ht-degree: 100%
 
 由于该解决方案包含来自 Creative Cloud 和 Adobe Experience Cloud 的应用程序和服务，因此它们可能部署在您公司的一个或两个 Adobe Admin Console 中。
 
-如果部署在 Admin Console 中，则需要额外的配置步骤：
+如果部署到两个 Admin Console 中，则需要额外的配置步骤：
 
 * Creative Cloud 服务和应用程序（Creative Cloud Pro 企业版和可选模块）在[ Adobe Admin Console 中进行管理，用于 Creative Cloud 部署](https://helpx.adobe.com/content/help/cn/enterprise/admin-guide.html)。
 
@@ -47,7 +51,7 @@ ht-degree: 100%
 
 要集成 Creative Cloud 和 Assets Essentials 应用程序，Creative Cloud 的 Admin Console 中可用的用户必须在 Experience Cloud 的 Admin Console 中可用。 要使用户在 Experience Cloud Admin Console 中可用，请创建一个目录，以在这两个 Admin Console 之间建立[目录信任](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html#directory-trusting)关系。
 
-![Creative Cloud 用户](assets/creative-cloud-users.svg)
+![Creative Cloud 用户](assets/creative-cloud-users.png)
 
 如图所示，基于两个控制台之间的信任关系，Creative Cloud 用户可自动在 Experience Cloud Admin Console 中变得可用。 然后您可以将用户添加到 Assets Essentials 产品配置文件。 因此，Creative Cloud 用户可以访问 Adobe Asset Link 应用程序，该应用程序可以与 Assets Essentials 存储库交互。 有关更多信息，请参阅[将 Assets Essentials 与 Creative Cloud 应用程序集成](integrate-with-creative-cloud.md)。
 
@@ -59,15 +63,15 @@ ht-degree: 100%
 
 ## 前提条件
 
-* [访问 Adobe Admin Console 以获得 Experience Cloud 解决方案](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hans)
+* [Experience Cloud 解决方案对 Adobe Admin Console 的访问权限](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hans)
 
 * [访问 Adobe Admin Console 以进行 Creative Cloud 企业版部署](https://helpx.adobe.com/cn/enterprise/admin-guide.html)
 
-## 管理员 Experience Manager Assets Essentials {#administer-assets-essentials}
+## 管理 Experience Manager Assets Essentials {#administer-assets-essentials}
 
 ![切换深色和浅色主题的偏好](assets/cce-assets.png)
 
-Adobe Experience Manager Assets Essentials 是 Adobe Experience Manager Assets 的一个新的轻量级版本。 Assets Essentials 通过简化且一致的用户界面提供统一的资源管理和协作功能。 其易用性使得更多创意与营销团队可以轻松地存储、发现和分发数字资源。
+Adobe Experience Manager Assets Essentials 是 Adobe Experience Manager Assets 的一个新的轻量级版本。 Assets Essentials 通过简化且一致的用户界面提供统一的资产管理和协作功能。 其易用性使得更多创意与营销团队可以轻松地存储、发现和分发数字资源。
 
 Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。 作为资源调配的一部分，Assets Essentials 会被添加至 Adobe Admin Console 中的客户组织中。
 
@@ -91,7 +95,7 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。 作�
 
 您现在已经配置并管理 Assets Essentials 应用程序，请[将 Creative Cloud 应用程序与 Experience Manager Assets Essentials 应用程序集成](integrate-with-creative-cloud.md)。
 
-## 将 Creative Cloud applications 应用程序与 Experience Manager Assets Essentials 集成 {#administer-creative-cloud-applications}
+## 将 Creative Cloud 应用程序与 Experience Manager Assets Essentials 集成 {#administer-creative-cloud-applications}
 
 ![切换深色和浅色主题的偏好设置](assets/cce-creative-cloud.png)
 
@@ -101,7 +105,7 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。 作�
 
 目标：
 
-* 在 Creative Cloud 和 Experience Cloud Admin Console 之间创建目录信任关系
+* 在 Creative Cloud 和 Experience Cloud Admin Consoles 之间创建目录信任关系
 
 * 将 Creative Cloud 用户添加到 Assets Essentials 产品配置文件
 
@@ -117,7 +121,7 @@ Adobe Experience Manager Assets Essentials 由 Adobe 为其客户提供。 作�
 
 ![切换深色和浅色主题的偏好设置](assets/cce-workfront.png)
 
-[[!DNL Adobe Workfront]](https://www.workfront.com/) 是一个工作管理应用程序，可帮助您在一个地方管理整个工作生命周期。 [!DNL Adobe Workfront] 和 [!DNL Assets Essentials] 之间的本机集成使组织能够通过将工作和资源管理内在地联系起来，提高内容速度和上市时间。 对于管理工作，用户可以在同一个解决方案中访问所需的文档和图像。
+[[!DNL Adobe Workfront]](https://www.workfront.com/) 是一个工作管理应用程序，可帮助您在一个地方管理整个工作生命周期。 [!DNL Adobe Workfront] 和 [!DNL Assets Essentials] 之间的本机集成使组织能够通过将工作和资源管理内在地联系起来，提高内容速度和上市时间。 在管理其工作的过程中，用户可以在同一个解决方案中访问所需的文档和图像。
 
 该教程可指导您管理 Adobe Workfront，然后将其与 Experience Manager Assets Essentials 集成。
 

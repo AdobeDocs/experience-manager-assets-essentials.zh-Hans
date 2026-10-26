@@ -1,27 +1,32 @@
 ---
-title: 简介 [!DNL Assets Essentials]
+title: '[!DNL Assets Essentials] 简介'
 description: 使用 Experience Manager Assets Essentials 管理您的资产，这是一种可在 Experience Cloud 应用程序中使用的轻量级数字资产管理工具。
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
 TQID: https://experienceleague.adobe.com/GpMzdyeYFVMhrLhiS-AbTH08VKXkEfiel-0mJ6lNqf8
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Administration
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '660'
 ht-degree: 100%
-
 ---
-
 # [!DNL Adobe Experience Manager Assets Essentials]概述 {#assets-essentials}
 
 <!-- 
@@ -29,7 +34,7 @@ TBD: Update this banner to remove Beta label.
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
 -->
 
-Adobe 为您提供强大的数字资产管理（DAM）解决方案，让您能够充分利用数字资产。 Adobe Experience Manager Assets Essentials 是 Adobe 的轻量级资产管理解决方案，用于存储、管理、探索和使用数字资产。
+Adobe 为您提供强大的数字资产管理（DAM）解决方案，让您能够充分利用数字资产。 Adobe Experience Manager Assets Essentials 是 Adobe 的轻量级资产管理解决方案，用于存储、管理、发现和使用数字资产。
 
 ## Assets Essentials 是什么？ {#assets-essemtials-overview}
 
@@ -41,7 +46,7 @@ Assets Essentials 使您能够：
 
 * 跨团队协作开发内容。
 
-* 访问、搜索和查找最终批准的资产。
+* 访问、搜索和查找已获得最终批准的资产。
 
 * 共享和下载用于下游投放的资产。
 
@@ -49,7 +54,7 @@ Assets Essentials 使您能够：
 
 Assets Essentials 为最终用户和管理员提供了一个独立的 web 用户界面，使他们能够访问解决方案的所有功能。 其他 Adobe 解决方案的用户还可以通过嵌入式体验访问和使用 Assets Essentials 中的资产，该体验在 Creative Cloud 企业版、Adobe Journey Optimizer 和 Adobe Workfront 应用程序中提供。
 
-![与其他解决方案集成](assets/assets-essentials-integration.svg)
+![与其他解决方案集成](assets/assets-essentials-integration.png)
 
 ## 为什么选择 Assets Essentials？ {#assets-essentials-features}
 
@@ -67,13 +72,13 @@ Assets Essentials 可提供关键优势，使您能够：
 
 **快速入门**
 
-Assets Essentials 解决方案由 Adobe 提供给客户，并在资源调配过程完成后可用。 管理员可以在 Adobe Admin Console 中访问该产品，并可以立即启动系统配置和用户登录。
+Assets Essentials 解决方案由 Adobe 提供给客户，并在配置完成后可用。 管理员可以在 Adobe Admin Console 中访问该产品，并可以立即启动系统配置和用户加入。
 
 了解有关 Assets Essentials [管理和用户登录](deploy-administer.md)的更多信息。
 
 **简化资源管理**
 
-Assets Essentials 简化的用户界面使您可以轻松管理、探索和分发数字资产。 来自不同职能部门（包括创意团队、营销团队和业务线团队）的广泛用户可以就资产进行协作，并在需要时随时随地访问正确的、经批准的资产。
+Assets Essentials 简化的用户界面使您可以轻松管理、发现和分发数字资产。 来自不同职能部门（包括创意团队、营销团队和业务线团队）的广泛用户可以就资产进行协作，并在需要时随时随地访问正确的、经批准的资产。
 
 若要了解更多信息，请参阅[开始使用 Assets Essentials 解决资产管理需求](get-started.md)。
 
@@ -87,11 +92,11 @@ Assets Essentials 可与受支持的 Adobe 解决方案集成，并在这些应�
 
 **基于云的平台**
 
-Assets Essentials 以 Adobe 云架构为基础，有助于企业关注其在创建、管理和分发数字资产方面的业务需求。 此外，Adobe 确保解决方案可用、安全、可扩展且始终保持最新，并通过频繁更新无缝地为用户提供产品创新功能。
+Assets Essentials 以 Adobe 云基础架构为基础，有助于企业关注其在创建、管理和分发数字资产方面的业务需求。 此外，Adobe 确保解决方案可用、安全、可扩展且始终保持最新，并通过频繁更新无缝地为用户提供产品创新功能。
 
 **与您一同发展的功能**
 
-快速启动并运行 Assets Essentials，从各个团队的关键数字资产管理功能中获益。
+快速开始使用 Assets Essentials，从各个团队的关键数字资产管理功能中获益。
 
 当您的业务需求增长并且需要支持高级数字资产管理方面的需求时（如定制、可扩展性和集成、自动化、Dynamic Media 和品牌门户），Adobe 还可提供 [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=cn)。
 
