@@ -82,7 +82,7 @@ Admin Console 管理员必须将 Assets Essentials 管理员产品配置文件�
 
    * **[!DNL Assets Essentials]用户**&#x200B;具有完整用户界面的访问权限。 这些用户可以上传、组织、标记和查找数字资源。
 
-   * **[!DNL Assets Essentials]消费者用户**可以在 Assets Essentials 中执行查找、预览和下载操作。 他们还可以在 Adobe Journey Optimizer 中查找和选择资产，以及查找和选择要在 Workfront 中使用的资产。
+   * **[!DNL Assets Essentials]消费者用户**&#x200B;可以在 Assets Essentials 中执行查找、预览和下载操作。 他们还可以在 Adobe Journey Optimizer 中查找和选择资产，以及查找和选择要在 Workfront 中使用的资产。
      有关更多信息，请参阅[与其他解决方案集成](integration.md)。
 
    ![Admin Console 管理员配置文件](assets/admin-console-admin-profile.png)
